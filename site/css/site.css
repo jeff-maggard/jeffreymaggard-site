@@ -592,3 +592,119 @@ a:hover { color: var(--ink); }
 .cs-section .gallery { margin-top: 8px; grid-template-columns: repeat(auto-fill, minmax(min(220px, 100%), 1fr)); }
 
 h2.sub { margin: 10px 0 8px; font-size: 26px; font-weight: 800; letter-spacing: -0.02em; }
+
+/* ================================================================
+   Splash layer: vermilion color bands, warm tints, motion
+   ================================================================ */
+:root {
+  --band-grad: radial-gradient(circle at 85% 15%, rgba(255, 140, 90, 0.55), transparent 45%),
+               radial-gradient(circle at 10% 90%, rgba(122, 30, 7, 0.55), transparent 50%),
+               linear-gradient(135deg, #D23D16 0%, #B52E0C 55%, #9E2A0B 100%);
+  --tint: #FFF4EE;
+}
+
+.band { background: var(--band-grad); color: #FFFFFF; }
+.band h1, .band h2, .band h3, .band a { color: #FFFFFF; }
+.band .label { color: #FFE3D6; }
+.band :focus-visible { outline-color: #FFFFFF; }
+
+/* Hero */
+.hero-band { position: relative; overflow: hidden; }
+.hero-band::before, .hero-band::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.16);
+  pointer-events: none;
+}
+.hero-band::before { width: 620px; height: 620px; right: -160px; top: -220px; }
+.hero-band::after { width: 380px; height: 380px; left: -140px; bottom: -200px; border-color: rgba(255, 227, 214, 0.2); }
+.hero-band .hero { position: relative; z-index: 1; }
+.hero-band .lead { color: #FFFFFF; }
+.hero-band .bar { background: #FFFFFF; }
+.hero-band .portrait {
+  border: 6px solid rgba(255, 255, 255, 0.95);
+  box-shadow: 0 30px 60px rgba(60, 10, 0, 0.35);
+}
+
+.button-light { background: #FFFFFF; color: #9E2A0B; }
+.button-light:hover { background: #111111; color: #FFFFFF; }
+.band .button-light { color: #9E2A0B; }
+.band .button-light:hover { color: #FFFFFF; }
+.button-ghost { border: 1.5px solid rgba(255, 255, 255, 0.85); color: #FFFFFF; }
+.button-ghost:hover { background: #FFFFFF; color: #9E2A0B; }
+
+/* Skills marquee */
+.marquee {
+  overflow: hidden;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+}
+.marquee-track {
+  display: flex;
+  width: max-content;
+  gap: 0;
+  animation: marquee 40s linear infinite;
+}
+.marquee span {
+  display: inline-flex;
+  align-items: center;
+  gap: 28px;
+  padding: 18px 0 18px 28px;
+  color: var(--ink);
+  font-size: clamp(18px, 2vw, 24px);
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+}
+.marquee span::after { content: "✦"; color: var(--brand); font-size: 0.8em; }
+@keyframes marquee { to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .marquee-track { animation: none; } }
+
+.stats { margin-top: 56px; border: 0; gap: 16px; }
+.stats li {
+  padding: 24px;
+  border-radius: var(--radius-card);
+  background: var(--tint);
+}
+.stats b span { color: var(--brand-text); }
+
+/* Warm tinted section */
+.tint { background: var(--tint); padding-top: 88px; margin-bottom: 104px; }
+.tint .section { padding-bottom: 88px; }
+
+/* Cards: lift with a vermilion edge */
+.card { border-radius: 20px; }
+.card:hover { border-color: var(--brand); box-shadow: 0 22px 44px rgba(181, 46, 12, 0.16); }
+.thumb { background: #F04E23; }
+.card .more { color: var(--brand-text); }
+
+/* Filter chips in brand color */
+.filters button[aria-pressed="true"] { background: var(--brand-text); border-color: var(--brand-text); }
+
+/* Inner page heads become full-bleed color bands */
+.page-head {
+  margin-bottom: 48px;
+  padding-bottom: 72px;
+  background: var(--band-grad);
+  box-shadow: 0 0 0 100vmax #B52E0C;
+  clip-path: inset(0 -100vmax);
+  color: #FFFFFF;
+}
+.page-head h1, .page-head a { color: #FFFFFF; }
+.page-head .label { color: #FFE3D6; }
+.page-head .intro { color: #FFFFFF; }
+.page-head .bar { background: #FFFFFF; }
+.page-head .breadcrumb a { color: #FFE3D6; }
+.page-head .breadcrumb a:hover { color: #FFFFFF; }
+.page-head :focus-visible { outline-color: #FFFFFF; }
+
+/* CTA band and footer share the color */
+.cta.band { border-top: 0; }
+.cta.band h2 .accent { color: #FFE3D6; }
+.cta.band .link-plain { color: #FFFFFF; }
+.site-footer.band { color: #FFE3D6; padding-top: 0; }
+.site-footer.band .container { padding-top: 20px; border-top: 1px solid rgba(255, 255, 255, 0.25); }
+
+/* Header: brand dot and a bolder CTA */
+.site-nav .nav-cta a { background: var(--brand-text); color: #FFFFFF; }

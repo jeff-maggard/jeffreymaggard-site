@@ -57,19 +57,19 @@ def page(title, body, current="", description=LEAD):
 
 <main id="main">
 {body}
-  <section class="cta" aria-labelledby="cta-title">
+  <section class="cta band" aria-labelledby="cta-title">
     <div class="cta-inner container">
       <h2 id="cta-title">Have a learning project? <span class="accent">Let’s talk.</span></h2>
       <div class="cta-links">
-        <a class="button button-primary" href="mailto:{EMAIL}">{EMAIL}</a>
+        <a class="button button-light" href="mailto:{EMAIL}">{EMAIL}</a>
         <a class="link-plain" href="{LINKEDIN}" rel="noopener">LinkedIn</a>
       </div>
     </div>
   </section>
 </main>
 
-<footer class="site-footer container">
-  <p>© Jeffrey Maggard</p>
+<footer class="site-footer band">
+  <div class="container"><p>© Jeffrey Maggard</p></div>
 </footer>
 </body>
 </html>
@@ -143,11 +143,16 @@ def expand(block):
 
 # ---------------------------------------------------------------- pages
 
+SKILLS = ["Course design", "Curriculum", "Assessment", "Textbooks", "Animation", "Launch videos", "AI tutors", "Claude Code", "Storytelling", "Virtual exchange", "Accessibility", "Teacher training"]
+
+
 def home():
+    skills = "".join(f"<span>{k}</span>" for k in SKILLS)
     filters = '<li><button type="button" aria-pressed="true" data-filter="all">All work</button></li>' + "".join(
         f'<li><button type="button" aria-pressed="false" data-filter="{k}">{v}</button></li>' for k, v in CATEGORIES
     )
     body = f"""
+  <div class="hero-band band">
   <section class="hero container" aria-labelledby="hero-title">
     <p class="label">// Instructional Design · Teaching · AI</p>
     <div class="hero-top">
@@ -160,11 +165,14 @@ def home():
     <div class="hero-bottom">
       <p class="lead">{LEAD}</p>
       <div class="actions">
-        <a class="button button-primary" href="mailto:{EMAIL}">Contact me</a>
-        <a class="button button-secondary" href="#work">Projects <span aria-hidden="true">↓</span></a>
+        <a class="button button-light" href="mailto:{EMAIL}">Contact me</a>
+        <a class="button button-ghost" href="#work">Projects <span aria-hidden="true">↓</span></a>
       </div>
     </div>
   </section>
+  </div>
+
+  <div class="marquee" aria-hidden="true"><div class="marquee-track">{skills}{skills}</div></div>
 
   <div class="container">
     <ul class="stats" aria-label="Highlights">
@@ -175,6 +183,7 @@ def home():
     </ul>
   </div>
 
+  <div class="tint">
   <section class="section container" id="studio-reel" aria-labelledby="reel-title">
     <div class="section-head">
       <div><p class="label">Studio</p><h2 id="reel-title">I make the media, too</h2></div>
@@ -184,10 +193,11 @@ def home():
       {video("falcon-opening")}
       <div class="reel-side">
         {video("gofluent-promo")}
-        <a class="button button-secondary" href="/studio/">See the studio <span aria-hidden="true">→</span></a>
+        <a class="button button-primary" href="/studio/">See the studio <span aria-hidden="true">→</span></a>
       </div>
     </div>
   </section>
+  </div>
 
   <section class="section container" id="work" aria-labelledby="work-title">
     <div class="section-head">
