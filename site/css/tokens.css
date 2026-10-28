@@ -33,17 +33,17 @@
 
   /* Type */
   --font: 'Jost', system-ui, -apple-system, 'Segoe UI', sans-serif;
-  --fs-hero: clamp(40px, 5.4vw, 64px);
-  --fs-page: clamp(38px, 5vw, 60px);
-  --fs-section: clamp(28px, 3vw, 36px);
-  --fs-body: 17px;
-  --fs-lead: 19px;
-  --fs-label: 12px;
-  --lh-body: 1.65;
-  --tracking-label: 0.12em;
+  --fs-hero: clamp(44px, 6vw, 72px);
+  --fs-page: clamp(40px, 5.4vw, 66px);
+  --fs-section: clamp(32px, 3.6vw, 44px);
+  --fs-body: 19px;
+  --fs-lead: 22px;
+  --fs-label: 14px;
+  --lh-body: 1.6;
+  --tracking-label: 0.08em;
 
   /* Layout */
-  --max-width: 1100px;
+  --max-width: 1160px;
   --gutter: 24px;
   --radius-card: 14px;
   --radius-media: 10px;

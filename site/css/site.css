@@ -770,3 +770,46 @@ h1, h2, h3 { font-weight: 600; }
 .reel-3d-label b { color: #FFFFFF; font-size: 22px; font-weight: 600; }
 .reel-3d:hover .reel-3d-label b { text-decoration: underline; text-underline-offset: 4px; }
 @media (max-width: 600px) { .reel-3d { aspect-ratio: 4 / 3; } }
+
+/* ================================================================
+   Readable type scale (Jost has a small x-height, so sizes run large)
+   ================================================================ */
+body { font-size: var(--fs-body); }
+p, li, dd { max-width: 70ch; }
+.site-nav ul { font-size: 17px; }
+.wordmark { font-size: 23px; }
+.label { font-size: var(--fs-label); }
+.card .label { font-size: 14px; padding: 4px 10px; }
+.card h3 { font-size: 23px; line-height: 1.25; }
+.card .summary { font-size: 17px; line-height: 1.55; }
+.card .more { font-size: 17px; }
+.card-body { padding: 24px 26px 26px; gap: 10px; }
+.section-label { font-size: 15px; }
+.section-head p { font-size: 19px; }
+.filters button { font-size: 17px; padding: 0 20px; }
+.lead, .page-head .intro { font-size: var(--fs-lead); line-height: 1.5; }
+.hero h1, .page-head h1 { line-height: 1.06; }
+.breadcrumb { font-size: 17px; }
+.facts dd { font-size: 18px; }
+.chips li { font-size: 16px; padding: 5px 12px; }
+.cs-toc a { font-size: 17px; }
+.cs-section h2 { font-size: clamp(28px, 3.2vw, 38px); }
+.cs-section p, .cs-section li { font-size: 19px; }
+.note { font-size: 17px; }
+.video figcaption { font-size: 17px; }
+.video figcaption b { font-size: 19px; }
+.shot span { font-size: 16px; }
+.panel h3 { font-size: 25px; }
+.refs li { font-size: 18px; }
+h2.sub { font-size: 30px; }
+.reel-3d-label { font-size: 17px; }
+.reel-3d-label b { font-size: 26px; }
+.cta h2 { font-size: clamp(34px, 4.4vw, 54px); }
+.cta-links { font-size: 19px; }
+.site-footer { font-size: 17px; }
+.media-slot { font-size: 17px; }
+@media (max-width: 480px) {
+  body { font-size: 18px; }
+  .card h3 { font-size: 22px; }
+  .lead, .page-head .intro { font-size: 20px; }
+}
