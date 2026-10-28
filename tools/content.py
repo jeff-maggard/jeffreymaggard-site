@@ -63,25 +63,25 @@ dict(
 # ---------------------------------------------------------------- 2
 dict(
   slug="english-21st-century", art="book", cats=["courses"], hero="/media/doha-skyline.webp",
-  tag="Garnet Press · CEFR B1+",
+  tag="Garnet Education · CEFR B1+",
   title="English for the 21st Century",
-  summary="A CEFR B1+ course book, co-created with a team at Garnet Press.",
-  hook="A published course book, built and refined over three editions.",
+  summary="I co-created a B1+ English course and was the designated editor of its Garnet Education textbook.",
+  hook="A B1+ English course I co-created, and the Garnet Education textbook I edited.",
   facts=dict(
-    context="Learners at CEFR B1+ needed a course book matched to their level.",
-    audience="Adult English learners at CEFR B1+.",
-    role="Co-creator. Editor of the 1st, 2nd and 3rd editions. Designated curriculum editor of the 3rd edition.",
-    tools=["CEFR", "Scope and sequence", "Editing", "Publishing"],
+    context="Learners at CEFR B1+ needed a course and a textbook matched to their level.",
+    audience="English learners at CEFR B1+.",
+    role="Co-creator of the B1+ English course. Designated editor of its Garnet Education textbook.",
+    tools=["CEFR", "Course design", "Scope and sequence", "Editing", "Publishing"],
   ),
   sections=[
     ("The project", [
-      "<p><cite>English for the 21st Century</cite> is a CEFR B1+ course book. I co-created it with a team at Garnet Press.</p>",
+      "<p>I co-created a B1+ English course and was the designated editor of its Garnet Education textbook, <cite>English for the 21st Century</cite>.</p>",
     ]),
     ("My role", [
-      '<ol class="steps"><li>Co-creator of the course book.</li><li>Editor of the 1st, 2nd and 3rd editions.</li><li>Designated curriculum editor of the 3rd edition (Aug. 2026).</li></ol>',
+      '<ol class="steps"><li>Co-creator of the B1+ English course.</li><li>Designated editor of its Garnet Education textbook.</li></ol>',
     ]),
     ("Process", [
-      '<figure class="photo"><img src="/media/doha-skyline.webp" alt="The Doha skyline at night, reflected in the water" loading="lazy"><figcaption>Doha, Qatar: home of the Qatar University team behind the book.</figcaption></figure>',
+      '<figure class="photo"><img src="/media/doha-skyline.webp" alt="The Doha skyline at night, reflected in the water" loading="lazy"><figcaption>Doha, Qatar, where the course was created.</figcaption></figure>',
       '<div class="media-slot">[Book cover and sample spreads: to be supplied]</div>',
     ]),
   ],
