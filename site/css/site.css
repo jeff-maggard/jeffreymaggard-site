@@ -867,3 +867,5 @@ h2.sub { font-size: 30px; }
 .cover figcaption { margin-top: 12px; color: var(--text-muted); font-size: 17px; }
 .cs-section .gallery { grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr)); }
 .cs-section .shot span { font-size: 16px; line-height: 1.45; }
+.cover.flyer { max-width: 420px; }
+.photo.banner img { aspect-ratio: auto; height: auto; }

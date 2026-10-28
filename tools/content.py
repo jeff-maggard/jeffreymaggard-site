@@ -256,7 +256,7 @@ dict(
 ),
 # ---------------------------------------------------------------- 10
 dict(
-  slug="story-mile", art="story-mile", cats=["cultural"],
+  slug="story-mile", art="story-mile", cats=["cultural"], hero="/media/story-mile/artwork.webp",
   tag="Zayed University · Public exhibition",
   title="The Story Mile",
   summary="300 student authors. A public exhibition on the Abu Dhabi Corniche, a permanent installation and a book.",
@@ -270,10 +270,16 @@ dict(
   sections=[
     ("The project", [
       "<p>I co-founded the Al Kharareef storytelling club. I co-created the Story Mile Project with Mubadala, the Sharjah Institute for Heritage and the Abu Dhabi Music &amp; Arts Festival.</p>",
+      '<figure class="photo banner"><img src="/media/story-mile/al-kharareef.webp" alt="Al Kharareef Storytelling Club banner: a storyteller with a falcon and children around a campfire" loading="lazy" width="1000" height="250"><figcaption>The Al Kharareef Storytelling Club banner.</figcaption></figure>',
+      '<figure class="cover"><img src="/media/story-mile/story-illustration.webp" alt="Story illustration: a girl in a yellow dress with red dots beside an old stone archway" loading="lazy" width="441" height="414"><figcaption>A story illustration from the project.</figcaption></figure>',
+    ]),
+    ("On the Corniche", [
+      "<p>The Story Mile opened on the Abu Dhabi Corniche during the Abu Dhabi Festival, 10–29 March 2013, with free admission.</p>",
+      "<p>Lightboxes along the Corniche showed traditional stories by Zayed University students and the Al Kharareef Club. The stories grew out of workshops and research led by the master storyteller Abdul Aziz Al Musallam.</p>",
+      '<figure class="cover flyer"><img src="/media/story-mile/e-flyer.webp" alt="Abu Dhabi Festival e-flyer for The Story Mile on Abu Dhabi Corniche, 10 to 29 March 2013, showing characters from Emirati folktales on the Corniche" loading="lazy" width="1000" height="1419"><figcaption>The Abu Dhabi Festival e-flyer for The Story Mile, 2013.</figcaption></figure>',
     ]),
     ("The outcome", [
       '<ul class="points"><li>300 student authors took part.</li><li>A public exhibition on the Abu Dhabi Corniche.</li><li>A permanent installation at Khalifa Park.</li><li>The book <cite>The Story Mile</cite> (ISBN 978-9948-20-117-5), which I edited.</li></ul>',
-      '<div class="media-slot">[Story Mile photos: to be supplied]</div>',
     ]),
   ],
 ),
@@ -388,6 +394,10 @@ TEACHING = dict(
 TOOLS = "Blackboard Ultra, Canvas, Moodle, Google Classroom · PowerPoint, Google Workspace, Adobe Creative Cloud, iMovie, Final Cut Pro, HTML/CSS · Mentimeter, Kahoot!, Padlet, Quizlet, Socrative, Nearpod, Quizizz · Claude, Claude Code, ChatGPT"
 
 GALLERIES = {
+  "kharareef": [
+    ("/media/story-mile/al-kharareef.webp", "The Al Kharareef Storytelling Club banner."),
+    ("/media/story-mile/story-illustration.webp", "A story illustration from the project."),
+  ],
   "pi-app": [
     ("/media/pi/tutor.webp", "Pure Intellect Tutor: it asks one question at a time and gives hints only when asked."),
     ("/media/pi/feedback.webp", "Student feedback: rubric levels and the professor’s chosen comments."),
