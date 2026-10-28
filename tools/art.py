@@ -1,13 +1,15 @@
 """Line-art thumbnails: one SVG motif per project, vermilion and white on near-black."""
-O = "#3D0D04"   # deep ember
+O = "url(#gb)"   # blue-to-violet gradient
 W = "#FFFFFF"   # white
-G = "rgba(255,255,255,0.18)"   # grid dots
+G = "rgba(255,255,255,0.07)"   # dot texture
 
 def frame(inner, label):
     dots = "".join(f'<circle cx="{x}" cy="{y}" r="1.6" fill="{G}"/>' for x in range(40, 800, 40) for y in range(40, 500, 40))
     return (f'<svg viewBox="0 0 800 500" role="img" aria-label="{label}" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">'
-            f'<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF6A3D"/><stop offset=".55" stop-color="#F04E23"/><stop offset="1" stop-color="#B52E0C"/></linearGradient></defs>'
-            f'<rect width="800" height="500" fill="url(#g)"/>{dots}{inner}</svg>')
+            f'<defs><linearGradient id="gb" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="800" y2="500"><stop offset="0" stop-color="#29ABFF"/><stop offset="1" stop-color="#9A76FF"/></linearGradient>'
+            f'<linearGradient id="bar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4DA3FF"/><stop offset="1" stop-color="#7C5CFC"/></linearGradient></defs>'
+            f'<rect width="800" height="500" fill="#16181D"/>{dots}'
+            f'<rect x="30" y="70" width="12" height="360" rx="6" fill="url(#bar)" opacity=".9"/>{inner}</svg>')
 
 def s(color, w=6):
     return f'fill="none" stroke="{color}" stroke-width="{w}" stroke-linecap="round" stroke-linejoin="round"'
@@ -35,7 +37,7 @@ MOTIFS = {
     f'<path d="M420 280h190a30 30 0 0 1 30 30v70a30 30 0 0 1-30 30h-20v40l-50-40H420a30 30 0 0 1-30-30v-70a30 30 0 0 1 30-30z" {s(O)}/><path d="M440 330h150M440 365h100" {s(O,5)}/>'),
 "course-map": lambda: (
     f'<path d="M120 380 C220 380 220 150 320 150 S420 350 520 350 S620 140 690 140" {s(W,5)} stroke-dasharray="2 14"/>'
-    + "".join(f'<circle cx="{x}" cy="{y}" r="34" fill="#F04E23" stroke="{O if i in (0,4) else W}" stroke-width="6"/><text x="{x}" y="{y+9}" fill="{O if i in (0,4) else W}" font-family="sans-serif" font-weight="800" font-size="26" text-anchor="middle">{i+1}</text>'
+    + "".join(f'<circle cx="{x}" cy="{y}" r="34" fill="#16181D" stroke="{O if i in (0,4) else W}" stroke-width="6"/><text x="{x}" y="{y+9}" fill="{O if i in (0,4) else W}" font-family="sans-serif" font-weight="800" font-size="26" text-anchor="middle">{i+1}</text>'
               for i,(x,y) in enumerate([(120,380),(320,150),(440,285),(520,350),(690,140)]))),
 "timeline": lambda: (
     "".join(f'<rect x="{110+i*40}" y="{380-(40+i*16)}" width="24" height="{40+i*16}" rx="6" fill="{O if i in (4,9,14) else "none"}" stroke="{O if i in (4,9,14) else W}" stroke-width="4"/>' for i in range(15))
@@ -47,7 +49,7 @@ MOTIFS = {
     + "".join(f'<rect x="240" y="{130+i*65}" width="36" height="36" rx="6" {s(O if i<3 else W,5)}/><path d="M{290} {148+i*65}h{250-i*30}" {s(W,5)}/>' for i in range(4))
     + "".join(f'<path d="M248 {147+i*65}l9 10 16-20" {s(O,5)}/>' for i in range(3))),
 "story-mile": lambda: (
-    f'<path d="M80 420 C200 420 180 300 300 300 S420 180 520 180 S640 80 720 80" {s(W,8)}/><path d="M80 420 C200 420 180 300 300 300 S420 180 520 180 S640 80 720 80" fill="none" stroke="#F04E23" stroke-width="2" stroke-dasharray="14 14"/>'
+    f'<path d="M80 420 C200 420 180 300 300 300 S420 180 520 180 S640 80 720 80" {s(W,8)}/><path d="M80 420 C200 420 180 300 300 300 S420 180 520 180 S640 80 720 80" fill="none" stroke="#16181D" stroke-width="2" stroke-dasharray="14 14"/>'
     + "".join(f'<path d="M{x} {y}v-50l34 14-34 14" {s(O,5)}/>' for x,y in [(180,390),(330,295),(470,200),(640,110)])),
 "tales": lambda: (
     f'<path d="M400 140 Q300 100 180 120v250q120-20 220 20 100-40 220-20V120q-120-20-220 20z" {s(W)}/><path d="M400 140v250" {s(W,4)}/>'

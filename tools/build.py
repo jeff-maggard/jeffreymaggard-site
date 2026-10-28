@@ -36,10 +36,10 @@ def page(title, body, current="", description=LEAD):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{full_title}</title>
 <meta name="description" content="{description}">
-<meta name="theme-color" content="#FAFAF9">
+<meta name="theme-color" content="#FFFFFF">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&amp;display=swap">
 <link rel="stylesheet" href="/css/tokens.css">
 <link rel="stylesheet" href="/css/site.css">
 </head>
@@ -57,19 +57,19 @@ def page(title, body, current="", description=LEAD):
 
 <main id="main">
 {body}
-  <section class="cta band" aria-labelledby="cta-title">
+  <section class="cta" aria-labelledby="cta-title">
     <div class="cta-inner container">
       <h2 id="cta-title">Have a learning project? <span class="accent">Let’s talk.</span></h2>
       <div class="cta-links">
-        <a class="button button-light" href="mailto:{EMAIL}">{EMAIL}</a>
+        <a class="button button-primary" href="mailto:{EMAIL}">{EMAIL}</a>
         <a class="link-plain" href="{LINKEDIN}" rel="noopener">LinkedIn</a>
       </div>
     </div>
   </section>
 </main>
 
-<footer class="site-footer band">
-  <div class="container"><p>© Jeffrey Maggard</p></div>
+<footer class="site-footer">
+  <div class="container"><p>© Jeffrey Maggard</p><p><a href="mailto:{EMAIL}">{EMAIL}</a> · <a href="{LINKEDIN}" rel="noopener">LinkedIn</a></p></div>
 </footer>
 </body>
 </html>
@@ -152,7 +152,6 @@ def home():
         f'<li><button type="button" aria-pressed="false" data-filter="{k}">{v}</button></li>' for k, v in CATEGORIES
     )
     body = f"""
-  <div class="hero-band band">
   <section class="hero container" aria-labelledby="hero-title">
     <p class="label">// Instructional Design · Teaching · AI</p>
     <div class="hero-top">
@@ -165,25 +164,25 @@ def home():
     <div class="hero-bottom">
       <p class="lead">{LEAD}</p>
       <div class="actions">
-        <a class="button button-light" href="mailto:{EMAIL}">Contact me</a>
-        <a class="button button-ghost" href="#work">Projects <span aria-hidden="true">↓</span></a>
+        <a class="button button-primary" href="mailto:{EMAIL}">Contact me</a>
+        <a class="button button-secondary" href="#work">Projects <span aria-hidden="true">↓</span></a>
       </div>
     </div>
   </section>
-  </div>
 
-  <div class="marquee" aria-hidden="true"><div class="marquee-track">{skills}{skills}</div></div>
-
-  <div class="container">
+  <div class="dark-dots">
+  <section class="section container" aria-labelledby="num-title">
+    <div class="section-head"><div><p class="label">Highlights</p><h2 id="num-title">My work, by the numbers</h2></div></div>
     <ul class="stats" aria-label="Highlights">
       <li><b>Nearly <span>20</span></b><span>peer-reviewed articles</span></li>
       <li><b><span>$</span>30,000</b><span>UNESCO-funded program</span></li>
       <li><b><span>300</span></b><span>student authors, The Story Mile</span></li>
       <li><b><span>4</span> countries</b><span>taught in: Japan, the USA, the UAE and Qatar</span></li>
     </ul>
+  </section>
   </div>
 
-  <div class="tint">
+  <div class="alt">
   <section class="section container" id="studio-reel" aria-labelledby="reel-title">
     <div class="section-head">
       <div><p class="label">Studio</p><h2 id="reel-title">I make the media, too</h2></div>

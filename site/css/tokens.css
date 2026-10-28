@@ -1,39 +1,52 @@
-/* "Studio" design tokens: one neutral, one vibrant accent (vermilion) */
+/* Design tokens modeled on devlinpeck.com: clean white and pale-blue
+   sections, ink text, one blue-to-violet gradient accent, dark dotted
+   "numbers" section, Jost. */
 :root {
   /* Surfaces */
-  --bg: #FAFAF9;
+  --bg: #FFFFFF;
   --surface: #FFFFFF;
-  --panel: #111111;
-  --border: #E7E5E4;
-  --border-strong: #D6D3D1;
+  --alt: #F4F7FB;
+  --soft: #EAF3FE;
+  --dark: #16181D;
+  --dark-card: #1D2027;
+  --dark-border: #2D323C;
+  --panel: #16181D;
+  --border: #E3E8EF;
+  --border-strong: #C9D2DE;
 
   /* Text */
-  --ink: #111111;
-  --text-body: #3A3A3F;
-  --text-muted: #6B6B72;
+  --ink: #16181D;
+  --text-body: #3F4756;
+  --text-muted: #5B6472;
+  --on-dark: #FFFFFF;
+  --on-dark-muted: #A8B3C2;
 
   /* Accent */
-  --brand: #F04E23;       /* fills, artwork, large display text */
-  --brand-text: #C8350F;  /* small text and links on light backgrounds (5:1) */
-  --brand-soft: #FDEBE4;  /* tinted backgrounds */
-  --on-brand: #111111;    /* text on vermilion buttons (5.2:1) */
+  --grad: linear-gradient(135deg, #0069D9, #6D4AEE);
+  --grad-hover: linear-gradient(135deg, #007FEE, #7C5CFC);
+  --brand: #0069D9;
+  --brand-text: #0161C9;
+  --brand-soft: #EAF3FE;
+  --stat-blue: #29ABFF;
+  --stat-violet: #9A76FF;
+  --on-brand: #FFFFFF;
 
   /* Type */
-  --font: 'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
-  --fs-hero: clamp(44px, 6.6vw, 92px);
-  --fs-page: clamp(40px, 5.6vw, 76px);
-  --fs-section: clamp(30px, 3.8vw, 48px);
+  --font: 'Jost', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --fs-hero: clamp(40px, 5.4vw, 64px);
+  --fs-page: clamp(38px, 5vw, 60px);
+  --fs-section: clamp(28px, 3vw, 36px);
   --fs-body: 17px;
-  --fs-lead: 20px;
+  --fs-lead: 19px;
   --fs-label: 12px;
-  --lh-body: 1.6;
-  --tracking-label: 0.1em;
+  --lh-body: 1.65;
+  --tracking-label: 0.12em;
 
   /* Layout */
-  --max-width: 1200px;
+  --max-width: 1100px;
   --gutter: 24px;
-  --radius-card: 18px;
-  --radius-media: 12px;
+  --radius-card: 14px;
+  --radius-media: 10px;
   --tap-min: 44px;
-  --shadow-hover: 0 18px 40px rgba(17, 17, 17, 0.08);
+  --shadow-hover: 0 16px 36px rgba(22, 24, 29, 0.08);
 }
