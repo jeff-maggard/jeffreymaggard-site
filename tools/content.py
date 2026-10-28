@@ -264,13 +264,13 @@ dict(
   facts=dict(
     context="A storytelling project at Zayed University, made with major cultural partners.",
     audience="Zayed University students and the public in Abu Dhabi.",
-    role="Co-founder of the Al Kharareef storytelling club. Co-creator of the Story Mile Project. Editor of the book.",
+    role="Founder and faculty advisor of the Al Kharareef storytelling club. Co-creator of the Story Mile Project. Editor of the book.",
     tools=["Storytelling", "Partnerships", "Exhibition", "Editing"],
   ),
   sections=[
     ("The project", [
-      "<p>I co-founded the Al Kharareef storytelling club. I co-created the Story Mile Project with Mubadala, the Sharjah Institute for Heritage and the Abu Dhabi Music &amp; Arts Festival.</p>",
-      '<figure class="photo banner"><img src="/media/story-mile/al-kharareef.webp" alt="Al Kharareef Storytelling Club banner: a storyteller with a falcon and children around a campfire" loading="lazy" width="1000" height="250"><figcaption>The Al Kharareef Storytelling Club banner.</figcaption></figure>',
+      "<p>I founded the Al Kharareef storytelling club at Zayed University and was its faculty advisor. Brione LaThrop joined me later.</p><p>I co-created the Story Mile Project with Mubadala, the Sharjah Institute for Heritage and the Abu Dhabi Music &amp; Arts Festival.</p>",
+      '<figure class="photo banner"><img src="/media/story-mile/al-kharareef.webp" alt="Al Kharareef Storytelling Club banner: a storyteller with a falcon and children around a campfire" loading="lazy" width="1000" height="250"><figcaption>The banner from the Al Kharareef Storytelling Club website.</figcaption></figure>',
       '<figure class="cover"><img src="/media/story-mile/story-illustration.webp" alt="Story illustration: a girl in a yellow dress with red dots beside an old stone archway" loading="lazy" width="441" height="414"><figcaption>A story illustration from the project.</figcaption></figure>',
     ]),
     ("On the Corniche", [
