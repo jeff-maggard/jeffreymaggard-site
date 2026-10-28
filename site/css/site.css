@@ -855,3 +855,8 @@ h2.sub { font-size: 30px; }
 .panel-photo .label { color: var(--stat-blue); }
 .panel-photo p { color: #E6EBF2; max-width: 62ch; }
 .cs-hero img { object-position: center 45%; }
+
+/* Closing CTA: everything left-aligned under the headline */
+.cta-inner { flex-direction: column; align-items: flex-start; justify-content: flex-start; gap: 28px; }
+.cta h2 { flex: none; max-width: 900px; }
+.cta-links { flex: none; flex-direction: row; flex-wrap: wrap; align-items: center; gap: 12px 28px; }
