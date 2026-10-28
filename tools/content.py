@@ -87,7 +87,7 @@ dict(
 ),
 # ---------------------------------------------------------------- 3
 dict(
-  slug="falcon-folktale", art="falcon", cats=["video", "cultural"], image="/media/falcon/title-art.webp", hero="/media/falcon/mohammed-hurr.webp",
+  slug="falcon-folktale", art="animation", cats=["video", "cultural"], hero="/media/falcon/mohammed-hurr.webp",
   tag="Animation · Museum partnership",
   title="He Who Doesn’t Know the Falcon Roasts It",
   summary="A Qatari folktale I collected and edited. It appears in a National Museum of Qatar exhibition book. Now I am animating it.",

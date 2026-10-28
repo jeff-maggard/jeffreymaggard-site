@@ -225,7 +225,7 @@ Cards for Pure Intellect Tutor, Pure Intellect Analyzer and AI Ranking App. Each
 
 - Email: jeff@jeffreymaggard.com
 - LinkedIn: https://www.linkedin.com/in/jeff-maggard-a01181b3
-- "Download CV" button → [CV PDF to be supplied]
+- No CV on the site, ever (Jeffrey's decision, to protect his identity).
 - Line: Open to instructional design, curriculum and university teaching roles.
 
 ### 6.6 Education and languages (About section on Teaching or Contact page)

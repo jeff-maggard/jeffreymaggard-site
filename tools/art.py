@@ -15,6 +15,14 @@ def s(color, w=6):
     return f'fill="none" stroke="{color}" stroke-width="{w}" stroke-linecap="round" stroke-linejoin="round"'
 
 MOTIFS = {
+"animation": lambda: (
+    # storyboard panels with a falcon flapping across them (onion-skin), film-strip perforations, a keyframe curve
+    "".join(f'<rect x="{110+i*205}" y="95" width="180" height="125" rx="10" {s(W if i!=1 else O,5)}/>' for i in range(3))
+    + "".join(f'<path d="M{200+i*205-48} {160-a} Q{200+i*205-22} {150-a*1.6} {200+i*205} {165} Q{200+i*205+22} {150-a*1.6} {200+i*205+48} {160-a}" {s(O if i!=1 else W,5)}/>' for i,a in enumerate([18,-4,12]))
+    + "".join(f'<rect x="{95+i*42}" y="{y}" width="22" height="14" rx="3" fill="{W}" opacity=".85"/>' for i in range(15) for y in (255, 300))
+    + f'<rect x="85" y="245" width="640" height="78" rx="8" {s(W,3)}/>'
+    + f'<path d="M110 420 C200 340 280 470 380 400 S560 340 690 410" {s(O,5)}/>'
+    + "".join(f'<rect x="{x-9}" y="{y-9}" width="18" height="18" transform="rotate(45 {x} {y})" fill="{W}"/>' for x,y in [(110,420),(380,400),(690,410)])),
 "exchange": lambda: (
     f'<circle cx="230" cy="270" r="110" {s(W)}/><ellipse cx="230" cy="270" rx="45" ry="110" {s(W,4)}/><path d="M120 270h220M135 215h190M135 325h190" {s(W,4)}/>'
     f'<circle cx="570" cy="270" r="110" {s(O)}/><ellipse cx="570" cy="270" rx="45" ry="110" {s(O,4)}/><path d="M460 270h220M475 215h190M475 325h190" {s(O,4)}/>'

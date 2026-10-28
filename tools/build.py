@@ -191,26 +191,14 @@ def home():
   </section>
   </div>
 
-  <div class="dark-dots">
-  <section class="section container" aria-labelledby="num-title">
-    <div class="section-head"><div><p class="label">Highlights</p><h2 id="num-title">My work, by the numbers</h2></div></div>
-    <ul class="stats" aria-label="Highlights">
-      <li><b>Nearly <span>20</span></b><span>peer-reviewed articles</span></li>
-      <li><b><span>$</span>30,000</b><span>UNESCO-funded program</span></li>
-      <li><b><span>300</span></b><span>student authors, The Story Mile</span></li>
-      <li><b><span>4</span> countries</b><span>taught in: Japan, the USA, the UAE and Qatar</span></li>
-    </ul>
-  </section>
-  </div>
-
   <div class="alt">
   <section class="section container" id="studio-reel" aria-labelledby="reel-title">
     <div class="section-head">
-      <div><p class="label">Studio</p><h2 id="reel-title">I make the media, too</h2></div>
-      <p>Animation, launch videos and course websites, made by me with code and AI tools.</p>
+      <div><p class="label">Studio</p><h2 id="reel-title">Media production</h2></div>
+      <p>Animation, launch videos and course websites I design and produce.</p>
     </div>
     <div class="reel">
-      {video("falcon-opening")}
+      <a class="reel-3d hero3d-band" data-scene="animation" href="/studio/" aria-label="Cartoon production: see the studio">{CANVAS}<span class="reel-3d-label"><span class="label">Animation</span><b>From story to screen</b><span>Storyboards, a locked Character Guide and AI animation for my Qatari folktale series.</span></span></a>
       <div class="reel-side">
         {video("gofluent-promo")}
         <a class="button button-primary" href="/studio/">See the studio <span aria-hidden="true">→</span></a>
@@ -405,7 +393,6 @@ def contact():
         <div class="panel"><p class="label">Email</p><h3><a href="mailto:{EMAIL}">{EMAIL}</a></h3><p>The fastest way to reach me.</p></div>
         <div class="panel"><p class="label">LinkedIn</p><h3><a href="{LINKEDIN}" rel="noopener">jeff-maggard</a></h3><p>Career history and recommendations.</p></div>
       </div>
-      <div class="media-slot" style="margin-top:20px">[Download CV: PDF to be supplied]</div>
     </section>
   </div>
 """

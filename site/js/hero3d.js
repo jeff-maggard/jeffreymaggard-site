@@ -232,6 +232,59 @@
     };
   };
 
+
+  // Cartoon making: a film strip of frames sweeping past, an onion-skin falcon flapping, keyframes on a curve.
+  SCENES.animation = function (scene, camera) {
+    camera.position.set(0, 0.4, 8);
+    var g = new T.Group(); g.position.x = 0.6; scene.add(g);
+    var path = new T.CatmullRomCurve3([new T.Vector3(-7, -0.6, -3), new T.Vector3(-3.5, 0.3, 0), new T.Vector3(0, 0.6, 1.2), new T.Vector3(3.5, 0.3, 0), new T.Vector3(7, -0.6, -3)]);
+    function wing(flap, color, opacity) {
+      var b = new T.Group();
+      var pts = [new T.Vector3(-0.9, 0.15 + flap, 0), new T.Vector3(-0.4, 0.12 + flap * 0.5, 0), new T.Vector3(0, 0, 0), new T.Vector3(0.4, 0.12 + flap * 0.5, 0), new T.Vector3(0.9, 0.15 + flap, 0)];
+      b.add(new T.Line(new T.BufferGeometry().setFromPoints(new T.CatmullRomCurve3(pts).getPoints(30)), lineMat(color, opacity)));
+      b.add(new T.Line(new T.BufferGeometry().setFromPoints([new T.Vector3(0, 0.02, 0), new T.Vector3(0, -0.35, 0)]), lineMat(color, opacity)));
+      return b;
+    }
+    var frames = [], N = 16;
+    for (var i = 0; i < N; i++) {
+      var f = new T.Group(), c = mix(i / (N - 1));
+      f.add(new T.LineSegments(new T.EdgesGeometry(new T.PlaneGeometry(1.3, 0.9)), lineMat(c, 0.95)));
+      f.add(new T.Mesh(new T.PlaneGeometry(1.3, 0.9), new T.MeshBasicMaterial({ color: c, transparent: true, opacity: 0.08, side: T.DoubleSide })));
+      for (var k = 0; k < 5; k++) for (var side = -1; side <= 1; side += 2) {
+        var hole = new T.LineSegments(new T.EdgesGeometry(new T.PlaneGeometry(0.12, 0.08)), lineMat(WHITE, 0.55));
+        hole.position.set(-0.52 + k * 0.26, side * 0.57, 0); f.add(hole);
+      }
+      var bird = wing(Math.sin(i * 0.8) * 0.35, WHITE, 0.95); bird.scale.setScalar(0.42); f.add(bird);
+      g.add(f); frames.push(f);
+    }
+    // big onion-skin falcon above the strip
+    var onion = new T.Group(); onion.position.set(1.6, 2.2, 0); g.add(onion);
+    var ghosts = [];
+    for (var j = 0; j < 6; j++) { var w = wing(0, j === 0 ? WHITE : (j % 2 ? BLUE : VIOLET), j === 0 ? 1 : 0.5 - j * 0.07); w.position.x = -j * 0.45; w.scale.setScalar(1.7); onion.add(w); ghosts.push(w); }
+    // keyframe curve with diamond keys
+    var kp = []; for (var q = 0; q <= 80; q++) { var u = q / 80; kp.push(new T.Vector3((u - 0.5) * 7, -2.3 + Math.sin(u * 7) * 0.25, 0.5)); }
+    g.add(new T.Line(new T.BufferGeometry().setFromPoints(kp), lineMat(VIOLET, 0.8)));
+    [0, 0.25, 0.5, 0.75, 1].forEach(function (u) {
+      var d = new T.Mesh(new T.PlaneGeometry(0.14, 0.14), new T.MeshBasicMaterial({ color: WHITE, side: T.DoubleSide }));
+      d.position.set((u - 0.5) * 7, -2.3 + Math.sin(u * 7) * 0.25, 0.5); d.rotation.z = Math.PI / 4; g.add(d);
+    });
+    return function (t) {
+      frames.forEach(function (f, i) {
+        var u = (i / N + t * 0.035) % 1;
+        f.position.copy(path.getPointAt(u));
+        var tan = path.getTangentAt(u);
+        f.rotation.set(0, -tan.x * 0.25 + (u - 0.5) * -1.1, 0);
+      });
+      ghosts.forEach(function (w, j) {
+        var flap = Math.sin(t * 4 - j * 0.6) * 0.4;
+        w.children[0].geometry.dispose();
+        var pts = [new T.Vector3(-0.9, 0.15 + flap, 0), new T.Vector3(-0.4, 0.12 + flap * 0.5, 0), new T.Vector3(0, 0, 0), new T.Vector3(0.4, 0.12 + flap * 0.5, 0), new T.Vector3(0.9, 0.15 + flap, 0)];
+        w.children[0].geometry = new T.BufferGeometry().setFromPoints(new T.CatmullRomCurve3(pts).getPoints(30));
+      });
+      onion.position.y = 2.2 + Math.sin(t * 0.8) * 0.15;
+    };
+  };
+
   // ---------------------------------------------------------------- runner
   function start(band) {
     var name = band.getAttribute('data-scene');
