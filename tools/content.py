@@ -21,10 +21,10 @@ VIDEOS = {
         title="Pure Intellect Tutor · launch video",
         caption="A 60-second launch video for my AI tutor, built from real screens of the course website. Captioned to work with no sound.",
     ),
-    "gofluent-promo": dict(
-        src="/media/gofluent-promo.mp4", poster="/media/gofluent-promo.jpg", ratio="16 / 9",
-        title="Instructional designer introduction · goFLUENT application video",
-        caption="A 90-second introduction I scripted for an instructional design role. Motion graphics coded in React with Remotion, with an AI voice and an original piano score.",
+    "portfolio-video": dict(
+        src="/media/portfolio-video.mp4", poster="/media/portfolio-video.jpg", ratio="16 / 9",
+        title="Designing learning that works · portfolio video",
+        caption="A 96-second introduction to my work. Scripted by me, with motion graphics coded in React with Remotion, an AI voice and an original piano score.",
     ),
 }
 
@@ -404,11 +404,11 @@ dict(
   ),
   sections=[
     ("What I make", [
-      '<ul class="points"><li>Product launch videos, such as the Pure Intellect Tutor video.</li><li>Course website walkthroughs, captioned to work with no sound.</li><li>Introduction videos for job applications.</li><li>Formats for every channel: 16:9, 9:16, 1:1 and 4:5 for LinkedIn.</li></ul>',
+      '<ul class="points"><li>Product launch videos, such as the Pure Intellect Tutor video.</li><li>Course website walkthroughs, captioned to work with no sound.</li><li>Portfolio and introduction videos.</li><li>Formats for every channel: 16:9, 9:16, 1:1 and 4:5 for LinkedIn.</li></ul>',
     ]),
     ("How I build them", [
       "<p>Every frame is coded in React with Remotion. Captions and graphics are timed to the measured voice track. The music bed is an original piano score. I write every script.</p>",
-      "@video:gofluent-promo",
+      "@video:portfolio-video",
     ]),
   ],
 ),

@@ -200,7 +200,7 @@ def home():
     <div class="reel">
       <a class="reel-3d hero3d-band" data-scene="animation" href="/studio/" aria-label="Cartoon production: see the studio">{CANVAS}<span class="reel-3d-label"><span class="label">Animation</span><b>From story to screen</b><span>Storyboards, a locked Character Guide and AI animation for my Qatari folktale series.</span></span></a>
       <div class="reel-side">
-        {video("gofluent-promo")}
+        {video("portfolio-video")}
         <a class="button button-primary" href="/studio/">See the studio <span aria-hidden="true">→</span></a>
       </div>
     </div>
