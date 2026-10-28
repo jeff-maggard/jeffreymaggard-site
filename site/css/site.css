@@ -869,3 +869,4 @@ h2.sub { font-size: 30px; }
 .cs-section .shot span { font-size: 16px; line-height: 1.45; }
 .cover.flyer { max-width: 420px; }
 .photo.banner img { aspect-ratio: auto; height: auto; }
+.cs-section h3.subhead { margin: 40px 0 12px; font-size: 26px; font-weight: 600; }
