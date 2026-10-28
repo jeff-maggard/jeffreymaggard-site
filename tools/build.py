@@ -353,7 +353,7 @@ def teaching():
     li = lambda xs: "".join(f"<li>{x}</li>" for x in xs)
     extra = f"""
     <section class="section" aria-labelledby="now-title">
-      <div class="panel"><p class="label">Current role</p><h3 id="now-title">Qatar University</h3><p>{T['current']}</p></div>
+      <div class="panel panel-photo"><p class="label">Current role</p><h3 id="now-title">Qatar University</h3><p>{T['current']}</p></div>
     </section>
     <section class="section" aria-labelledby="areas-title">
       <div class="section-head"><div><p class="label">Teaching</p><h2 id="areas-title">Courses by area</h2></div></div>

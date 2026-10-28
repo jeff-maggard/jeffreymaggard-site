@@ -62,7 +62,7 @@ dict(
 ),
 # ---------------------------------------------------------------- 2
 dict(
-  slug="english-21st-century", art="book", cats=["courses"],
+  slug="english-21st-century", art="book", cats=["courses"], hero="/media/doha-skyline.webp",
   tag="Garnet Press · CEFR B1+",
   title="English for the 21st Century",
   summary="A CEFR B1+ course book, co-created with a team at Garnet Press.",
@@ -81,6 +81,7 @@ dict(
       '<ol class="steps"><li>Co-creator of the course book.</li><li>Editor of the 1st, 2nd and 3rd editions.</li><li>Designated curriculum editor of the 3rd edition (Aug. 2026).</li></ol>',
     ]),
     ("Process", [
+      '<figure class="photo"><img src="/media/doha-skyline.webp" alt="The Doha skyline at night, reflected in the water" loading="lazy"><figcaption>Doha, Qatar: home of the Qatar University team behind the book.</figcaption></figure>',
       '<div class="media-slot">[Book cover and sample spreads: to be supplied]</div>',
     ]),
   ],

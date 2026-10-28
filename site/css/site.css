@@ -833,3 +833,25 @@ h2.sub { font-size: 30px; }
   .hero h1, .page-head h1 { font-size: 40px; }
   .button { font-size: 17px; padding: 0 22px; }
 }
+
+/* Photo figure inside case studies */
+.photo { margin: 8px 0 20px; }
+.photo img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: var(--radius-media); }
+.photo figcaption { margin-top: 10px; color: var(--text-muted); font-size: 17px; }
+
+/* Teaching: current-role panel over the Doha skyline */
+.panel-photo {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: 0;
+  color: #E6EBF2;
+  background:
+    linear-gradient(90deg, rgba(10, 12, 18, 0.92) 0%, rgba(10, 12, 18, 0.78) 55%, rgba(10, 12, 18, 0.35) 100%),
+    url("/media/doha-skyline.webp") center 40% / cover;
+}
+.panel-photo h3 { color: #FFFFFF; }
+.panel-photo .label { color: var(--stat-blue); }
+.panel-photo p { color: #E6EBF2; max-width: 62ch; }
+.cs-hero img { object-position: center 45%; }
