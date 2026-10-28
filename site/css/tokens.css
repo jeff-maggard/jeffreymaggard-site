@@ -1,29 +1,42 @@
-/* Editorial design tokens (light, warm palette) */
+/* "Bright Studio" design tokens.
+   Palette from the motion-video work (pale sky, navy, teal, coral, sun),
+   with the faint grid and Mondrian mark from the course-site work. */
 :root {
-  /* Colors */
-  --bg: #FBFAF7;
+  /* Surfaces */
+  --bg: #F6F9FD;
   --card: #FFFFFF;
-  --border: #DAD6CC;
-  --text: #1C2433;
-  --text-body: #3D4657;
-  --text-muted: #5B6475;
-  --accent: #B23A0B;
-  --highlight: #F2B66D;
-  --btn-primary: #1C2433;
-  --btn-primary-text: #FBFAF7;
-  --btn-outline: 1.5px solid #1C2433;
+  --sky: #DCEBFA;
+  --border: #D5E0EC;
+  --grid-line: rgba(14, 42, 71, 0.045);
 
-  /* Ink band (closing CTA) */
-  --band: #1C2433;
-  --band-text: #FBFAF7;
+  /* Text */
+  --text: #0E2A47;
+  --text-body: #1B2B3A;
+  --text-muted: #5B6B7D;
+  --accent-text: #0A6F6B;
+
+  /* Bright accents (decoration only: dots, rules, marks, shadows) */
+  --teal: #0E9F9A;
+  --coral: #FF7A59;
+  --sun: #FFC857;
+
+  /* Buttons */
+  --btn-primary: #0E2A47;
+  --btn-primary-text: #FFFFFF;
+  --btn-outline: 1.5px solid #0E2A47;
+
+  /* Navy band (closing CTA) */
+  --band: #0E2A47;
+  --band-text: #FFFFFF;
+  --band-soft: #CFE3F2;
 
   /* Placeholder tints for card media blocks, one per card in order */
-  --media-1: #F4E2C8;
-  --media-2: #DCE8E3;
-  --media-3: #E7E1F0;
-  --media-4: #F1DCD3;
-  --media-5: #DDE4EE;
-  --media-6: #ECE6D6;
+  --media-1: #DCEBFA;
+  --media-2: #FFF1D6;
+  --media-3: #FFE4DA;
+  --media-4: #FFF0CC;
+  --media-5: #DAF1EF;
+  --media-6: #E6EEF9;
 
   /* Type */
   --font: 'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
@@ -41,9 +54,10 @@
   /* Layout */
   --max-width: 1200px;
   --gutter: 24px;
-  --radius-card: 16px;
-  --radius-media: 10px;
-  --radius-button: 8px;
+  --radius-card: 20px;
+  --radius-media: 12px;
+  --radius-button: 999px;
   --gap-cards: 20px;
   --tap-min: 44px;
+  --shadow-card: 0 18px 40px rgba(14, 42, 71, 0.08);
 }
