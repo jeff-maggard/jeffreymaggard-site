@@ -1,22 +1,29 @@
-/* Night Studio design tokens (site-package.md, Section 2) */
+/* Editorial design tokens (light, warm palette) */
 :root {
   /* Colors */
-  --bg: #0F1724;
-  --card: #172235;
-  --card-media: #22324A;
-  --border: #263449;
-  --border-strong: #3A4A5E;
-  --text: #EEF2F6;
-  --text-body: #B7C2CF;
-  --text-muted: #8FA0B3;
-  --accent: #6EE7C8;
-  --on-accent: #0F1724;
+  --bg: #FBFAF7;
+  --card: #FFFFFF;
+  --border: #DAD6CC;
+  --text: #1C2433;
+  --text-body: #3D4657;
+  --text-muted: #5B6475;
+  --accent: #B23A0B;
+  --highlight: #F2B66D;
+  --btn-primary: #1C2433;
+  --btn-primary-text: #FBFAF7;
+  --btn-outline: 1.5px solid #1C2433;
 
-  /* Placeholder tints for card media blocks (from the reference design) */
-  --media-violet: #2B2A3F;
-  --media-clay: #3A2E2A;
-  --media-ochre: #2E2A1F;
-  --media-teal: #1F3A3A;
+  /* Ink band (closing CTA) */
+  --band: #1C2433;
+  --band-text: #FBFAF7;
+
+  /* Placeholder tints for card media blocks, one per card in order */
+  --media-1: #F4E2C8;
+  --media-2: #DCE8E3;
+  --media-3: #E7E1F0;
+  --media-4: #F1DCD3;
+  --media-5: #DDE4EE;
+  --media-6: #ECE6D6;
 
   /* Type */
   --font: 'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
