@@ -264,19 +264,20 @@ dict(
   facts=dict(
     context="A storytelling project at Zayed University, made with major cultural partners.",
     audience="Zayed University students and the public in Abu Dhabi.",
-    role="Founder and faculty advisor of the Al Kharareef storytelling club. Co-creator of the Story Mile Project. Editor of the book.",
+    role="Founder and faculty supervisor of the Al Kharareef storytelling club. Co-creator of the Story Mile Project. Editor of the book.",
     tools=["Storytelling", "Partnerships", "Exhibition", "Editing"],
   ),
   sections=[
     ("The project", [
-      "<p>I founded the Al Kharareef storytelling club at Zayed University and was its faculty advisor. Brione LaThrop joined me later.</p><p>I co-created the Story Mile Project with Mubadala, the Sharjah Institute for Heritage and the Abu Dhabi Music &amp; Arts Festival.</p>",
+      "<p>I founded the Al Kharareef storytelling club at Zayed University and was its faculty supervisor. Brione LaThrop joined me later.</p><p>I invited the master storyteller Abdul Aziz Al Musallam, head of the Ministry of Culture in Sharjah, to Zayed University. He helped students craft their stories the way they were meant to be told.</p><p>I co-created the Story Mile Project with Mubadala, the Sharjah Institute for Heritage and the Abu Dhabi Music &amp; Arts Festival.</p>",
       '<figure class="photo banner"><img src="/media/story-mile/al-kharareef.webp" alt="Al Kharareef Storytelling Club banner: a storyteller with a falcon and children around a campfire" loading="lazy" width="1000" height="250"><figcaption>The banner from the Al Kharareef Storytelling Club website.</figcaption></figure>',
       '<figure class="cover"><img src="/media/story-mile/story-illustration.webp" alt="Story illustration: a girl in a yellow dress with red dots beside an old stone archway" loading="lazy" width="441" height="414"><figcaption>A story illustration from the project.</figcaption></figure>',
     ]),
     ("On the Corniche", [
-      "<p>The Story Mile opened on the Abu Dhabi Corniche during the Abu Dhabi Festival, 10–29 March 2013, with free admission.</p>",
-      "<p>Lightboxes along the Corniche showed traditional stories by Zayed University students and the Al Kharareef Club. The stories grew out of workshops and research led by the master storyteller Abdul Aziz Al Musallam.</p>",
+      "<p><cite>The Story Mile: A Journey Through Emirati Oral Traditions</cite> opened on the Abu Dhabi Corniche as part of the 10th Abu Dhabi Festival, 10–29 March 2013. Admission was free.</p>",
+      "<p>Lightboxes along the seafront path showed 40 stories by Zayed University students and the Al Kharareef Club. Some were passed down through generations. Others were new stories that students adapted or combined.</p>",
       '<figure class="cover flyer"><img src="/media/story-mile/e-flyer.webp" alt="Abu Dhabi Festival e-flyer for The Story Mile on Abu Dhabi Corniche, 10 to 29 March 2013, showing characters from Emirati folktales on the Corniche" loading="lazy" width="1000" height="1419"><figcaption>The Abu Dhabi Festival e-flyer for The Story Mile, 2013.</figcaption></figure>',
+      '<p class="note">In the press: <a href="https://www.thenationalnews.com/uae/abu-dhabis-storytelling-tradition-kept-alive-along-the-corniche-1.314509" rel="noopener">“Abu Dhabi’s storytelling tradition kept alive along the Corniche”</a>, <cite>The National</cite>, 13 March 2013.</p>',
     ]),
     ("The outcome", [
       '<ul class="points"><li>300 student authors took part.</li><li>A public exhibition on the Abu Dhabi Corniche.</li><li>A permanent installation at Khalifa Park.</li><li>The book <cite>The Story Mile</cite> (ISBN 978-9948-20-117-5), which I edited.</li></ul>',
