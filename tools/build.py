@@ -78,7 +78,7 @@ def page(title, body, current="", description=LEAD, scene="rings"):
     <div class="cta-inner container">
       <h2 id="cta-title">Have a learning project? <span class="accent">Let’s talk.</span></h2>
       <div class="cta-links">
-        <a class="button button-primary" href="mailto:{EMAIL}">{EMAIL}</a>
+        <a class="button button-primary" href="mailto:{EMAIL}">Email me</a>
         <a class="link-plain" href="{LINKEDIN}" rel="noopener">LinkedIn</a>
       </div>
     </div>
@@ -86,7 +86,7 @@ def page(title, body, current="", description=LEAD, scene="rings"):
 </main>
 
 <footer class="site-footer">
-  <div class="container"><p>© Jeffrey Maggard</p><p><a href="mailto:{EMAIL}">{EMAIL}</a> · <a href="{LINKEDIN}" rel="noopener">LinkedIn</a></p></div>
+  <div class="container"><p>© Jeffrey Maggard</p><p><a href="mailto:{EMAIL}">Email me</a> · <a href="{LINKEDIN}" rel="noopener">LinkedIn</a></p></div>
 </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
 <script src="/js/hero3d.js" defer></script>
