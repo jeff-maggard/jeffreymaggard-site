@@ -131,7 +131,7 @@ dict(
 ),
 # ---------------------------------------------------------------- 4
 dict(
-  slug="kamishibai", art="kamishibai", cats=["cultural"],
+  slug="kamishibai", art="kamishibai", cats=["cultural"], hero="/media/kamishibai/snow-run.webp",
   tag="UNESCO-funded",
   title="UNESCO Mongolia Kamishibai Program",
   summary="Japanese paper-theater storytelling for university and K-12 students in Mongolia and Japan. A $30,000 grant.",
@@ -150,8 +150,9 @@ dict(
     ("My role", [
       '<ul class="points"><li>Principal Investigator and Steering Committee Chair.</li><li>Directed the documentary team.</li></ul>',
     ]),
-    ("Next", [
-      '<div class="media-slot">[Improved artwork and a new story are coming. Japanese stories will be added.]</div>',
+    ("New artwork", [
+      "<p>New artwork for the program’s Japanese stories.</p>",
+      "@gallery:kamishibai",
     ]),
   ],
 ),
@@ -398,6 +399,10 @@ TEACHING = dict(
 TOOLS = "Blackboard Ultra, Canvas, Moodle, Google Classroom · PowerPoint, Google Workspace, Adobe Creative Cloud, iMovie, Final Cut Pro, HTML/CSS · Mentimeter, Kahoot!, Padlet, Quizlet, Socrative, Nearpod, Quizizz · Claude, Claude Code, ChatGPT"
 
 GALLERIES = {
+  "kamishibai": [
+    ("/media/kamishibai/closeup.webp", "A masked figure in a straw cloak, in the falling snow."),
+    ("/media/kamishibai/village.webp", "Two masked figures arrive at a snowy village."),
+  ],
   "storytelling-day": [
     ("/media/story-mile/wsd-tent.webp", "Club members telling stories to schoolchildren in a traditional tent."),
     ("/media/story-mile/wsd-majlis.webp", "Children gather in a majlis for food and stories."),
