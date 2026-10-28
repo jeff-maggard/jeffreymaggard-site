@@ -279,6 +279,10 @@ dict(
       '<figure class="photo"><img src="/media/story-mile/lightbox.webp" alt="A Story Mile lightbox on the Abu Dhabi Corniche showing the story Killing Men Softly, with people walking along the seafront path" loading="lazy" width="1290" height="860"><figcaption>The Story Mile exhibition on the Abu Dhabi Corniche, March 2013. These stories later became the book <cite>The Story Mile</cite>. Photo: <cite>The National</cite>.</figcaption></figure>',
       '<figure class="cover flyer"><img src="/media/story-mile/e-flyer.webp" alt="Abu Dhabi Festival e-flyer for The Story Mile on Abu Dhabi Corniche, 10 to 29 March 2013, showing characters from Emirati folktales on the Corniche" loading="lazy" width="1000" height="1419"><figcaption>The Abu Dhabi Festival e-flyer for The Story Mile, 2013.</figcaption></figure>',
     ]),
+    ("World Storytelling Day", [
+      "<p>The Al Kharareef Club also took part in a number of events, including the World Storytelling Day event in Abu Dhabi on 20 March 2013. Club members told stories to visiting schoolchildren at Abu Dhabi Heritage Village.</p>",
+      "@gallery:storytelling-day",
+    ]),
     ("The outcome", [
       '<ul class="points"><li>300 student authors took part.</li><li>A public exhibition on the Abu Dhabi Corniche.</li><li>A permanent installation at Khalifa Park.</li><li>The book <cite>The Story Mile</cite> (ISBN 978-9948-20-117-5), which I edited.</li></ul>',
     ]),
@@ -395,6 +399,12 @@ TEACHING = dict(
 TOOLS = "Blackboard Ultra, Canvas, Moodle, Google Classroom · PowerPoint, Google Workspace, Adobe Creative Cloud, iMovie, Final Cut Pro, HTML/CSS · Mentimeter, Kahoot!, Padlet, Quizlet, Socrative, Nearpod, Quizizz · Claude, Claude Code, ChatGPT"
 
 GALLERIES = {
+  "storytelling-day": [
+    ("/media/story-mile/wsd-tent.webp", "Club members telling stories to schoolchildren in a traditional tent."),
+    ("/media/story-mile/wsd-majlis.webp", "Children gather in a majlis for food and stories."),
+    ("/media/story-mile/wsd-arrival.webp", "School groups arrive at Abu Dhabi Heritage Village."),
+    ("/media/story-mile/wsd-falcon.webp", "A falconry demonstration during the day."),
+  ],
   "kharareef": [
     ("/media/story-mile/al-kharareef.webp", "The Al Kharareef Storytelling Club banner."),
     ("/media/story-mile/story-illustration.webp", "A story illustration from the project."),
