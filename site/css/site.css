@@ -813,3 +813,23 @@ h2.sub { font-size: 30px; }
   .card h3 { font-size: 22px; }
   .lead, .page-head .intro { font-size: 20px; }
 }
+
+/* ================================================================
+   Peck proportions at the larger reading size
+   ================================================================ */
+.hero h1, .page-head h1 { font-weight: 700; letter-spacing: -0.02em; line-height: 1.06; }
+.lead, .page-head .intro { font-size: var(--fs-lead); line-height: 1.65; }
+.section-head h2, h2.sub, .cs-section h2 { font-weight: 600; letter-spacing: -0.01em; }
+.section-head h2 { font-size: var(--fs-section); }
+.card h3, .panel h3 { font-size: 23px; font-weight: 600; }
+.label { font-size: var(--fs-label); font-weight: 600; letter-spacing: var(--tracking-label); text-transform: uppercase; }
+.card .label { font-size: 13px; letter-spacing: 0.06em; }
+.site-nav ul { font-size: 17px; font-weight: 500; }
+.wordmark { font-size: 24px; font-weight: 700; letter-spacing: -0.012em; }
+.button { font-size: 18px; font-weight: 600; letter-spacing: 0.01em; min-height: 56px; padding: 0 28px; border-radius: 6px; }
+.site-nav .nav-cta a { font-size: 17px; font-weight: 600; padding: 0 20px; min-height: 48px; }
+.cta h2 { font-weight: 700; }
+@media (max-width: 480px) {
+  .hero h1, .page-head h1 { font-size: 40px; }
+  .button { font-size: 17px; padding: 0 22px; }
+}
