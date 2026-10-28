@@ -78,7 +78,7 @@ Check contrast: body text must meet 4.5:1 on `--bg` and `--card`.
 6. Never hyphenate "community college".
 7. Publisher is **Garnet Press**.
 8. Never write "Blackboard Learn" or "Blackboard administrator". "Blackboard Ultra" is fine. Chairing the WebCT/Blackboard Committee at UNT is fine.
-9. The Qatari folktale book is titled **Tales of Forgiveness**. Older documents call it "Tales of Qatari Heritage".
+9. The Qatari folktale book is titled **Tales of Qatari Heritage** (Jeffrey's decision, 28 Oct 2026; replaces "Tales of Forgiveness").
 10. The falcon story title is **"He Who Doesn't Know the Falcon Roasts It."**
 11. Peer-reviewed articles: say **"nearly 20"**.
 12. Never use the word "Bible" in any title. Say "Character Guide" or "Style Guide".

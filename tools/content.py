@@ -189,31 +189,29 @@ dict(
     ]),
   ],
 ),
-# ---------------------------------------------------------------- 6
+# ---------------------------------------------------------------- 14
 dict(
-  slug="engl-203", art="timeline", cats=["courses", "ai"],
-  tag="Course design · AI",
-  title="ENGL 203: AI-Enhanced Academic Research and Writing",
-  summary="A 15-week course. Students log every AI step and defend their choices orally.",
-  hook="A writing course where AI use is visible, logged and defended.",
+  slug="motion-videos", art="motion", cats=["video", "ai"],
+  tag="Motion graphics · Launch videos",
+  title="Launch and promo videos",
+  summary="Product launch videos, course walkthroughs and introductions, built as code with Remotion and AI voice.",
+  hook="Launch videos built entirely in code: scripted, timed and captioned.",
+  video="pure-intellect-tutor",
   facts=dict(
-    context="Students now research and write with AI. The course makes that use transparent.",
-    audience="University students, with differentiation for B1 and C1 learners.",
-    role="Course designer (proposal under review at Qatar University).",
-    tools=["Syllabus", "Scope and sequence", "Rubrics", "AI use policy"],
+    context="Products and courses need short videos that explain them fast.",
+    audience="Faculty, hiring teams and LinkedIn viewers.",
+    role="Scriptwriter, designer and producer.",
+    tools=["Remotion", "React", "AI voice", "Original music direction", "Captions", "ffmpeg"],
   ),
   sections=[
-    ("Structure", [
-      "<p>A 15-week syllabus with scope and sequence in three phases:</p>",
-      '<ol class="steps"><li>AI literacy and research.</li><li>Writing as process.</li><li>Presentation and reflection.</li></ol>',
+    ("What I make", [
+      '<ul class="points"><li>Product launch videos, such as the Pure Intellect Tutor video.</li><li>Course website walkthroughs, captioned to work with no sound.</li><li>Portfolio and introduction videos.</li><li>Formats for every channel: 16:9, 9:16, 1:1 and 4:5 for LinkedIn.</li></ul>',
     ]),
-    ("Assessment", [
-      "<p>Students keep an AI Research Log. They defend their choices in an oral defense.</p>",
-      "<p>The course includes rubrics, an AI use policy and differentiation for B1 and C1 learners.</p>",
-      '<div class="media-slot">[Syllabus preview: to be supplied]</div>',
+    ("How I build them", [
+      "<p>Every frame is coded in React with Remotion. Captions and graphics are timed to the measured voice track. The music bed is an original piano score. I write every script.</p>",
+      "@video:portfolio-video",
     ]),
   ],
-  status="Proposal under review.",
 ),
 # ---------------------------------------------------------------- 7
 dict(
@@ -279,28 +277,6 @@ dict(
     ]),
   ],
 ),
-# ---------------------------------------------------------------- 9
-dict(
-  slug="engl250-assessments", art="assessment", cats=["courses", "teaching"],
-  tag="Assessment design · Qatar University",
-  title="ENGL250 assessments",
-  summary="Selected for the task force that created ENGL250. Co-created all of its assessments and edits its exams.",
-  hook="Fair, consistent assessment across every section of a course.",
-  facts=dict(
-    context="A new course, ENGL250, needed assessments that work the same way in every section.",
-    audience="Qatar University students and the faculty who teach ENGL250.",
-    role="Task force member. Co-creator of all assessments. Midterm and final exam editor. Grading-norming facilitator.",
-    tools=["Exams", "Rubrics", "Grading norming", "Piloting"],
-  ),
-  sections=[
-    ("Timeline", [
-      '<ol class="steps"><li>Selected for the task force that created ENGL250 (2018).</li><li>Piloted the course (2019).</li><li>Co-created all of its assessments.</li><li>Midterm and final exam editor.</li></ol>',
-    ]),
-    ("Consistency", [
-      "<p>I facilitate grading norming across sections, so every student is scored against the same standard.</p>",
-    ]),
-  ],
-),
 # ---------------------------------------------------------------- 10
 dict(
   slug="story-mile", art="story-mile", cats=["cultural"],
@@ -326,9 +302,9 @@ dict(
 ),
 # ---------------------------------------------------------------- 11
 dict(
-  slug="tales-of-forgiveness", art="tales", cats=["cultural"],
+  slug="tales-of-qatari-heritage", art="tales", cats=["cultural"],
   tag="Bilingual book · Qatar University",
-  title="Tales of Forgiveness",
+  title="Tales of Qatari Heritage",
   summary="A bilingual (Arabic/English) book of Qatari folktales collected by Qatar University students.",
   hook="Qatari folktales of compassion and forgiveness, collected by students.",
   facts=dict(
@@ -339,7 +315,7 @@ dict(
   ),
   sections=[
     ("The book", [
-      "<p><cite>Tales of Forgiveness</cite> is an unpublished bilingual (Arabic/English) book of Qatari folktales collected by Qatar University students. The stories show compassion and forgiveness.</p>",
+      "<p><cite>Tales of Qatari Heritage</cite> is an unpublished bilingual (Arabic/English) book of Qatari folktales collected by Qatar University students. The stories show compassion and forgiveness.</p>",
     ]),
     ("My role", [
       "<p>I am lead editor, working with six co-editors. As Chair of the Cultural Awareness Team (2016–2023), I led more than 150 students, faculty and staff on the project.</p>",
@@ -386,30 +362,6 @@ dict(
     ("The course", [
       "<p>I wrote, directed and produced the video series for a blended course taught with sociologist Dr. Hiroyuki Toyota.</p>",
       "<p>Students used the videos in class and online, alongside live lectures and a textbook. I built the course website.</p>",
-    ]),
-  ],
-),
-# ---------------------------------------------------------------- 14
-dict(
-  slug="motion-videos", art="motion", cats=["video", "ai"],
-  tag="Motion graphics · Launch videos",
-  title="Launch and promo videos",
-  summary="Product launch videos, course walkthroughs and introductions, built as code with Remotion and AI voice.",
-  hook="Launch videos built entirely in code: scripted, timed and captioned.",
-  video="pure-intellect-tutor",
-  facts=dict(
-    context="Products and courses need short videos that explain them fast.",
-    audience="Faculty, hiring teams and LinkedIn viewers.",
-    role="Scriptwriter, designer and producer.",
-    tools=["Remotion", "React", "AI voice", "Original music direction", "Captions", "ffmpeg"],
-  ),
-  sections=[
-    ("What I make", [
-      '<ul class="points"><li>Product launch videos, such as the Pure Intellect Tutor video.</li><li>Course website walkthroughs, captioned to work with no sound.</li><li>Portfolio and introduction videos.</li><li>Formats for every channel: 16:9, 9:16, 1:1 and 4:5 for LinkedIn.</li></ul>',
-    ]),
-    ("How I build them", [
-      "<p>Every frame is coded in React with Remotion. Captions and graphics are timed to the measured voice track. The music bed is an original piano score. I write every script.</p>",
-      "@video:portfolio-video",
     ]),
   ],
 ),
