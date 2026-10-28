@@ -103,7 +103,7 @@ dict(
   sections=[
     ("The story", [
       "<p>“He Who Doesn’t Know the Falcon Roasts It” is a Qatari folktale I collected and edited.</p>",
-      "<p>It concludes Lila Abu-Lughod’s opening chapter in <cite>On the Move: Reframing Nomadic Pastoralism</cite> (Doha: Qatar Museums; [Milan]: Skira, 2022). The book thanks me and my Qatar University faculty editors. The National Museum of Qatar featured the story in its On the Move exhibition (Fall 2022 – Winter 2023).</p>",
+      "<p>It concludes Lila Abu-Lughod’s opening chapter in <cite>On the Move: Reframing Nomadic Pastoralism</cite> (Doha: Qatar Museums; [Milan]: Skira, 2022). The National Museum of Qatar featured the story in its On the Move exhibition (Fall 2022 – Winter 2023). The book acknowledges me and my Qatar University faculty editorial team.</p>",
     ]),
     ("From story to screen", [
       "<p>I am writing and producing an animated series of the story. Episode 1 is in production.</p>",
