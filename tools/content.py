@@ -279,7 +279,7 @@ dict(
       '<figure class="photo"><img src="/media/story-mile/lightbox.webp" alt="A Story Mile lightbox on the Abu Dhabi Corniche showing the story Killing Men Softly, with people walking along the seafront path" loading="lazy" width="1290" height="860"><figcaption>The Story Mile exhibition on the Abu Dhabi Corniche, March 2013. These stories later became the book <cite>The Story Mile</cite>. Photo: <cite>The National</cite>.</figcaption></figure>',
       '<figure class="cover flyer"><img src="/media/story-mile/e-flyer.webp" alt="Abu Dhabi Festival e-flyer for The Story Mile on Abu Dhabi Corniche, 10 to 29 March 2013, showing characters from Emirati folktales on the Corniche" loading="lazy" width="1000" height="1419"><figcaption>The Abu Dhabi Festival e-flyer for The Story Mile, 2013.</figcaption></figure>',
       '<h3 class="subhead">World Storytelling Day</h3>',
-      "<p>The Al Kharareef Club also took part in a number of events, including the World Storytelling Day event in Abu Dhabi on 20 March 2013. Club members told stories to visiting schoolchildren at Abu Dhabi Heritage Village.</p>",
+      "<p>The Al Kharareef Club also took part in a number of events, including the World Storytelling Day event in Abu Dhabi on 20 March 2013. Club members told stories to visiting schoolchildren at Abu Dhabi Heritage Village.</p Children&rsquo;s faces are blurred for their privacy.</p>",
       "@gallery:storytelling-day",
     ]),
     ("The outcome", [
