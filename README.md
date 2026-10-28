@@ -12,8 +12,6 @@ Static portfolio site. Plain HTML/CSS, no build step.
 
 ## Deploy (Cloudflare Pages)
 
-Needs `CLOUDFLARE_API_TOKEN` (Cloudflare Pages: Edit) and `CLOUDFLARE_ACCOUNT_ID` set in the environment.
+The Cloudflare Pages project `jeffreymaggard-site` is connected to this repo. Every push to `main` deploys automatically. There is no build command, and the output directory is `site`.
 
-    npx wrangler pages deploy site --project-name jeffreymaggard --branch main
-
-Preview: https://jeffreymaggard.pages.dev
+Preview: https://jeffreymaggard-site.pages.dev
