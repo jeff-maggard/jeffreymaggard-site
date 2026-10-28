@@ -253,34 +253,6 @@ dict(
   ],
   status="Sample course concept. Not affiliated with or endorsed by any university.",
 ),
-# ---------------------------------------------------------------- 8
-dict(
-  slug="rhetoric-composition", art="lessons", cats=["courses", "video"],
-  tag="Course design · AP-aligned",
-  title="College-Level Rhetoric and Composition",
-  summary="A full grade 11 course map: nine units, 108 lessons and a sample lesson package with video scripts.",
-  hook="108 lessons, each built from the same reliable pattern: watch, practice, check.",
-  facts=dict(
-    context="An AP-aligned rhetoric and composition course for grade 11.",
-    audience="Grade 11 students.",
-    role="Course designer, scriptwriter and assessment writer.",
-    tools=["Course map", "Video scripts", "Guided notes", "Quizzes", "Rubrics"],
-  ),
-  sections=[
-    ("Course map", [
-      "<p>Nine units and 108 lessons, built on public-domain nonfiction by Lincoln, Douglass, Wollstonecraft, Wells, Du Bois and others.</p>",
-      "<p>Each lesson pairs a short video, a guided activity and a three-question quiz.</p>",
-    ]),
-    ("Sample lesson package", [
-      "<p><b>“Reading the Rhetorical Situation”</b> (Unit 1, Lesson 1):</p>",
-      '<ul class="points"><li>A video script with visual cues.</li><li>Printable guided notes using Elizabeth I’s Tilbury speech.</li><li>A five-question quiz with feedback on every answer.</li><li>An original four-level rubric.</li></ul>',
-    ]),
-    ("Video scripts", [
-      "<p>Three teleprompter scripts: “What Counts as Evidence?”, “A Thesis That Needs Defending” and “Linking Evidence to Your Claim.”</p>",
-      "<p>Each has timecodes, on-screen cues, a 20-second practice pause and a scaffolded quiz (identify, apply, analyze).</p>",
-    ]),
-  ],
-),
 # ---------------------------------------------------------------- 10
 dict(
   slug="story-mile", art="story-mile", cats=["cultural"],
