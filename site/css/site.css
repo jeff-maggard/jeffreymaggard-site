@@ -132,6 +132,7 @@ a:hover { color: #FFFFFF; }
   flex: 0 1 280px;
   width: 280px;
   max-width: 100%;
+  height: auto;
   aspect-ratio: 4 / 5;
   border-radius: var(--radius-card);
   object-fit: cover;
