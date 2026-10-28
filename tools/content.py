@@ -80,9 +80,9 @@ dict(
     ("My role", [
       '<ol class="steps"><li>Co-creator of the B1+ English course.</li><li>Designated editor of its Garnet Education textbook.</li></ol>',
     ]),
-    ("Process", [
+    ("The book", [
       '<figure class="photo"><img src="/media/doha-skyline.webp" alt="The Doha skyline at night, reflected in the water" loading="lazy"><figcaption>Doha, Qatar, where the course was created.</figcaption></figure>',
-      '<div class="media-slot">[Book cover and sample spreads: to be supplied]</div>',
+      '<figure class="cover"><img src="/media/c21-cover.webp" alt="Cover of English for the 21st Century, Course Book, B1+ Intermediate, Special Edition, published by Garnet Education" loading="lazy" width="682" height="886"><figcaption><cite>English for the 21st Century</cite> (C21), Course Book, B1+ Intermediate, Special Edition. Garnet Education.</figcaption></figure>',
     ]),
   ],
 ),
@@ -184,8 +184,8 @@ dict(
       '<ul class="points"><li>Accessibility first: WCAG 2.2 AA, designed for Deaf and hard-of-hearing students.</li><li>No timers and no leaderboards.</li><li>Student data stays on the student’s device.</li></ul>',
     ]),
     ("Quality", [
-      "<p>48 automated tests, plus a scripted click-through on desktop and phone.</p>",
-      '<div class="media-slot">[App screenshots: to be added]</div>',
+      "<p>48 automated tests, plus a scripted click-through on desktop and phone. Screens below use invented sample students.</p>",
+      '@gallery:pi-app',
     ]),
   ],
 ),
@@ -242,6 +242,10 @@ dict(
     ]),
     ("Deliverables", [
       '<ul class="points"><li>A 31-page course packet and 32 pages of lesson plans.</li><li>A syllabus, scope and sequence, rubrics, reading list and instructor guide.</li><li>A course website with the Pure Intellect Tutor.</li><li>A course cartridge for Brightspace with 16 modules and 81 pages.</li></ul>',
+    ]),
+    ("The course website", [
+      "<p>Students reach every week, activity and the tutor from one course website. Sample students and work are invented.</p>",
+      "@gallery:course-site",
     ]),
     ("Measuring success", [
       "<p>The course has not been taught yet. In a live course, success would show in the thinking logs, the rubric scores on each signature activity and the quality of the final decision briefs.</p>",
@@ -411,6 +415,19 @@ TEACHING = dict(
 TOOLS = "Blackboard Ultra, Canvas, Moodle, Google Classroom · PowerPoint, Google Workspace, Adobe Creative Cloud, iMovie, Final Cut Pro, HTML/CSS · Mentimeter, Kahoot!, Padlet, Quizlet, Socrative, Nearpod, Quizizz · Claude, Claude Code, ChatGPT"
 
 GALLERIES = {
+  "pi-app": [
+    ("/media/pi/tutor.webp", "Pure Intellect Tutor: it asks one question at a time and gives hints only when asked."),
+    ("/media/pi/feedback.webp", "Student feedback: rubric levels and the professor’s chosen comments."),
+    ("/media/pi/analyzer.webp", "Pure Intellect Analyzer: the professor’s queue of hand-ins to grade."),
+    ("/media/pi/analyzer-item.webp", "Analyzer: suggested rubric levels, with the student’s own words as evidence."),
+    ("/media/pi/gradebook.webp", "Gradebook with Excel and CSV export."),
+  ],
+  "course-site": [
+    ("/media/pi/home.webp", "Course website home: an illustrated campus map for navigation."),
+    ("/media/pi/weeks.webp", "Weeks 1–15, grouped by unit, each with its guiding question."),
+    ("/media/pi/activity.webp", "An activity in five Bloom’s-sequenced steps, with its AI mode."),
+    ("/media/pi/graded.webp", "Graded work: weights, due dates and what strong work does."),
+  ],
   "cast": [
     ("/media/falcon/cast-mohammed.webp", "Character Guide: Mohammed, the hunter. Face, outfit and turnaround."),
     ("/media/falcon/cast-abdulla.webp", "Character Guide: Abdulla. Face, expressions and outfit."),
