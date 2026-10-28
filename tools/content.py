@@ -276,8 +276,8 @@ dict(
     ("On the Corniche", [
       "<p><cite>The Story Mile: A Journey Through Emirati Oral Traditions</cite> opened on the Abu Dhabi Corniche as part of the 10th Abu Dhabi Festival, 10–29 March 2013. Admission was free.</p>",
       "<p>Lightboxes along the seafront path showed 40 stories by Zayed University students and the Al Kharareef Club. Some were passed down through generations. Others were new stories that students adapted or combined.</p>",
+      '<figure class="photo"><img src="/media/story-mile/lightbox.webp" alt="A Story Mile lightbox on the Abu Dhabi Corniche showing the story Killing Men Softly, with people walking along the seafront path" loading="lazy" width="645" height="430"><figcaption>A Story Mile lightbox on the Abu Dhabi Corniche, March 2013. Photo: <cite>The National</cite>.</figcaption></figure>',
       '<figure class="cover flyer"><img src="/media/story-mile/e-flyer.webp" alt="Abu Dhabi Festival e-flyer for The Story Mile on Abu Dhabi Corniche, 10 to 29 March 2013, showing characters from Emirati folktales on the Corniche" loading="lazy" width="1000" height="1419"><figcaption>The Abu Dhabi Festival e-flyer for The Story Mile, 2013.</figcaption></figure>',
-      '<p class="note">In the press: <a href="https://www.thenationalnews.com/uae/abu-dhabis-storytelling-tradition-kept-alive-along-the-corniche-1.314509" rel="noopener">“Abu Dhabi’s storytelling tradition kept alive along the Corniche”</a>, <cite>The National</cite>, 13 March 2013.</p>',
     ]),
     ("The outcome", [
       '<ul class="points"><li>300 student authors took part.</li><li>A public exhibition on the Abu Dhabi Corniche.</li><li>A permanent installation at Khalifa Park.</li><li>The book <cite>The Story Mile</cite> (ISBN 978-9948-20-117-5), which I edited.</li></ul>',
