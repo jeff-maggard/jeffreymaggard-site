@@ -701,3 +701,49 @@ h1, h2, h3 { font-weight: 600; }
 .site-footer .container { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
 .site-footer a { color: #FFFFFF; }
 .site-footer a { display: inline-flex; align-items: center; min-height: 44px; }
+
+/* ================================================================
+   3D motion headers
+   ================================================================ */
+.hero3d-band {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--dark);
+  background-image:
+    radial-gradient(circle at 78% 40%, rgba(109, 74, 238, 0.28), transparent 45%),
+    radial-gradient(circle at 92% 90%, rgba(0, 105, 217, 0.25), transparent 40%),
+    radial-gradient(rgba(255, 255, 255, 0.07) 1.1px, transparent 1.3px);
+  background-size: auto, auto, 18px 18px;
+  color: var(--on-dark-muted);
+}
+.hero3d { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.hero3d-band::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(90deg, rgba(22, 24, 29, 0.92) 0%, rgba(22, 24, 29, 0.7) 38%, rgba(22, 24, 29, 0) 68%);
+}
+@media (max-width: 760px) {
+  .hero3d-band::after { background: linear-gradient(180deg, rgba(22, 24, 29, 0.55), rgba(22, 24, 29, 0.85)); }
+}
+.hero3d-band > .container, .hero3d-band > .hero { position: relative; z-index: 1; }
+.hero3d-band h1, .hero3d-band h2 { color: #FFFFFF; }
+.hero3d-band .label { color: var(--stat-blue); }
+.hero3d-band .intro, .hero3d-band .lead { color: #D5DCE6; }
+.hero3d-band .breadcrumb a { color: var(--on-dark-muted); }
+.hero3d-band .breadcrumb a:hover { color: #FFFFFF; }
+.hero3d-band :focus-visible { outline-color: #FFFFFF; }
+.hero3d-band .button-secondary { background: transparent; border-color: rgba(255, 255, 255, 0.8); color: #FFFFFF; }
+.hero3d-band .button-secondary:hover { background: #FFFFFF; color: var(--ink); }
+
+.hero3d-band .page-head { min-height: 440px; padding-top: 96px; padding-bottom: 96px; margin-bottom: 0; }
+.hero3d-band .page-head h1 { max-width: 640px; }
+.hero3d-band .page-head .intro { max-width: 560px; }
+.hero3d-band + .container .cs-hero, .hero3d-band + .container > .section:first-child { margin-top: 56px; }
+.hero3d-band + .container .cs-hero { margin-top: 56px; }
+
+.home-band .hero { padding-top: 96px; }
+.home-band .hero h1 { max-width: 720px; }
+.home-band .portrait { border: 4px solid rgba(255, 255, 255, 0.9); box-shadow: 0 30px 60px rgba(0, 0, 0, 0.45); }
+.home-band .hero-top { position: relative; }

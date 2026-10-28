@@ -22,7 +22,24 @@ LINKEDIN = "https://www.linkedin.com/in/jeff-maggard-a01181b3"
 LEAD = "I design courses, materials and programs that help students learn by doing real work. I use AI to speed up design, while students keep their own voice."
 
 
-def page(title, body, current="", description=LEAD):
+SCENE_FOR_CAT = {"courses": "blocks", "video": "dunes", "ai": "network", "cultural": "paper", "teaching": "rings"}
+CANVAS = '<canvas class="hero3d" aria-hidden="true"></canvas>'
+
+
+def band_head(body, scene):
+    """Move the first page-head into a full-width 3D header band."""
+    start = '  <div class="container">\n    <section class="page-head">'
+    if not scene or start not in body:
+        return body
+    i = body.index(start)
+    j = body.index("</section>", i) + len("</section>")
+    head = body[i + len('  <div class="container">\n'):j]
+    return (body[:i] + f'  <div class="hero3d-band" data-scene="{scene}">{CANVAS}\n  <div class="container">\n' + head
+            + '\n  </div>\n  </div>\n  <div class="container">' + body[j:])
+
+
+def page(title, body, current="", description=LEAD, scene="rings"):
+    body = band_head(body, scene)
     nav = "".join(
         f'<li><a href="{href}"{" aria-current=\"page\"" if href == current else ""}>{label}</a></li>'
         for label, href in NAV
@@ -71,6 +88,8 @@ def page(title, body, current="", description=LEAD):
 <footer class="site-footer">
   <div class="container"><p>© Jeffrey Maggard</p><p><a href="mailto:{EMAIL}">{EMAIL}</a> · <a href="{LINKEDIN}" rel="noopener">LinkedIn</a></p></div>
 </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+<script src="/js/hero3d.js" defer></script>
 </body>
 </html>
 """
@@ -152,6 +171,7 @@ def home():
         f'<li><button type="button" aria-pressed="false" data-filter="{k}">{v}</button></li>' for k, v in CATEGORIES
     )
     body = f"""
+  <div class="hero3d-band home-band" data-scene="globe">{CANVAS}
   <section class="hero container" aria-labelledby="hero-title">
     <p class="label">// Instructional Design · Teaching · AI</p>
     <div class="hero-top">
@@ -169,6 +189,7 @@ def home():
       </div>
     </div>
   </section>
+  </div>
 
   <div class="dark-dots">
   <section class="section container" aria-labelledby="num-title">
@@ -222,7 +243,7 @@ def home():
 }})();
 </script>
 """
-    return page("", body, "/")
+    return page("", body, "/", scene=None)
 
 
 def case_study(p, i):
@@ -272,7 +293,7 @@ def case_study(p, i):
     </nav>
   </div>
 """
-    return page(strip(p["title"]), body, "", strip(p["summary"]))
+    return page(strip(p["title"]), body, "", strip(p["summary"]), SCENE_FOR_CAT[p["cats"][0]])
 
 
 def category_page(cat, title, intro, extra=""):
@@ -301,7 +322,7 @@ def instructional_design():
     </section>"""
     body = category_page("courses", "Instructional Design &amp; Curriculum",
                          "I design courses, assessments and materials, from scope and sequence to rubrics.", extra)
-    return page("Instructional Design & Curriculum", body, "/instructional-design/")
+    return page("Instructional Design & Curriculum", body, "/instructional-design/", scene="blocks")
 
 
 def studio():
@@ -334,7 +355,7 @@ def studio():
     </section>
   </div>
 """
-    return page("Studio", body, "/studio/")
+    return page("Studio", body, "/studio/", scene="dunes")
 
 
 def teaching():
@@ -363,11 +384,11 @@ def teaching():
       </div>
     </section>"""
     body = category_page("teaching", "Teaching &amp; Academic Work", T["intro"], extra)
-    return page("Teaching & Academic Work", body, "/teaching/")
+    return page("Teaching & Academic Work", body, "/teaching/", scene="rings")
 
 
 def simple_category(cat, path, title, intro):
-    return page(strip(title), category_page(cat, title, intro), path)
+    return page(strip(title), category_page(cat, title, intro), path, scene=SCENE_FOR_CAT[cat])
 
 
 def contact():
