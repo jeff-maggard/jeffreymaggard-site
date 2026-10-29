@@ -44,7 +44,7 @@ dict(
   ),
   sections=[
     ("The challenge", [
-      "<p>The political science students at Miyazaki International College (now Miyazaki International University) were not familiar with American culture of the NE, while the sociology students at York County Technical College (now York County Community College) were largely unfamiliar with Japanese culture at large. These differences created a natural foundation for cross-cultural exchange and gave students from both disciplines a meaningful reason to collaborate, learn from one another, and explore social and political issues from different cultural perspectives.</p>",
+      "<p>The political science students at Miyazaki International College (now Miyazaki International University) were not familiar with American culture of the Northeast, while the sociology students at York County Technical College (now York County Community College) were largely unfamiliar with Japanese culture at large. These differences created a natural foundation for cross-cultural exchange and gave students from both disciplines a meaningful reason to collaborate, learn from one another, and explore social and political issues from different cultural perspectives.</p>",
     ]),
     ("The approach", [
       "<p>Both classes shared one website. Students researched political and social issues together. They chatted weekly (socially), discussed course content in writing, and presented their findings in written, spoken and video formats.</p>",
