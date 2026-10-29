@@ -335,7 +335,7 @@ dict(
   sections=[
     ("The seminar", [
       '<figure class="seminar-shot"><img src="/media/peace/seminar.webp" alt="Illustration of a lecture hall full of students, with a presenter beside a slide reading Peace Studies Seminar: Cambodia’s Path Forward, Miyazaki International College, 2003." loading="lazy" width="900" height="504"><figcaption>Illustration of the seminar.</figcaption></figure>',
-      "<p>I co-created the seminar with Dr. Like Lokon. The Cambodian Ambassador’s Counsellor, embassy staff from Japan, 11 MIC faculty, plus NGO staff gave presentations.</p>",
+      "<p>I co-created the Peace Studies Seminar on Cambodia with Dr. Elizabeth Lokon. The Cambodian Ambassador’s Counsellor, embassy staff from Japan, 11 MIC faculty, plus NGO staff gave presentations.</p>",
       "<p>It served more than 200 students and community members.</p>",
     ]),
     ("The trip", [
