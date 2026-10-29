@@ -334,7 +334,7 @@ dict(
   ),
   sections=[
     ("The seminar", [
-      "<p>I co-created the seminar with Dr. Like Lokon. The Cambodian Ambassador’s Counsel, embassy staff from Japan, 11 MIC faculty, plus NGO staff gave presentations.</p>",
+      "<p>I co-created the seminar with Dr. Like Lokon. The Cambodian Ambassador’s Counsellor, embassy staff from Japan, 11 MIC faculty, plus NGO staff gave presentations.</p>",
       "<p>It served more than 200 students and community members.</p>",
     ]),
     ("The trip", [
