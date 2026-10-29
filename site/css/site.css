@@ -883,3 +883,5 @@ h2.sub { font-size: 30px; }
 .era-body { padding: 18px 22px 24px; }
 .era-body h3 { margin: 6px 0 10px; font-size: 26px; font-weight: 600; }
 .era-body p:last-child { margin: 0; }
+.era-body { padding: 22px 24px 16px; }
+.era-media figcaption { padding: 10px 24px 18px; }
