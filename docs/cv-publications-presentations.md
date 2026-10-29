@@ -8,6 +8,25 @@ Later items from his career notes, not in this CV: CELT Symposium colloquium on 
 learning, National University of Singapore (2013); "Using mobile learning tools for formative
 assessment in task-based classrooms," Qatar University (2017).
 
+## Later items (2010–2015), from the Qatar University faculty resume (uploaded 29 Oct 2026)
+
+Publications and editorial work:
+- LaThrop, B., Maggard, J., & Ball, L. (2014). *The Story Mile.* Zayed University Press: Abu Dhabi. ISBN 978-9948-20-117-5.
+- Editorial board, *ELT World Online* (peer-reviewed journal of the Centre for English Communication, National University of Singapore), since 2009.
+
+Presentations:
+- *Mobile learning and assessment tools: Nearpod and Socrative.* Mobile Learning Workshop at Qatar TESOL, Qatar University, February 21, 2015.
+- *Qatar National Research Fund presentation.* FPDE Professional Development Committee Workshop, Qatar University, January 13, 2015.
+- *Creating mobile content.* Mobile Learning Workshop at the English Language Forum, Qatar University, June 25, 2014.
+- *Mobile language learning.* Colloquium (invited speaker, with Glenn Stockwell, Manu Kapur and Ravi Chandran), National University of Singapore, May 26, 2013.
+- *iPadagogy.* CELC Symposium IT Workshop (with Donald Glass), National University of Singapore, May 26, 2013.
+- *Creative Book Builder.* Faculty Development Workshop, Zayed University, November 20, 2012.
+- *Essential mobile apps: Student publications and storage.* TESOL Arabia Educational Technology SIG presentation, HCT Women's College, Fujairah, UAE, November 10, 2012.
+
+Committees: Qatar University Faculty Support Committee (2014–); ESP Task Force Subcommittee–Humanities (2014–2015); Committee for Evaluating Faculty Conference Applications (2014–); ICT Committee (2014–2015); Committee on Embedded Courses (2014–2015). Zayed University ABP Research Committee (2010–2012); Coherence and Curricular Integration Committee (2012–2013).
+
+Note: this resume lists the Carter Foundation item as "Award Finalist: The Community ESL Project" (2009). The YouTube title says "Winner". Check with Jeffrey before stating either.
+
 ## Grants, awards and scholarships
 
 - Jimmy and Rosalynn Carter Foundation Award (2009), "The Community ESL Project."
