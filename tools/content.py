@@ -65,17 +65,17 @@ dict(
   slug="english-21st-century", art="book", cats=["courses"], hero="/media/doha-skyline.webp",
   tag="Garnet Education · CEFR B1+",
   title="English for the 21st Century",
-  summary="I co-created a B1+ English course. I am the designated faculty editor for the 3rd edition (2026) of its Garnet Education textbook.",
-  hook="A B1+ English course I co-created, and its Garnet Education textbook. Designated faculty editor for the 3rd edition (2026).",
+  summary="I co-created a B1+ English course. I am the designated faculty textbook editor for the 3rd edition (2026) of its Garnet Education textbook.",
+  hook="A B1+ English course I co-created, and its Garnet Education textbook. Designated faculty textbook editor for the 3rd edition (2026).",
   facts=dict(
     context="Learners at CEFR B1+ needed a course and a textbook matched to their level.",
     audience="English learners at CEFR B1+.",
-    role="Co-creator of the B1+ English course. Designated faculty editor for the 3rd edition (2026) of its Garnet Education textbook.",
+    role="Co-creator of the B1+ English course. Designated faculty textbook editor for the 3rd edition (2026) of its Garnet Education textbook.",
     tools=["CEFR", "Course design", "Scope and sequence", "Editing", "Publishing"],
   ),
   sections=[
     ("My role", [
-      '<ul class="points"><li>Co-creator of the B1+ English course syllabus and assessments (2019).</li><li>Piloted the course (2019).</li><li>Faculty reviewer of the Garnet Education textbook, <cite>English for the 21st Century B1+</cite> (1st and 2nd editions).</li><li>Designated faculty editor for the 3rd edition (2026).</li></ul>',
+      '<ul class="points"><li>Co-creator of the B1+ English course syllabus and assessments (2019).</li><li>Piloted the course (2019).</li><li>Faculty reviewer of the Garnet Education textbook, <cite>English for the 21st Century B1+</cite> (1st and 2nd editions).</li><li>Designated faculty textbook editor for the 3rd edition (2026).</li></ul>',
     ]),
     ("The book", [
       '<div class="cover-pair"><figure class="cover"><img src="/media/c21-cover-doha.webp" alt="Cover of English for the 21st Century, Course Book, B1+ Intermediate, Special Edition, with the Doha skyline, published by Garnet Education" loading="lazy" width="453" height="593"></figure><figure class="cover"><img src="/media/c21-cover.webp" alt="Cover of English for the 21st Century, Course Book, B1+ Intermediate, Special Edition, with trees and a garden, published by Garnet Education" loading="lazy" width="682" height="886"></figure><p class="cover-cap"><cite>English for the 21st Century</cite> (C21), Course Book, B1+ Intermediate, Special Edition. Garnet Education.</p></div>',

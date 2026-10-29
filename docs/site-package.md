@@ -76,7 +76,7 @@ Check contrast: body text must meet 4.5:1 on `--bg` and `--card`.
 4. First mention: "Miyazaki International College (now Miyazaki International University)". After that: "Miyazaki" or "MIC".
 5. First mention: "York County Technical College (now York County Community College)". It was renamed in July 2003.
 6. Never hyphenate "community college".
-7. Publisher is **Garnet Education** (Jeffrey's decision, 28 Oct 2026). Wording (updated 29 Oct 2026): "co-created a B1+ English course"; role list: co-creator of the syllabus and assessments (2019), piloted the course (2019), faculty reviewer of the 1st and 2nd editions, "Designated faculty editor for the 3rd edition (2026)."
+7. Publisher is **Garnet Education** (Jeffrey's decision, 28 Oct 2026). Wording (updated 29 Oct 2026): "co-created a B1+ English course"; role list: co-creator of the syllabus and assessments (2019), piloted the course (2019), faculty reviewer of the 1st and 2nd editions, "Designated faculty textbook editor for the 3rd edition (2026)."
 8. Never write "Blackboard Learn" or "Blackboard administrator". "Blackboard Ultra" is fine. Chairing the WebCT/Blackboard Committee at UNT is fine.
 9. The Qatari folktale book is titled **Tales of Qatari Heritage** (Jeffrey's decision, 28 Oct 2026; replaces "Tales of Forgiveness").
 10. The falcon story title is **"He Who Doesn't Know the Falcon Roasts It."**
