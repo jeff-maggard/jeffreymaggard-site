@@ -25,7 +25,7 @@ Presentations:
 
 Committees: Qatar University Faculty Support Committee (2014–); ESP Task Force Subcommittee–Humanities (2014–2015); Committee for Evaluating Faculty Conference Applications (2014–); ICT Committee (2014–2015); Committee on Embedded Courses (2014–2015). Zayed University ABP Research Committee (2010–2012); Coherence and Curricular Integration Committee (2012–2013).
 
-Note: this resume lists the Carter Foundation item as "Award Finalist: The Community ESL Project" (2009). The YouTube title says "Winner". Check with Jeffrey before stating either.
+Note: this resume lists the Carter Foundation item as "Award Finalist: The Community ESL Project" (2009). The YouTube title says "Winner". Jeffrey confirmed (29 Oct 2026): **finalist**, not winner.
 
 ## Grants, awards and scholarships
 
