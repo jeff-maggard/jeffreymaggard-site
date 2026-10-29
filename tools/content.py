@@ -334,11 +334,11 @@ dict(
   ),
   sections=[
     ("The seminar", [
-      "<p>I co-created the seminar with 11 faculty, embassy staff from Cambodia and Japan, plus NGO staff.</p>",
+      "<p>I co-created the seminar with Dr. Like Lokon. The Cambodian Ambassador’s Counsel, embassy staff from Japan, 11 MIC faculty, plus NGO staff gave presentations.</p>",
       "<p>It served more than 200 students and community members.</p>",
     ]),
     ("The trip", [
-      "<p>I led a student trip to Phnom Penh and Siem Reap.</p>",
+      "<p>I led a student trip to Phnom Penh and Siem Reap to work with a UNHCR program (Vulnerable Children’s Assistance Organization).</p>",
     ]),
   ],
 ),
