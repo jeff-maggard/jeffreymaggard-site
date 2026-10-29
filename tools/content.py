@@ -339,7 +339,7 @@ dict(
     ]),
     ("The trip", [
       "<p>I led a student trip to Phnom Penh and Siem Reap to work with a UNHCR program (Vulnerable Children’s Assistance Organization).</p>",
-      "@gallery:peace-trip",
+      '<div class="trip-essay"><div class="te te-street"><img src="/media/peace/street.webp" alt="A busy street in Cambodia with motorbikes and a schoolgirl crossing. Her face is blurred for privacy." loading="lazy" width="1208" height="906"><span class="te-chip">Cambodia</span></div><div class="te te-men"><img src="/media/peace/two-men.webp" alt="Two men standing on a sidewalk in Cambodia, one leaning on a crutch." loading="lazy" width="906" height="1208"></div><div class="te te-park"><img src="/media/peace/park.webp" alt="A sculpture of a pistol on a plinth in a Cambodian park, with a man in a bucket hat in the foreground." loading="lazy" width="1208" height="906"></div><div class="te te-logo"><img src="/media/peace/oda-logo.webp" alt="The Japan Official Development Assistance emblem on an aid vehicle." loading="lazy" width="598" height="646"></div><p class="te-note">Photos from the student trip. Children’s faces are blurred for privacy.</p></div>',
     ]),
   ],
 ),
@@ -412,12 +412,6 @@ GALLERIES = {
   "kamishibai": [
     ("/media/kamishibai/closeup.webp", "A masked figure in a straw cloak, in the falling snow.", "From “The 999 Steps”"),
     ("/media/kamishibai/village.webp", "Two masked figures arrive at a snowy village.", ""),
-  ],
-  "peace-trip": [
-    ("/media/peace/oda-vehicle.webp", "A Japan Official Development Assistance sticker on the door of a vehicle in Cambodia.", ""),
-    ("/media/peace/two-men.webp", "Two men standing on a sidewalk in Cambodia, one leaning on a crutch.", ""),
-    ("/media/peace/park.webp", "A sculpture of a pistol on a plinth in a Cambodian park, with a man in a bucket hat in the foreground.", ""),
-    ("/media/peace/street.webp", "A busy street in Cambodia with motorbikes and a schoolgirl crossing. Her face is blurred for privacy.", ""),
   ],
   "storytelling-day": [
     ("/media/story-mile/wsd-tent.webp", "Club members telling stories to schoolchildren in a traditional tent."),
