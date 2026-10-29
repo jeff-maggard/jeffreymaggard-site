@@ -1,9 +1,16 @@
 """Builds every page in site/ from tools/content.py.  Run:  python3 tools/build.py"""
 import os
 from pathlib import Path
+import hashlib
 
 from art import svg
 from content import CATEGORIES, GALLERIES, PROJECTS, TEACHING, TOOLS, VIDEOS
+
+
+def ver(rel):
+    """Cache-busting stamp for a file under site/, so browsers fetch new CSS/JS after each change."""
+    data = (Path(__file__).resolve().parent.parent / "site" / rel).read_bytes()
+    return hashlib.md5(data).hexdigest()[:8]
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE = ROOT / "site"
@@ -57,8 +64,8 @@ def page(title, body, current="", description=LEAD, scene="rings"):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&amp;display=swap">
-<link rel="stylesheet" href="/css/tokens.css">
-<link rel="stylesheet" href="/css/site.css">
+<link rel="stylesheet" href="/css/tokens.css?v={ver("css/tokens.css")}">
+<link rel="stylesheet" href="/css/site.css?v={ver("css/site.css")}">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -89,7 +96,7 @@ def page(title, body, current="", description=LEAD, scene="rings"):
   <div class="container"><p>© Jeffrey Maggard</p><p><a href="mailto:{EMAIL}">Email me</a> · <a href="{LINKEDIN}" rel="noopener">LinkedIn</a></p></div>
 </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
-<script src="/js/hero3d.js" defer></script>
+<script src="/js/hero3d.js?v={ver("js/hero3d.js")}" defer></script>
 </body>
 </html>
 """
