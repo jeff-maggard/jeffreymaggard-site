@@ -461,9 +461,7 @@ a:hover { color: var(--ink); }
 .cs-section { max-width: 760px; scroll-margin-top: 96px; }
 .cs-section + .cs-section { margin-top: 56px; }
 .cs-section h2 {
-  display: flex;
-  align-items: baseline;
-  gap: 14px;
+  display: block;
   margin: 0 0 18px;
   font-size: clamp(26px, 3vw, 36px);
   font-weight: 800;

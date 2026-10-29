@@ -144,12 +144,12 @@ dict(
   ),
   sections=[
     ("The program", [
-      "<p>Kamishibai is Japanese paper-theater storytelling. My UNESCO project was a cross-cultural dissemination and preservation effort that connected university and K-12 students in Mongolia and Japan.</p>",
-      "<p>More than 40 faculty and students took part at Akita International University and the University of the Humanities (Ulaanbaatar) to teach folklore to hundreds of K-12 students in Mongolia and Japan.</p>",
+      "<p>More than 40 faculty and students took part at Akita International University and the University of the Humanities (Ulaanbaatar) to teach folklore and kamishibai theatre traditions to hundreds of K-12 students in Mongolia and Japan.</p>",
+      "<p>Kamishibai is a Japanese storytelling tradition in which a performer presents a sequence of illustrated paper panels on a small stage, sliding each scene across the frame in rhythm with the narration. The storyteller uses expressive vocal techniques, gestures, timing, and character voices reminiscent of traditional Japanese theatrical performance. In many ways, manga can be seen as its modern analogue: both rely on sequential images, visual pacing, and the interaction between images and narrative to tell a story.</p>",
     ]),
     ("My role", [
       '<ul class="points"><li>Principal Investigator and Steering Committee Chair.</li><li>Directed the documentary team.</li><li>Co-produced and self-published the <em>UNESCO Mongolia Kamishibai Program</em> DVD with Chris Hoskins. It was distributed widely to schools in Japan and Mongolia, and to universities.</li></ul>',
-      "<p>The DVD holds every Japanese and Mongolian kamishibai story as a PowerPoint slideshow. It also has videos on collecting the folktales from oral tellers, drawing kamishibai illustrations, and voice-acting methods.</p>",
+      "<p>The DVD holds the Japanese and Mongolian kamishibai stories as PowerPoint slideshows. It has videos on collecting the folktales from oral tellers. It also has a PPT with instructions on how to create kamishibai illustrations, and how to use traditional voice-acting methods.</p>",
     ]),
     ("New artwork", [
       "<p>New artwork for the program’s Japanese stories.</p>",
@@ -409,8 +409,8 @@ TOOLS = "Blackboard Ultra, Canvas, Moodle, Google Classroom · PowerPoint, Googl
 
 GALLERIES = {
   "kamishibai": [
-    ("/media/kamishibai/closeup.webp", "A masked figure in a straw cloak, in the falling snow."),
-    ("/media/kamishibai/village.webp", "Two masked figures arrive at a snowy village."),
+    ("/media/kamishibai/closeup.webp", "A masked figure in a straw cloak, in the falling snow.", "From “The 999 Steps”"),
+    ("/media/kamishibai/village.webp", "Two masked figures arrive at a snowy village.", ""),
   ],
   "storytelling-day": [
     ("/media/story-mile/wsd-tent.webp", "Club members telling stories to schoolchildren in a traditional tent."),

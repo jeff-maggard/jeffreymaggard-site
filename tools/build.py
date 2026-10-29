@@ -146,8 +146,9 @@ def video(key, heading_level=None):
 
 def gallery(key):
     items = "".join(
-        f'<a class="shot" href="{src}" target="_blank" rel="noopener"><img src="{src}" alt="{alt}" loading="lazy"><span>{alt}</span></a>'
-        for src, alt in GALLERIES[key]
+        f'<a class="shot" href="{src}" target="_blank" rel="noopener"><img src="{src}" alt="{alt}" loading="lazy">'
+        + (f'<span>{cap[0] if cap else alt}</span>' if (cap[0] if cap else alt) else '') + '</a>'
+        for src, alt, *cap in GALLERIES[key]
     )
     return f'<div class="gallery">{items}</div>'
 
@@ -247,7 +248,7 @@ def case_study(p, i):
     sections += p["sections"]
     toc = "".join(f'<li><a href="#s{n}">{t}</a></li>' for n, (t, _) in enumerate(sections, 1))
     secs = "".join(
-        f'\n      <section class="cs-section" id="s{n}"><h2><span class="n">{n:02d}</span>{t}</h2>{"".join(expand(b) for b in blocks)}</section>'
+        f'\n      <section class="cs-section" id="s{n}"><h2>{t}</h2>{"".join(expand(b) for b in blocks)}</section>'
         for n, (t, blocks) in enumerate(sections, 1)
     )
     status = f'<p class="note" style="margin-top:40px">{p["status"]}</p>' if p.get("status") else ""
