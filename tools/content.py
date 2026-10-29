@@ -144,8 +144,8 @@ dict(
   ),
   sections=[
     ("The program", [
-      "<p>Kamishibai is Japanese paper-theater storytelling. This program used it to connect students in Mongolia and Japan.</p>",
-      "<p>More than 40 faculty and students took part at Akita International University and the University of the Humanities (Ulaanbaatar). K-12 students in Mongolia and Japan joined too.</p>",
+      "<p>Kamishibai is Japanese paper-theater storytelling. My UNESCO project was a cross-cultural dissemination and preservation effort that connected university and K-12 students in Mongolia and Japan.</p>",
+      "<p>More than 40 faculty and students took part at Akita International University and the University of the Humanities (Ulaanbaatar) to teach folklore to hundreds of K-12 students in Mongolia and Japan.</p>",
     ]),
     ("My role", [
       '<ul class="points"><li>Principal Investigator and Steering Committee Chair.</li><li>Directed the documentary team.</li></ul>',
