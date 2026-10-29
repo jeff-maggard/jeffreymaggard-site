@@ -26,6 +26,11 @@ VIDEOS = {
         title="Designing learning that works · portfolio video",
         caption="A 96-second introduction to my work. Scripted by me, with motion graphics coded in React with Remotion, an AI voice and an original piano score.",
     ),
+    "community-esl": dict(
+        youtube="BVk-sMserNs", poster="/media/community-esl.jpg", ratio="4 / 3",
+        title="The Community ESL Project · 2009 Jimmy and Rosalynn Carter Foundation Award",
+        caption="An early video I made for The Community ESL Project, winner of the 2009 Jimmy and Rosalynn Carter Foundation Award.",
+    ),
 }
 
 PROJECTS = [

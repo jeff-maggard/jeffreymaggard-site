@@ -133,6 +133,8 @@ def grid(projects):
 
 
 def video_exists(key):
+    if key in VIDEOS and VIDEOS[key].get("youtube"):
+        return True
     return key in VIDEOS and (SITE / VIDEOS[key]["src"].lstrip("/")).exists()
 
 
@@ -140,6 +142,12 @@ def video(key, heading_level=None):
     if not video_exists(key):
         return ""
     v = VIDEOS[key]
+    if v.get("youtube"):
+        return f"""
+      <figure class="video">
+        <button type="button" class="yt-lite" style="aspect-ratio:{v['ratio']}" aria-label="Play video: {v['title']}" onclick="this.outerHTML='<iframe src=&quot;https://www.youtube-nocookie.com/embed/{v['youtube']}?autoplay=1&amp;rel=0&quot; title=&quot;{v['title']}&quot; allow=&quot;autoplay; encrypted-media; picture-in-picture; fullscreen&quot; allowfullscreen style=&quot;aspect-ratio:{v['ratio']};width:100%;border:0;display:block;border-radius:12px&quot;></iframe>'"><img src="{v['poster']}" alt="" loading="lazy"><span class="yt-play" aria-hidden="true"></span></button>
+        <figcaption><b>{v['title']}</b>{v['caption']}</figcaption>
+      </figure>"""
     poster = f' poster="{v["poster"]}"' if (SITE / v["poster"].lstrip("/")).exists() else ""
     tall = " video-tall" if v.get("ratio") == "4 / 5" else ""
     return f"""
