@@ -916,6 +916,6 @@ h2.sub { font-size: 30px; }
 @media (prefers-reduced-motion: reduce) { .seminar-shot img { transition: none; } .seminar-shot:hover img { transform: none; } }
 @media (max-width: 640px) { .seminar-shot { float: none; width: 100%; margin: 4px 0 20px; } }
 
-.te-meeting { grid-area: meeting; aspect-ratio: 4 / 3; }
+.te-meeting { grid-area: meeting; aspect-ratio: 1280 / 804; }
 .te-vcao { grid-area: vcao; background: #fff !important; }
 .trip-essay .te-vcao img { object-fit: contain; padding: 18px; filter: none; }
