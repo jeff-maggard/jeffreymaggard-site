@@ -74,11 +74,8 @@ dict(
     tools=["CEFR", "Course design", "Scope and sequence", "Editing", "Publishing"],
   ),
   sections=[
-    ("The project", [
-      "<p>I co-created a B1+ English course and was the designated editor of its Garnet Education textbook, <cite>English for the 21st Century</cite>.</p>",
-    ]),
     ("My role", [
-      '<ol class="steps"><li>Co-creator of the B1+ English course.</li><li>Designated editor of its Garnet Education textbook.</li></ol>',
+      '<ul class="points"><li>Co-creator of the B1+ English course syllabus and assessments (2019).</li><li>Piloted the course (2019).</li><li>Faculty reviewer of the Garnet Education textbook, <cite>English for the 21st Century B1+</cite> (1st and 2nd editions). Designated faculty curriculum editor for the 3rd edition (2026).</li></ul>',
     ]),
     ("The book", [
       '<div class="cover-pair"><figure class="cover"><img src="/media/c21-cover-doha.webp" alt="Cover of English for the 21st Century, Course Book, B1+ Intermediate, Special Edition, with the Doha skyline, published by Garnet Education" loading="lazy" width="453" height="593"></figure><figure class="cover"><img src="/media/c21-cover.webp" alt="Cover of English for the 21st Century, Course Book, B1+ Intermediate, Special Edition, with trees and a garden, published by Garnet Education" loading="lazy" width="682" height="886"></figure><p class="cover-cap"><cite>English for the 21st Century</cite> (C21), Course Book, B1+ Intermediate, Special Edition. Garnet Education.</p></div>',
