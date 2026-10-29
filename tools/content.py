@@ -38,13 +38,13 @@ dict(
   hook="Two institutions, two disciplines and one shared course website, years before “virtual exchange” had a name.",
   facts=dict(
     context="First-year students in two countries studied the same public issues from two disciplines.",
-    audience="Political science students at Miyazaki International College (now Miyazaki International University). Sociology students at York County Technical College (now York County Community College) in Maine.",
+    audience="Political science students at Miyazaki International College (Japan). Sociology students at York County Technical College (USA).",
     role="Designed the exchange. Wrote the website code and taught students to code. Co-taught with Dr. Kiyohiko Toyama and Dr. Cindy Lahar.",
     tools=["HTML/CSS", "Course website", "Shared textbook", "Video"],
   ),
   sections=[
     ("The challenge", [
-      "<p>Political science students at Miyazaki International College (now Miyazaki International University) and sociology students at York County Technical College (now York County Community College) in Maine needed a reason to work together across an ocean.</p>",
+      "<p>The political science students at Miyazaki International College were not familiar with American culture of the NE, while the sociology students at York County Technical College were largely unfamiliar with Japanese culture at large. These differences created a natural foundation for cross-cultural exchange and gave students from both disciplines a meaningful reason to collaborate, learn from one another, and explore social and political issues from different cultural perspectives.</p>",
     ]),
     ("The approach", [
       "<p>Both classes shared one website and one textbook. Students researched public issues together. They presented their findings in writing, speech and video.</p>",
