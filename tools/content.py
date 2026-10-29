@@ -148,7 +148,8 @@ dict(
       "<p>More than 40 faculty and students took part at Akita International University and the University of the Humanities (Ulaanbaatar) to teach folklore to hundreds of K-12 students in Mongolia and Japan.</p>",
     ]),
     ("My role", [
-      '<ul class="points"><li>Principal Investigator and Steering Committee Chair.</li><li>Directed the documentary team.</li></ul>',
+      '<ul class="points"><li>Principal Investigator and Steering Committee Chair.</li><li>Directed the documentary team.</li><li>Co-produced and self-published the <em>UNESCO Mongolia Kamishibai Program</em> DVD with Chris Hoskins. It was distributed widely to schools in Japan and Mongolia, and to universities.</li></ul>',
+      "<p>The DVD holds every Japanese and Mongolian kamishibai story as a PowerPoint slideshow. It also has videos on collecting the folktales from oral tellers, drawing kamishibai illustrations, and voice-acting methods.</p>",
     ]),
     ("New artwork", [
       "<p>New artwork for the program’s Japanese stories.</p>",
