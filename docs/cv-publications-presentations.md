@@ -54,9 +54,9 @@ Other service: NUS Centre for English Language Communication, *ELT World Online*
 
 Faculty advisor for student clubs: Zayed University Kharareef (Storytelling) Club (2011–2013); AIU Student Service Travel Club (2005–2006); MIC Peace Studies Club (2003–2005); MIC Activists Club (2003–2005); MIC Tennis Club (1999–2005).
 
-Differences to check with Jeffrey before using:
-- Kharareef Club: this CV says 2011–2013; the site says he co-founded it in 2010.
-- Languages: this CV says Spanish C1 and Japanese B1; the site package and 2026 CV say Spanish B1+ and Japanese A2.
+Resolved with Jeffrey (29 Oct 2026):
+- Kharareef Club was co-founded in **2011** (not 2010); the site now says 2011.
+- Languages: the 2026 CV is correct (Spanish B1+, Japanese A2). The older C1/B1 ratings are out of date.
 
 The CV's References section (names and contact details) is deliberately not copied here.
 
