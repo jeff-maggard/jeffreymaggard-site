@@ -6,6 +6,9 @@ import hashlib
 from art import svg
 from content import CATEGORIES, GALLERIES, PROJECTS, TEACHING, TOOLS, VIDEOS
 
+# Projects marked hidden=True are left out of every page and listing.
+PROJECTS = [p for p in PROJECTS if not p.get("hidden")]
+
 
 def ver(rel):
     """Cache-busting stamp for a file under site/, so browsers fetch new CSS/JS after each change."""
