@@ -329,7 +329,7 @@ dict(
   facts=dict(
     context="A 15-week, certificate-bearing seminar at Miyazaki (Fall 2003).",
     audience="More than 200 students and community members.",
-    role="Co-creator. Leader of the student trip to Phnom Penh and Siem Reap.",
+    role="Co-creator. Peace Studies Club faculty advisor and leader of the student trip to Phnom Penh and Siem Reap.",
     tools=["Seminar design", "Partnerships", "Study abroad"],
   ),
   sections=[
