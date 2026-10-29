@@ -239,7 +239,7 @@ def case_study(p, i):
     f = p["facts"]
     tools = "".join(f"<li>{t}</li>" for t in f["tools"])
     hero = (
-        f'<div class="cs-hero"><img src="{p.get("hero", p.get("image"))}" alt="" style="width:100%;height:100%;object-fit:cover"></div>'
+        f'<div class="cs-hero"><img src="{p.get("hero", p.get("image"))}" alt="{p.get("hero_alt", "")}" style="width:100%;height:100%;object-fit:cover"></div>'
         if p.get("hero") or p.get("image") else f'<div class="cs-hero">{svg(p["art"], "Illustration for " + strip(p["title"]))}</div>'
     )
     sections = []

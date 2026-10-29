@@ -321,7 +321,7 @@ dict(
 ),
 # ---------------------------------------------------------------- 12
 dict(
-  slug="peace-studies-seminar", art="seminar", cats=["cultural", "teaching"],
+  slug="peace-studies-seminar", art="seminar", cats=["cultural", "teaching"], hero="/media/peace/bayon.webp", hero_alt="A giant carved stone face at Bayon temple, Angkor.",
   tag="Miyazaki · Fall 2003",
   title="Peace Studies Seminar on Cambodia",
   summary="A 15-week, certificate-bearing seminar for 200+ students and community members, with a study trip to Cambodia.",
@@ -334,6 +334,7 @@ dict(
   ),
   sections=[
     ("The seminar", [
+      '<figure class="seminar-shot"><img src="/media/peace/seminar.webp" alt="Illustration of a lecture hall full of students, with a presenter beside a slide reading Peace Studies Seminar: Cambodia’s Path Forward, Miyazaki International College, 2003." loading="lazy" width="900" height="504"><figcaption>Illustration of the seminar.</figcaption></figure>',
       "<p>I co-created the seminar with Dr. Like Lokon. The Cambodian Ambassador’s Counsellor, embassy staff from Japan, 11 MIC faculty, plus NGO staff gave presentations.</p>",
       "<p>It served more than 200 students and community members.</p>",
     ]),
