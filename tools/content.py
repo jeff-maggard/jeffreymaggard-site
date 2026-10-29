@@ -81,8 +81,7 @@ dict(
       '<ol class="steps"><li>Co-creator of the B1+ English course.</li><li>Designated editor of its Garnet Education textbook.</li></ol>',
     ]),
     ("The book", [
-      '<figure class="photo"><img src="/media/doha-skyline.webp" alt="The Doha skyline at night, reflected in the water" loading="lazy"><figcaption>Doha, Qatar, where the course was created.</figcaption></figure>',
-      '<figure class="cover"><img src="/media/c21-cover.webp" alt="Cover of English for the 21st Century, Course Book, B1+ Intermediate, Special Edition, published by Garnet Education" loading="lazy" width="682" height="886"><figcaption><cite>English for the 21st Century</cite> (C21), Course Book, B1+ Intermediate, Special Edition. Garnet Education.</figcaption></figure>',
+      '<div class="cover-pair"><figure class="cover"><img src="/media/c21-cover-doha.webp" alt="Cover of English for the 21st Century, Course Book, B1+ Intermediate, Special Edition, with the Doha skyline, published by Garnet Education" loading="lazy" width="453" height="593"></figure><figure class="cover"><img src="/media/c21-cover.webp" alt="Cover of English for the 21st Century, Course Book, B1+ Intermediate, Special Edition, with trees and a garden, published by Garnet Education" loading="lazy" width="682" height="886"></figure><p class="cover-cap"><cite>English for the 21st Century</cite> (C21), Course Book, B1+ Intermediate, Special Edition. Garnet Education.</p></div>',
     ]),
   ],
 ),
