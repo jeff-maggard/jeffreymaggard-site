@@ -8,6 +8,58 @@ Later items from his career notes, not in this CV: CELT Symposium colloquium on 
 learning, National University of Singapore (2013); "Using mobile learning tools for formative
 assessment in task-based classrooms," Qatar University (2017).
 
+## Newest items, from the CV "last updated January 2022" (uploaded 29 Oct 2026; its service list runs to 2025)
+
+Publications (2020–2022):
+- Crew, H., & Maggard, J. (2022). FP World Storytelling Day event at Qatar-Finland International School. *FP Jareeda*, May 2022.
+- Maggard, J. (2022, April 17). Foundation programme holds World Storytelling Day event. *The Peninsula*.
+- Maggard, J. (2021). Qatar University's Foundation Program Conference achieves global recognition as regional leader in ELT. *FP Jareeda*, November 2021.
+- Maggard, J. (2020). Online learning: Best practices. *FP Jareeda*, August 2020.
+- Maggard, J. (2020). Effective online teaching approaches. *FP Jareeda*, May 2020.
+- Maggard, J. (2020). The director of the Foundation Program meets with FP students. *FP Jareeda*, May 2020.
+
+Presentations not in the older lists:
+- *Using mobile learning tools for formative assessment in task-based classrooms.* FPDE Professional Development Committee Workshop, Qatar University, June 19, 2017.
+- *Using Socrative for formative assessment.* FPDE Professional Development Committee Workshop, Qatar University, March 29, 2017.
+- *Mobile learning activities and accelerated vocabulary development.* TESOL Arabia International Conference Workshop, Dubai, March 9, 2017.
+- *Accelerate lexical acquisition with mobile learning.* Qatar TEFL Workshop, Qatar University, January 19, 2017.
+- *Writing fiction to develop knowledge economy skills.* Qatar TESOL Workshop, Qatar University, February 16, 2016.
+- *Preventing plagiarism with Turnitin.* IELP Faculty Development Presentation, Portland State University, September 20, 2009.
+- *How to use Turnitin.* Two IELP Faculty Development Workshops, Portland State University, November 2009.
+- *Implications of the internationalization of Japanese universities: A case study in Mongolia.* Akita Interpretation Service, invited speaker, Akita, Japan, October 2, 2005.
+
+Grants and scholarships not in the older lists: James R. Nattinger Endowed Scholarship (1996–1997), Department of Applied Linguistics, Portland State University. (This CV names the 1997 TESOL item a "Professional Development Grant".)
+
+Qatar University committees and service:
+- Quality Assurance Committee, Member (2025–present)
+- PD and Conference Committee, Member; Editor of the *Academic Excellence Newsletter* (2024)
+- Conference Committee, Moderator of the 2022 and 2023 TESOL President Sessions (2023)
+- Student Affairs Extracurricular Activities Committee, Member (2022–2023)
+- FPDE collaboration with the National Museum of Qatar, Managing Editor of the FPDE Tales of Qatari Heritage Project (2021–2023)
+- Testing and Assessment Committee, Member (2021–2022)
+- FPDE press release author, 6th Annual International Conference on ELT (2021)
+- Faculty Support Committee, New Faculty Mentor (2021)
+- Student Affairs: *FP Jareeda* newsletter, Member (2020)
+- Student Support Services Committee, Member (2019–2020)
+- ENGL 250 Pilot Team, Member (2019)
+- Cultural Awareness Team, Chair (February 2015–2019)
+- Program Administration Committee, Member (2016–2017)
+- Integrated Core 2 iPad Pilot Committee (2015–2016)
+- Foundation Program Annual Report, Editor (2015 and 2016)
+- Faculty Support Committee Onboarding Subcommittee, Member (2015–2017)
+- Blackboard Team, IC2 template update (2015–2016)
+- ESP Task Force Subcommittee–Humanities; Committee for Evaluating Faculty Conference Applications; ICT Committee (2013–2014 here; the QU faculty resume says 2014–2015)
+
+Other service: NUS Centre for English Language Communication, *ELT World Online* Editorial Board (2009–2022); PSU *Write On!* Managing Editor (2008–2009); UNT WebCT/Blackboard Committee, Chair (2007–2008); AIU UNESCO Steering Committee, Chair (2005); AIU *Volunteer Connections* magazine, Editor (2005–2006).
+
+Faculty advisor for student clubs: Zayed University Kharareef (Storytelling) Club (2011–2013); AIU Student Service Travel Club (2005–2006); MIC Peace Studies Club (2003–2005); MIC Activists Club (2003–2005); MIC Tennis Club (1999–2005).
+
+Differences to check with Jeffrey before using:
+- Kharareef Club: this CV says 2011–2013; the site says he co-founded it in 2010.
+- Languages: this CV says Spanish C1 and Japanese B1; the site package and 2026 CV say Spanish B1+ and Japanese A2.
+
+The CV's References section (names and contact details) is deliberately not copied here.
+
 ## Later items (2010–2015), from the Qatar University faculty resume (uploaded 29 Oct 2026)
 
 Publications and editorial work:
