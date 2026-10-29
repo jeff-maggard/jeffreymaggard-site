@@ -337,8 +337,12 @@ dict(
       "<p>It served more than 200 students and community members.</p>",
     ]),
     ("The trip", [
-      "<p>I led a student trip to Phnom Penh and Siem Reap to meet with an NGO (Vulnerable Children’s Assistance Organization).</p>",
+      "<p>After the seminar, I led a student trip to Phnom Penh and Siem Reap (February 2004) to meet with an NGO (Vulnerable Children’s Assistance Organization).</p>",
       '<div class="trip-essay"><div class="te te-meeting"><img src="/media/peace/meeting.webp" alt="A community meeting in Cambodia under an open-sided metal roof, with rows of people on plastic chairs facing a table at the front." loading="lazy" width="951" height="804"></div><div class="te te-vcao"><img src="/media/peace/vcao-logo.webp" alt="Logo of the Vulnerable Children Assistance Organization: a family under an umbrella." loading="lazy" width="448" height="448"></div><div class="te te-street"><img src="/media/peace/street.webp" alt="A busy street in Cambodia with motorbikes and a schoolgirl crossing. Her face is blurred for privacy." loading="lazy" width="1208" height="906"><span class="te-chip">Cambodia</span></div><div class="te te-men"><img src="/media/peace/two-men.webp" alt="Two men standing on a sidewalk in Cambodia, one leaning on a crutch." loading="lazy" width="906" height="1208"></div><div class="te te-park"><img src="/media/peace/park.webp" alt="A sculpture of a pistol on a plinth in a Cambodian park, with a man in a bucket hat in the foreground." loading="lazy" width="1208" height="906"></div><div class="te te-logo"><img src="/media/peace/oda-logo.webp" alt="The Japan Official Development Assistance emblem on an aid vehicle." loading="lazy" width="598" height="646"></div><p class="te-note">Photos from the student trip. Children’s faces are blurred for privacy.</p></div>',
+    ]),
+    ("The Peace Studies Club", [
+      "<p>As the Peace Studies Club faculty advisor, I:</p>",
+      '<ul class="points"><li>Coordinated fundraising with MIC’s Drama, Music, Dance and Peace Studies Clubs to support a Khmer NGO, the Vulnerable Children’s Assistance Organization (2003–2004).</li><li>Prepared students to present our paper, “Young Japanese people’s views on civic (dis)engagement,” at the 2nd Peace as a Global Language Conference in Tokyo (2003).</li><li>Co-presented our research results from “Developing social responsibility and IC skills” at the 3rd Peace as a Global Language Conference in Kyoto (2004).</li></ul>',
     ]),
   ],
 ),
@@ -359,6 +363,10 @@ dict(
     ("The course", [
       "<p>I wrote, directed and produced the video series for a blended course taught with sociologist Dr. Hiroyuki Toyota.</p>",
       "<p>Students used the videos in class and online, alongside live lectures and a textbook. I built the course website.</p>",
+    ]),
+    ("The outcome", [
+      "<p>The course led to a conference workshop:</p>",
+      '<p class="note">Content-based sociology courses and CMC. Workshop (with Hiroyuki Toyota) at Thailand TESOL: Culture, Content and Competency, Bangkok, Thailand, January 2003.</p>',
     ]),
   ],
 ),
@@ -392,7 +400,7 @@ TEACHING = dict(
   ],
   presentations=[
     "Colloquium on mobile language learning (invited; with G. Stockwell, M. Kapur and R. Chandran). CELT Symposium, National University of Singapore, 2013.",
-    "Common values? English ability, ethnic attitudes, study motivation and intercultural contact (with H. Toyota). 37th World Congress, International Institute of Sociology, Stockholm, 2005.",
+    "Common values? English ability, ethnic attitudes, study motivation and intercultural contact (with H. Toyota). 37th World Conference of the International Institute of Sociology, Stockholm, Sweden, July 2005.",
     "Scaffolding independence: CBE experiments in autonomous interlanguage development (with N. Naganuma and others). EuroCALL 2005, Kraków.",
     "Creating iMovie documentaries instead of term papers (with E. Lokon). TESOL 2004, Long Beach.",
     "Reorganizing knowledge structures to build fluency and reduce plagiarism. Thailand TESOL, 2004; Royal University of Phnom Penh, 2004.",
