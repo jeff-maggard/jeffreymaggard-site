@@ -55,8 +55,9 @@ dict(
       "<p>I co-taught with Dr. Kiyohiko Toyama (political science) and Dr. Cindy Lahar (sociology, Maine).</p>",
     ]),
     ("The outcome", [
-      "<p>The course led to a peer-reviewed paper:</p>",
+      "<p>The course led to a peer-reviewed paper and a conference paper:</p>",
       '<p class="note">Maggard, J. (2002). Computer-mediated communication and political science: A collaborative learning approach. <cite>Comparative Culture</cite>, 8, 119–129.</p>',
+      '<p class="note">Interlanguage development through collaborative learning with CMC. Paper presented at the Integrating Content and Language: Meeting the Challenge of a Multilingual Higher Education Conference, Universiteit Maastricht, Netherlands, October 2003.</p>',
     ]),
   ],
 ),
@@ -394,6 +395,8 @@ TEACHING = dict(
     "Scaffolding independence: CBE experiments in autonomous interlanguage development (with N. Naganuma and others). EuroCALL 2005, Kraków.",
     "Creating iMovie documentaries instead of term papers (with E. Lokon). TESOL 2004, Long Beach.",
     "Reorganizing knowledge structures to build fluency and reduce plagiarism. Thailand TESOL, 2004; Royal University of Phnom Penh, 2004.",
+    "Interlanguage development through collaborative learning with CMC. Integrating Content and Language: Meeting the Challenge of a Multilingual Higher Education Conference, Universiteit Maastricht, Netherlands, October 2003.",
+    "Using visual models to develop recognition of rhetorical patterns of text. Integrating Content and Language: Meeting the Challenge of a Multilingual Higher Education Conference, Universiteit Maastricht, Netherlands, October 2003.",
     "Using mobile learning tools for formative assessment in task-based classrooms. Qatar University, 2017.",
   ],
   education=[
