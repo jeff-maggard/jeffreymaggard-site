@@ -55,9 +55,10 @@ dict(
       "<p>I co-taught with Dr. Kiyohiko Toyama (political science) and Dr. Cindy Lahar (sociology, Maine).</p>",
     ]),
     ("The outcome", [
-      "<p>The course led to a peer-reviewed paper and a conference paper:</p>",
+      "<p>The course led to a peer-reviewed paper and two conference papers:</p>",
       '<p class="note">Maggard, J. (2002). Computer-mediated communication and political science: A collaborative learning approach. <cite>Comparative Culture</cite>, 8, 119–129.</p>',
       '<p class="note">Interlanguage development through collaborative learning with CMC. Paper presented at the Integrating Content and Language: Meeting the Challenge of a Multilingual Higher Education Conference, Universiteit Maastricht, Netherlands, October 2003.</p>',
+      '<p class="note">Creating iMovie documentaries instead of term papers. Paper presented (with Elizabeth Lokon) at TESOL 2004 Convention, Long Beach, USA, April 2004.</p>',
     ]),
   ],
 ),
