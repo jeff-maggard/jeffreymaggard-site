@@ -885,7 +885,7 @@ h2.sub { font-size: 30px; }
 .era-media figcaption { padding: 10px 24px 18px; }
 
 /* Trip photo essay (Peace Studies Seminar) */
-.trip-essay { position: relative; display: grid; grid-template-columns: 2fr 1fr; grid-template-areas: "street men" "park logo"; gap: 14px; margin: 28px 0 8px; padding: 0 0 0; }
+.trip-essay { position: relative; display: grid; grid-template-columns: 2fr 1fr; grid-template-areas: "meeting vcao" "street men" "park logo"; gap: 14px; margin: 28px 0 8px; padding: 0 0 0; }
 .trip-essay::before { content: ""; position: absolute; inset: 22px -14px 34px 22px; border-radius: 22px; background: var(--grad); opacity: .16; z-index: 0; }
 .trip-essay .te { position: relative; z-index: 1; margin: 0; overflow: hidden; border-radius: 16px; background: #0f1424; box-shadow: 0 10px 30px rgba(20, 30, 70, .14); }
 .trip-essay .te img { display: block; width: 100%; height: 100%; object-fit: cover; filter: saturate(.92) contrast(1.04); transition: transform .6s ease; }
@@ -900,7 +900,8 @@ h2.sub { font-size: 30px; }
 .te-note { grid-column: 1 / -1; position: relative; z-index: 1; margin: 6px 0 0; font-size: 16px; color: var(--text-muted, #5b6170); }
 @media (prefers-reduced-motion: reduce) { .trip-essay .te img { transition: none; } .trip-essay .te:hover img { transform: none; } }
 @media (max-width: 640px) {
-  .trip-essay { grid-template-columns: 1fr 1fr; grid-template-areas: "street street" "men logo" "park park"; }
+  .trip-essay { grid-template-columns: 1fr 1fr; grid-template-areas: "meeting meeting" "street street" "men logo" "vcao vcao" "park park"; }
+  .te-vcao { aspect-ratio: 2 / 1; }
   .te-men, .te-logo { aspect-ratio: 3 / 4; }
   .trip-essay::before { inset: 16px -8px 30px 16px; }
 }
@@ -914,3 +915,7 @@ h2.sub { font-size: 30px; }
 .cs-section:has(.seminar-shot)::after { content: ""; display: block; clear: both; }
 @media (prefers-reduced-motion: reduce) { .seminar-shot img { transition: none; } .seminar-shot:hover img { transform: none; } }
 @media (max-width: 640px) { .seminar-shot { float: none; width: 100%; margin: 4px 0 20px; } }
+
+.te-meeting { grid-area: meeting; aspect-ratio: 4 / 3; }
+.te-vcao { grid-area: vcao; background: #fff !important; }
+.trip-essay .te-vcao img { object-fit: contain; padding: 18px; filter: none; }
