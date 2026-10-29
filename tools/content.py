@@ -339,6 +339,7 @@ dict(
     ]),
     ("The trip", [
       "<p>I led a student trip to Phnom Penh and Siem Reap to work with a UNHCR program (Vulnerable Children’s Assistance Organization).</p>",
+      "@gallery:peace-trip",
     ]),
   ],
 ),
@@ -411,6 +412,12 @@ GALLERIES = {
   "kamishibai": [
     ("/media/kamishibai/closeup.webp", "A masked figure in a straw cloak, in the falling snow.", "From “The 999 Steps”"),
     ("/media/kamishibai/village.webp", "Two masked figures arrive at a snowy village.", ""),
+  ],
+  "peace-trip": [
+    ("/media/peace/oda-vehicle.webp", "A Japan Official Development Assistance sticker on the door of a vehicle in Cambodia.", ""),
+    ("/media/peace/two-men.webp", "Two men standing on a sidewalk in Cambodia, one leaning on a crutch.", ""),
+    ("/media/peace/park.webp", "A sculpture of a pistol on a plinth in a Cambodian park, with a man in a bucket hat in the foreground.", ""),
+    ("/media/peace/street.webp", "A busy street in Cambodia with motorbikes and a schoolgirl crossing. Her face is blurred for privacy.", ""),
   ],
   "storytelling-day": [
     ("/media/story-mile/wsd-tent.webp", "Club members telling stories to schoolchildren in a traditional tent."),
