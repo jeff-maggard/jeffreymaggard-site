@@ -47,7 +47,7 @@ dict(
       "<p>The political science students at Miyazaki International College were not familiar with American culture of the NE, while the sociology students at York County Technical College were largely unfamiliar with Japanese culture at large. These differences created a natural foundation for cross-cultural exchange and gave students from both disciplines a meaningful reason to collaborate, learn from one another, and explore social and political issues from different cultural perspectives.</p>",
     ]),
     ("The approach", [
-      "<p>Both classes shared one website and one textbook. Students researched public issues together. They presented their findings in writing, speech and video.</p>",
+      "<p>Both classes shared one website. Students researched political and social issues together. They chatted weekly (socially), discussed course content in writing, and presented their findings in written, spoken and video formats.</p>",
       "<p>I wrote the website code. I also taught students to code, so they could publish their own work.</p>",
       '<div class="callout"><b>Why it matters today</b>This approach is now called virtual exchange, or COIL (Collaborative Online International Learning).</div>',
     ]),
