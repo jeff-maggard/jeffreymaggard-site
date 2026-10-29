@@ -34,17 +34,17 @@ dict(
   slug="two-country-course", art="exchange", cats=["courses", "teaching"],
   tag="Interdisciplinary · Virtual exchange",
   title="A shared first-year course across two countries",
-  summary="Political science students in Japan and sociology students in Maine shared one website, one textbook and joint projects.",
+  summary="Political science students in Japan and sociology students in Maine shared one website and joint projects.",
   hook="Two institutions, two disciplines and one shared course website, years before “virtual exchange” had a name.",
   facts=dict(
     context="First-year students in two countries studied the same public issues from two disciplines.",
     audience="Political science students at Miyazaki International College (Japan). Sociology students at York County Technical College (USA).",
     role="Designed the exchange. Wrote the website code and taught students to code. Co-taught with Dr. Kiyohiko Toyama and Dr. Cindy Lahar.",
-    tools=["HTML/CSS", "Course website", "Shared textbook", "Video"],
+    tools=["HTML/CSS", "Course website", "Video"],
   ),
   sections=[
     ("The challenge", [
-      "<p>The political science students at Miyazaki International College were not familiar with American culture of the NE, while the sociology students at York County Technical College were largely unfamiliar with Japanese culture at large. These differences created a natural foundation for cross-cultural exchange and gave students from both disciplines a meaningful reason to collaborate, learn from one another, and explore social and political issues from different cultural perspectives.</p>",
+      "<p>The political science students at Miyazaki International College (now Miyazaki International University) were not familiar with American culture of the NE, while the sociology students at York County Technical College (now York County Community College) were largely unfamiliar with Japanese culture at large. These differences created a natural foundation for cross-cultural exchange and gave students from both disciplines a meaningful reason to collaborate, learn from one another, and explore social and political issues from different cultural perspectives.</p>",
     ]),
     ("The approach", [
       "<p>Both classes shared one website. Students researched political and social issues together. They chatted weekly (socially), discussed course content in writing, and presented their findings in written, spoken and video formats.</p>",
