@@ -32,6 +32,8 @@
     var g = new T.Group();
     g.position.x = 1.7;
     g.rotation.x = 0.35;
+    // Phones: a smaller, whole globe instead of a magnified slice.
+    g.userData.narrow = { x: 0, y: 0, scale: 0.68 };
     scene.add(g);
     var R = 2;
     var n = 1600, pos = [], col = [];
@@ -301,11 +303,24 @@
     var target = camera.getWorldDirection(new T.Vector3()).add(camera.position);
 
     function resize() {
-      var w = band.clientWidth, h = band.clientHeight;
+      // Size from the canvas itself (CSS may make it shorter than the band).
+      var w = canvas.clientWidth || band.clientWidth, h = canvas.clientHeight || band.clientHeight;
+      var narrow = w < 760;
       renderer.setSize(w, h, false);
       camera.aspect = w / h;
-      // On narrow screens, center the scene behind the text
-      scene.children.forEach(function (c) { if (c.isGroup && c.userData.baseX === undefined) c.userData.baseX = c.position.x; if (c.isGroup) c.position.x = w < 760 ? 0 : c.userData.baseX; });
+      // On narrow screens, center the scene behind the text. A scene can set
+      // userData.narrow = { x, y, scale } on a group for its own phone layout.
+      scene.children.forEach(function (c) {
+        if (!c.isGroup) return;
+        var d = c.userData;
+        if (d.baseX === undefined) { d.baseX = c.position.x; d.baseY = c.position.y; d.baseScale = c.scale.x; }
+        c.position.x = narrow ? 0 : d.baseX;
+        if (d.narrow) {
+          c.position.x = narrow ? d.narrow.x : d.baseX;
+          c.position.y = narrow ? d.narrow.y : d.baseY;
+          c.scale.setScalar(narrow ? d.narrow.scale : d.baseScale);
+        }
+      });
       camera.updateProjectionMatrix();
     }
     resize();
