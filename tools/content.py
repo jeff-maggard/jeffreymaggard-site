@@ -28,8 +28,8 @@ VIDEOS = {
     ),
     "community-esl": dict(
         youtube="BVk-sMserNs", poster="/media/community-esl.jpg", ratio="4 / 3",
-        title="The Community ESL Project · 2009 Jimmy and Rosalynn Carter Foundation Award finalist",
-        caption="An early video I made for The Community ESL Project, a finalist for the 2009 Jimmy and Rosalynn Carter Foundation Award.",
+        title="Jimmy and Rosalynn Carter Foundation Award (Finalist)",
+        caption="An early video I made for The Community ESL Project at the Department of Applied Linguistics at PSU (2009)",
     ),
 }
 
