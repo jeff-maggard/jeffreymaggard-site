@@ -156,7 +156,7 @@ dict(
       '<figure class="photo photo-half"><img src="/media/kamishibai/dvd-landing.webp" alt="DVD landing screen: Akita International University UNESCO/ACCU Kamishibai Project with Mongolia University of Humanities, with a strip of project photos and menu items for Slideshows, Movies, Presentations, Team Members, Japanese Kamishibai and Mongolian Kamishibai. Children&rsquo;s faces are blurred." loading="lazy" width="760" height="583"><figcaption>DVD landing screen</figcaption></figure>',
     ]),
     ("New artwork", [
-      "<p>New artwork for the program’s Japanese stories.</p>",
+      "<p>New artwork for the program’s Japanese stories. I am currently reproducing the stories as cartoon shorts. The new version will also become graded readers with a reading/writing curriculum.</p>",
       "@gallery:kamishibai",
     ]),
     ("The history of kamishibai", [
