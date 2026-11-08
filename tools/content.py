@@ -153,6 +153,7 @@ dict(
     ("My role", [
       '<ul class="points"><li>Principal Investigator and Steering Committee Chair.</li><li>Directed the documentary team.</li><li>Co-produced and self-published the <em>UNESCO Mongolia Kamishibai Program</em> DVD with Chris Hoskins. It was distributed widely to schools in Japan and Mongolia, and to universities.</li></ul>',
       "<p>The DVD holds the Japanese and Mongolian kamishibai stories as PowerPoint slideshows. It has videos on collecting the folktales from oral tellers. It also has a PPT with instructions on how to create kamishibai illustrations, and how to use traditional voice-acting methods.</p>",
+      '<figure class="photo photo-half"><img src="/media/kamishibai/dvd-landing.webp" alt="DVD landing screen: Akita International University UNESCO/ACCU Kamishibai Project with Mongolia University of Humanities, with a strip of project photos and menu items for Slideshows, Movies, Presentations, Team Members, Japanese Kamishibai and Mongolian Kamishibai. Children&rsquo;s faces are blurred." loading="lazy" width="760" height="583"><figcaption>DVD landing screen</figcaption></figure>',
     ]),
     ("New artwork", [
       "<p>New artwork for the program’s Japanese stories.</p>",
