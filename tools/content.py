@@ -230,7 +230,7 @@ dict(
 ),
 # ---------------------------------------------------------------- 7
 dict(
-  slug="ai-humanities-course", art="course-map", cats=["courses", "ai"],
+  slug="ai-humanities-course", art="course-map", cats=["courses", "ai"], hidden=True,  # hidden 8 Nov 2026 at Jeffrey's request; delete hidden=True to restore
   tag="Course concept · AI literacy",
   title="Technology and Society: AI and the Humanities",
   summary="A complete 15-week first-year course concept: 45 sessions, Bloom’s-sequenced activities and an AI tutor.",
