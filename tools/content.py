@@ -305,7 +305,7 @@ dict(
 ),
 # ---------------------------------------------------------------- 11
 dict(
-  slug="tales-of-qatari-heritage", art="tales", cats=["cultural"], showcase="tales-art", showcase_feature="tales-feature", banner="/media/tales/falcon-strip.webp", banner_alt="Student artwork in five panels: a falconer among tents and camels, a man cradling a bird, a man shading his eyes in the desert, a man running toward a fallen falcon, and a falconer with his falcon.", banner_caption="Student artwork for “He Who Doesn’t Know the Falcon Roasts It.”",
+  slug="tales-of-qatari-heritage", art="tales", cats=["cultural"], showcase_feature="tales-feature", banner="/media/tales/falcon-strip.webp", banner_alt="Student artwork in five panels: a falconer among tents and camels, a man cradling a bird, a man shading his eyes in the desert, a man running toward a fallen falcon, and a falconer with his falcon.", banner_caption="Student artwork for “He Who Doesn’t Know the Falcon Roasts It.”",
   tag="Bilingual book · Qatar University",
   title="Tales of Qatari Heritage",
   summary="A bilingual (Arabic/English) book of Qatari folktales collected by Qatar University students.",
@@ -436,13 +436,9 @@ GALLERIES = {
   "tales-feature": [
     ("/media/tales/fish-pattern.webp", "Student artwork: a patterned black-and-white fish swimming among seaweed and bubbles.", "You Reap What You Sow"),
     ("/media/tales/camel.webp", "Student artwork: a rider on a camel silhouetted against an orange desert sky.", "Strength in Forgiveness"),
-  ],
-  "tales-art": [
     ("/media/tales/um-elheilan.webp", "Student artwork: women sitting on a carpet in a room while a girl stands at the open door.", "Um Elheilan"),
-    ("/media/tales/donkey-tail.webp", "Student artwork: a man in a turban laughs and points beside a grey donkey.", "The Donkey’s Tail"),
     ("/media/tales/guest-night.webp", "Student artwork: a black tent and a small campfire under a full moon in the night desert.", "Entertaining the Guest"),
     ("/media/tales/broken-promise.webp", "Student artwork: a woman combs the long hair of a girl wearing a gold headpiece.", "The Broken Promise"),
-    ("/media/tales/solemn-promise.webp", "Student artwork: a man rides a white horse past a tent in the desert.", "The Solemn Promise"),
   ],
   "storytelling-day": [
     ("/media/story-mile/wsd-tent.webp", "Club members telling stories to schoolchildren in a traditional tent."),

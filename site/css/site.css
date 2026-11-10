@@ -958,7 +958,7 @@ h2.sub { font-size: 30px; }
 @media (max-width: 560px) { .showcase .gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 
 /* Horizontal artwork banner at the top of a case study */
-.cs-banner { margin: 40px 0 32px; }
+.cs-banner { margin: 32px 0 28px; }
 .cs-banner-scroll { overflow-x: auto; border: 1px solid var(--border); border-radius: 14px; background: #fff; }
 .cs-banner img { display: block; width: 100%; height: auto; }
 .cs-banner figcaption { margin-top: 10px; font-size: 16px; color: var(--text-muted); }
@@ -968,4 +968,5 @@ h2.sub { font-size: 30px; }
 .feature-pair .shot img { width: 100%; height: auto; display: block; }
 @media (max-width: 560px) { .feature-pair { flex-direction: column; } }
 .showcase .feature-pair .shot img { aspect-ratio: auto; object-fit: contain; }
-.feature-pair { max-width: 900px; }
+.feature-pair { max-width: none; }
+.facts.facts-top { margin-top: 40px; }

@@ -268,9 +268,11 @@ def home():
 def case_study(p, i):
     f = p["facts"]
     tools = "".join(f"<li>{t}</li>" for t in f["tools"])
-    hero = (
+    banner = (
         f'<figure class="cs-banner"><div class="cs-banner-scroll"><img src="{p["banner"]}" alt="{p.get("banner_alt", "")}" width="3920" height="476"></div><figcaption>{p.get("banner_caption", "")}</figcaption></figure>'
-        if p.get("banner") else
+        if p.get("banner") else ""
+    )
+    hero = "" if p.get("banner") else (
         f'<div class="cs-hero"><img src="{p.get("hero", p.get("image"))}" alt="{p.get("hero_alt", "")}" style="width:100%;height:100%;object-fit:cover"></div>'
         if p.get("hero") or p.get("image") else f'<div class="cs-hero">{svg(p["art"], "Illustration for " + strip(p["title"]))}</div>'
     )
@@ -296,13 +298,14 @@ def case_study(p, i):
       <p class="intro">{p['hook']}</p>
     </section>
     {hero}
-    <dl class="facts">
+    <dl class="facts{' facts-top' if p.get('banner') else ''}">
       <div><dt class="label">The challenge</dt><dd>{f['context']}</dd></div>
       <div><dt class="label">Audience</dt><dd>{f['audience']}</dd></div>
       <div><dt class="label">My role</dt><dd>{f['role']}</dd></div>
       <div><dt class="label">Tools</dt><dd><ul class="chips">{tools}</ul></dd></div>
     </dl>
-    {f'<div class="showcase">{feature_pair(p.get("showcase_feature"))}{gallery(p["showcase"])}<p class="showcase-note">Original artwork by Qatar University Foundation Program students.</p></div>' if p.get("showcase") else ""}
+    {banner}
+    {f'<div class="showcase">{feature_pair(p.get("showcase_feature"))}{gallery(p["showcase"]) if p.get("showcase") else ""}<p class="showcase-note">Original artwork by Qatar University Foundation Program students.</p></div>' if p.get("showcase") or p.get("showcase_feature") else ""}
     <div class="cs-body">
       <nav class="cs-toc" aria-label="On this page"><p class="label">On this page</p><ol>{toc}</ol></nav>
       <div>{secs}
