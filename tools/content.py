@@ -318,7 +318,7 @@ dict(
   ),
   sections=[
     ("The book", [
-      "<p><cite>Tales of Qatari Heritage</cite> is an unpublished bilingual (Arabic/English) book of Qatari folktales collected by Qatar University students. The stories show compassion and forgiveness.</p>",
+      "<p><cite>Tales of Qatari Heritage</cite> is an unpublished bilingual (Arabic/English) book of Qatari folktales collected by Qatar University students. Most stories show compassion and forgiveness.</p>",
     ]),
     ("My role", [
       "<p>I am lead editor, working with six co-editors. As Chair of the Cultural Awareness Team (2016–2023), I led more than 150 students, faculty and staff on the project.</p>",
