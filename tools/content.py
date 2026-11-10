@@ -110,7 +110,7 @@ dict(
       '<figure class="cover"><img src="/media/on-the-move-cover.webp" alt="Cover of On the Move: Reframing Nomadic Pastoralism, published by Qatar Museums and Skira" loading="lazy"><figcaption><cite>On the Move: Reframing Nomadic Pastoralism</cite> (Qatar Museums and Skira, 2022). My story concludes the opening chapter.</figcaption></figure>',
     ]),
     ("From story to screen", [
-      "<p>I am writing and producing an animated series of the story. Episode 1 is in production.</p>",
+      "<p>I am writing and producing an animated series of folktales from Qatar, UAE, Mongolia, and Japan. Below you can see how I approach the design elements and characters.</p>",
       '<ul class="points"><li><b>Look:</b> 2D animation, Pixar-inspired. Clean shapes, expressive faces and cinematic light.</li><li><b>Setting:</b> an authentic Qatari desert and culture.</li><li><b>Rules:</b> a written style guide, cast guide, cultural-accuracy rules and a QA checklist for every scene.</li><li><b>Sound:</b> story subtitles, voice and lip sync, and an original music theme.</li></ul>',
     ]),
     ("Character Guide", [
