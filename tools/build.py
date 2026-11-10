@@ -376,7 +376,7 @@ def studio():
     {extra}
     <section class="section" aria-labelledby="cg-title">
       <div class="section-head"><div><p class="label">Animation</p><h2 id="cg-title">Character Guide</h2></div>
-      <p>Locked faces, outfits and turnarounds for the folktale series.</p></div>
+</div>
       {gallery("cast")}
     </section>
   </div>
