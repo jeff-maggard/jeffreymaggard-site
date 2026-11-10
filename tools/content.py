@@ -463,8 +463,8 @@ GALLERIES = {
     ("/media/kamishibai/village.webp", "Two masked figures arrive at a snowy village.", ""),
   ],
   "tales-feature": [
-    ("/media/tales/fish-pattern.webp", "Student artwork: a patterned black-and-white fish swimming among seaweed and bubbles.", "You Reap What You Sow"),
     ("/media/tales/camel.webp", "Student artwork: a rider on a camel silhouetted against an orange desert sky.", "Strength in Forgiveness"),
+    ("/media/tales/fish-pattern.webp", "Student artwork: a patterned black-and-white fish swimming among seaweed and bubbles.", "You Reap What You Sow"),
     ("/media/tales/broken-promise.webp", "Student artwork: a woman combs the long hair of a girl wearing a gold headpiece.", "The Broken Promise"),
   ],
   "storytelling-day": [

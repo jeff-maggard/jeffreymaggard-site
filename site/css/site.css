@@ -989,3 +989,12 @@ a.shot.cs-banner { margin: 0 0 14px; }
 .showcase .feature-pair { margin-left: auto; margin-right: auto; justify-content: center; }
 .showcase .showcase-note { text-align: center; }
 .showcase .showcase-note { max-width: none; margin-left: auto; margin-right: auto; }
+
+/* Student artwork row: left / centre / right with equal gaps, same height */
+.showcase .feature-pair { max-width: none; justify-content: space-between; align-items: flex-start; }
+.showcase .feature-pair .shot { flex: none !important; }
+.showcase .feature-pair .shot img { height: 300px; width: auto; max-width: none; }
+@media (max-width: 760px) {
+  .showcase .feature-pair { flex-direction: column; align-items: stretch; }
+  .showcase .feature-pair .shot img { height: auto; width: 100%; }
+}
