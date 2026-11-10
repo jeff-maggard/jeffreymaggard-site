@@ -466,7 +466,6 @@ GALLERIES = {
   ],
   "storyboard": [
     ("/media/falcon/storyboard-layout.webp", "Opening scene layout plan."),
-    ("/media/falcon/storyboard-draft.webp", "Opening scene draft."),
     ("/media/falcon/storyboard-proof.webp", "Opening scene final proof."),
   ],
   "promo": [
