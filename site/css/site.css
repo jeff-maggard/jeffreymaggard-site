@@ -956,3 +956,10 @@ h2.sub { font-size: 30px; }
 .showcase-note { margin: 12px 0 0; font-size: 16px; color: var(--text-muted); }
 @media (max-width: 900px) { .showcase .gallery { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 @media (max-width: 560px) { .showcase .gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+/* Horizontal artwork banner at the top of a case study */
+.cs-banner { margin: 40px 0 32px; }
+.cs-banner-scroll { overflow-x: auto; border: 1px solid var(--border); border-radius: 14px; background: #fff; }
+.cs-banner img { display: block; width: 100%; height: auto; }
+.cs-banner figcaption { margin-top: 10px; font-size: 16px; color: var(--text-muted); }
+@media (max-width: 760px) { .cs-banner img { width: auto; height: 200px; max-width: none; } }
