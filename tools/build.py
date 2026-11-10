@@ -171,6 +171,18 @@ def gallery(key):
     return f'<div class="gallery">{items}</div>'
 
 
+def feature_pair(key):
+    """Two artworks side by side at the same height (each flexes by its width/height ratio)."""
+    if not key:
+        return ""
+    from PIL import Image
+    items = []
+    for src, alt, cap in GALLERIES[key]:
+        w, h = Image.open(SITE / src.lstrip("/")).size
+        items.append(f'<a class="shot" style="flex:{w / h:.3f} 1 0" href="{src}" target="_blank" rel="noopener"><img src="{src}" alt="{alt}" loading="lazy" width="{w}" height="{h}"><span>{cap}</span></a>')
+    return f'<div class="feature-pair">{"".join(items)}</div>'
+
+
 def expand(block):
     if block.startswith("@gallery:"):
         return gallery(block.split(":", 1)[1])
@@ -290,7 +302,7 @@ def case_study(p, i):
       <div><dt class="label">My role</dt><dd>{f['role']}</dd></div>
       <div><dt class="label">Tools</dt><dd><ul class="chips">{tools}</ul></dd></div>
     </dl>
-    {f'<div class="showcase">{gallery(p["showcase"])}<p class="showcase-note">Original artwork by Qatar University Foundation Program students.</p></div>' if p.get("showcase") else ""}
+    {f'<div class="showcase">{feature_pair(p.get("showcase_feature"))}{gallery(p["showcase"])}<p class="showcase-note">Original artwork by Qatar University Foundation Program students.</p></div>' if p.get("showcase") else ""}
     <div class="cs-body">
       <nav class="cs-toc" aria-label="On this page"><p class="label">On this page</p><ol>{toc}</ol></nav>
       <div>{secs}

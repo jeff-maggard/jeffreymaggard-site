@@ -963,3 +963,9 @@ h2.sub { font-size: 30px; }
 .cs-banner img { display: block; width: 100%; height: auto; }
 .cs-banner figcaption { margin-top: 10px; font-size: 16px; color: var(--text-muted); }
 @media (max-width: 760px) { .cs-banner img { width: auto; height: 200px; max-width: none; } }
+.feature-pair { display: flex; gap: 14px; margin-bottom: 14px; }
+.feature-pair .shot { min-width: 0; }
+.feature-pair .shot img { width: 100%; height: auto; display: block; }
+@media (max-width: 560px) { .feature-pair { flex-direction: column; } }
+.showcase .feature-pair .shot img { aspect-ratio: auto; object-fit: contain; }
+.feature-pair { max-width: 900px; }
