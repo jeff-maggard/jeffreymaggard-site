@@ -986,3 +986,6 @@ a.shot.cs-banner { margin: 0 0 14px; }
 .showcase .feature-pair { max-width: 70%; }
 @media (max-width: 760px) { .showcase .feature-pair { max-width: none; } }
 @media (min-width: 0px) { .cs-body.cs-body-full { grid-template-columns: 1fr; } }
+.showcase .feature-pair { margin-left: auto; margin-right: auto; justify-content: center; }
+.showcase .showcase-note { text-align: center; }
+.showcase .showcase-note { max-width: none; margin-left: auto; margin-right: auto; }
