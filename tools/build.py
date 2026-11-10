@@ -66,7 +66,7 @@ def page(title, body, current="", description=LEAD, scene="rings"):
 <meta name="theme-color" content="#FFFFFF">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&amp;family=Noto+Naskh+Arabic:wght@400;600&amp;display=swap">
 <link rel="stylesheet" href="/css/tokens.css?v={ver("css/tokens.css")}">
 <link rel="stylesheet" href="/css/site.css?v={ver("css/site.css")}">
 </head>

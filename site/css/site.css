@@ -938,3 +938,13 @@ h2.sub { font-size: 30px; }
 .photo.photo-quarter { max-width: 25%; min-width: 200px; }
 .photo.photo-half img, .photo.photo-quarter img { aspect-ratio: auto; height: auto; }
 @media (max-width: 640px) { .photo.photo-half { max-width: 100%; } .photo.photo-quarter { max-width: 60%; } }
+
+/* Bilingual story list (Tales of Qatari Heritage) */
+.toc-wrap { overflow-x: auto; margin: 8px 0 24px; border: 1px solid var(--border, #E3E8EF); border-radius: 12px; }
+.toc-table { width: 100%; border-collapse: collapse; font-size: 18px; }
+.toc-table caption { text-align: left; padding: 14px 18px 4px; color: var(--text-muted); font-size: 16px; }
+.toc-table th { text-align: left; padding: 12px 18px; font-size: 15px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--text-muted); border-bottom: 1px solid var(--border, #E3E8EF); }
+.toc-table td { padding: 11px 18px; vertical-align: top; border-top: 1px solid var(--border, #E3E8EF); }
+.toc-table tbody tr:first-child td { border-top: 0; }
+.toc-table tbody tr:nth-child(even) { background: rgba(0, 105, 217, .04); }
+.toc-table [lang="ar"] { text-align: right; font-family: "Noto Naskh Arabic", "Geeza Pro", "Arial", serif; font-size: 1.1em; letter-spacing: 0; text-transform: none; }
