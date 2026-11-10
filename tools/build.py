@@ -306,8 +306,8 @@ def case_study(p, i):
     </dl>
     {banner}
     {f'<div class="showcase">{feature_pair(p.get("showcase_feature"))}{gallery(p["showcase"]) if p.get("showcase") else ""}<p class="showcase-note">Original artwork by Qatar University Foundation Program students.</p></div>' if p.get("showcase") or p.get("showcase_feature") else ""}
-    <div class="cs-body">
-      <nav class="cs-toc" aria-label="On this page"><p class="label">On this page</p><ol>{toc}</ol></nav>
+    <div class="cs-body{' cs-body-full' if p.get('no_toc') else ''}">
+      {'' if p.get('no_toc') else f'<nav class="cs-toc" aria-label="On this page"><p class="label">On this page</p><ol>{toc}</ol></nav>'}
       <div>{secs}
         {status}
       </div>

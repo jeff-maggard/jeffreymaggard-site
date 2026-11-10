@@ -305,7 +305,7 @@ dict(
 ),
 # ---------------------------------------------------------------- 11
 dict(
-  slug="tales-of-qatari-heritage", art="tales", cats=["cultural"], showcase_feature="tales-feature", banner="/media/tales/falcon-strip.webp", banner_alt="Student artwork in five panels: a falconer among tents and camels, a man cradling a bird, a man shading his eyes in the desert, a man running toward a fallen falcon, and a falconer with his falcon.", banner_caption="He Who Doesn’t Know the Falcon Roasts It",
+  slug="tales-of-qatari-heritage", art="tales", cats=["cultural"], showcase_feature="tales-feature", no_toc=True, banner="/media/tales/falcon-strip.webp", banner_alt="Student artwork in five panels: a falconer among tents and camels, a man cradling a bird, a man shading his eyes in the desert, a man running toward a fallen falcon, and a falconer with his falcon.", banner_caption="He Who Doesn’t Know the Falcon Roasts It",
   tag="Bilingual book · Qatar University",
   title="Tales of Qatari Heritage",
   summary="A bilingual (Arabic/English) book of Qatari folktales collected by Qatar University students.",
