@@ -269,7 +269,7 @@ def case_study(p, i):
     f = p["facts"]
     tools = "".join(f"<li>{t}</li>" for t in f["tools"])
     banner = (
-        f'<figure class="cs-banner"><div class="cs-banner-scroll"><img src="{p["banner"]}" alt="{p.get("banner_alt", "")}" width="3920" height="476"></div><figcaption>{p.get("banner_caption", "")}</figcaption></figure>'
+        f'<div class="cs-section showcase-head"><h2>Student artwork</h2></div><a class="shot cs-banner" href="{p["banner"]}" target="_blank" rel="noopener"><div class="cs-banner-scroll"><img src="{p["banner"]}" alt="{p.get("banner_alt", "")}" width="3920" height="476"></div><span>{p.get("banner_caption", "")}</span></a>'
         if p.get("banner") else ""
     )
     hero = "" if p.get("banner") else (

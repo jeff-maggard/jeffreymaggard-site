@@ -976,3 +976,12 @@ section.section[aria-label="Videos"] { padding-bottom: 0; }
 section.section[aria-labelledby="sp-title"] { padding-bottom: 56px; }
 section.section[aria-labelledby="ad-title"] { padding-top: 56px; padding-bottom: 56px; }
 section.section[aria-labelledby="cg-title"] { padding-top: 56px; }
+
+/* Student artwork block: heading, banner card, smaller row */
+.showcase-head { margin: 8px 0 18px; }
+.showcase-head h2 { margin: 0; }
+a.shot.cs-banner { margin: 0 0 14px; }
+.cs-banner .cs-banner-scroll { border: 0; border-radius: 0; }
+.shot.cs-banner img { aspect-ratio: auto; background: #fff; }
+.showcase .feature-pair { max-width: 70%; }
+@media (max-width: 760px) { .showcase .feature-pair { max-width: none; } }
