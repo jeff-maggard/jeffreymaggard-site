@@ -948,3 +948,11 @@ h2.sub { font-size: 30px; }
 .toc-table tbody tr:first-child td { border-top: 0; }
 .toc-table tbody tr:nth-child(even) { background: rgba(0, 105, 217, .04); }
 .toc-table [lang="ar"] { text-align: right; font-family: "Noto Naskh Arabic", "Geeza Pro", "Arial", serif; font-size: 1.1em; letter-spacing: 0; text-transform: none; }
+
+/* Student artwork row under the facts strip */
+.showcase { margin: 8px 0 56px; }
+.showcase .gallery { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 14px; }
+.showcase .shot img { aspect-ratio: 3 / 4; object-fit: cover; width: 100%; height: auto; }
+.showcase-note { margin: 12px 0 0; font-size: 16px; color: var(--text-muted); }
+@media (max-width: 900px) { .showcase .gallery { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .showcase .gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); } }

@@ -288,6 +288,7 @@ def case_study(p, i):
       <div><dt class="label">My role</dt><dd>{f['role']}</dd></div>
       <div><dt class="label">Tools</dt><dd><ul class="chips">{tools}</ul></dd></div>
     </dl>
+    {f'<div class="showcase">{gallery(p["showcase"])}<p class="showcase-note">Original artwork by Qatar University Foundation Program students.</p></div>' if p.get("showcase") else ""}
     <div class="cs-body">
       <nav class="cs-toc" aria-label="On this page"><p class="label">On this page</p><ol>{toc}</ol></nav>
       <div>{secs}

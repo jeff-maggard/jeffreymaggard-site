@@ -305,7 +305,7 @@ dict(
 ),
 # ---------------------------------------------------------------- 11
 dict(
-  slug="tales-of-qatari-heritage", art="tales", cats=["cultural"],
+  slug="tales-of-qatari-heritage", art="tales", cats=["cultural"], showcase="tales-art",
   tag="Bilingual book · Qatar University",
   title="Tales of Qatari Heritage",
   summary="A bilingual (Arabic/English) book of Qatari folktales collected by Qatar University students.",
@@ -432,6 +432,13 @@ GALLERIES = {
   "kamishibai": [
     ("/media/kamishibai/closeup.webp", "A masked figure in a straw cloak, in the falling snow.", "From “The 999 Steps”"),
     ("/media/kamishibai/village.webp", "Two masked figures arrive at a snowy village.", ""),
+  ],
+  "tales-art": [
+    ("/media/tales/fish-pier.webp", "Student artwork: a boy sits at the end of a wooden pier at sunset while a large fish leaps from the sea.", "You Reap What You Sow"),
+    ("/media/tales/fish-pattern.webp", "Student artwork: a patterned black-and-white fish swimming among seaweed and bubbles.", "You Reap What You Sow"),
+    ("/media/tales/fish-greed.webp", "Student artwork: a brightly colored fish surrounded by small figures and sea plants.", "The Price of Greed"),
+    ("/media/tales/warrior.webp", "Student artwork: a rider on horseback silhouetted against a yellow desert sunset.", "The Song of the Warrior"),
+    ("/media/tales/camel.webp", "Student artwork: a rider on a camel silhouetted against an orange desert sky.", "Strength in Forgiveness"),
   ],
   "storytelling-day": [
     ("/media/story-mile/wsd-tent.webp", "Club members telling stories to schoolchildren in a traditional tent."),
