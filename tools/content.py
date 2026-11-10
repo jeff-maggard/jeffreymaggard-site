@@ -67,6 +67,35 @@ dict(
     ]),
   ],
 ),
+# ---------------------------------------------------------------- 1b
+dict(
+  slug="moderation-hub", art="moderation", cats=["courses"],
+  tag="Instructional design · Microsoft 365 and Rise 360",
+  title="The Moderation Hub",
+  summary="A low-code system that automates writing moderation (grading calibration) for four English foundation courses.",
+  hook="An automated writing-moderation system built with Microsoft 365 and Rise 360.",
+  facts=dict(
+    context="Writing moderation (grading calibration) for four English foundation courses at a university foundation program.",
+    audience="Lecturers and course leads in a university foundation program.",
+    role="Instructional designer and developer: needs analysis, design, build, testing and documentation.",
+    tools=["Microsoft Forms", "Excel", "Power Automate", "SharePoint", "Office Scripts", "Articulate Rise 360", "SCORM 2004", "Blackboard Ultra"],
+  ),
+  sections=[
+    ("The system", [
+      "<p>The Moderation Hub is a low-code system that automates writing moderation (grading calibration) for four English foundation courses.</p>",
+    ]),
+    ("How it works", [
+      '<ul class="points"><li>Lecturers score three anonymized writing samples in one Microsoft Form.</li><li>When the session closes, every lecturer receives one email. It shows their mark for each rubric criterion directly above the key mark (the course lead&rsquo;s or the cohort median), with differences over 0.5 highlighted.</li><li>Lecturers outside the range automatically mark an extra sample and get instant feedback.</li><li>If a lecturer remains outside the range, the course lead is alerted and receives a visual summary.</li><li>A Control Room lets each course lead run the whole system.</li><li>A one-button semester reset archives the results, with a name-free summary for accreditation.</li></ul>',
+    ]),
+    ("Orientation", [
+      "<p>A 5-minute Rise 360 orientation, published as SCORM 2004 and deployed in Blackboard Ultra.</p>",
+    ]),
+    ("Status", [
+      "<p>Built and tested with invented data. A pilot is planned for Spring 2027.</p>",
+      "<p>Built with AI assistance, with documented human review.</p>",
+    ]),
+  ],
+),
 # ---------------------------------------------------------------- 2
 dict(
   slug="english-21st-century", art="book", cats=["courses"], hero="/media/doha-skyline.webp",

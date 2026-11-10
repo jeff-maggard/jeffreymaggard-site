@@ -70,6 +70,13 @@ MOTIFS = {
     + "".join(f'<rect x="{190+i*60}" y="410" width="40" height="26" rx="4" {s(W,3)}/>' for i in range(8))),
 "motion": lambda: (
     "".join(f'<rect x="{100+i*20}" y="{250-h}" width="10" height="{2*h}" rx="5" fill="{O if 12<=i<=19 else W}"/>' for i,h in enumerate([20,40,70,50,90,120,80,60,100,140,110,70,150,170,130,160,120,90,140,110,70,90,50,80,40,60,30,20,40,25,15]))),
+"moderation": lambda: (
+    # rubric rows: each lecturer mark (white dot) sits above the key mark (gradient diamond); one gap over 0.5 is ringed
+    "".join(f'<path d="M180 {130+r*75}h440" {s(W,3)} stroke-dasharray="2 12"/>' for r in range(4))
+    + "".join(f'<circle cx="{x}" cy="{130+r*75}" r="13" fill="{W}"/>' for r,x in enumerate([300,470,360,540]))
+    + "".join(f'<rect x="{x-11}" y="{130+r*75-11}" width="22" height="22" transform="rotate(45 {x} {130+r*75})" fill="{O}"/>' for r,x in enumerate([320,450,380,410]))
+    + f'<circle cx="475" cy="355" r="62" {s(O,5)}/>'
+    + "".join(f'<rect x="{180+i*150}" y="425" width="120" height="16" rx="8" {s(W,3)}/>' for i in range(3))),
 "analyzer": lambda: (
     "".join(f'<rect x="{180+c*110}" y="{110+r*70}" width="90" height="50" rx="8" fill="{O if (r,c) in [(0,3),(1,2),(2,3),(3,1)] else "none"}" stroke="{O if (r,c) in [(0,3),(1,2),(2,3),(3,1)] else W}" stroke-width="4"/>' for r in range(4) for c in range(4))),
 }
