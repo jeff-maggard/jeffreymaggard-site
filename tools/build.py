@@ -335,11 +335,6 @@ def instructional_design():
 def studio():
     vids = "".join(video(k) for k in VIDEOS if video_exists(k))
     extra = f"""
-    <section class="section" aria-labelledby="cg-title">
-      <div class="section-head"><div><p class="label">Animation</p><h2 id="cg-title">Character Guide</h2></div>
-      <p>Locked faces, outfits and turnarounds for the folktale series.</p></div>
-      {gallery("cast")}
-    </section>
     <section class="section" aria-labelledby="ad-title">
       <div class="section-head"><div><p class="label">Animation</p><h2 id="ad-title">Art direction and storyboards</h2></div></div>
       {gallery("art")}
@@ -359,6 +354,11 @@ def studio():
     <section class="section" aria-labelledby="sp-title">
       <div class="section-head"><div><p class="label">Case studies</p><h2 id="sp-title">Studio projects</h2></div></div>
       {grid([p for p in PROJECTS if "video" in p["cats"]])}
+    </section>
+    <section class="section" aria-labelledby="cg-title">
+      <div class="section-head"><div><p class="label">Animation</p><h2 id="cg-title">Character Guide</h2></div>
+      <p>Locked faces, outfits and turnarounds for the folktale series.</p></div>
+      {gallery("cast")}
     </section>
   </div>
 """
