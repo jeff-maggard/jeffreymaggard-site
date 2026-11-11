@@ -273,6 +273,8 @@ def case_study(p, i):
         if p.get("banner") else ""
     )
     hero = "" if p.get("banner") else (
+        '<div class="cs-logos">' + "".join(f'<img src="{src}" alt="{alt}" loading="lazy">' for src, alt in p["logos"]) + '</div>'
+        if p.get("logos") else
         f'<div class="cs-hero"><img src="{p.get("hero", p.get("image"))}" alt="{p.get("hero_alt", "")}" style="width:100%;height:100%;object-fit:cover"></div>'
         if p.get("hero") or p.get("image") else f'<div class="cs-hero">{svg(p["art"], "Illustration for " + strip(p["title"]))}</div>'
     )
@@ -300,7 +302,10 @@ def case_study(p, i):
       <p class="intro">{p['hook']}</p>
     </section>
     {hero}
-    <!-- facts box removed 11 Nov 2026 (Orkun feedback): pages say what Jeffrey did -->
+    <dl class="facts facts-2{' facts-top' if p.get('banner') else ''}">
+      <div><dt class="label">My role</dt><dd>{f['role']}</dd></div>
+      <div><dt class="label">Tools</dt><dd><ul class="chips">{tools}</ul></dd></div>
+    </dl>
     {banner}
     {f'<div class="showcase">{feature_pair(p.get("showcase_feature"))}{gallery(p["showcase"]) if p.get("showcase") else ""}<p class="showcase-note">Original artwork by Qatar University Foundation Program students.</p></div>' if p.get("showcase") or p.get("showcase_feature") else ""}
     <div class="cs-body{' cs-body-full' if p.get('no_toc') else ''}">

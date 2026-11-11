@@ -999,3 +999,11 @@ a.shot.cs-banner { margin: 0 0 14px; }
   .showcase .feature-pair .shot img { height: auto; width: 100%; }
 }
 .showcase-head { margin-top: 48px; }
+
+/* Two-column facts box (My role, Tools) */
+.facts.facts-2 { grid-template-columns: 2fr 1fr; }
+@media (max-width: 760px) { .facts.facts-2 { grid-template-columns: 1fr; } }
+/* Partner logos in place of the hero art */
+.cs-logos { display: flex; align-items: center; justify-content: center; gap: clamp(32px, 8vw, 120px); flex-wrap: wrap; padding: 40px 24px; margin: 40px 0 0; border: 1px solid var(--border); border-radius: var(--radius-media); background: #fff; }
+.cs-logos img { height: 150px; width: auto; max-width: 100%; }
+.cs-logos + .facts { margin-top: 24px; }
