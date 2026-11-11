@@ -422,13 +422,14 @@ dict(
     ]),
     ("The Peace Studies Club", [
       "<p>In March 2003, in Miyazaki, I founded the Peace Studies Club with a student who hoped to become an NGO worker. My colleague Dr. Kiyohiko Toyama encouraged me to start it before he left for Tokyo, newly elected to the House of Councillors, the upper house of Japan’s parliament.</p>",
-      "<p>Before the Peace Studies Seminar on Cambodia, the club ran a campaign for VCAO. The Drama, Music and Dance Clubs joined it:</p>",
-      '<ol class="journey"><li><h3>Saturday markets</h3><p>I bought krama for $10 each, and the club sold them for $20 (¥2,000). Each sale doubled the money, which bought more krama. This went on for three years.</p></li><li><h3>A concert</h3><p>An evening concert in a city hall, with ticket sales.</p></li><li><h3>A comedy show and play</h3><p>An evening show at the university, with donations.</p></li><li><h3>Donation boxes</h3><p>Boxes in convenience and grocery stores across town.</p></li></ol>',
+      "<p>From the start of the school year, the club ran a campaign for VCAO, and the Drama, Music and Dance Clubs joined it. All the money raised went to VCAO:</p>",
+      '<ol class="journey"><li><h3>Saturday markets</h3><p>I bought krama for $10 each, and the club sold them for $20 (¥2,000). Each sale doubled the money, which bought more krama. This went on for three years.</p></li><li><h3>A concert</h3><p>An evening concert in a concert hall, with ticket sales.</p></li><li><h3>A comedy show and play</h3><p>An evening show at the university, where we collected donations.</p></li><li><h3>Donation boxes</h3><p>Boxes in convenience and grocery stores across town.</p></li></ol>',
     ]),
     ("The seminar", [
       '<figure class="seminar-shot"><img src="/media/peace/seminar.webp" alt="Illustration of a lecture hall full of students, with a presenter beside a slide reading Peace Studies Seminar: Cambodia’s Path Forward, Miyazaki International College, 2003." loading="lazy" width="900" height="504"><figcaption>Illustration of the seminar.</figcaption></figure>',
-      "<p>I co-created the Peace Studies Seminar on Cambodia with Dr. Elizabeth Lokon. The Cambodian Ambassador’s Counsellor, embassy staff from Japan, 11 MIU faculty, plus NGO staff gave presentations.</p>",
-      "<p>The seminar ran for a full semester of 15 weekly sessions. More than 200 students and community members from Miyazaki attended. Everyone who attended nine or more sessions received a certificate.</p>",
+      "<p>By June 2003, the campaign had built strong interest across Miyazaki. To build on it, I co-created the Peace Studies Seminar on Cambodia with Dr. Elizabeth Lokon. It ran for 15 weeks in the fall semester of 2003.</p>",
+      "<p>The Cambodian Ambassador’s Counsellor, embassy staff from Japan, 11 MIU faculty, plus NGO staff gave presentations.</p>",
+      "<p>More than 200 students and community members from Miyazaki attended. Everyone who attended nine or more sessions received a certificate.</p>",
       "<p>Dr. Toyama spoke at the closing session and thanked the students and the community for their work.</p>",
     ]),
     ("The trip", [
