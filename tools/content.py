@@ -412,7 +412,7 @@ dict(
   ),
   sections=[
     ("The purpose", [
-      '<p>To teach peace studies and conflict resolution through action, by supporting an anti-trafficking NGO in Cambodia.</p>',
+      '<p>To teach peace studies and conflict resolution to Miyazaki International University students and members of the local Miyazaki community.</p>',
     ]),
     ("How it started", [
       '<p>In 2003 I met my friend Nara in Siem Reap. He worked with the Vulnerable Children’s Assistance Organization (VCAO), a UNHCR program that stops children from being sold into slavery and prostitution.</p>',
