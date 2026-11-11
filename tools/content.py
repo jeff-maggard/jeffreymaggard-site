@@ -142,7 +142,7 @@ dict(
     context="A Qatari folktale about compassion and forgiveness, ready for a new audience.",
     audience="Museum visitors, families and young viewers on YouTube.",
     role="Managing Editor of Tales of Qatari Heritage, the book this story comes from. As Chair of the Cultural Awareness Team, I led the students and faculty who collected it and built the partnership with the National Museum of Qatar. Writer, art director and producer of the animated series.",
-    tools=["Claude", "Claude Code", "Higgsfield", "AI voice", "Lip sync", "ffmpeg", "Excel", "Google Drive", "GitHub"],
+    tools=["Claude", "Claude Code", "Higgsfield", "ElevenLabs", "Lip sync", "ffmpeg", "Excel", "Google Drive", "GitHub"],
   ),
   sections=[
     ("The purpose", [
