@@ -411,16 +411,16 @@ dict(
     tools=[],
   ),
   sections=[
-    ("The purpose", [
+    ("The purpose of the seminar", [
       '<p>To teach peace studies and conflict resolution to Miyazaki International University students and members of the local Miyazaki community.</p>',
     ]),
-    ("How it started", [
+    ("Lead-up to the seminar", [
       '<p>In January 2003, I visited Siem Reap and met a man who worked with the Vulnerable Children’s Assistance Organization (VCAO), a UNHCR program that stops children from being sold into slavery and prostitution. This is what VCAO does:</p>',
       '<div class="story-cards"><article><p class="label">The problem VCAO fights</p><h3>A $100 promise</h3><p>Traffickers offer poor families about $100 and a factory job for a child, then sell the child. The parents are tricked; they don’t realize what is happening.</p></article><article><p class="label">VCAO prevention</p><h3>Village workshops</h3><p>In two-day conflict resolution workshops, children and adults learn to identify their problems and plan solutions. Most problems trace back to poverty. The solution: move children at risk to a safe house, out of the traffickers’ reach.</p></article><article><p class="label">VCAO protection</p><h3>A guarded safe house</h3><p>Eleven girls lived in his family home under armed guard, safe from traffickers.</p></article></div>',
       "<p><b>Life at the safe house in Siem Reap.</b> Krama are long silk scarves; VCAO sells them to fund its work.</p>",
       '<figure class="safe-house"><a href="/media/peace/safe-house.webp" target="_blank" rel="noopener"><img src="/media/peace/safe-house.webp" alt="Collage of eleven panels from the VCAO safe house: an armed guard in front of a wooden house on stilts; girls weaving at wooden looms; two finished silk krama scarves; a girl tending vegetables; a girl feeding a pig beside chickens; girls reading at a table; three girls wearing checked krama. All faces are blurred." loading="lazy" width="1536" height="1024"></a><figcaption><b>Top row:</b> the guard and the house on stilts, girls weaving at the looms, and finished silk krama. <b>Bottom row:</b> more weaving, growing vegetables, raising pigs and chickens, a reading lesson, and girls wearing their krama. Illustration; faces blurred for privacy.</figcaption></figure>',
     ]),
-    ("The Peace Studies Club", [
+    ("The role of the Peace Studies Club", [
       "<p>In March 2003, in Miyazaki, I founded the Peace Studies Club with a student who hoped to become an NGO worker. My colleague Dr. Kiyohiko Toyama encouraged me to start it before he left for Tokyo, newly elected to the House of Councillors, the upper house of Japan’s parliament.</p>",
       "<p>From the start of the school year, the club ran a campaign for VCAO, and the Drama, Music and Dance Clubs joined it. All the money raised went to VCAO:</p>",
       '<ol class="journey"><li><h3>Saturday markets</h3><p>I bought krama for $10 each, and the club sold them for $20 (¥2,000). Each sale doubled the money, which bought more krama. This went on for three years.</p></li><li><h3>A concert</h3><p>An evening concert in a concert hall, with ticket sales.</p></li><li><h3>A comedy show and play</h3><p>An evening show at the university, where we collected donations.</p></li><li><h3>Donation boxes</h3><p>Boxes in convenience and grocery stores across town.</p></li></ol>',
@@ -432,7 +432,7 @@ dict(
       "<p>More than 200 students and community members from Miyazaki attended. Everyone who attended 12 or more sessions received a certificate.</p>",
       "<p>Dr. Toyama spoke at the closing session and thanked the students and the community for their work.</p>",
     ]),
-    ("The trip", [
+    ("The Peace Studies Club trip", [
       "<p>In February 2004, I led the students to Cambodia. At VCAO headquarters in Phnom Penh, the Peace Studies Club gave VCAO more than $3,000, everything it had raised. The staff showed us their projects. In Siem Reap, the students met the girls they had been supporting, and we bought more krama to sell at home.</p>",
       '<div class="trip-essay"><div class="te te-meeting"><span class="te-chip">VCAO community workshop</span><img src="/media/peace/meeting.webp" alt="A community meeting in Cambodia under an open-sided metal roof, with rows of people on plastic chairs facing a table at the front." loading="lazy" width="951" height="804"></div><div class="te te-vcao"><img src="/media/peace/vcao-logo.webp" alt="Logo of the Vulnerable Children Assistance Organization: a family under an umbrella." loading="lazy" width="448" height="448"></div><div class="te te-street"><img src="/media/peace/street.webp" alt="A busy street in Cambodia with motorbikes and a schoolgirl crossing. Her face is blurred for privacy." loading="lazy" width="1208" height="906"><span class="te-chip">Cambodia</span></div><div class="te te-men"><img src="/media/peace/two-men.webp" alt="Two men standing on a sidewalk in Cambodia, one leaning on a crutch." loading="lazy" width="906" height="1208"></div><div class="te te-park"><img src="/media/peace/park.webp" alt="A sculpture of a pistol on a plinth in a Cambodian park, with a man in a bucket hat in the foreground." loading="lazy" width="1208" height="906"></div><div class="te te-logo"><img src="/media/peace/oda-logo.webp" alt="The Japan Official Development Assistance emblem on an aid vehicle." loading="lazy" width="598" height="646"></div><p class="te-note">Photos from the student trip. Children’s faces are blurred for privacy.</p></div>',
     ]),
