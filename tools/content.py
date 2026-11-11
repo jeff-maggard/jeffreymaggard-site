@@ -24,7 +24,7 @@ VIDEOS = {
     "portfolio-video": dict(
         src="/media/portfolio-video.mp4", poster="/media/portfolio-video.jpg", ratio="16 / 9",
         title="Designing learning that works · portfolio video",
-        caption="A 96-second introduction to my work. Scripted by me, with motion graphics coded in React with Remotion, an AI voice and an original piano score.",
+        caption="An introduction to my work, scripted by me, with motion graphics coded in React and Remotion, an AI voice, and an original piano score.",
     ),
     "community-esl": dict(
         youtube="BVk-sMserNs", poster="/media/community-esl.jpg", ratio="16 / 9",
