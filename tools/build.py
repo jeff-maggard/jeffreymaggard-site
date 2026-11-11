@@ -201,8 +201,8 @@ def home():
     skills = "".join(f"<span>{k}</span>" for k in SKILLS)
     # Same order and names as the top menu.
     btn = lambda k, v: f'<li><button type="button" aria-pressed="false" data-filter="{k}">{v}</button></li>'
-    filters = (btn("courses", "Instructional Design") + btn("teaching", "Teaching")
-               + '<li><a class="filter-link" href="/studio/">Studio</a></li>'
+    filters = ('<li><button type="button" aria-pressed="true" data-filter="all">All</button></li>'
+               + btn("courses", "Instructional Design") + btn("teaching", "Teaching") + btn("video", "Studio")
                + btn("cultural", "Cultural Projects") + btn("ai", "AI Projects"))
     body = f"""
   <div class="hero3d-band home-band" data-scene="globe">{CANVAS}
@@ -240,7 +240,7 @@ def home():
   buttons.forEach(function (b) {{
     b.addEventListener('click', function () {{
       var f = b.getAttribute('aria-pressed') === 'true' ? 'all' : b.getAttribute('data-filter');
-      buttons.forEach(function (x) {{ x.setAttribute('aria-pressed', (x === b && f !== 'all') ? 'true' : 'false'); }});
+      buttons.forEach(function (x) {{ x.setAttribute('aria-pressed', x.getAttribute('data-filter') === f ? 'true' : 'false'); }});
       cards.forEach(function (c) {{
         c.hidden = f !== 'all' && c.getAttribute('data-cats').split(' ').indexOf(f) < 0;
       }});

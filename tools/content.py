@@ -273,7 +273,7 @@ dict(
     context="Products and courses need short videos that explain them fast.",
     audience="Faculty, hiring teams and LinkedIn viewers.",
     role="Scriptwriter, designer and producer.",
-    tools=["React", "Remotion", "AI voice", "ffmpeg", "Claude Code"],
+    tools=["React", "Remotion", "ElevenLabs (AI voice)", "ffmpeg", "Claude Code"],
   ),
   sections=[
     ("The purpose", [
