@@ -36,7 +36,7 @@ VIDEOS = {
 PROJECTS = [
 # ---------------------------------------------------------------- 1
 dict(
-  slug="two-country-course", art="exchange", cats=["courses", "teaching"], logos=[("/media/two-country/miyazaki.webp", "Miyazaki International University logo"), ("/media/two-country/york-county.webp", "York County Community College seal")],
+  slug="two-country-course", art="exchange-flags", cats=["courses", "teaching"], logos=[("/media/two-country/miyazaki.webp", "Miyazaki International University logo"), ("/media/two-country/york-county.webp", "York County Community College seal")],
   tag="Interdisciplinary · Virtual exchange",
   title="A shared first-year course across two countries",
   summary="I designed a shared first-year course that linked political science students in Japan with sociology students in Maine, and I wrote its website.",

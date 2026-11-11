@@ -199,7 +199,7 @@ SKILLS = ["Course design", "Curriculum", "Assessment", "Textbooks", "Animation",
 
 def home():
     skills = "".join(f"<span>{k}</span>" for k in SKILLS)
-    filters = '<li><button type="button" aria-pressed="true" data-filter="all">All work</button></li>' + "".join(
+    filters = '<li><a class="filter-link" href="/studio/">Studio</a></li>' + "".join(
         f'<li><button type="button" aria-pressed="false" data-filter="{k}">{v}</button></li>' for k, v in CATEGORIES
     )
     body = f"""
@@ -228,7 +228,6 @@ def home():
     <h2 id="reel-title" class="reel-title">Media production</h2>
     <div class="reel-solo">
       {video("portfolio-video")}
-      <a class="button button-primary" href="/studio/">See the studio <span aria-hidden="true">→</span></a>
     </div>
   </section>
   </div>
@@ -247,8 +246,8 @@ def home():
   var cards = document.querySelectorAll('.grid .card');
   buttons.forEach(function (b) {{
     b.addEventListener('click', function () {{
-      var f = b.getAttribute('data-filter');
-      buttons.forEach(function (x) {{ x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); }});
+      var f = b.getAttribute('aria-pressed') === 'true' ? 'all' : b.getAttribute('data-filter');
+      buttons.forEach(function (x) {{ x.setAttribute('aria-pressed', (x === b && f !== 'all') ? 'true' : 'false'); }});
       cards.forEach(function (c) {{
         c.hidden = f !== 'all' && c.getAttribute('data-cats').split(' ').indexOf(f) < 0;
       }});

@@ -1031,3 +1031,10 @@ a.shot.cs-banner { margin: 0 0 14px; }
 @media (min-width: 900px) { .studio-row { grid-template-columns: 1fr 1fr 0.42fr; } }
 /* Falcon page: animation reel inside From story to screen */
 .story-reel { display: block; position: relative; aspect-ratio: 16 / 9; border-radius: var(--radius-media); overflow: hidden; margin: 8px 0 24px; }
+
+/* Home: tighter gap between Media production and Selected work; Studio link styled as a filter */
+#studio-reel { padding-bottom: 40px; }
+#studio-reel + * , .alt + #work { padding-top: 40px; }
+#work { padding-top: 40px; }
+.filters .filter-link { display: inline-flex; align-items: center; min-height: 44px; padding: 0 18px; border: 1px solid var(--ink); border-radius: 6px; background: var(--ink); color: #FFFFFF; font-weight: 500; text-decoration: none; }
+.filters .filter-link:hover { background: var(--brand); border-color: var(--brand); }
