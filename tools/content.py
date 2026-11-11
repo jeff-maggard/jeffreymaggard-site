@@ -422,15 +422,15 @@ dict(
       "<p>Krama are long silk scarves; VCAO sells them to fund its work. The girls had just begun weaving them when I visited. I bought the first ones at $10 each and took them to Japan.</p>",
     ]),
     ("The Peace Studies Club", [
-      '<p>Back in Miyazaki, I founded the Peace Studies Club with a student who hoped to become an NGO worker. The Drama, Music and Dance Clubs joined its campaign for VCAO:</p>',
+      "<p>In March 2003, in Miyazaki, I founded the Peace Studies Club with a student who hoped to become an NGO worker. My colleague Dr. Kiyohiko Toyama encouraged me to start it before he left for Tokyo, newly elected to the House of Councillors, the upper house of Japan’s parliament.</p>",
+      "<p>Before the Peace Studies Seminar on Cambodia, the club ran a campaign for VCAO. The Drama, Music and Dance Clubs joined it:</p>",
       '<ol class="journey"><li><h3>Saturday markets</h3><p>Krama sold for ¥2,000 ($20), double their cost. The profit bought every scarf the girls had, then 30 more.</p></li><li><h3>A concert</h3><p>An evening concert in a city hall, with ticket sales.</p></li><li><h3>A comedy show and play</h3><p>An evening show at the university, with donations.</p></li><li><h3>Donation boxes</h3><p>Boxes in convenience and grocery stores across town.</p></li></ol>',
-      '<p>The club also presented its research:</p>',
-      '<ul class="points"><li>Prepared students to present our paper, “Young Japanese people’s views on civic (dis)engagement,” at the 2nd Peace as a Global Language Conference in Tokyo (2003).</li><li>Co-presented our research results from “Developing social responsibility and IC skills” at the 3rd Peace as a Global Language Conference in Kyoto (2004).</li></ul>',
     ]),
     ("The seminar", [
       '<figure class="seminar-shot"><img src="/media/peace/seminar.webp" alt="Illustration of a lecture hall full of students, with a presenter beside a slide reading Peace Studies Seminar: Cambodia’s Path Forward, Miyazaki International College, 2003." loading="lazy" width="900" height="504"><figcaption>Illustration of the seminar.</figcaption></figure>',
-      "<p>I co-created the Peace Studies Seminar on Cambodia with Dr. Elizabeth Lokon. The Cambodian Ambassador’s Counsellor, embassy staff from Japan, 11 MIC faculty, plus NGO staff gave presentations.</p>",
+      "<p>I co-created the Peace Studies Seminar on Cambodia with Dr. Elizabeth Lokon. The Cambodian Ambassador’s Counsellor, embassy staff from Japan, 11 MIU faculty, plus NGO staff gave presentations.</p>",
       "<p>The seminar ran for a full semester of 15 weekly sessions. More than 200 students and community members from Miyazaki attended. Everyone who attended nine or more sessions received a certificate.</p>",
+      "<p>Dr. Toyama spoke at the closing session and thanked the students and the community for their work.</p>",
     ]),
     ("The trip", [
       "<p>In February 2004, I led the students to Cambodia. At VCAO headquarters in Phnom Penh, we handed the head of VCAO everything we had raised, and the staff showed us their projects. In Siem Reap, the students met the girls they had been supporting, and we bought more krama to sell at home.</p>",
@@ -438,7 +438,9 @@ dict(
     ]),
     ("The impact", [
       '<div class="impact"><div><b>$3,000</b><span>raised (about ¥300,000)</span></div><div><b>3 years</b><span>of support for the girls</span></div><div><b>4</b><span>student clubs working together</span></div></div>',
-      '<ul class="points"><li>The girls stayed in the safe house and kept building their weaving skills.</li><li>The student who co-founded the club became an NGO worker. She now works in Bangladesh, India and Laos.</li><li>The seminar still runs at the university today, led by a political science professor.</li></ul>',
+      '<ul class="points"><li>The girls stayed in the safe house and kept building their weaving skills.</li><li>The seminar still runs at the university today, led by a political science professor.</li></ul>',
+      '<h3 class="sub-h">Student outcomes</h3>',
+      '<ul class="points"><li>The student who co-founded the club became an NGO worker. She now works in Bangladesh, India and Laos.</li><li>Club members met Dr. Toyama, by then a sitting member of the upper house, at the National Diet Building in Tokyo. He praised their work and encouraged them to keep going.</li><li>Students presented our paper, “Young Japanese people’s views on civic (dis)engagement,” at the 2nd Peace as a Global Language Conference in Tokyo (2003).</li><li>Students co-presented our research results from “Developing social responsibility and IC skills” at the 3rd Peace as a Global Language Conference in Kyoto (2004).</li></ul>',
     ]),
   ],
 ),
