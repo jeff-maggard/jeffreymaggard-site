@@ -1059,3 +1059,10 @@ a.shot.cs-banner { margin: 0 0 14px; }
 .cs-shots .shot img { aspect-ratio: 4 / 3; object-fit: cover; object-position: top center; background: #fff; }
 .cs-shots + .facts { margin-top: 24px; }
 @media (max-width: 760px) { .cs-shots { grid-template-columns: 1fr; } }
+/* English for the 21st Century: book covers in the hero spot, Doha photo full width */
+.cs-book { margin: 40px 0 0; display: flex; justify-content: center; }
+.cs-book .cover-pair { max-width: 560px; margin: 0; }
+.cs-book .cover-cap { text-align: center; }
+.cs-book + .facts { margin-top: 32px; }
+.wide-photo { margin: 24px 0 0; }
+.wide-photo img { aspect-ratio: 21 / 9; }

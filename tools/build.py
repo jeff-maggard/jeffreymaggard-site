@@ -271,7 +271,7 @@ def case_study(p, i):
         f'<div class="cs-section showcase-head"><h2>Student artwork</h2></div><a class="shot cs-banner" href="{p["banner"]}" target="_blank" rel="noopener"><div class="cs-banner-scroll"><img src="{p["banner"]}" alt="{p.get("banner_alt", "")}" width="3920" height="476"></div><span>{p.get("banner_caption", "")}</span></a>'
         if p.get("banner") else ""
     )
-    hero = "" if p.get("banner") else (
+    hero = f'<div class="cs-book">{p["hero_block"]}</div>' if p.get("hero_block") else "" if p.get("banner") else (
         '<div class="cs-logos">' + "".join(f'<img src="{src}" alt="{alt}" loading="lazy">' for src, alt in p["logos"]) + '</div>'
         if p.get("logos") else
         '<div class="cs-shots">' + "".join(f'<a class="shot" href="{src}" target="_blank" rel="noopener"><img src="{src}" alt="{alt}"><span>{cap}</span></a>' for src, alt, cap in p["shots"]) + '</div>'
