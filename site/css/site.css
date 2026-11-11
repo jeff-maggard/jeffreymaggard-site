@@ -1018,3 +1018,16 @@ a.shot.cs-banner { margin: 0 0 14px; }
 .skill-col .label { margin: 0 0 10px; }
 .skill-col ul { margin: 0; padding-left: 18px; }
 .cs-section .skill-col li { font-size: 17px; line-height: 1.5; margin: 0 0 6px; }
+
+/* Home: media production, video only */
+.reel-title { margin: 0 0 24px; }
+.reel-solo { display: flex; flex-direction: column; align-items: flex-start; gap: 20px; max-width: 860px; }
+.reel-solo figure.video { width: 100%; margin: 0; }
+/* Studio: featured portfolio video, then a tight row of three */
+.studio-feature { margin-bottom: 28px; }
+.studio-feature figure.video { margin: 0; }
+.studio-row { display: grid; grid-template-columns: 1fr; gap: 24px; align-items: start; }
+.studio-row figure.video { margin: 0; max-width: none; }
+@media (min-width: 900px) { .studio-row { grid-template-columns: 1fr 1fr 0.42fr; } }
+/* Falcon page: animation reel inside From story to screen */
+.story-reel { display: block; position: relative; aspect-ratio: 16 / 9; border-radius: var(--radius-media); overflow: hidden; margin: 8px 0 24px; }

@@ -27,9 +27,9 @@ VIDEOS = {
         caption="A 96-second introduction to my work. Scripted by me, with motion graphics coded in React with Remotion, an AI voice and an original piano score.",
     ),
     "community-esl": dict(
-        youtube="BVk-sMserNs", poster="/media/community-esl.jpg", ratio="4 / 3",
+        youtube="BVk-sMserNs", poster="/media/community-esl.jpg", ratio="16 / 9",
         title="Jimmy and Rosalynn Carter Foundation Award (Finalist)",
-        caption="An early video I made for The Community ESL Project at the Department of Applied Linguistics at PSU (2009)",
+        caption="I made every part of this video for The Community ESL Project (Portland State University, 2009). I met the students in the project, wrote the scripts and interviewed people, then directed, filmed, recorded the sound, edited and rendered it.",
     ),
 }
 
@@ -143,6 +143,7 @@ dict(
       '<figure class="cover"><img src="/media/on-the-move-cover.webp" alt="Cover of On the Move: Reframing Nomadic Pastoralism, published by Qatar Museums and Skira" loading="lazy"><figcaption><cite>On the Move: Reframing Nomadic Pastoralism</cite> (Qatar Museums and Skira, 2022). My story concludes the opening chapter.</figcaption></figure>',
     ]),
     ("From story to screen", [
+      '<div class="reel-3d hero3d-band story-reel" data-scene="animation">@@CANVAS@@<span class="reel-3d-label"><span class="label">Animation</span><b>From story to screen</b><span>Storyboards, a locked Character Guide and AI animation for my folktale series.</span></span></div>',
       "<p>I am writing and producing an animated series of folktales from Qatar, UAE, Mongolia, and Japan. Below you can see how I approach the design elements and characters.</p>",
       '<ul class="points"><li><b>Look:</b> 2D animation, Pixar-inspired. Clean shapes, expressive faces and cinematic light.</li><li><b>Setting:</b> an authentic Qatari desert and culture.</li><li><b>Rules:</b> a written style guide, cast guide, cultural-accuracy rules and a QA checklist for every scene.</li><li><b>Sound:</b> story subtitles, voice and lip sync, and an original music theme.</li></ul>',
     ]),

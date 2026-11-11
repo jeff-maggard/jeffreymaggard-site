@@ -184,6 +184,7 @@ def feature_pair(key):
 
 
 def expand(block):
+    block = block.replace("@@CANVAS@@", CANVAS)
     if block.startswith("@gallery:"):
         return gallery(block.split(":", 1)[1])
     if block.startswith("@video:"):
@@ -224,16 +225,10 @@ def home():
 
   <div class="alt">
   <section class="section container" id="studio-reel" aria-labelledby="reel-title">
-    <div class="section-head">
-      <div><p class="label">Studio</p><h2 id="reel-title">Media production</h2></div>
-      <p>Animation, launch videos and course websites I design and produce.</p>
-    </div>
-    <div class="reel">
-      <a class="reel-3d hero3d-band" data-scene="animation" href="/studio/" aria-label="Cartoon production: see the studio">{CANVAS}<span class="reel-3d-label"><span class="label">Animation</span><b>From story to screen</b><span>Storyboards, a locked Character Guide and AI animation for my Qatari folktale series.</span></span></a>
-      <div class="reel-side">
-        {video("portfolio-video")}
-        <a class="button button-primary" href="/studio/">See the studio <span aria-hidden="true">→</span></a>
-      </div>
+    <h2 id="reel-title" class="reel-title">Media production</h2>
+    <div class="reel-solo">
+      {video("portfolio-video")}
+      <a class="button button-primary" href="/studio/">See the studio <span aria-hidden="true">→</span></a>
     </div>
   </section>
   </div>
@@ -357,15 +352,7 @@ def instructional_design():
 
 
 def studio():
-    vids = "".join(video(k) for k in VIDEOS if video_exists(k))
-
-    extra = f"""
-    <section class="section" aria-labelledby="ad-title">
-      <div class="section-head"><div><p class="label">Animation</p><h2 id="ad-title">Art direction and storyboards</h2></div></div>
-      {gallery("art")}
-      <div style="height:20px"></div>
-      {gallery("storyboard")}
-    </section>"""
+    side = "".join(video(k) for k in ("falcon-opening", "community-esl", "pure-intellect-tutor") if video_exists(k))
     body = f"""
   <div class="container">
     <section class="page-head">
@@ -374,16 +361,13 @@ def studio():
       <span class="bar" aria-hidden="true"></span>
       <p class="intro">I write, design and produce my own learning media: animated stories, launch videos and course websites.</p>
     </section>
-    <section class="section" aria-label="Videos"><div class="videos">{vids}</div></section>
+    <section class="section" aria-label="Videos">
+      <div class="studio-feature">{video("portfolio-video")}</div>
+      <div class="studio-row">{side}</div>
+    </section>
     <section class="section" aria-labelledby="sp-title">
       <div class="section-head"><div><p class="label">Case studies</p><h2 id="sp-title">Studio projects</h2></div></div>
       {grid([p for p in PROJECTS if "video" in p["cats"]])}
-    </section>
-    {extra}
-    <section class="section" aria-labelledby="cg-title">
-      <div class="section-head"><div><p class="label">Animation</p><h2 id="cg-title">Character Guide</h2></div>
-</div>
-      {gallery("cast")}
     </section>
   </div>
 """
