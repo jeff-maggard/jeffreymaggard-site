@@ -403,7 +403,7 @@ dict(
   title="Peace Studies Seminar on Cambodia",
   summary="I co-created a 15-week seminar on Cambodia for more than 200 students and community members, and led a student study trip to Phnom Penh and Siem Reap.",
   hook="I founded the Peace Studies Club, led its campaign for an anti-trafficking NGO in Cambodia, co-created a seminar on Cambodia, and took the students to meet the NGO and the people they supported.",
-  skills={"core": ["Seminar design with embassies, NGOs and 11 faculty", "Partnering with an anti-trafficking NGO in Cambodia", "Leading a student study trip abroad", "Fundraising with four student clubs", "Service learning and community engagement"]},
+  skills={"core": ["Organizing a seminar end to end: embassies, NGOs, 11 faculty and visiting speakers", "Partnering with an anti-trafficking NGO in Cambodia", "Leading a student study trip abroad", "Fundraising with four student clubs", "Service learning and community engagement"]},
   facts=dict(
     context="A 15-week, certificate-bearing seminar at Miyazaki (Fall 2003).",
     audience="More than 200 students and community members.",
