@@ -277,11 +277,11 @@ def case_study(p, i):
         sections.append(("Watch", [video(p["video"])]))
     sections += p["sections"]
     if p.get("skills"):
-        groups = [("People skills", "people"), ("Digital tools", "digital"), ("AI tools", "ai")]
+        groups = [("Core competencies", "core"), ("AI competencies", "ai"), ("Digital tools", "digital")]
         cols = "".join(
             f'<div class="skill-col"><p class="label">{name}</p><ul>' + "".join(f"<li>{x}</li>" for x in p["skills"][k]) + "</ul></div>"
             for name, k in groups if p["skills"].get(k))
-        sections.append(("Skills and tools", [f'<div class="skills-grid">{cols}</div>']))
+        sections.append(("Competencies and tools", [f'<div class="skills-grid">{cols}</div>']))
     toc = "".join(f'<li><a href="#s{n}">{t}</a></li>' for n, (t, _) in enumerate(sections, 1))
     secs = "".join(
         f'\n      <section class="cs-section" id="s{n}"><h2>{t}</h2>{"".join(expand(b) for b in blocks)}</section>'
@@ -348,9 +348,11 @@ def instructional_design():
     <section class="section" aria-labelledby="comp-title">
       <div class="section-head"><div><p class="label">What I bring</p><h2 id="comp-title">Competencies</h2></div></div>
       <div class="skills-grid comp-grid">
-        <div class="skill-col"><p class="label">Core competencies</p><ul><li>TESOL instruction across proficiency levels</li><li>Curriculum development and delivery</li><li>Assessment design and learning outcomes</li><li>Grading, norming and exam development</li><li>Formative assessment and feedback</li><li>Active and applied learning</li><li>Accreditation and program improvement</li><li>Faculty mentoring and stakeholder engagement</li><li>Learning management systems and educational technology, including Blackboard Ultra and Canvas</li><li>eLearning authoring: Articulate Rise 360 and SCORM 2004</li><li>Low-code automation: Power Automate, SharePoint and Office Scripts</li><li>Motion graphics coded in React with Remotion</li></ul></div>
-        <div class="skill-col"><p class="label">AI competencies</p><ul><li>AI literacy and critical thinking in education</li><li>AI-assisted video and animation production</li><li>Prompt engineering and scene direction</li><li>Character design and visual consistency</li><li>AI voice casting and direction</li><li>Art direction and visual style guides</li><li>Story adaptation and scriptwriting</li><li>Cultural authenticity in AI-generated media</li><li>AI production planning and budgeting</li><li>Quality assurance and workflow design</li><li>AI agent direction and orchestration</li><li>AI-assisted web development with Claude Code</li></ul></div>
-      </div>
+        <div class="skill-col"><p class="label">Teaching and curriculum</p><ul><li>TESOL instruction across proficiency levels</li><li>Curriculum development and delivery</li><li>Active and applied learning</li><li>Faculty mentoring and stakeholder engagement</li></ul></div>
+        <div class="skill-col"><p class="label">Assessment and quality</p><ul><li>Assessment design and learning outcomes</li><li>Grading, norming and exam development</li><li>Formative assessment and feedback</li><li>Accreditation and program improvement</li></ul></div>
+        <div class="skill-col"><p class="label">Learning technology</p><ul><li>Learning management systems: Blackboard Ultra and Canvas</li><li>Articulate Rise 360 and SCORM 2004</li><li>Low-code automation: Power Automate, SharePoint and Office Scripts</li><li>Motion graphics coded in React with Remotion</li></ul></div>
+        <div class="skill-col"><p class="label">AI in education</p><ul><li>Claude (Claude Max): Claude and Claude Code for research, design, coding and production</li><li>AI literacy and critical thinking in education</li><li>AI-assisted web development with Claude Code</li><li>AI agent direction and orchestration</li><li>Quality assurance and workflow design</li></ul></div>
+        <div class="skill-col"><p class="label">AI media production</p><ul><li>AI-assisted video and animation production</li><li>Story adaptation and scriptwriting</li><li>Prompt engineering and scene direction</li><li>Character design and visual consistency</li><li>AI voice casting and direction</li><li>Art direction and visual style guides</li><li>Cultural authenticity in AI-generated media</li><li>AI production planning and budgeting</li></ul></div>
     </section>"""
     body = category_page("courses", "Instructional Design &amp; Curriculum",
                          "I design courses, assessments and systems, from scope and sequence to rubrics, so students learn by doing real work.", extra)

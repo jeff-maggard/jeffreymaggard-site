@@ -41,7 +41,7 @@ dict(
   title="A shared first-year course across two countries",
   summary="I designed a shared first-year course that linked political science students in Japan with sociology students in Maine, and I wrote its website.",
   hook="I designed a shared first-year course that linked political science students in Japan with sociology students in Maine, and I wrote its website.",
-  skills={"people": ["Intercultural course design across two countries", "Co-teaching with partners in two institutions", "Teaching students to publish their own work"], "digital": ["HTML and CSS: a hand-coded shared course website", "Online chat and written discussion", "Student video presentations"]},
+  skills={"core": ["Curriculum development and delivery", "Intercultural course design across two countries", "Active and applied learning", "Co-teaching across two institutions"], "digital": ["HTML and CSS: a hand-coded shared course website", "Online chat and written discussion", "Student video presentations"]},
   facts=dict(
     context="First-year students in two countries studied the same public issues from two disciplines.",
     audience="Political science students at Miyazaki International College (Japan). Sociology students at York County Technical College (USA).",
@@ -75,7 +75,7 @@ dict(
   title="The Moderation Hub",
   summary="I designed and built a Microsoft 365 system that automates writing moderation (grading calibration) for exams, with a Rise 360 orientation for lecturers.",
   hook="I designed and built a Microsoft 365 system that automates writing moderation (grading calibration) for exams, with a Rise 360 orientation for lecturers.",
-  skills={"people": ["Needs analysis with course leads", "Assessment and rubric calibration", "Clear documentation and lecturer training"], "digital": ["Microsoft Forms", "Excel and Office Scripts", "Power Automate", "SharePoint", "Articulate Rise 360, published as SCORM 2004", "Blackboard Ultra"], "ai": ["Claude: AI-assisted design and build, with documented human review"]},
+  skills={"core": ["Grading, norming and exam development", "Assessment design and learning outcomes", "Formative assessment and feedback", "Accreditation and program improvement", "Faculty mentoring and stakeholder engagement"], "ai": ["Quality assurance and workflow design", "AI-assisted design and build with Claude, with documented human review"], "digital": ["Microsoft Forms", "Excel and Office Scripts", "Power Automate", "SharePoint", "Articulate Rise 360 and SCORM 2004", "Blackboard Ultra"]},
   facts=dict(
     context="Writing moderation (grading calibration) for four English foundation courses at a university foundation program.",
     audience="Lecturers and course leads in a university foundation program.",
@@ -105,7 +105,7 @@ dict(
   title="English for the 21st Century",
   summary="I co-created a B1+ English course. I am the designated faculty textbook editor for the 3rd edition (2026) of its Garnet Education textbook.",
   hook="A B1+ English course I co-created, and its Garnet Education textbook. Designated faculty textbook editor for the 3rd edition (2026).",
-  skills={"people": ["Syllabus and assessment design at CEFR B1+", "Piloting a new course", "Faculty review and textbook editing with a publisher"]},
+  skills={"core": ["Curriculum development and delivery", "Assessment design and learning outcomes", "TESOL instruction at CEFR B1+", "Piloting a new course", "Textbook review and editing with a publisher"]},
   facts=dict(
     context="Learners at CEFR B1+ needed a course and a textbook matched to their level.",
     audience="English learners at CEFR B1+.",
@@ -129,16 +129,16 @@ dict(
   summary="A Qatari folktale I collected and edited. It appears in a National Museum of Qatar exhibition book. Now I am animating it.",
   hook="From a folktale told in Qatar, to a museum exhibition, to my own animated series.",
   video="falcon-opening",
-  skills={"people": ["Collecting and adapting oral folktales", "Art direction and character design", "Producing an animated series"], "digital": ["ffmpeg: editing, timing and sound mixing", "Google Drive and GitHub: production bible and version records"], "ai": ["Claude: scripts, shot lists and image prompts", "Higgsfield: AI image and video generation", "AI lip sync and voice tools"]},
+  skills={"core": ["Collecting oral folktales with students", "Bilingual editing", "Partnership with the National Museum of Qatar", "Faculty mentoring and stakeholder engagement"], "ai": ["AI-assisted video and animation production", "Story adaptation and scriptwriting", "Prompt engineering and scene direction", "Character design and visual consistency", "AI voice casting and direction", "Art direction and visual style guides", "Cultural authenticity in AI-generated media", "AI production planning and budgeting", "Quality assurance and workflow design", "AI agent direction and orchestration"], "digital": ["Claude Max: Claude and Claude Code", "Higgsfield: AI image and video", "AI voice and lip sync tools", "ffmpeg: editing, timing and sound mixing", "Excel: credit and budget tracker", "Google Drive and GitHub: production bible and asset library"]},
   facts=dict(
     context="A Qatari folktale about compassion and forgiveness, ready for a new audience.",
     audience="Museum visitors, families and young viewers on YouTube.",
-    role="Collector and editor of the story. Writer and producer of the animated film. Chair of the Cultural Awareness Team.",
-    tools=["Story adaptation", "Storyboards", "Character Guide", "AI image and video", "Lip sync", "ffmpeg", "Sound design"],
+    role="Managing Editor of Tales of Qatari Heritage, the book this story comes from. As Chair of the Cultural Awareness Team, I led the students and faculty who collected it and built the partnership with the National Museum of Qatar. Writer, art director and producer of the animated series.",
+    tools=["Claude", "Claude Code", "Higgsfield", "AI voice", "Lip sync", "ffmpeg", "Excel", "Google Drive", "GitHub"],
   ),
   sections=[
     ("The story", [
-      "<p>“He Who Doesn’t Know the Falcon Roasts It” is a Qatari folktale I collected and edited.</p>",
+      "<p>“He Who Doesn’t Know the Falcon Roasts It” is one of the 19 stories in <cite>Tales of Qatari Heritage</cite>, the bilingual book I lead as Managing Editor. Qatar University students on my Cultural Awareness Team collected it from their elders, and I edited it.</p>",
       "<p>It concludes Lila Abu-Lughod’s opening chapter in <cite>On the Move: Reframing Nomadic Pastoralism</cite> (Doha: Qatar Museums; [Milan]: Skira, 2022). The National Museum of Qatar featured the story in its On the Move exhibition (Fall 2022 – Winter 2023). The book acknowledges me and my Qatar University faculty editorial team.</p>",
       '<figure class="cover"><img src="/media/on-the-move-cover.webp" alt="Cover of On the Move: Reframing Nomadic Pastoralism, published by Qatar Museums and Skira" loading="lazy"><figcaption><cite>On the Move: Reframing Nomadic Pastoralism</cite> (Qatar Museums and Skira, 2022). My story concludes the opening chapter.</figcaption></figure>',
     ]),
@@ -173,7 +173,7 @@ dict(
   title="UNESCO Mongolia Kamishibai Program",
   summary="As Principal Investigator, I wrote the UNESCO grant, built the team, led students to Mongolia to train university students and faculty in kamishibai, and co-produced the program DVD.",
   hook="As Principal Investigator, I wrote the UNESCO grant, built the team, led students to Mongolia to train university students and faculty in kamishibai, and co-produced the program DVD.",
-  skills={"people": ["Grant writing and serving as Principal Investigator", "Building and leading an international team", "Budget and program management", "Research design and data collection", "Training teachers and students in kamishibai"], "digital": ["Documentary video production", "PowerPoint slideshows of every story", "Self-published DVD"]},
+  skills={"core": ["Grant writing and serving as Principal Investigator", "Building and leading an international team", "Budget and program management", "Research design and data collection", "Faculty mentoring and teacher training"], "digital": ["Documentary video production", "PowerPoint slideshows of every story", "Self-published DVD"]},
   facts=dict(
     context="A two-year, $30,000 UNESCO/Japan Funds-in-Trust grant at Akita International University (2005–2006).",
     audience="University students and faculty, plus K-12 students in Mongolia and Japan.",
@@ -215,7 +215,7 @@ dict(
   summary="I design and build AI education tools: a tutor that asks students questions instead of giving answers, and a grading assistant for professors.",
   hook="I design and build AI education tools: a tutor that asks students questions instead of giving answers, and a grading assistant for professors.",
   video="pure-intellect-tutor",
-  skills={"people": ["Socratic coaching design", "Accessibility: WCAG 2.2 AA, for Deaf and hard-of-hearing students", "Ethical AI policy, with no AI detection"], "digital": ["React, TypeScript and Vite", "Three.js", "Vitest and Playwright: 48 automated tests"], "ai": ["Claude and Claude Code: design partner and coding"]},
+  skills={"core": ["Curriculum development and delivery", "Formative assessment and feedback", "Assessment design and rubrics", "Accessibility: WCAG 2.2 AA, for Deaf and hard-of-hearing students"], "ai": ["AI literacy and critical thinking in education", "AI-assisted web development with Claude Code", "Ethical AI policy, with no AI detection", "Quality assurance and workflow design"], "digital": ["React, TypeScript and Vite", "Three.js", "Vitest and Playwright: 48 automated tests"]},
   facts=dict(
     context="Students can ask AI to do the work for them. I wanted AI that makes them think harder instead.",
     audience="First-year university students and their professors.",
@@ -251,7 +251,7 @@ dict(
   summary="I script and build launch and promo videos in code with React and Remotion, with an AI voice and original music.",
   hook="I script and build launch and promo videos in code with React and Remotion, with an AI voice and original music.",
   video="pure-intellect-tutor",
-  skills={"people": ["Scriptwriting", "Visual storytelling", "Captions that work with no sound"], "digital": ["React and Remotion: every frame coded", "Original piano score (Salamander Grand Piano samples)", "ffmpeg: encoding and loudness"], "ai": ["AI voice narration", "Claude Code: building and revising the videos"]},
+  skills={"core": ["Scriptwriting", "Visual storytelling", "Captions for every video"], "ai": ["AI voice casting and direction", "AI-assisted video production", "AI-assisted coding with Claude Code"], "digital": ["React and Remotion: every frame coded", "Original piano score (Salamander Grand Piano samples)", "ffmpeg: encoding and loudness"]},
   facts=dict(
     context="Products and courses need short videos that explain them fast.",
     audience="Faculty, hiring teams and LinkedIn viewers.",
@@ -315,7 +315,7 @@ dict(
   title="The Story Mile",
   summary="I co-founded a student storytelling club and led its stories to a public exhibition on the Abu Dhabi Corniche, a permanent installation and a book I edited.",
   hook="I co-founded a student storytelling club and led its stories to a public exhibition on the Abu Dhabi Corniche, a permanent installation and a book I edited.",
-  skills={"people": ["Founding and supervising a student club", "Partnerships with cultural and corporate sponsors", "Exhibition planning on a public site", "Editing a book of 40 student stories"]},
+  skills={"core": ["Founding and supervising a student club", "Partnerships with cultural and corporate sponsors", "Exhibition planning on a public site", "Editing a book of 40 student stories", "Active and applied learning"]},
   facts=dict(
     context="A storytelling project at Zayed University, made with major cultural partners.",
     audience="Zayed University students and the public in Abu Dhabi.",
@@ -351,7 +351,7 @@ dict(
   title="Tales of Qatari Heritage",
   summary="I am lead editor of a bilingual book of Qatari folktales, leading six co-editors and more than 150 students, faculty and staff.",
   hook="I am lead editor of a bilingual book of Qatari folktales, leading six co-editors and more than 150 students, faculty and staff.",
-  skills={"people": ["Leading more than 150 students, faculty and staff", "Training students to collect stories from elders", "Bilingual editing with six co-editors"]},
+  skills={"core": ["Leading more than 150 students, faculty and staff", "Training students to collect stories from elders", "Bilingual editing with six co-editors", "Faculty mentoring and stakeholder engagement", "Active and applied learning"]},
   facts=dict(
     context="Qatari folktales that show compassion and forgiveness.",
     audience="Readers of Arabic and English.",
@@ -377,7 +377,7 @@ dict(
   title="Peace Studies Seminar on Cambodia",
   summary="I co-created a 15-week seminar on Cambodia for more than 200 students and community members, and led a student study trip to Phnom Penh and Siem Reap.",
   hook="I co-created a 15-week seminar on Cambodia for more than 200 students and community members, and led a student study trip to Phnom Penh and Siem Reap.",
-  skills={"people": ["Seminar design with embassies, NGOs and 11 faculty", "Building partnerships in Cambodia", "Leading a student study trip abroad", "Fundraising with four student clubs"]},
+  skills={"core": ["Seminar design with embassies, NGOs and 11 faculty", "Building partnerships in Cambodia", "Leading a student study trip abroad", "Fundraising with four student clubs", "Active and applied learning"]},
   facts=dict(
     context="A 15-week, certificate-bearing seminar at Miyazaki (Fall 2003).",
     audience="More than 200 students and community members.",
@@ -407,7 +407,7 @@ dict(
   title="Video lecture course in sociology",
   summary="I wrote, directed and produced a video lecture series for a blended sociology course, and built its website.",
   hook="A blended course built on a video series I wrote, directed and produced.",
-  skills={"people": ["Scriptwriting and directing", "Blended course design", "Co-teaching with a sociologist"], "digital": ["Video lecture production", "Building the course website"]},
+  skills={"core": ["Blended course design", "Scriptwriting and directing", "Co-teaching with a sociologist", "Curriculum development and delivery"], "digital": ["Video lecture production", "Building the course website"]},
   facts=dict(
     context="A blended sociology course at Miyazaki.",
     audience="University sociology students.",
@@ -470,7 +470,7 @@ TEACHING = dict(
   ],
 )
 
-TOOLS = "Blackboard Ultra, Canvas, Moodle, Google Classroom · PowerPoint, Google Workspace, Adobe Creative Cloud, iMovie, Final Cut Pro, HTML/CSS · Mentimeter, Kahoot!, Padlet, Quizlet, Socrative, Nearpod, Quizizz · Claude, Claude Code, ChatGPT"
+TOOLS = "Blackboard Ultra, Canvas, Moodle, Google Classroom · PowerPoint, Google Workspace, Adobe Creative Cloud, iMovie, Final Cut Pro, HTML/CSS · Mentimeter, Kahoot!, Padlet, Quizlet, Socrative, Nearpod, Quizizz · Microsoft Forms, Power Automate, SharePoint, Articulate Rise 360, SCORM · Claude Max (Claude and Claude Code), ChatGPT"
 
 GALLERIES = {
   "kamishibai": [
