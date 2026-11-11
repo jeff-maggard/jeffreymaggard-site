@@ -199,9 +199,11 @@ SKILLS = ["Course design", "Curriculum", "Assessment", "Textbooks", "Animation",
 
 def home():
     skills = "".join(f"<span>{k}</span>" for k in SKILLS)
-    filters = '<li><a class="filter-link" href="/studio/">Studio</a></li>' + "".join(
-        f'<li><button type="button" aria-pressed="false" data-filter="{k}">{v}</button></li>' for k, v in CATEGORIES
-    )
+    # Same order and names as the top menu.
+    btn = lambda k, v: f'<li><button type="button" aria-pressed="false" data-filter="{k}">{v}</button></li>'
+    filters = (btn("courses", "Instructional Design") + btn("teaching", "Teaching")
+               + '<li><a class="filter-link" href="/studio/">Studio</a></li>'
+               + btn("cultural", "Cultural Projects") + btn("ai", "AI Projects"))
     body = f"""
   <div class="hero3d-band home-band" data-scene="globe">{CANVAS}
   <section class="hero container" aria-labelledby="hero-title">

@@ -402,22 +402,22 @@ dict(
   tag="Miyazaki · Fall 2003",
   title="Peace Studies Seminar on Cambodia",
   summary="I co-created a 15-week seminar on Cambodia for more than 200 students and community members, and led a student study trip to Phnom Penh and Siem Reap.",
-  hook="I co-created a 15-week seminar on Cambodia for more than 200 students and community members, and led a student study trip to Phnom Penh and Siem Reap.",
+  hook="I co-created a peace studies seminar on Cambodia and led a student study trip there.",
   skills={"core": ["Seminar design with embassies, NGOs and 11 faculty", "Building partnerships in Cambodia", "Leading a student study trip abroad", "Fundraising with four student clubs", "Active and applied learning"]},
   facts=dict(
     context="A 15-week, certificate-bearing seminar at Miyazaki (Fall 2003).",
     audience="More than 200 students and community members.",
-    role="Co-creator. Peace Studies Club faculty advisor and leader of the student trip to Phnom Penh and Siem Reap.",
+    role="Co-created the seminar. Peace Studies Club faculty advisor and leader of the student trip to Phnom Penh and Siem Reap.",
     tools=[],
   ),
   sections=[
     ("The purpose", [
-      "<p>To help students and the community understand Cambodia’s recovery and peacebuilding, and to connect them with the people doing that work.</p>",
+      "<p>To teach peace studies and conflict resolution, to help students and the Miyazaki community understand Cambodia’s recovery and peacebuilding, and to connect them with the people doing that work.</p>",
     ]),
     ("The seminar", [
       '<figure class="seminar-shot"><img src="/media/peace/seminar.webp" alt="Illustration of a lecture hall full of students, with a presenter beside a slide reading Peace Studies Seminar: Cambodia’s Path Forward, Miyazaki International College, 2003." loading="lazy" width="900" height="504"><figcaption>Illustration of the seminar.</figcaption></figure>',
       "<p>I co-created the Peace Studies Seminar on Cambodia with Dr. Elizabeth Lokon. The Cambodian Ambassador’s Counsellor, embassy staff from Japan, 11 MIC faculty, plus NGO staff gave presentations.</p>",
-      "<p>It served more than 200 students and community members.</p>",
+      "<p>The seminar ran for a full semester of 15 weekly sessions. More than 200 students and community members from Miyazaki attended. Everyone who attended nine or more sessions received a certificate.</p>",
     ]),
     ("The trip", [
       "<p>After the seminar, I led a student trip to Phnom Penh and Siem Reap (February 2004) to meet with an NGO (Vulnerable Children’s Assistance Organization).</p>",
