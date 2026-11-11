@@ -384,7 +384,7 @@ def studio():
       <div class="studio-row">{side}</div>
     </section>
     <section class="section" aria-labelledby="sp-title">
-      <div class="section-head"><div><p class="label">Projects</p><h2 id="sp-title">Studio projects</h2></div></div>
+      <div class="section-head"><div><h2 id="sp-title">Behind each project</h2></div></div>
       {grid([p for p in PROJECTS if "video" in p["cats"]])}
     </section>
   </div>
