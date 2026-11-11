@@ -1007,3 +1007,7 @@ a.shot.cs-banner { margin: 0 0 14px; }
 .cs-logos { display: flex; align-items: center; justify-content: center; gap: clamp(32px, 8vw, 120px); flex-wrap: wrap; padding: 40px 24px; margin: 40px 0 0; border: 1px solid var(--border); border-radius: var(--radius-media); background: #fff; }
 .cs-logos img { height: 150px; width: auto; max-width: 100%; }
 .cs-logos + .facts { margin-top: 24px; }
+/* Logos: no frame, matched height */
+.cs-logos { border: 0; background: transparent; padding: 32px 0 8px; }
+.cs-logos img { height: 170px; }
+@media (max-width: 560px) { .cs-logos img { height: 120px; } }
