@@ -407,7 +407,7 @@ dict(
   facts=dict(
     context="A 15-week, certificate-bearing seminar at Miyazaki (Fall 2003).",
     audience="More than 200 students and community members.",
-    role="Founded the Peace Studies Club and served as its faculty advisor. Co-created the seminar. Led the student trip to Phnom Penh and Siem Reap. Helped raise more than $3,000 for an anti-trafficking NGO.",
+    role="Founded the Peace Studies Club and served as its faculty advisor. Co-created the seminar. Led the student trip to Phnom Penh and Siem Reap. Helped raise more than $3,000 for an NGO.",
     tools=[],
   ),
   sections=[
