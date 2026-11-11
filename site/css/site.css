@@ -1044,3 +1044,10 @@ a.shot.cs-banner { margin: 0 0 14px; }
   .comp-grid .skill-col:last-child { grid-column: span 2; }
   .comp-grid .skill-col:last-child ul { columns: 2; column-gap: 32px; }
 }
+/* Top box: My role | Competencies | Tools */
+.facts.facts-3 { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+@media (min-width: 900px) { .facts.facts-3 { grid-template-columns: 1.3fr 1.3fr 1fr; } }
+.comp-sub { margin: 0 0 4px; font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--text-muted); }
+.comp-sub + .comp-list { margin-top: 0; }
+.comp-list { margin: 0 0 12px; padding-left: 18px; font-size: 16px; line-height: 1.45; }
+.comp-list li { margin: 0 0 3px; }

@@ -1,0 +1,10 @@
+# Writing rules for jeffreymaggard.com (from Jeffrey)
+
+- Say it once. If something is said once on a page, never repeat it elsewhere on that page.
+- Every project says what Jeffrey did, in the first person, and vary the verbs (designed, built, developed, created, led, wrote…).
+- These are projects, not case studies. Never use "case study".
+- Each project page opens with "The purpose".
+- The top box holds My role, Competencies (Core and AI) and Tools. Only real tools go under Tools; everything digital goes there and nowhere else.
+- Keep the Home page hero as it is.
+- Ask Jeffrey (interview him) when facts are missing; never invent them.
+- Children's faces blurred; no CV, phone numbers or addresses; no RIT application details or logos.

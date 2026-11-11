@@ -39,22 +39,21 @@ dict(
   slug="two-country-course", art="exchange-flags", cats=["courses", "teaching"], logos=[("/media/two-country/miyazaki.webp", "Miyazaki International University logo"), ("/media/two-country/york-county.webp", "York County Community College seal")],
   tag="Interdisciplinary · Virtual exchange",
   title="A shared first-year course across two countries",
-  summary="I designed a shared first-year course that linked political science students in Japan with sociology students in Maine, and I wrote its website.",
-  hook="I designed a shared first-year course that linked political science students in Japan with sociology students in Maine, and I wrote its website.",
-  skills={"core": ["Curriculum development and delivery", "Intercultural course design across two countries", "Active and applied learning", "Co-teaching across two institutions"], "digital": ["HTML and CSS: a hand-coded shared course website", "Online chat and written discussion", "Student video presentations"]},
+  summary="I developed a COIL course that linked political science students in Japan with sociology students in Maine, and I wrote its website.",
+  hook="I developed a COIL course that linked political science students in Japan with sociology students in Maine, and I wrote its website.",
+  skills={"core": ["Curriculum development and delivery", "Intercultural course design across two countries", "Active and applied learning", "Co-teaching across two institutions"]},
   facts=dict(
     context="First-year students in two countries studied the same public issues from two disciplines.",
     audience="Political science students at Miyazaki International College (Japan). Sociology students at York County Technical College (USA).",
-    role="Designed the exchange. Wrote the website code and taught students to code. Co-taught with Dr. Kiyohiko Toyama and Dr. Cindy Lahar.",
-    tools=["HTML/CSS", "Course website", "Video"],
+    role="I co-designed the COIL (collaborative online international learning) course. I wrote the course website and taught students to code. I team-taught with Dr. Kiyohiko Toyama (political science) and Dr. Cindy Lahar (sociology).",
+    tools=["HTML and CSS: a hand-coded shared course website"],
   ),
   sections=[
-    ("The challenge", [
+    ("The purpose", [
       "<p>The political science students at Miyazaki International College (now Miyazaki International University) were not familiar with American culture of the Northeast, while the sociology students at York County Technical College (now York County Community College) were largely unfamiliar with Japanese culture at large. These differences created a natural foundation for cross-cultural exchange and gave students from both disciplines a meaningful reason to collaborate, learn from one another, and explore social and political issues from different cultural perspectives.</p>",
     ]),
     ("The approach", [
       "<p>Both classes shared one website. Students researched political and social issues together. They chatted weekly (socially), discussed course content in writing, and presented their findings in written, spoken and video formats.</p>",
-      "<p>I wrote the website code. I also taught students to code, so they could publish their own work.</p>",
       '<div class="callout"><b>Why it matters today</b>This approach is now called virtual exchange, or COIL (Collaborative Online International Learning).</div>',
     ]),
     ("The team", [
@@ -73,9 +72,9 @@ dict(
   slug="moderation-hub", art="moderation", cats=["courses"],
   tag="Instructional design · Microsoft 365 and Rise 360",
   title="The Moderation Hub",
-  summary="I designed and built a Microsoft 365 system that automates writing moderation (grading calibration) for exams, with a Rise 360 orientation for lecturers.",
-  hook="I designed and built a Microsoft 365 system that automates writing moderation (grading calibration) for exams, with a Rise 360 orientation for lecturers.",
-  skills={"core": ["Grading, norming and exam development", "Assessment design and learning outcomes", "Formative assessment and feedback", "Accreditation and program improvement", "Faculty mentoring and stakeholder engagement"], "ai": ["Quality assurance and workflow design", "AI-assisted design and build with Claude, with documented human review"], "digital": ["Microsoft Forms", "Excel and Office Scripts", "Power Automate", "SharePoint", "Articulate Rise 360 and SCORM 2004", "Blackboard Ultra"]},
+  summary="I built a Microsoft 365 system that automates writing moderation (grading calibration) for exams, with a Rise 360 orientation for lecturers.",
+  hook="I built a Microsoft 365 system that automates writing moderation (grading calibration) for exams, with a Rise 360 orientation for lecturers.",
+  skills={"core": ["Grading, norming and exam development", "Assessment design and learning outcomes", "Formative assessment and feedback", "Accreditation and program improvement", "Faculty mentoring and stakeholder engagement"], "ai": ["Quality assurance and workflow design", "AI-assisted design and build with Claude, with documented human review"]},
   facts=dict(
     context="Writing moderation (grading calibration) for four English foundation courses at a university foundation program.",
     audience="Lecturers and course leads in a university foundation program.",
@@ -83,7 +82,7 @@ dict(
     tools=["Microsoft Forms", "Excel", "Power Automate", "SharePoint", "Office Scripts", "Articulate Rise 360", "SCORM 2004", "Blackboard Ultra"],
   ),
   sections=[
-    ("Why I built it", [
+    ("The purpose", [
       "<p>Moderation sessions keep writing grades fair: every lecturer marks the same samples, and the marks are compared. Running them by hand takes course leads many hours each midterm and final exam.</p>",
       "<p>I built the Moderation Hub to automate every step. The course lead only scans in three samples and sets the opening and closing dates. The rest is automatic.</p>",
     ]),
@@ -110,9 +109,12 @@ dict(
     context="Learners at CEFR B1+ needed a course and a textbook matched to their level.",
     audience="English learners at CEFR B1+.",
     role="Co-creator of the B1+ English course. Designated faculty textbook editor for the 3rd edition (2026) of its Garnet Education textbook.",
-    tools=["CEFR", "Course design", "Scope and sequence", "Editing", "Publishing"],
+    tools=[],
   ),
   sections=[
+    ("The purpose", [
+      "<p>Qatar University's Foundation Program needed an English course and a textbook matched to its students' CEFR B1+ level.</p>",
+    ]),
     ("My role", [
       '<ul class="points"><li>Co-creator of the B1+ English course syllabus and assessments (2019).</li><li>Piloted the course (2019).</li><li>Faculty reviewer of the Garnet Education textbook, <cite>English for the 21st Century B1+</cite> (1st and 2nd editions).</li><li>Designated faculty textbook editor for the 3rd edition (2026).</li></ul>',
     ]),
@@ -129,7 +131,7 @@ dict(
   summary="A Qatari folktale I collected and edited. It appears in a National Museum of Qatar exhibition book. Now I am animating it.",
   hook="From a folktale told in Qatar, to a museum exhibition, to my own animated series.",
   video="falcon-opening",
-  skills={"core": ["Collecting oral folktales with students", "Bilingual editing", "Partnership with the National Museum of Qatar", "Faculty mentoring and stakeholder engagement"], "ai": ["AI-assisted video and animation production", "Story adaptation and scriptwriting", "Prompt engineering and scene direction", "Character design and visual consistency", "AI voice casting and direction", "Art direction and visual style guides", "Cultural authenticity in AI-generated media", "AI production planning and budgeting", "Quality assurance and workflow design", "AI agent direction and orchestration"], "digital": ["Claude Max: Claude and Claude Code", "Higgsfield: AI image and video", "AI voice and lip sync tools", "ffmpeg: editing, timing and sound mixing", "Excel: credit and budget tracker", "Google Drive and GitHub: production bible and asset library"]},
+  skills={"core": ["Collecting oral folktales with students", "Bilingual editing", "Partnership with the National Museum of Qatar", "Faculty mentoring and stakeholder engagement"], "ai": ["AI-assisted video and animation production", "Story adaptation and scriptwriting", "Prompt engineering and scene direction", "Character design and visual consistency", "AI voice casting and direction", "Art direction and visual style guides", "Cultural authenticity in AI-generated media", "AI production planning and budgeting", "Quality assurance and workflow design", "AI agent direction and orchestration"]},
   facts=dict(
     context="A Qatari folktale about compassion and forgiveness, ready for a new audience.",
     audience="Museum visitors, families and young viewers on YouTube.",
@@ -137,6 +139,9 @@ dict(
     tools=["Claude", "Claude Code", "Higgsfield", "AI voice", "Lip sync", "ffmpeg", "Excel", "Google Drive", "GitHub"],
   ),
   sections=[
+    ("The purpose", [
+      "<p>To keep a Qatari folktale alive and share its lesson with new audiences: first in a book, then in a museum exhibition, and now as an animated film.</p>",
+    ]),
     ("The story", [
       "<p>“He Who Doesn’t Know the Falcon Roasts It” is one of the 19 stories in <cite>Tales of Qatari Heritage</cite>, the bilingual book I lead as Managing Editor. Qatar University students on my Cultural Awareness Team collected it from their elders, and I edited it.</p>",
       "<p>It concludes Lila Abu-Lughod’s opening chapter in <cite>On the Move: Reframing Nomadic Pastoralism</cite> (Doha: Qatar Museums; [Milan]: Skira, 2022). The National Museum of Qatar featured the story in its On the Move exhibition (Fall 2022 – Winter 2023). The book acknowledges me and my Qatar University faculty editorial team.</p>",
@@ -173,14 +178,17 @@ dict(
   title="UNESCO Mongolia Kamishibai Program",
   summary="As Principal Investigator, I wrote the UNESCO grant, built the team, led students to Mongolia to train university students and faculty in kamishibai, and co-produced the program DVD.",
   hook="As Principal Investigator, I wrote the UNESCO grant, built the team, led students to Mongolia to train university students and faculty in kamishibai, and co-produced the program DVD.",
-  skills={"core": ["Grant writing and serving as Principal Investigator", "Building and leading an international team", "Budget and program management", "Research design and data collection", "Faculty mentoring and teacher training"], "digital": ["Documentary video production", "PowerPoint slideshows of every story", "Self-published DVD"]},
+  skills={"core": ["Grant writing and serving as Principal Investigator", "Building and leading an international team", "Budget and program management", "Research design and data collection", "Faculty mentoring and teacher training"]},
   facts=dict(
     context="A two-year, $30,000 UNESCO/Japan Funds-in-Trust grant at Akita International University (2005–2006).",
     audience="University students and faculty, plus K-12 students in Mongolia and Japan.",
     role="Principal Investigator and Steering Committee Chair. Director of the documentary team.",
-    tools=["Kamishibai", "Grant writing", "Documentary", "Program leadership"],
+    tools=["Documentary video", "PowerPoint", "DVD"],
   ),
   sections=[
+    ("The purpose", [
+      "<p>To preserve folktales from Mongolia and Japan and share them across both countries, by training university students to collect the stories and perform them as kamishibai for K-12 students.</p>",
+    ]),
     ("How it started", [
       "<p>I wrote the grant and served as Principal Investigator. I built a team around the project. One team member, a former Vice President of the Asian Development Bank, helped the proposal win funding from UNESCO through the Asia/Pacific Cultural Centre for UNESCO (ACCU).</p>",
     ]),
@@ -212,10 +220,10 @@ dict(
   slug="pure-intellect", art="tutor", cats=["ai"],
   tag="AI apps · Claude Code",
   title="Pure Intellect Tutor, Analyzer &amp; AI Ranking App",
-  summary="I design and build AI education tools: a tutor that asks students questions instead of giving answers, and a grading assistant for professors.",
-  hook="I design and build AI education tools: a tutor that asks students questions instead of giving answers, and a grading assistant for professors.",
+  summary="I create AI education tools: a tutor that asks students questions instead of giving answers, and a grading assistant for professors.",
+  hook="I create AI education tools: a tutor that asks students questions instead of giving answers, and a grading assistant for professors.",
   video="pure-intellect-tutor",
-  skills={"core": ["Curriculum development and delivery", "Formative assessment and feedback", "Assessment design and rubrics", "Accessibility: WCAG 2.2 AA, for Deaf and hard-of-hearing students"], "ai": ["AI literacy and critical thinking in education", "AI-assisted web development with Claude Code", "Ethical AI policy, with no AI detection", "Quality assurance and workflow design"], "digital": ["React, TypeScript and Vite", "Three.js", "Vitest and Playwright: 48 automated tests"]},
+  skills={"core": ["Curriculum development and delivery", "Formative assessment and feedback", "Assessment design and rubrics", "Accessibility: WCAG 2.2 AA, for Deaf and hard-of-hearing students"], "ai": ["AI literacy and critical thinking in education", "AI-assisted web development with Claude Code", "Ethical AI policy, with no AI detection", "Quality assurance and workflow design"]},
   facts=dict(
     context="Students can ask AI to do the work for them. I wanted AI that makes them think harder instead.",
     audience="First-year university students and their professors.",
@@ -223,6 +231,9 @@ dict(
     tools=["Claude", "Claude Code", "React", "TypeScript", "Vite", "Three.js", "Vitest", "Playwright"],
   ),
   sections=[
+    ("The purpose", [
+      "<p>Students can ask AI to do their work for them. I wanted AI that makes them think harder instead.</p>",
+    ]),
     ("Pure Intellect Tutor", [
       "<p>The tutor is a Socratic coach. It asks one question at a time and never writes the answer.</p>",
       '<ul class="points"><li>Replies stay under 60 words.</li><li>Students get at most three hints per step.</li><li>A code-level guard turns any finished-work reply into a question.</li></ul>',
@@ -251,14 +262,17 @@ dict(
   summary="I script and build launch and promo videos in code with React and Remotion, with an AI voice and original music.",
   hook="I script and build launch and promo videos in code with React and Remotion, with an AI voice and original music.",
   video="pure-intellect-tutor",
-  skills={"core": ["Scriptwriting", "Visual storytelling", "Captions for every video"], "ai": ["AI voice casting and direction", "AI-assisted video production", "AI-assisted coding with Claude Code"], "digital": ["React and Remotion: every frame coded", "Original piano score (Salamander Grand Piano samples)", "ffmpeg: encoding and loudness"]},
+  skills={"core": ["Scriptwriting", "Visual storytelling", "Captions for every video"], "ai": ["AI voice casting and direction", "AI-assisted video production", "AI-assisted coding with Claude Code"]},
   facts=dict(
     context="Products and courses need short videos that explain them fast.",
     audience="Faculty, hiring teams and LinkedIn viewers.",
     role="Scriptwriter, designer and producer.",
-    tools=["Remotion", "React", "AI voice", "Original music direction", "Captions", "ffmpeg"],
+    tools=["React", "Remotion", "AI voice", "ffmpeg", "Claude Code"],
   ),
   sections=[
+    ("The purpose", [
+      "<p>Products and courses need short videos that explain them fast.</p>",
+    ]),
     ("What I make", [
       '<ul class="points"><li>Product launch videos, such as the Pure Intellect Tutor video.</li><li>Course website walkthroughs, captioned to work with no sound.</li><li>Portfolio and introduction videos.</li><li>Formats for every channel: 16:9, 9:16, 1:1 and 4:5 for LinkedIn.</li></ul>',
     ]),
@@ -320,9 +334,12 @@ dict(
     context="A storytelling project at Zayed University, made with major cultural partners.",
     audience="Zayed University students and the public in Abu Dhabi.",
     role="Co-founder and a faculty supervisor of the Al Kharareef storytelling club. Co-creator of the Story Mile Project. Editor of the book.",
-    tools=["Storytelling", "Partnerships", "Exhibition", "Editing"],
+    tools=[],
   ),
   sections=[
+    ("The purpose", [
+      "<p>To preserve Emirati oral traditions and give students a public audience for their writing.</p>",
+    ]),
     ("The project", [
       "<p>I co-founded the Al Kharareef storytelling club at Zayed University in 2011 and was a faculty supervisor.</p><p>In 2013, I invited the world-famous master storyteller Abdul Aziz Al Musallam, head of the Sharjah Institute for Heritage, to Zayed University. He helped participating faculty &amp; students craft their stories the way they were meant to be told.</p><p>I co-created the Story Mile Project with Mubadala, the Sharjah Institute for Heritage and the Abu Dhabi Music &amp; Arts Festival. Forty stories were initially exhibited as part of the festival in 2013. Then they became a permanent exhibition at Khalifa Park and <cite>The Story Mile</cite> book was published in 2014.</p>",
       '<figure class="photo banner"><img src="/media/story-mile/al-kharareef.webp" alt="Al Kharareef Storytelling Club banner: a storyteller with a falcon and children around a campfire" loading="lazy" width="1000" height="250"><figcaption>The banner from the Al Kharareef Storytelling Club website.</figcaption></figure>',
@@ -356,9 +373,12 @@ dict(
     context="Qatari folktales that show compassion and forgiveness.",
     audience="Readers of Arabic and English.",
     role="Lead editor, working with six co-editors. Chair of the Cultural Awareness Team (2016–2023).",
-    tools=["Editing", "Translation", "Team leadership"],
+    tools=[],
   ),
   sections=[
+    ("The purpose", [
+      "<p>To preserve and share Qatar’s folktales, fables and legends, and to give students a way to serve their community.</p>",
+    ]),
     ("The book", [
       "<p><cite>Tales of Qatari Heritage</cite> is an unpublished bilingual (Arabic/English) book of Qatari folktales collected by Qatar University students. Most stories show compassion and forgiveness.</p>",
     ]),
@@ -382,9 +402,12 @@ dict(
     context="A 15-week, certificate-bearing seminar at Miyazaki (Fall 2003).",
     audience="More than 200 students and community members.",
     role="Co-creator. Peace Studies Club faculty advisor and leader of the student trip to Phnom Penh and Siem Reap.",
-    tools=["Seminar design", "Partnerships", "Study abroad"],
+    tools=[],
   ),
   sections=[
+    ("The purpose", [
+      "<p>To help students and the community understand Cambodia’s recovery and peacebuilding, and to connect them with the people doing that work.</p>",
+    ]),
     ("The seminar", [
       '<figure class="seminar-shot"><img src="/media/peace/seminar.webp" alt="Illustration of a lecture hall full of students, with a presenter beside a slide reading Peace Studies Seminar: Cambodia’s Path Forward, Miyazaki International College, 2003." loading="lazy" width="900" height="504"><figcaption>Illustration of the seminar.</figcaption></figure>',
       "<p>I co-created the Peace Studies Seminar on Cambodia with Dr. Elizabeth Lokon. The Cambodian Ambassador’s Counsellor, embassy staff from Japan, 11 MIC faculty, plus NGO staff gave presentations.</p>",
@@ -407,14 +430,17 @@ dict(
   title="Video lecture course in sociology",
   summary="I wrote, directed and produced a video lecture series for a blended sociology course, and built its website.",
   hook="A blended course built on a video series I wrote, directed and produced.",
-  skills={"core": ["Blended course design", "Scriptwriting and directing", "Co-teaching with a sociologist", "Curriculum development and delivery"], "digital": ["Video lecture production", "Building the course website"]},
+  skills={"core": ["Blended course design", "Scriptwriting and directing", "Co-teaching with a sociologist", "Curriculum development and delivery"]},
   facts=dict(
     context="A blended sociology course at Miyazaki.",
     audience="University sociology students.",
     role="Writer, director and producer of the video series. Builder of the course website.",
-    tools=["Scriptwriting", "Video production", "Course website"],
+    tools=["Video production", "Course website"],
   ),
   sections=[
+    ("The purpose", [
+      "<p>To teach sociology in English through a blended course, with video lectures students could watch in class and online.</p>",
+    ]),
     ("The course", [
       "<p>I wrote, directed and produced the video series for a blended course taught with sociologist Dr. Hiroyuki Toyota.</p>",
       "<p>Students used the videos in class and online, alongside live lectures and a textbook. I built the course website.</p>",

@@ -126,7 +126,7 @@ def card(p):
           <p class="label">{p['tag']}</p>
           <h3><a href="/work/{p['slug']}/">{p['title']}</a></h3>
           <p class="summary">{p['summary']}</p>
-          <p class="more" aria-hidden="true">Read case study →</p>
+          <p class="more" aria-hidden="true">The purpose →</p>
         </div>
       </article>"""
 
@@ -235,7 +235,7 @@ def home():
   <section class="section container" id="work" aria-labelledby="work-title">
     <div class="section-head">
       <div><p class="label">Featured projects</p><h2 id="work-title">Selected work</h2></div>
-      <p>{len(PROJECTS)} projects. Each one opens a case study.</p>
+      <p>{len(PROJECTS)} projects. Open any one to see what I did and why.</p>
     </div>
     <ul class="filters" aria-label="Filter projects">{filters}</ul>
     {grid(PROJECTS)}
@@ -262,6 +262,11 @@ def home():
 def case_study(p, i):
     f = p["facts"]
     tools = "".join(f"<li>{t}</li>" for t in f["tools"])
+    sk = p.get("skills", {})
+    comp = "".join(
+        f'<p class="comp-sub">{n}</p><ul class="comp-list">' + "".join(f"<li>{x}</li>" for x in sk[k]) + "</ul>"
+        for n, k in (("Core", "core"), ("AI", "ai")) if sk.get(k))
+    comp = f'<div><dt class="label">Competencies</dt><dd>{comp}</dd></div>' if comp else ""
     banner = (
         f'<div class="cs-section showcase-head"><h2>Student artwork</h2></div><a class="shot cs-banner" href="{p["banner"]}" target="_blank" rel="noopener"><div class="cs-banner-scroll"><img src="{p["banner"]}" alt="{p.get("banner_alt", "")}" width="3920" height="476"></div><span>{p.get("banner_caption", "")}</span></a>'
         if p.get("banner") else ""
@@ -276,12 +281,6 @@ def case_study(p, i):
     if p.get("video") and video_exists(p["video"]):
         sections.append(("Watch", [video(p["video"])]))
     sections += p["sections"]
-    if p.get("skills"):
-        groups = [("Core competencies", "core"), ("AI competencies", "ai"), ("Digital tools", "digital")]
-        cols = "".join(
-            f'<div class="skill-col"><p class="label">{name}</p><ul>' + "".join(f"<li>{x}</li>" for x in p["skills"][k]) + "</ul></div>"
-            for name, k in groups if p["skills"].get(k))
-        sections.append(("Competencies and tools", [f'<div class="skills-grid">{cols}</div>']))
     toc = "".join(f'<li><a href="#s{n}">{t}</a></li>' for n, (t, _) in enumerate(sections, 1))
     secs = "".join(
         f'\n      <section class="cs-section" id="s{n}"><h2>{t}</h2>{"".join(expand(b) for b in blocks)}</section>'
@@ -300,9 +299,10 @@ def case_study(p, i):
       <p class="intro">{p['hook']}</p>
     </section>
     {hero}
-    <dl class="facts facts-2{' facts-top' if p.get('banner') else ''}">
+    <dl class="facts facts-3{' facts-top' if p.get('banner') else ''}">
       <div><dt class="label">My role</dt><dd>{f['role']}</dd></div>
-      <div><dt class="label">Tools</dt><dd><ul class="chips">{tools}</ul></dd></div>
+      {comp}
+      {f'<div><dt class="label">Tools</dt><dd><ul class="chips">{tools}</ul></dd></div>' if f["tools"] else ""}
     </dl>
     {banner}
     {f'<div class="showcase">{feature_pair(p.get("showcase_feature"))}{gallery(p["showcase"]) if p.get("showcase") else ""}<p class="showcase-note">Original artwork by Qatar University Foundation Program students.</p></div>' if p.get("showcase") or p.get("showcase_feature") else ""}
@@ -312,7 +312,7 @@ def case_study(p, i):
         {status}
       </div>
     </div>
-    <nav class="next-up" aria-label="More case studies">
+    <nav class="next-up" aria-label="More projects">
       <a class="button button-secondary" href="/work/{prev_p['slug']}/"><span aria-hidden="true">←</span> {strip(prev_p['title'])}</a>
       <a class="button button-secondary" href="/work/{next_p['slug']}/">{strip(next_p['title'])} <span aria-hidden="true">→</span></a>
     </nav>
@@ -374,7 +374,7 @@ def studio():
       <div class="studio-row">{side}</div>
     </section>
     <section class="section" aria-labelledby="sp-title">
-      <div class="section-head"><div><p class="label">Case studies</p><h2 id="sp-title">Studio projects</h2></div></div>
+      <div class="section-head"><div><p class="label">Projects</p><h2 id="sp-title">Studio projects</h2></div></div>
       {grid([p for p in PROJECTS if "video" in p["cats"]])}
     </section>
   </div>
@@ -469,7 +469,7 @@ def main():
     write("ai-projects/index.html", simple_category("ai", "/ai-projects/", "AI Projects",
           "I design and build AI tools and AI-aware courses with Claude and Claude Code, so students think harder instead of handing their work to AI."))
     write("contact/index.html", contact())
-    print("built", len(PROJECTS), "case studies")
+    print("built", len(PROJECTS), "projects")
 
 
 if __name__ == "__main__":
