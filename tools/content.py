@@ -76,14 +76,14 @@ dict(
   hook="I built a Microsoft 365 system that automates writing moderation (grading calibration) for exams, with a Rise 360 orientation for lecturers.",
   skills={"core": ["Grading, norming and exam development", "Assessment design and learning outcomes", "Formative assessment and feedback", "Accreditation and program improvement", "Faculty mentoring and stakeholder engagement"], "ai": ["Quality assurance and workflow design", "AI-assisted design and build with Claude, with documented human review"]},
   facts=dict(
-    context="Writing moderation (grading calibration) for four English foundation courses at a university foundation program.",
-    audience="Lecturers and course leads in a university foundation program.",
+    context="Writing moderation (grading calibration) for English courses in Qatar University’s FPDE.",
+    audience="Lecturers and course leads in Qatar University’s FPDE.",
     role="Instructional designer and developer: needs analysis, design, build, testing and documentation.",
     tools=["Microsoft Forms", "Excel", "Power Automate", "SharePoint", "Office Scripts", "Articulate Rise 360", "SCORM 2004", "Blackboard Ultra"],
   ),
   sections=[
     ("The purpose", [
-      "<p>At every midterm and final exam, lecturers mark writing samples in a moderation session, so that grading is consistent and fair. Each course used to have a co-course lead who ran these sessions. When that role was removed, the work fell on the course leads, or on a faculty member they assigned.</p>",
+      "<p>At every midterm and final exam in Qatar University’s FPDE (Foundation Program Department of English), lecturers mark writing samples in a moderation session, so that grading is consistent and fair. Each course used to have a co-course lead who ran these sessions. When that role was removed, the work fell on the course leads, or on a faculty member they assigned.</p>",
       "<p>Done by hand, it takes about 20 hours per course lead each semester: sending emails, collecting scores, analyzing them, sending feedback to every lecturer and keeping records. I built this system to do all of that automatically.</p>",
       "<p>Every session is archived, so the department builds a record of marking accuracy over time. That evidence supports data-driven review: we can see where calibration drifts, target training where it is needed, and reflect on and improve our assessment practice.</p>",
     ]),
@@ -349,7 +349,7 @@ dict(
     ("The project", [
       "<p>I co-founded the Al Kharareef storytelling club at Zayed University in 2011 and was its student advisor. The club ran storytelling events, including World Storytelling Day and visits to schools. That work caught the attention of the Abu Dhabi Music &amp; Arts Foundation, which invited us to take part in the Abu Dhabi Festival, sponsored by Mubadala.</p>",
       "<p>In 2013, I invited the world-famous master storyteller Abdul Aziz Al Musallam, head of the Sharjah Institute for Heritage, to Zayed University. He helped participating faculty &amp; students craft their stories the way they were meant to be told.</p>",
-      '<ol class="journey"><li><h3>A writing unit</h3><p>I added a fiction and folktale unit to our course textbook: how to collect, write and tell stories. The department approved it.</p></li><li><h3>500+ writers</h3><p>More than 500 students wrote stories as part of the course.</p></li><li><h3>A contest</h3><p>I organized the faculty and got a writing contest approved. Volunteers entered their stories.</p></li><li><h3>Editing</h3><p>I was lead editor of the winning stories. Brione LaThrop, the managing editor, handled publishing and permissions. The Foundation funded a third editor, L. Ball.</p></li></ol>',
+      '<ol class="journey"><li><h3>A writing unit</h3><p>I added a fiction and folktale unit to our course textbook: how to collect, write and tell stories. The department approved it.</p></li><li><h3>500+ writers</h3><p>More than 500 students wrote stories as part of the course.</p></li><li><h3>A contest</h3><p>I organized the faculty and got a writing contest approved. Volunteers entered their stories.</p></li><li><h3>Editing</h3><p>I was lead editor of the winning stories. Brione LaThrop, the managing editor, handled publishing and permissions.</p></li></ol>',
       '<figure class="photo banner"><img src="/media/story-mile/al-kharareef.webp" alt="Al Kharareef Storytelling Club banner: a storyteller with a falcon and children around a campfire" loading="lazy" width="1000" height="250"><figcaption>The banner from the Al Kharareef Storytelling Club website.</figcaption></figure>',
       '<figure class="cover"><img src="/media/story-mile/story-illustration.webp" alt="Story illustration: a girl in a yellow dress with red dots beside an old stone archway" loading="lazy" width="441" height="414"><figcaption>A story illustration from the project.</figcaption></figure>',
     ]),
