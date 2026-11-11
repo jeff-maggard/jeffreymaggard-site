@@ -344,6 +344,13 @@ def instructional_design():
     extra = f"""
     <section class="section" aria-labelledby="tools-title">
       <div class="panel"><p class="label">Toolkit</p><h3 id="tools-title">Tools I design with</h3><p>{TOOLS}</p></div>
+    </section>
+    <section class="section" aria-labelledby="comp-title">
+      <div class="section-head"><div><p class="label">What I bring</p><h2 id="comp-title">Competencies</h2></div></div>
+      <div class="skills-grid comp-grid">
+        <div class="skill-col"><p class="label">Core competencies</p><ul><li>TESOL instruction across proficiency levels</li><li>Curriculum development and delivery</li><li>Assessment design and learning outcomes</li><li>Grading, norming and exam development</li><li>Formative assessment and feedback</li><li>Active and applied learning</li><li>Accreditation and program improvement</li><li>Faculty mentoring and stakeholder engagement</li><li>Learning management systems and educational technology, including Blackboard Ultra and Canvas</li><li>eLearning authoring: Articulate Rise 360 and SCORM 2004</li><li>Low-code automation: Power Automate, SharePoint and Office Scripts</li><li>Motion graphics coded in React with Remotion</li></ul></div>
+        <div class="skill-col"><p class="label">AI competencies</p><ul><li>AI literacy and critical thinking in education</li><li>AI-assisted video and animation production</li><li>Prompt engineering and scene direction</li><li>Character design and visual consistency</li><li>AI voice casting and direction</li><li>Art direction and visual style guides</li><li>Story adaptation and scriptwriting</li><li>Cultural authenticity in AI-generated media</li><li>AI production planning and budgeting</li><li>Quality assurance and workflow design</li><li>AI agent direction and orchestration</li><li>AI-assisted web development with Claude Code</li></ul></div>
+      </div>
     </section>"""
     body = category_page("courses", "Instructional Design &amp; Curriculum",
                          "I design courses, assessments and systems, from scope and sequence to rubrics, so students learn by doing real work.", extra)
