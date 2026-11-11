@@ -1098,3 +1098,5 @@ a.shot.cs-banner { margin: 0 0 14px; }
 /* Moderation drawings: stacked, whole and large enough to read */
 .cs-shots { grid-template-columns: 1fr; max-width: 960px; margin-left: auto; margin-right: auto; gap: 28px; }
 .cs-shots .shot img { aspect-ratio: auto; height: auto; object-fit: contain; }
+a.yt-lite { display: block; position: relative; }
+.yt-note { position: absolute; right: 12px; bottom: 12px; padding: 4px 10px; border-radius: 999px; background: rgba(0,0,0,.65); color: #fff; font-size: 14px; }
