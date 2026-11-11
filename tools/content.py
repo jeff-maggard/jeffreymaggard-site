@@ -189,7 +189,7 @@ dict(
     context="A two-year, $30,000 UNESCO/Japan Funds-in-Trust grant at Akita International University (2005–2006).",
     audience="University students and faculty, plus K-12 students in Mongolia and Japan.",
     role="Principal Investigator and Steering Committee Chair. Director of the documentary team.",
-    tools=["Documentary video", "PowerPoint", "DVD"],
+    tools=["iMovie", "PowerPoint", "iDVD", "Multi-disc DVD burner"],
   ),
   sections=[
     ("The purpose", [
@@ -456,7 +456,7 @@ dict(
     context="A blended sociology course at Miyazaki.",
     audience="University sociology students.",
     role="Writer, director and producer of the video series. Builder of the course website.",
-    tools=["Video production", "Course website"],
+    tools=["Tape video cameras, later digital cameras", "iMovie"],
   ),
   sections=[
     ("The purpose", [
