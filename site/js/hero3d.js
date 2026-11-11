@@ -226,7 +226,7 @@
       g.rotation.y = t * 0.1; g.rotation.x = Math.sin(t * 0.15) * 0.2;
       pulses.forEach(function (p, i) {
         var u = (t * 0.6 + p.off) % 1;
-        if (u < 0.02) p.pair = pairs[(Math.floor(t * 10) * 13 + i * 31) % pairs.length];
+        if (u < 0.02) { var n = pairs.length, j = ((Math.floor(t * 10) * 13 + i * 31) % n + n) % n; p.pair = pairs[j] || p.pair; }
         p.m.position.lerpVectors(nodes[p.pair[0]], nodes[p.pair[1]], u);
       });
     };
@@ -302,6 +302,7 @@
 
     function resize() {
       var w = band.clientWidth, h = band.clientHeight;
+      if (!w || !h) return;
       renderer.setSize(w, h, false);
       camera.aspect = w / h;
       // On narrow screens, center the scene behind the text
@@ -315,19 +316,46 @@
       mx = (e.clientX - r.left) / r.width - 0.5; my = (e.clientY - r.top) / r.height - 0.5;
     });
 
-    var visible = true, t0 = performance.now();
-    if ('IntersectionObserver' in window) new IntersectionObserver(function (es) { visible = es[0].isIntersecting; }).observe(band);
+    if (window.ResizeObserver) new ResizeObserver(function () { resize(); if (reduce) still(); }).observe(band);
+
+    // Visibility: IntersectionObserver when it works, but never trust a "not intersecting" alone
+    // (scaled or sandboxed iframes can misreport it); also check the band's box against the viewport.
+    var ioVisible = true, t0 = performance.now(), lost = false, last = -1, n = 0, rectVisible = true;
+    if ('IntersectionObserver' in window) new IntersectionObserver(function (es) { ioVisible = es[es.length - 1].isIntersecting; }).observe(band);
+    function inViewport() {
+      var r = band.getBoundingClientRect(), vh = window.innerHeight || document.documentElement.clientHeight;
+      return r.bottom > 0 && r.top < vh && r.width > 0 && r.height > 0;
+    }
     function frame(now) {
-      var t = reduce ? 6 : (now - t0) / 1000;
+      var t = reduce ? 6 : Math.max(0, (now - t0) / 1000);
       update(t);
       camera.position.x += (baseX + mx * 0.6 - camera.position.x) * 0.05;
       camera.position.y += (baseY - my * 0.4 - camera.position.y) * 0.05;
       camera.lookAt(target);
       renderer.render(scene, camera);
     }
-    if (reduce) { frame(0); return; }
-    (function loop(now) { if (visible && !document.hidden) frame(now); requestAnimationFrame(loop); })(t0);
+    function still() {
+      if (lost) return;
+      try { camera.position.set(baseX, baseY, camera.position.z); frame(0); } catch (e) { }
+    }
+
+    // WebGL context loss (sleep, tab switch, GPU reset): pause, then redraw once restored.
+    canvas.addEventListener('webglcontextlost', function (e) { e.preventDefault(); lost = true; }, false);
+    canvas.addEventListener('webglcontextrestored', function () { lost = false; resize(); if (reduce) still(); }, false);
+
     band.classList.add('is-3d');
+    if (reduce) { still(); window.addEventListener('load', still); return; }
+
+    function loop(now) {
+      requestAnimationFrame(loop); // schedule first, so a bad frame can never stop the loop
+      if (lost || document.hidden) return;
+      if (++n % 20 === 1) rectVisible = inViewport();
+      if (!ioVisible && !rectVisible) return;
+      if (now - last < 15) return; // cap near 60 fps on high-refresh screens
+      last = now;
+      try { frame(now); } catch (e) { if (window.console) console.warn('hero3d frame', e); }
+    }
+    requestAnimationFrame(loop);
   }
 
   document.querySelectorAll('.hero3d-band').forEach(start);
