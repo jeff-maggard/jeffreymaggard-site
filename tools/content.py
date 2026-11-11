@@ -349,7 +349,7 @@ dict(
     ("The project", [
       "<p>I co-founded the Al Kharareef storytelling club at Zayed University in 2011 and was its student advisor. The club ran storytelling events, including World Storytelling Day and visits to schools. That work caught the attention of the Abu Dhabi Music &amp; Arts Foundation, which invited us to take part in the Abu Dhabi Festival, sponsored by Mubadala.</p>",
       "<p>In 2013, I invited the world-famous master storyteller Abdul Aziz Al Musallam, head of the Sharjah Institute for Heritage, to Zayed University. He helped participating faculty &amp; students craft their stories the way they were meant to be told.</p>",
-      '<ol class="journey"><li><h3>A writing unit</h3><p>I added a fiction and folktale unit to our course textbook: how to collect, write and tell stories. The department approved it.</p></li><li><h3>500+ writers</h3><p>More than 500 students wrote stories as part of the course.</p></li><li><h3>A contest</h3><p>I organized the faculty and got a writing contest approved. Volunteers entered their stories.</p></li><li><h3>Editing</h3><p>I was lead editor of the winning stories. Brioni LaThrop, the managing editor, handled publishing and permissions. The Foundation funded a third editor, L. Ball.</p></li></ol>',
+      '<ol class="journey"><li><h3>A writing unit</h3><p>I added a fiction and folktale unit to our course textbook: how to collect, write and tell stories. The department approved it.</p></li><li><h3>500+ writers</h3><p>More than 500 students wrote stories as part of the course.</p></li><li><h3>A contest</h3><p>I organized the faculty and got a writing contest approved. Volunteers entered their stories.</p></li><li><h3>Editing</h3><p>I was lead editor of the winning stories. Brione LaThrop, the managing editor, handled publishing and permissions. The Foundation funded a third editor, L. Ball.</p></li></ol>',
       '<figure class="photo banner"><img src="/media/story-mile/al-kharareef.webp" alt="Al Kharareef Storytelling Club banner: a storyteller with a falcon and children around a campfire" loading="lazy" width="1000" height="250"><figcaption>The banner from the Al Kharareef Storytelling Club website.</figcaption></figure>',
       '<figure class="cover"><img src="/media/story-mile/story-illustration.webp" alt="Story illustration: a girl in a yellow dress with red dots beside an old stone archway" loading="lazy" width="441" height="414"><figcaption>A story illustration from the project.</figcaption></figure>',
     ]),
@@ -365,7 +365,7 @@ dict(
       "<p>The Kharareef Club also did a number of school visits to hold storytelling events. One was at Mushrif School on 12 March 2013.</p>",
     ]),
     ("The outcome", [
-      '<ul class="points"><li>A six-month public exhibition on the Abu Dhabi Corniche.</li><li>A permanent exhibition at Khalifa Park, still there today.</li><li>Brioni LaThrop took the stories to Zayed University Press. We edited them further, and <cite>The Story Mile</cite> was published in 2014 (ISBN 978-9948-20-117-5).</li></ul>',
+      '<ul class="points"><li>A six-month public exhibition on the Abu Dhabi Corniche.</li><li>A permanent exhibition at Khalifa Park, still there today.</li><li>Brione LaThrop took the stories to Zayed University Press. We edited them further, and <cite>The Story Mile</cite> was published in 2014 (ISBN 978-9948-20-117-5).</li></ul>',
     ]),
   ],
 ),
