@@ -71,7 +71,7 @@ dict(
 dict(
   slug="moderation-hub", art="moderation", cats=["courses"],
   tag="Instructional design · Microsoft 365 and Rise 360",
-  title="The Moderation Hub",
+  title="Embedded Calibrated Grading and Automated Writing Moderation System",
   summary="I built a Microsoft 365 system that automates writing moderation (grading calibration) for exams, with a Rise 360 orientation for lecturers.",
   hook="I built a Microsoft 365 system that automates writing moderation (grading calibration) for exams, with a Rise 360 orientation for lecturers.",
   skills={"core": ["Grading, norming and exam development", "Assessment design and learning outcomes", "Formative assessment and feedback", "Accreditation and program improvement", "Faculty mentoring and stakeholder engagement"], "ai": ["Quality assurance and workflow design", "AI-assisted design and build with Claude, with documented human review"]},
@@ -83,17 +83,24 @@ dict(
   ),
   sections=[
     ("The purpose", [
-      "<p>Moderation sessions keep writing grades fair: every lecturer marks the same samples, and the marks are compared. Running them by hand takes course leads many hours each midterm and final exam.</p>",
-      "<p>I built the Moderation Hub to automate every step. The course lead only scans in three samples and sets the opening and closing dates. The rest is automatic.</p>",
+      "<p>Every midterm and final exam, lecturers mark the same writing samples so that grading stays fair. Each course used to have a co-course lead who ran these moderation sessions. When that role was removed, the work fell on the course leads, or on a faculty member they assigned.</p>",
+      "<p>Done by hand, it takes about 20 hours per course lead each semester: sending emails, collecting scores, analyzing them and sending feedback to every lecturer. I built this system to do all of that automatically.</p>",
     ]),
-    ("How it works", [
-      '<ol class="steps"><li>The course lead adds three anonymized writing samples and sets the opening and closing dates.</li><li>The Hub emails every lecturer, who scores the samples in one Microsoft Form.</li><li>When the session closes, the Hub analyzes the scores. Each lecturer gets one email that shows their mark for each rubric criterion directly above the key mark. The course lead chooses the key mark: their own scores, or the median of the lecturers who marked the sample.</li><li>A lecturer whose score is more than 0.5 from the key mark marks another sample. For example, if the median is 3 and a lecturer gives a 4 or a 2, they mark another sample and get instant feedback.</li><li>If they are still out of range, they get another sample. If they miss a third time, the Hub emails the course lead, so they can meet and help.</li><li>At the end of the session, the Hub archives all the data and sends a report to the course leads. A name-free summary can go to the department for accreditation.</li></ol>',
+    ("What the course lead does", [
+      '<ol class="steps"><li>Choose the midterm or final exam.</li><li>Add three anonymized samples of student writing.</li><li>Set the opening and closing dates.</li></ol>',
+      "<p>That is the whole setup. Everything else runs on its own.</p>",
+    ]),
+    ("What happens automatically", [
+      '<ol class="steps"><li>Power Automate emails every lecturer when the session opens.</li><li>Lecturers score the samples in one Microsoft Form.</li><li>When the session closes, Excel with Office Scripts compares each score with the key mark. The course lead chooses the key mark: their own scores, or the median of the lecturers who marked the sample.</li><li>Each lecturer gets one email showing their mark for each rubric criterion directly above the key mark.</li><li>A lecturer more than 0.5 from the key mark marks another sample and gets instant feedback. For example, if the median is 3 and a lecturer gives a 4 or a 2, they mark another sample. They get up to two extra samples.</li><li>If they are still out of range, the system emails the course lead, so they can meet and help.</li><li>SharePoint archives all the data, and the course leads receive a report. A name-free summary can go to the department for CEA accreditation.</li></ol>',
+    ]),
+    ("Why it matters", [
+      '<ul class="points"><li>Saves each course lead about 20 hours a semester.</li><li>Frees the faculty member who was assigned to run moderation for other work that builds the program.</li><li>Shows course leads which lecturers need support, so they can help them early.</li><li>Keeps accurate, archived records from now on, ready for CEA accreditation.</li></ul>',
     ]),
     ("Orientation", [
       "<p>I made a 5-minute Rise 360 orientation for lecturers, published as SCORM 2004 in Blackboard Ultra.</p>",
     ]),
-    ("Status", [
-      "<p>Built and tested with invented data in November 2026. A pilot is planned for Spring 2027.</p>",
+    ("Next steps", [
+      "<p>Built and tested with invented data in November 2026. With permission from the department, I will pilot it in Spring 2027 with the Embedded Foundation courses. If it works well, it can expand to the Foundation Program and Post-Foundation courses, so all three divisions of the department can use it.</p>",
     ]),
   ],
 ),
