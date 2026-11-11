@@ -83,7 +83,7 @@ dict(
   ),
   sections=[
     ("The purpose", [
-      "<p>At every midterm and final exam, lecturers mark writing samples in a moderation session, so that grading is consistent and fair across each course. Each course used to have a co-course lead who ran these sessions. When that role was removed, the work fell on the course leads, or on a faculty member they assigned.</p>",
+      "<p>At every midterm and final exam, lecturers mark writing samples in a moderation session, so that grading is consistent and fair. Each course used to have a co-course lead who ran these sessions. When that role was removed, the work fell on the course leads, or on a faculty member they assigned.</p>",
       "<p>Done by hand, it takes about 20 hours per course lead each semester: sending emails, collecting scores, analyzing them, sending feedback to every lecturer and keeping records. I built this system to do all of that automatically.</p>",
       "<p>Every session is archived, so the department builds a record of marking accuracy over time. That evidence supports data-driven review: we can see where calibration drifts, target training where it is needed, and reflect on and improve our assessment practice.</p>",
     ]),
