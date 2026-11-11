@@ -274,6 +274,8 @@ def case_study(p, i):
     hero = "" if p.get("banner") else (
         '<div class="cs-logos">' + "".join(f'<img src="{src}" alt="{alt}" loading="lazy">' for src, alt in p["logos"]) + '</div>'
         if p.get("logos") else
+        '<div class="cs-shots">' + "".join(f'<a class="shot" href="{src}" target="_blank" rel="noopener"><img src="{src}" alt="{alt}"><span>{cap}</span></a>' for src, alt, cap in p["shots"]) + '</div>'
+        if p.get("shots") else
         f'<div class="cs-hero"><img src="{p.get("hero", p.get("image"))}" alt="{p.get("hero_alt", "")}" style="width:100%;height:100%;object-fit:cover"></div>'
         if p.get("hero") or p.get("image") else f'<div class="cs-hero">{svg(p["art"], "Illustration for " + strip(p["title"]))}</div>'
     )

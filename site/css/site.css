@@ -1053,3 +1053,9 @@ a.shot.cs-banner { margin: 0 0 14px; }
 .comp-list li { margin: 0 0 3px; }
 .purpose-top { max-width: 760px; margin: 48px 0 0; }
 .facts.facts-2 { grid-template-columns: 1fr 1fr; } @media (max-width: 760px) { .facts.facts-2 { grid-template-columns: 1fr; } }
+
+/* Three screenshots in place of the hero art */
+.cs-shots { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin: 40px 0 0; }
+.cs-shots .shot img { aspect-ratio: 4 / 3; object-fit: cover; object-position: top left; background: #fff; }
+.cs-shots + .facts { margin-top: 24px; }
+@media (max-width: 760px) { .cs-shots { grid-template-columns: 1fr; } }
