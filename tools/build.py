@@ -282,8 +282,12 @@ def case_study(p, i):
     if p.get("video") and video_exists(p["video"]):
         sections.append(("Watch", [video(p["video"])]))
     sections += p["sections"]
-    if p.get("tools_used"):
-        sections.append(("Tools I used", ['<ul class="points">' + "".join(f"<li>{t}</li>" for t in p["tools_used"]) + "</ul>"]))
+    if p.get("skills"):
+        groups = [("People skills", "people"), ("Digital tools", "digital"), ("AI tools", "ai")]
+        cols = "".join(
+            f'<div class="skill-col"><p class="label">{name}</p><ul>' + "".join(f"<li>{x}</li>" for x in p["skills"][k]) + "</ul></div>"
+            for name, k in groups if p["skills"].get(k))
+        sections.append(("Skills and tools", [f'<div class="skills-grid">{cols}</div>']))
     toc = "".join(f'<li><a href="#s{n}">{t}</a></li>' for n, (t, _) in enumerate(sections, 1))
     secs = "".join(
         f'\n      <section class="cs-section" id="s{n}"><h2>{t}</h2>{"".join(expand(b) for b in blocks)}</section>'
