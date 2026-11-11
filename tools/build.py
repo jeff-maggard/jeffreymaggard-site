@@ -225,19 +225,10 @@ def home():
   </section>
   </div>
 
-  <div class="alt">
-  <section class="section container" id="studio-reel" aria-labelledby="reel-title">
-    <h2 id="reel-title" class="reel-title">Media production</h2>
-    <div class="reel-solo">
-      {video("portfolio-video")}
-    </div>
-  </section>
-  </div>
-
   <section class="section container" id="work" aria-labelledby="work-title">
     <div class="section-head">
       <div><p class="label">Featured projects</p><h2 id="work-title">Selected work</h2></div>
-      <p>{len(PROJECTS)} projects. Open any one to see what I did and why.</p>
+      <p>Open any of these projects to see what I did, how I did it, and why.</p>
     </div>
     <ul class="filters" aria-label="Filter projects">{filters}</ul>
     {grid(PROJECTS)}
@@ -384,7 +375,7 @@ def studio():
       <div class="studio-row">{side}</div>
     </section>
     <section class="section" aria-labelledby="sp-title">
-      <div class="section-head"><div><h2 id="sp-title">Behind each project</h2></div></div>
+      <div class="section-head"><div><h2 id="sp-title">Studio projects</h2></div><p>Open any of these projects to see what I did, how I did it, and why.</p></div>
       {grid([p for p in PROJECTS if "video" in p["cats"]])}
     </section>
   </div>
