@@ -440,7 +440,7 @@ dict(
     ]),
     ("The impact", [
       '<ul class="points"><li>The girls stayed in the safe house and built their weaving skills. Once skilled, they took their looms home and kept weaving to support their families. The safe house still runs today.</li><li>More than 20 years later, the university still teaches peace and conflict studies: a 15-week course led by a political science professor.</li><li>Dr. Jeong-Pyo Hong’s seminar lecture, “Sino-Cambodian Relations: from the Chinese Perspective,” was cited as a publication in a 2004 Korea Institute for International Economic Policy report.</li></ul>',
-      '<h3 class="sub-h">Student outcomes</h3>',
+      '<h3 class="sub-h">Peace Studies Club student outcomes</h3>',
       '<ul class="points"><li>The student who co-founded the club became an NGO worker. She has worked in Cambodia, Thailand, Bangladesh, India and Laos.</li><li>In 2003, I trained club members to do research and co-wrote a paper with them, “Young Japanese people’s views on civic (dis)engagement.” I led them to Tokyo, where we presented it together at the 2nd Peace as a Global Language Conference. On the same trip, the students met Dr. Toyama at the National Diet Building. He was a sitting member of the upper house at the time. He praised their work and encouraged them to keep going.</li><li>In 2004, I led the students to Kyoto, where we presented our co-written research, “Developing social responsibility and IC skills,” at the 3rd Peace as a Global Language Conference.</li></ul>',
     ]),
   ],
