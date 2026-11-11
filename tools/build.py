@@ -277,10 +277,15 @@ def case_study(p, i):
         f'<div class="cs-hero"><img src="{p.get("hero", p.get("image"))}" alt="{p.get("hero_alt", "")}" style="width:100%;height:100%;object-fit:cover"></div>'
         if p.get("hero") or p.get("image") else f'<div class="cs-hero">{svg(p["art"], "Illustration for " + strip(p["title"]))}</div>'
     )
-    sections = []
+    sections = list(p["sections"])
+    purpose_top = ""
+    if sections and sections[0][0] == "The purpose" and p.get("showcase_feature"):
+        # purpose sits above the student artwork block
+        purpose_top = f'<section class="cs-section purpose-top"><h2>The purpose</h2>{"".join(expand(b) for b in sections[0][1])}</section>'
+        sections = sections[1:]
     if p.get("video") and video_exists(p["video"]):
-        sections.append(("Watch", [video(p["video"])]))
-    sections += p["sections"]
+        at = 1 if sections and sections[0][0] == "The purpose" else 0
+        sections.insert(at, ("Watch", [video(p["video"])]))
     toc = "".join(f'<li><a href="#s{n}">{t}</a></li>' for n, (t, _) in enumerate(sections, 1))
     secs = "".join(
         f'\n      <section class="cs-section" id="s{n}"><h2>{t}</h2>{"".join(expand(b) for b in blocks)}</section>'
@@ -299,11 +304,12 @@ def case_study(p, i):
       <p class="intro">{p['hook']}</p>
     </section>
     {hero}
-    <dl class="facts facts-3{' facts-top' if p.get('banner') else ''}">
+    <dl class="facts {'facts-3' if f["tools"] and comp else 'facts-2'}{' facts-top' if p.get('banner') else ''}">
       <div><dt class="label">My role</dt><dd>{f['role']}</dd></div>
       {comp}
       {f'<div><dt class="label">Tools</dt><dd><ul class="chips">{tools}</ul></dd></div>' if f["tools"] else ""}
     </dl>
+    {purpose_top}
     {banner}
     {f'<div class="showcase">{feature_pair(p.get("showcase_feature"))}{gallery(p["showcase"]) if p.get("showcase") else ""}<p class="showcase-note">Original artwork by Qatar University Foundation Program students.</p></div>' if p.get("showcase") or p.get("showcase_feature") else ""}
     <div class="cs-body{' cs-body-full' if p.get('no_toc') else ''}">
