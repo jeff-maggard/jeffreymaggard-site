@@ -398,7 +398,7 @@ dict(
 ),
 # ---------------------------------------------------------------- 12
 dict(
-  slug="peace-studies-seminar", art="seminar", cats=["cultural", "teaching"], hero="/media/peace/bayon.webp", hero_alt="A giant carved stone face at Bayon temple, Angkor.",
+  slug="peace-studies-seminar", art="seminar", cats=["cultural", "teaching"], hero="/media/peace/bayon.webp", hero_class="hero-short", hero_alt="A giant carved stone face at Bayon temple, Angkor.",
   tag="Miyazaki · Fall 2003",
   title="Peace Studies Seminar on Cambodia",
   summary="I co-created a 15-week seminar on Cambodia for more than 200 students and community members, and led a student study trip to Phnom Penh and Siem Reap.",
@@ -415,16 +415,15 @@ dict(
       '<p>To teach peace studies and conflict resolution to Miyazaki International University students and members of the local Miyazaki community.</p>',
     ]),
     ("How it started", [
-      '<p>In January 2003, I visited Siem Reap and met a man who worked with the Vulnerable Children’s Assistance Organization (VCAO), a UNHCR program that stops children from being sold into slavery and prostitution.</p>',
-      '<div class="story-cards"><article><p class="label">The reality</p><h3>A $100 promise</h3><p>Traffickers offer poor families about $100 and a factory job for a child, then sell the child. The parents are tricked; they don’t realize what is happening.</p></article><article><p class="label">Prevention</p><h3>Village workshops</h3><p>In two-day conflict resolution workshops, children and adults learn to identify their problems and plan solutions. Most problems trace back to poverty. The solution: move children at risk to a safe house, out of the traffickers’ reach.</p></article><article><p class="label">Protection</p><h3>A guarded safe house</h3><p>Eleven girls lived in his family home under armed guard, safe from traffickers.</p></article></div>',
-      "<p>Life at the safe house in Siem Reap:</p>",
+      '<p>In January 2003, I visited Siem Reap and met a man who worked with the Vulnerable Children’s Assistance Organization (VCAO), a UNHCR program that stops children from being sold into slavery and prostitution. This is what VCAO does:</p>',
+      '<div class="story-cards"><article><p class="label">The problem VCAO fights</p><h3>A $100 promise</h3><p>Traffickers offer poor families about $100 and a factory job for a child, then sell the child. The parents are tricked; they don’t realize what is happening.</p></article><article><p class="label">VCAO prevention</p><h3>Village workshops</h3><p>In two-day conflict resolution workshops, children and adults learn to identify their problems and plan solutions. Most problems trace back to poverty. The solution: move children at risk to a safe house, out of the traffickers’ reach.</p></article><article><p class="label">VCAO protection</p><h3>A guarded safe house</h3><p>Eleven girls lived in his family home under armed guard, safe from traffickers.</p></article></div>',
+      "<p><b>Life at the safe house in Siem Reap.</b> Krama are long silk scarves; VCAO sells them to fund its work.</p>",
       '<figure class="safe-house"><a href="/media/peace/safe-house.webp" target="_blank" rel="noopener"><img src="/media/peace/safe-house.webp" alt="Collage of eleven panels from the VCAO safe house: an armed guard in front of a wooden house on stilts; girls weaving at wooden looms; two finished silk krama scarves; a girl tending vegetables; a girl feeding a pig beside chickens; girls reading at a table; three girls wearing checked krama. All faces are blurred." loading="lazy" width="1536" height="1024"></a><figcaption><b>Top row:</b> the guard and the house on stilts, girls weaving at the looms, and finished silk krama. <b>Bottom row:</b> more weaving, growing vegetables, raising pigs and chickens, a reading lesson, and girls wearing their krama. Illustration; faces blurred for privacy.</figcaption></figure>',
-      "<p>Krama are long silk scarves; VCAO sells them to fund its work. The girls had just begun weaving them when I visited. I bought the first ones at $10 each and took them to Japan.</p>",
     ]),
     ("The Peace Studies Club", [
       "<p>In March 2003, in Miyazaki, I founded the Peace Studies Club with a student who hoped to become an NGO worker. My colleague Dr. Kiyohiko Toyama encouraged me to start it before he left for Tokyo, newly elected to the House of Councillors, the upper house of Japan’s parliament.</p>",
       "<p>Before the Peace Studies Seminar on Cambodia, the club ran a campaign for VCAO. The Drama, Music and Dance Clubs joined it:</p>",
-      '<ol class="journey"><li><h3>Saturday markets</h3><p>Krama sold for ¥2,000 ($20), double their cost. The profit bought every scarf the girls had, then 30 more.</p></li><li><h3>A concert</h3><p>An evening concert in a city hall, with ticket sales.</p></li><li><h3>A comedy show and play</h3><p>An evening show at the university, with donations.</p></li><li><h3>Donation boxes</h3><p>Boxes in convenience and grocery stores across town.</p></li></ol>',
+      '<ol class="journey"><li><h3>Saturday markets</h3><p>I bought krama for $10 each, and the club sold them for $20 (¥2,000). Each sale doubled the money, which bought more krama. This went on for three years.</p></li><li><h3>A concert</h3><p>An evening concert in a city hall, with ticket sales.</p></li><li><h3>A comedy show and play</h3><p>An evening show at the university, with donations.</p></li><li><h3>Donation boxes</h3><p>Boxes in convenience and grocery stores across town.</p></li></ol>',
     ]),
     ("The seminar", [
       '<figure class="seminar-shot"><img src="/media/peace/seminar.webp" alt="Illustration of a lecture hall full of students, with a presenter beside a slide reading Peace Studies Seminar: Cambodia’s Path Forward, Miyazaki International College, 2003." loading="lazy" width="900" height="504"><figcaption>Illustration of the seminar.</figcaption></figure>',
