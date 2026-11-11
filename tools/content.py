@@ -429,7 +429,7 @@ dict(
       '<figure class="seminar-shot"><img src="/media/peace/seminar.webp" alt="Illustration of a lecture hall full of students, with a presenter beside a slide reading Peace Studies Seminar: Cambodia’s Path Forward, Miyazaki International College, 2003." loading="lazy" width="900" height="504"><figcaption>Illustration of the seminar.</figcaption></figure>',
       "<p>By June 2003, the campaign had built strong interest across Miyazaki. To build on it, I co-created the Peace Studies Seminar on Cambodia with Dr. Elizabeth Lokon. It ran for 15 weeks in the fall semester of 2003.</p>",
       "<p>The Cambodian Ambassador’s Counsellor, embassy staff from Japan, 11 MIU faculty, plus NGO staff gave presentations.</p>",
-      "<p>More than 200 students and community members from Miyazaki attended. Everyone who attended nine or more sessions received a certificate.</p>",
+      "<p>More than 200 students and community members from Miyazaki attended. Everyone who attended 12 or more sessions received a certificate.</p>",
       "<p>Dr. Toyama spoke at the closing session and thanked the students and the community for their work.</p>",
     ]),
     ("The trip", [
