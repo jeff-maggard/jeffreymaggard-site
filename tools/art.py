@@ -1,4 +1,5 @@
 """Line-art thumbnails: one SVG motif per project, vermilion and white on near-black."""
+from art_geo import JAPAN, USA
 O = "url(#gb)"   # blue-to-violet gradient
 W = "#FFFFFF"   # white
 G = "rgba(255,255,255,0.07)"   # dot texture
@@ -23,6 +24,16 @@ MOTIFS = {
     + f'<rect x="85" y="245" width="640" height="78" rx="8" {s(W,3)}/>'
     + f'<path d="M110 420 C200 340 280 470 380 400 S560 340 690 410" {s(O,5)}/>'
     + "".join(f'<rect x="{x-9}" y="{y-9}" width="18" height="18" transform="rotate(45 {x} {y})" fill="{W}"/>' for x,y in [(110,420),(380,400),(690,410)])),
+"exchange-maps": lambda: (
+    f'<path d="{JAPAN}" fill="{W}" fill-opacity=".12" stroke="{W}" stroke-width="4" stroke-linejoin="round"/>'
+    f'<path d="{USA}" fill="#6D7CF5" fill-opacity=".14" stroke="{O}" stroke-width="4" stroke-linejoin="round"/>'
+    f'<path d="M330 125 Q455 15 580 165" {s(W,5)} stroke-dasharray="4 16"/><circle cx="580" cy="165" r="9" fill="{O}"/><circle cx="330" cy="125" r="9" fill="{W}"/>'),
+"exchange-flags": lambda: (
+    '<rect x="110" y="170" width="240" height="160" rx="4" fill="#FFFFFF"/><circle cx="230" cy="250" r="48" fill="#BC002D"/>'
+    + "".join(f'<rect x="470" y="{170+i*13}" width="240" height="13" fill="{"#C8102E" if i%2==0 else "#FFFFFF"}"/>' for i in range(13))
+    + '<rect x="470" y="170" width="104" height="91" fill="#3C3B6E"/>'
+    + "".join(f'<circle cx="{482+c*16}" cy="{180+r*14}" r="3" fill="#FFFFFF"/>' for r in range(6) for c in range(6))
+    + f'<path d="M230 150 Q410 20 590 150" {s(W,5)} stroke-dasharray="4 16"/><circle cx="590" cy="150" r="9" fill="{O}"/><circle cx="230" cy="150" r="9" fill="{W}"/>'),
 "exchange": lambda: (
     f'<circle cx="230" cy="270" r="110" {s(W)}/><ellipse cx="230" cy="270" rx="45" ry="110" {s(W,4)}/><path d="M120 270h220M135 215h190M135 325h190" {s(W,4)}/>'
     f'<circle cx="570" cy="270" r="110" {s(O)}/><ellipse cx="570" cy="270" rx="45" ry="110" {s(O,4)}/><path d="M460 270h220M475 215h190M475 325h190" {s(O,4)}/>'
