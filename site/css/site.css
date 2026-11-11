@@ -1095,3 +1095,6 @@ a.shot.cs-banner { margin: 0 0 14px; }
 .topics { list-style: none; margin: 16px 0 24px; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 .topics li { padding: 12px 16px; border-radius: 10px; background: var(--alt); border-left: 3px solid var(--brand); font-size: 17px; }
 @media (max-width: 700px) { .topics { grid-template-columns: 1fr; } }
+/* Moderation drawings: stacked, whole and large enough to read */
+.cs-shots { grid-template-columns: 1fr; max-width: 960px; margin-left: auto; margin-right: auto; gap: 28px; }
+.cs-shots .shot img { aspect-ratio: auto; height: auto; object-fit: contain; }
