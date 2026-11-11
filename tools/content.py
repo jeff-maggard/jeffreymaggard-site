@@ -262,7 +262,7 @@ dict(
 ),
 # ---------------------------------------------------------------- 14
 dict(
-  slug="motion-videos", art="motion", cats=["video", "ai"],
+  slug="motion-videos", no_hero=True, art="motion", cats=["video", "ai"],
   tag="Motion graphics · Launch videos",
   title="Launch and promo videos",
   summary="I script and build launch and promo videos in code with React and Remotion, with an AI voice and original music.",
