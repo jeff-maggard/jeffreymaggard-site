@@ -83,8 +83,9 @@ dict(
   ),
   sections=[
     ("The purpose", [
-      "<p>Every midterm and final exam, lecturers mark the same writing samples so that grading stays fair. Each course used to have a co-course lead who ran these moderation sessions. When that role was removed, the work fell on the course leads, or on a faculty member they assigned.</p>",
-      "<p>Done by hand, it takes about 20 hours per course lead each semester: sending emails, collecting scores, analyzing them and sending feedback to every lecturer. I built this system to do all of that automatically.</p>",
+      "<p>At every midterm and final exam, lecturers mark writing samples in a moderation session, so that grading is consistent and fair across each course. Each course used to have a co-course lead who ran these sessions. When that role was removed, the work fell on the course leads, or on a faculty member they assigned.</p>",
+      "<p>Done by hand, it takes about 20 hours per course lead each semester: sending emails, collecting scores, analyzing them, sending feedback to every lecturer and keeping records. I built this system to do all of that automatically.</p>",
+      "<p>Every session is archived, so the department builds a record of marking accuracy over time. That evidence supports data-driven review: we can see where calibration drifts, target training where it is needed, and reflect on and improve our assessment practice.</p>",
     ]),
     ("What the course lead does", [
       '<ol class="steps"><li>Choose the midterm or final exam.</li><li>Add three anonymized samples of student writing.</li><li>Set the opening and closing dates.</li></ol>',
@@ -94,7 +95,7 @@ dict(
       '<ol class="steps"><li>Power Automate emails every lecturer when the session opens.</li><li>Lecturers score the samples in one Microsoft Form.</li><li>When the session closes, Excel with Office Scripts compares each score with the key mark. The course lead chooses the key mark: their own scores, or the median of the lecturers who marked the sample.</li><li>Each lecturer gets one email showing their mark for each rubric criterion directly above the key mark.</li><li>A lecturer more than 0.5 from the key mark marks another sample and gets instant feedback. For example, if the median is 3 and a lecturer gives a 4 or a 2, they mark another sample. They get up to two extra samples.</li><li>If they are still out of range, the system emails the course lead, so they can meet and help.</li><li>SharePoint archives all the data, and the course leads receive a report. A name-free summary can go to the department for CEA accreditation.</li></ol>',
     ]),
     ("Why it matters", [
-      '<ul class="points"><li>Saves each course lead about 20 hours a semester.</li><li>Frees the faculty member who was assigned to run moderation for other work that builds the program.</li><li>Shows course leads which lecturers need support, so they can help them early.</li><li>Keeps accurate, archived records from now on, ready for CEA accreditation.</li></ul>',
+      '<ul class="points"><li>Saves each course lead about 20 hours a semester.</li><li>Frees the faculty member who was assigned to run moderation for other work that builds the program.</li><li>Shows course leads which lecturers need support, so they can help them early.</li><li>Provides documented evidence of assessment quality for CEA accreditation.</li></ul>',
     ]),
     ("Orientation", [
       "<p>I made a 5-minute Rise 360 orientation for lecturers, published as SCORM 2004 in Blackboard Ultra.</p>",
