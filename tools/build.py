@@ -280,6 +280,8 @@ def case_study(p, i):
     if p.get("video") and video_exists(p["video"]):
         sections.append(("Watch", [video(p["video"])]))
     sections += p["sections"]
+    if p.get("tools_used"):
+        sections.append(("Tools I used", ['<ul class="points">' + "".join(f"<li>{t}</li>" for t in p["tools_used"]) + "</ul>"]))
     toc = "".join(f'<li><a href="#s{n}">{t}</a></li>' for n, (t, _) in enumerate(sections, 1))
     secs = "".join(
         f'\n      <section class="cs-section" id="s{n}"><h2>{t}</h2>{"".join(expand(b) for b in blocks)}</section>'
@@ -298,12 +300,7 @@ def case_study(p, i):
       <p class="intro">{p['hook']}</p>
     </section>
     {hero}
-    <dl class="facts{' facts-top' if p.get('banner') else ''}">
-      <div><dt class="label">The challenge</dt><dd>{f['context']}</dd></div>
-      <div><dt class="label">Audience</dt><dd>{f['audience']}</dd></div>
-      <div><dt class="label">My role</dt><dd>{f['role']}</dd></div>
-      <div><dt class="label">Tools</dt><dd><ul class="chips">{tools}</ul></dd></div>
-    </dl>
+    <!-- facts box removed 11 Nov 2026 (Orkun feedback): pages say what Jeffrey did -->
     {banner}
     {f'<div class="showcase">{feature_pair(p.get("showcase_feature"))}{gallery(p["showcase"]) if p.get("showcase") else ""}<p class="showcase-note">Original artwork by Qatar University Foundation Program students.</p></div>' if p.get("showcase") or p.get("showcase_feature") else ""}
     <div class="cs-body{' cs-body-full' if p.get('no_toc') else ''}">

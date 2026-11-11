@@ -39,8 +39,9 @@ dict(
   slug="two-country-course", art="exchange", cats=["courses", "teaching"],
   tag="Interdisciplinary · Virtual exchange",
   title="A shared first-year course across two countries",
-  summary="Political science students in Japan and sociology students in Maine shared one website and joint projects.",
-  hook="Two institutions, two disciplines and one shared course website, years before “virtual exchange” had a name.",
+  summary="I designed a shared first-year course that linked political science students in Japan with sociology students in Maine, and I wrote its website.",
+  hook="I designed a shared first-year course that linked political science students in Japan with sociology students in Maine, and I wrote its website.",
+  tools_used=["HTML and CSS: I wrote the shared course website by hand and taught students to code their own pages."],
   facts=dict(
     context="First-year students in two countries studied the same public issues from two disciplines.",
     audience="Political science students at Miyazaki International College (Japan). Sociology students at York County Technical College (USA).",
@@ -72,8 +73,9 @@ dict(
   slug="moderation-hub", art="moderation", cats=["courses"],
   tag="Instructional design · Microsoft 365 and Rise 360",
   title="The Moderation Hub",
-  summary="A low-code system that automates writing moderation (grading calibration) for four English foundation courses.",
-  hook="An automated writing-moderation system built with Microsoft 365 and Rise 360.",
+  summary="I designed and built a Microsoft 365 system that automates writing moderation (grading calibration) for exams, with a Rise 360 orientation for lecturers.",
+  hook="I designed and built a Microsoft 365 system that automates writing moderation (grading calibration) for exams, with a Rise 360 orientation for lecturers.",
+  tools_used=["Microsoft Forms: lecturers score the writing samples.", "Excel and Office Scripts: the scores are analyzed against the key mark.", "Power Automate: every email, extra sample and alert is sent automatically.", "SharePoint: samples, results and the semester archive are stored.", "Articulate Rise 360: the 5-minute orientation, published as SCORM 2004 in Blackboard Ultra.", "Claude: AI-assisted design and build, with documented human review."],
   facts=dict(
     context="Writing moderation (grading calibration) for four English foundation courses at a university foundation program.",
     audience="Lecturers and course leads in a university foundation program.",
@@ -81,18 +83,18 @@ dict(
     tools=["Microsoft Forms", "Excel", "Power Automate", "SharePoint", "Office Scripts", "Articulate Rise 360", "SCORM 2004", "Blackboard Ultra"],
   ),
   sections=[
-    ("The system", [
-      "<p>The Moderation Hub is a low-code system that automates writing moderation (grading calibration) for four English foundation courses.</p>",
+    ("Why I built it", [
+      "<p>Moderation sessions keep writing grades fair: every lecturer marks the same samples, and the marks are compared. Running them by hand takes course leads many hours each midterm and final exam.</p>",
+      "<p>I built the Moderation Hub to automate every step. The course lead only scans in three samples and sets the opening and closing dates. The rest is automatic.</p>",
     ]),
     ("How it works", [
-      '<ul class="points"><li>Lecturers score three anonymized writing samples in one Microsoft Form.</li><li>When the session closes, every lecturer receives one email. It shows their mark for each rubric criterion directly above the key mark (the course lead&rsquo;s or the cohort median), with differences over 0.5 highlighted.</li><li>Lecturers outside the range automatically mark an extra sample and get instant feedback.</li><li>If a lecturer remains outside the range, the course lead is alerted and receives a visual summary.</li><li>A Control Room lets each course lead run the whole system.</li><li>A one-button semester reset archives the results, with a name-free summary for accreditation.</li></ul>',
+      '<ol class="steps"><li>The course lead adds three anonymized writing samples and sets the opening and closing dates.</li><li>The Hub emails every lecturer, who scores the samples in one Microsoft Form.</li><li>When the session closes, the Hub analyzes the scores. Each lecturer gets one email that shows their mark for each rubric criterion directly above the key mark. The course lead chooses the key mark: their own scores, or the median of the lecturers who marked the sample.</li><li>A lecturer whose score is more than 0.5 from the key mark marks another sample. For example, if the median is 3 and a lecturer gives a 4 or a 2, they mark another sample and get instant feedback.</li><li>If they are still out of range, they get another sample. If they miss a third time, the Hub emails the course lead, so they can meet and help.</li><li>At the end of the session, the Hub archives all the data and sends a report to the course leads. A name-free summary can go to the department for accreditation.</li></ol>',
     ]),
     ("Orientation", [
-      "<p>A 5-minute Rise 360 orientation, published as SCORM 2004 and deployed in Blackboard Ultra.</p>",
+      "<p>I made a 5-minute Rise 360 orientation for lecturers, published as SCORM 2004 in Blackboard Ultra.</p>",
     ]),
     ("Status", [
-      "<p>Built and tested with invented data. A pilot is planned for Spring 2027.</p>",
-      "<p>Built with AI assistance, with documented human review.</p>",
+      "<p>Built and tested with invented data in November 2026. A pilot is planned for Spring 2027.</p>",
     ]),
   ],
 ),
@@ -126,6 +128,7 @@ dict(
   summary="A Qatari folktale I collected and edited. It appears in a National Museum of Qatar exhibition book. Now I am animating it.",
   hook="From a folktale told in Qatar, to a museum exhibition, to my own animated series.",
   video="falcon-opening",
+  tools_used=["Claude: story adaptation, scripts, shot lists and image prompts.", "Higgsfield: AI image and video generation for characters, scenes and animation.", "Lip sync and voice tools for the characters’ dialogue.", "ffmpeg: editing, timing and sound mixing.", "Google Drive and GitHub: the production bible, asset library and version records."],
   facts=dict(
     context="A Qatari folktale about compassion and forgiveness, ready for a new audience.",
     audience="Museum visitors, families and young viewers on YouTube.",
@@ -166,8 +169,8 @@ dict(
   slug="kamishibai", art="kamishibai", cats=["cultural"], hero="/media/kamishibai/snow-run.webp",
   tag="UNESCO-funded",
   title="UNESCO Mongolia Kamishibai Program",
-  summary="Japanese paper-theater storytelling for university and K-12 students in Mongolia and Japan. A $30,000 grant.",
-  hook="A two-year UNESCO project that brought Japanese paper theater to students in Mongolia and Japan.",
+  summary="As Principal Investigator, I wrote the UNESCO grant, built the team, led students to Mongolia to train university students and faculty in kamishibai, and co-produced the program DVD.",
+  hook="As Principal Investigator, I wrote the UNESCO grant, built the team, led students to Mongolia to train university students and faculty in kamishibai, and co-produced the program DVD.",
   facts=dict(
     context="A two-year, $30,000 UNESCO/Japan Funds-in-Trust grant at Akita International University (2005–2006).",
     audience="University students and faculty, plus K-12 students in Mongolia and Japan.",
@@ -175,12 +178,15 @@ dict(
     tools=["Kamishibai", "Grant writing", "Documentary", "Program leadership"],
   ),
   sections=[
+    ("How it started", [
+      "<p>I wrote the grant and served as Principal Investigator. I built a team around the project. One team member, a former Vice President of the Asian Development Bank, helped the proposal win funding from UNESCO through the Asia/Pacific Cultural Centre for UNESCO (ACCU).</p>",
+    ]),
     ("The program", [
       "<p>More than 40 faculty and students took part at Akita International University and the University of the Humanities (Ulaanbaatar) to teach folklore and kamishibai theatre traditions to hundreds of K-12 students in Mongolia and Japan.</p>",
       "<p>Kamishibai is a Japanese storytelling tradition in which a performer presents a sequence of illustrated paper panels on a small stage, sliding each scene across the frame in rhythm with the narration. The storyteller uses expressive vocal techniques, gestures, timing, and character voices reminiscent of traditional Japanese theatrical performance. In many ways, manga can be seen as its modern analogue: both rely on sequential images, visual pacing, and the interaction between images and narrative to tell a story.</p>",
     ]),
     ("My role", [
-      '<ul class="points"><li>Principal Investigator and Steering Committee Chair.</li><li>Directed the documentary team.</li><li>Co-produced and self-published the <em>UNESCO Mongolia Kamishibai Program</em> DVD with Chris Hoskins. It was distributed widely to schools in Japan and Mongolia, and to universities.</li></ul>',
+      '<ul class="points"><li>Wrote the UNESCO grant and served as Principal Investigator and Steering Committee Chair.</li><li>Planned the pre-departure and in-country program and managed the budget.</li><li>Led the student team to Mongolia and trained University of the Humanities students and faculty in kamishibai methods.</li><li>Designed the research program and its data collection tools.</li><li>Directed the documentary team.</li><li>Co-produced and self-published the <em>UNESCO Mongolia Kamishibai Program</em> DVD with Chris Hoskins. It was distributed widely to schools in Japan and Mongolia, and to universities.</li></ul>',
       "<p>The DVD holds the Japanese and Mongolian kamishibai stories as PowerPoint slideshows. It has videos on collecting the folktales from oral tellers. It also has a PPT with instructions on how to create kamishibai illustrations, and how to use traditional voice-acting methods.</p>",
       '<figure class="photo photo-half"><img src="/media/kamishibai/dvd-landing.webp" alt="DVD landing screen: Akita International University UNESCO/ACCU Kamishibai Project with Mongolia University of Humanities, with a strip of project photos and menu items for Slideshows, Movies, Presentations, Team Members, Japanese Kamishibai and Mongolian Kamishibai. Children&rsquo;s faces are blurred." loading="lazy" width="760" height="583"><figcaption>DVD landing screen</figcaption></figure>',
     ]),
@@ -203,9 +209,10 @@ dict(
   slug="pure-intellect", art="tutor", cats=["ai"],
   tag="AI apps · Claude Code",
   title="Pure Intellect Tutor, Analyzer &amp; AI Ranking App",
-  summary="AI education tools I design and build: a tutor that asks questions instead of giving answers, and a grading assistant for professors.",
-  hook="AI that coaches students to think, and helps professors grade fairly.",
+  summary="I design and build AI education tools: a tutor that asks students questions instead of giving answers, and a grading assistant for professors.",
+  hook="I design and build AI education tools: a tutor that asks students questions instead of giving answers, and a grading assistant for professors.",
   video="pure-intellect-tutor",
+  tools_used=["Claude and Claude Code: design partner and coding.", "React, TypeScript and Vite: the course website, tutor and grading assistant.", "Three.js: the 3D graphics.", "Vitest and Playwright: 48 automated tests and a scripted click-through on desktop and phone."],
   facts=dict(
     context="Students can ask AI to do the work for them. I wanted AI that makes them think harder instead.",
     audience="First-year university students and their professors.",
@@ -238,9 +245,10 @@ dict(
   slug="motion-videos", art="motion", cats=["video", "ai"],
   tag="Motion graphics · Launch videos",
   title="Launch and promo videos",
-  summary="Product launch videos, course walkthroughs and introductions, built as code with Remotion and AI voice.",
-  hook="Launch videos built entirely in code: scripted, timed and captioned.",
+  summary="I script and build launch and promo videos in code with React and Remotion, with an AI voice and original music.",
+  hook="I script and build launch and promo videos in code with React and Remotion, with an AI voice and original music.",
   video="pure-intellect-tutor",
+  tools_used=["React and Remotion: every frame is coded and timed to the voice track.", "AI voice for the narration.", "An original piano score made with the Salamander Grand Piano samples.", "ffmpeg: final encoding and loudness.", "Claude Code: building and revising the video code."],
   facts=dict(
     context="Products and courses need short videos that explain them fast.",
     audience="Faculty, hiring teams and LinkedIn viewers.",
@@ -302,8 +310,8 @@ dict(
   slug="story-mile", art="story-mile", cats=["cultural"], hero="/media/story-mile/artwork.webp",
   tag="Zayed University · Public exhibition",
   title="The Story Mile",
-  summary="300 student authors. A public exhibition on the Abu Dhabi Corniche, a permanent installation and a book.",
-  hook="Student stories, written for the public and installed along the Abu Dhabi Corniche.",
+  summary="I co-founded a student storytelling club and led its stories to a public exhibition on the Abu Dhabi Corniche, a permanent installation and a book I edited.",
+  hook="I co-founded a student storytelling club and led its stories to a public exhibition on the Abu Dhabi Corniche, a permanent installation and a book I edited.",
   facts=dict(
     context="A storytelling project at Zayed University, made with major cultural partners.",
     audience="Zayed University students and the public in Abu Dhabi.",
@@ -337,8 +345,8 @@ dict(
   slug="tales-of-qatari-heritage", art="tales", cats=["cultural"], showcase_feature="tales-feature", no_toc=True, banner="/media/tales/falcon-strip.webp", banner_alt="Student artwork in five panels: a falconer among tents and camels, a man cradling a bird, a man shading his eyes in the desert, a man running toward a fallen falcon, and a falconer with his falcon.", banner_caption="He Who Doesn’t Know the Falcon Roasts It",
   tag="Bilingual book · Qatar University",
   title="Tales of Qatari Heritage",
-  summary="A bilingual (Arabic/English) book of Qatari folktales collected by Qatar University students.",
-  hook="Qatari folktales of compassion and forgiveness, collected by students.",
+  summary="I am lead editor of a bilingual book of Qatari folktales, leading six co-editors and more than 150 students, faculty and staff.",
+  hook="I am lead editor of a bilingual book of Qatari folktales, leading six co-editors and more than 150 students, faculty and staff.",
   facts=dict(
     context="Qatari folktales that show compassion and forgiveness.",
     audience="Readers of Arabic and English.",
@@ -362,8 +370,8 @@ dict(
   slug="peace-studies-seminar", art="seminar", cats=["cultural", "teaching"], hero="/media/peace/bayon.webp", hero_alt="A giant carved stone face at Bayon temple, Angkor.",
   tag="Miyazaki · Fall 2003",
   title="Peace Studies Seminar on Cambodia",
-  summary="A 15-week, certificate-bearing seminar for 200+ students and community members, with a study trip to Cambodia.",
-  hook="A seminar that brought faculty, embassies and NGOs into one classroom.",
+  summary="I co-created a 15-week seminar on Cambodia for more than 200 students and community members, and led a student study trip to Phnom Penh and Siem Reap.",
+  hook="I co-created a 15-week seminar on Cambodia for more than 200 students and community members, and led a student study trip to Phnom Penh and Siem Reap.",
   facts=dict(
     context="A 15-week, certificate-bearing seminar at Miyazaki (Fall 2003).",
     audience="More than 200 students and community members.",

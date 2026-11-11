@@ -998,3 +998,4 @@ a.shot.cs-banner { margin: 0 0 14px; }
   .showcase .feature-pair { flex-direction: column; align-items: stretch; }
   .showcase .feature-pair .shot img { height: auto; width: 100%; }
 }
+.showcase-head { margin-top: 48px; }
