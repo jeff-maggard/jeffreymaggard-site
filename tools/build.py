@@ -352,7 +352,7 @@ def instructional_design():
       <div class="panel"><p class="label">Toolkit</p><h3 id="tools-title">Tools I design with</h3><p>{TOOLS}</p></div>
     </section>"""
     body = category_page("courses", "Instructional Design &amp; Curriculum",
-                         "I design courses, assessments and materials, from scope and sequence to rubrics.", extra)
+                         "I design courses, assessments and systems, from scope and sequence to rubrics, so students learn by doing real work.", extra)
     return page("Instructional Design & Curriculum", body, "/instructional-design/", scene="blocks")
 
 
@@ -473,9 +473,9 @@ def main():
     write("teaching/index.html", teaching())
     write("studio/index.html", studio())
     write("cultural-projects/index.html", simple_category("cultural", "/cultural-projects/", "Cultural Projects",
-          "Folktales, museum work, storytelling programs and seminars that connect students to cultures and communities."))
+          "I lead projects that collect, publish and perform folktales, and I build seminars and exchanges that connect students with communities in Japan, Mongolia, Cambodia, the UAE and Qatar."))
     write("ai-projects/index.html", simple_category("ai", "/ai-projects/", "AI Projects",
-          "AI tools and AI-aware courses I design and build with Claude and Claude Code."))
+          "I design and build AI tools and AI-aware courses with Claude and Claude Code, so students think harder instead of handing their work to AI."))
     write("contact/index.html", contact())
     print("built", len(PROJECTS), "case studies")
 

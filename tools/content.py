@@ -14,12 +14,12 @@ VIDEOS = {
     "falcon-opening": dict(
         src="/media/falcon-opening.mp4", poster="/media/falcon/poster.jpg", ratio="16 / 9",
         title="He Who Doesn’t Know the Falcon Roasts It · Episode 1 opening",
-        caption="Title, story crawl and sunrise. 2D animation with a Pixar-inspired look. 68 seconds.",
+        caption="I wrote and produced this 68-second opening for Episode 1 of my animated folktale series: title, story crawl and sunrise, in 2D animation with a Pixar-inspired look.",
     ),
     "pure-intellect-tutor": dict(
         src="/media/pure-intellect-tutor.mp4", poster="/media/pure-intellect-tutor.jpg", ratio="4 / 5",
         title="Pure Intellect Tutor · launch video",
-        caption="A 60-second launch video for my AI tutor, built from real screens of the course website. Captioned to work with no sound.",
+        caption="I made this 60-second launch video for my AI tutor, built from real screens of the course website.",
     ),
     "portfolio-video": dict(
         src="/media/portfolio-video.mp4", poster="/media/portfolio-video.jpg", ratio="16 / 9",
