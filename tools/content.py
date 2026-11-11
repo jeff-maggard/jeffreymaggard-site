@@ -333,13 +333,13 @@ dict(
   slug="story-mile", art="story-mile", cats=["cultural"], hero="/media/story-mile/artwork.webp",
   tag="Zayed University · Public exhibition",
   title="The Story Mile",
-  summary="I co-founded a student storytelling club and led its stories to a public exhibition on the Abu Dhabi Corniche, a permanent installation and a book I co-edited.",
+  summary="I co-founded a student storytelling club and led its stories to a public exhibition on the Abu Dhabi Corniche, a permanent installation and a book I edited as lead editor.",
   hook="I co-founded a student storytelling club, added a fiction-writing unit to our course, and helped turn student stories into a mile-long exhibition on the Abu Dhabi Corniche, a permanent installation and a book.",
-  skills={"core": ["Founding and supervising a student club", "Partnerships with cultural and corporate sponsors", "Exhibition planning on a public site", "Curriculum design: a fiction and folktale writing unit", "Co-editing a published book", "Active and applied learning"]},
+  skills={"core": ["Founding and supervising a student club", "Partnerships with cultural and corporate sponsors", "Exhibition planning on a public site", "Curriculum design: a fiction and folktale writing unit", "Lead editor of a published book", "Active and applied learning"]},
   facts=dict(
     context="A storytelling project at Zayed University, made with major cultural partners.",
     audience="Zayed University students and the public in Abu Dhabi.",
-    role="Co-founder and a faculty supervisor of the Al Kharareef storytelling club. Co-creator of the Story Mile Project: organized the faculty, got the writing contest approved and wrote the fiction unit for our textbook. Co-editor of the book.",
+    role="Co-founder and student advisor of the Al Kharareef storytelling club. Co-creator of the Story Mile Project: organized the faculty, got the writing contest approved and wrote the fiction unit for our textbook. Lead editor of the book.",
     tools=[],
   ),
   sections=[
@@ -347,9 +347,9 @@ dict(
       "<p>To preserve Emirati oral traditions and give students a public audience for their writing.</p>",
     ]),
     ("The project", [
-      "<p>I co-founded the Al Kharareef storytelling club at Zayed University in 2011 and was a faculty supervisor. The club ran storytelling events, including World Storytelling Day and visits to schools. That work caught the attention of the Abu Dhabi Music &amp; Arts Foundation, which invited us to take part in the Abu Dhabi Festival, sponsored by Mubadala.</p>",
+      "<p>I co-founded the Al Kharareef storytelling club at Zayed University in 2011 and was its student advisor. The club ran storytelling events, including World Storytelling Day and visits to schools. That work caught the attention of the Abu Dhabi Music &amp; Arts Foundation, which invited us to take part in the Abu Dhabi Festival, sponsored by Mubadala.</p>",
       "<p>In 2013, I invited the world-famous master storyteller Abdul Aziz Al Musallam, head of the Sharjah Institute for Heritage, to Zayed University. He helped participating faculty &amp; students craft their stories the way they were meant to be told.</p>",
-      '<ol class="journey"><li><h3>A writing unit</h3><p>I added a fiction and folktale unit to our course textbook: how to collect, write and tell stories. The department approved it.</p></li><li><h3>500+ writers</h3><p>More than 500 students wrote stories as part of the course.</p></li><li><h3>A contest</h3><p>I organized the faculty and got a writing contest approved. Volunteers entered their stories.</p></li><li><h3>Editing</h3><p>I edited the winning stories with Brioni LaThrop, the managing editor, and L. Ball, whose editing the Foundation funded.</p></li></ol>',
+      '<ol class="journey"><li><h3>A writing unit</h3><p>I added a fiction and folktale unit to our course textbook: how to collect, write and tell stories. The department approved it.</p></li><li><h3>500+ writers</h3><p>More than 500 students wrote stories as part of the course.</p></li><li><h3>A contest</h3><p>I organized the faculty and got a writing contest approved. Volunteers entered their stories.</p></li><li><h3>Editing</h3><p>I was lead editor of the winning stories. Brioni LaThrop, the managing editor, handled publishing and permissions. The Foundation funded a third editor, L. Ball.</p></li></ol>',
       '<figure class="photo banner"><img src="/media/story-mile/al-kharareef.webp" alt="Al Kharareef Storytelling Club banner: a storyteller with a falcon and children around a campfire" loading="lazy" width="1000" height="250"><figcaption>The banner from the Al Kharareef Storytelling Club website.</figcaption></figure>',
       '<figure class="cover"><img src="/media/story-mile/story-illustration.webp" alt="Story illustration: a girl in a yellow dress with red dots beside an old stone archway" loading="lazy" width="441" height="414"><figcaption>A story illustration from the project.</figcaption></figure>',
     ]),
