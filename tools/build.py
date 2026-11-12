@@ -327,8 +327,16 @@ def case_study(p, i):
     return page(strip(p["title"]), body, "", strip(p["summary"]), SCENE_FOR_CAT[p["cats"][0]])
 
 
+# Hand-picked order for some category pages (slugs first, in this order; the rest follow).
+CATEGORY_ORDER = {
+    "cultural": ["tales-of-qatari-heritage", "kamishibai", "story-mile", "peace-studies-seminar", "falcon-folktale"],
+}
+
+
 def category_page(cat, title, intro, extra=""):
     projects = [p for p in PROJECTS if cat in p["cats"]]
+    order = CATEGORY_ORDER.get(cat, [])
+    projects.sort(key=lambda p: order.index(p["slug"]) if p["slug"] in order else len(order))
     body = f"""
   <div class="container">
     <section class="page-head">

@@ -1102,3 +1102,5 @@ a.yt-lite { display: block; position: relative; }
 .yt-note { position: absolute; right: 12px; bottom: 12px; padding: 4px 10px; border-radius: 999px; background: rgba(0,0,0,.65); color: #fff; font-size: 14px; }
 .cs-gap { height: 40px; }
 .facts + .cs-book { margin-top: 40px; }
+/* Cultural Projects page: falcon card sits bottom right */
+.grid > .card[data-slug="falcon-folktale"]:last-child { grid-column-end: -1; }
