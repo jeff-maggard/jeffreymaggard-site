@@ -298,12 +298,13 @@ def case_study(p, i):
       <span class="bar" aria-hidden="true"></span>
       <p class="intro">{p['hook']}</p>
     </section>
-    {hero}
+    {'<div class="cs-gap" aria-hidden="true"></div>' if p.get('shots') else hero}
     <dl class="facts {'facts-3' if f["tools"] and comp else 'facts-2'}{' facts-top' if p.get('banner') else ''}">
       <div><dt class="label">My role</dt><dd>{f['role']}</dd></div>
       {comp}
       {f'<div><dt class="label">Tools</dt><dd><ul class="chips">{tools}</ul></dd></div>' if f["tools"] else ""}
     </dl>
+    {hero if p.get('shots') else ''}
     {purpose_top}
     {banner}
     {f'<div class="showcase">{feature_pair(p.get("showcase_feature"))}{gallery(p["showcase"]) if p.get("showcase") else ""}<p class="showcase-note">Original artwork by Qatar University Foundation Program students.</p></div>' if p.get("showcase") or p.get("showcase_feature") else ""}

@@ -71,7 +71,7 @@ dict(
 dict(
   slug="moderation-hub", art="moderation", cats=["courses"], shots=[("/media/moderation/control-room.webp", "A simplified view of the Control Room: the course lead fills in the course, exam, samples and opening and closing dates. Everything else runs automatically.", "The Control Room: where the course lead sets up each session"), ("/media/moderation/scoring-form.webp", "A simplified view of the scoring form: lecturers read the prompt and rubric, open each sample and choose a mark for each criterion.", "The scoring form lecturers fill in"), ("/media/moderation/feedback-email.webp", "A simplified feedback email: the lecturer's marks sit directly above the key marks, and a mark more than 0.5 apart is highlighted in yellow.", "The feedback email each lecturer receives")],
   tag="Instructional design · Microsoft 365 and Rise 360",
-  title="Embedded Calibrated Grading and Automated Writing Moderation System",
+  title="Automated Writing Moderation System",
   summary="I built a Microsoft 365 system that automates writing moderation (grading calibration) for exams, with a Rise 360 orientation for lecturers.",
   hook="I built a Microsoft 365 system that automates writing moderation (grading calibration) for exams, with a Rise 360 orientation for lecturers.",
   skills={"core": ["Grading, norming and exam development", "Assessment design and learning outcomes", "Formative assessment and feedback", "Accreditation and program improvement", "Faculty mentoring and stakeholder engagement"], "ai": ["Quality assurance and workflow design", "AI-assisted design and build with Claude, with documented human review"]},
@@ -101,7 +101,7 @@ dict(
       "<p>I made a 5-minute Rise 360 orientation for lecturers, published as SCORM 2004 in Blackboard Ultra.</p>",
     ]),
     ("Next steps", [
-      "<p>Built and tested with invented data in November 2026. With permission from the department, I will pilot it in Spring 2027 with the Embedded Foundation courses. If it works well, it can expand to the Foundation Program and Post-Foundation courses, so all three divisions of the department can use it.</p>",
+      "<p>Built and tested with invented data in November 2026. With permission from the department, I will pilot it in Spring 2027 with the Embedded Foundation courses. If it works well, it can expand to the Foundation Program and Post-Foundation courses.</p>",
     ]),
   ],
 ),
