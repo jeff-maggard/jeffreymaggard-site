@@ -247,6 +247,7 @@ def home():
         c.hidden = f !== 'all' && c.getAttribute('data-cats').split(' ').indexOf(f) < 0;
         var o = (ORDER[f] || []).indexOf(c.getAttribute('data-slug'));
         c.style.order = o < 0 ? '' : o;
+        c.style.gridColumnEnd = (f === 'cultural' && c.getAttribute('data-slug') === 'falcon-folktale') ? '-1' : '';
       }});
     }});
   }});
