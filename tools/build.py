@@ -120,7 +120,7 @@ def strip(html):
 def card(p):
     cats = " ".join(p["cats"])
     return f"""
-      <article class="card" data-cats="{cats}">
+      <article class="card" data-cats="{cats}" data-slug="{p['slug']}">
         <div class="thumb">{thumb(p)}</div>
         <div class="card-body">
           <p class="label">{p['tag']}</p>
@@ -235,6 +235,8 @@ def home():
   </section>
 <script>
 (function () {{
+  // Custom card order for a filter, so a filtered view does not look like the full list.
+  var ORDER = {{ teaching: ['peace-studies-seminar', 'sociology-video-course', 'two-country-course'] }};
   var buttons = document.querySelectorAll('[data-filter]');
   var cards = document.querySelectorAll('.grid .card');
   buttons.forEach(function (b) {{
@@ -243,6 +245,8 @@ def home():
       buttons.forEach(function (x) {{ x.setAttribute('aria-pressed', x.getAttribute('data-filter') === f ? 'true' : 'false'); }});
       cards.forEach(function (c) {{
         c.hidden = f !== 'all' && c.getAttribute('data-cats').split(' ').indexOf(f) < 0;
+        var o = (ORDER[f] || []).indexOf(c.getAttribute('data-slug'));
+        c.style.order = o < 0 ? '' : o;
       }});
     }});
   }});
