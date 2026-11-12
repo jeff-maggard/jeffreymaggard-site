@@ -92,5 +92,14 @@ MOTIFS = {
     "".join(f'<rect x="{180+c*110}" y="{110+r*70}" width="90" height="50" rx="8" fill="{O if (r,c) in [(0,3),(1,2),(2,3),(3,1)] else "none"}" stroke="{O if (r,c) in [(0,3),(1,2),(2,3),(3,1)] else W}" stroke-width="4"/>' for r in range(4) for c in range(4))),
 }
 
+_count = [0]
+
 def svg(motif, label):
-    return frame(MOTIFS[motif](), label)
+    # Give each picture its own gradient ids. Shared ids break the colours
+    # when the picture that holds them is hidden (for example by a filter).
+    _count[0] += 1
+    n = _count[0]
+    out = frame(MOTIFS[motif](), label)
+    for gid in ("gb", "bar"):
+        out = out.replace(f'id="{gid}"', f'id="{gid}-{n}"').replace(f"url(#{gid})", f"url(#{gid}-{n})")
+    return out
