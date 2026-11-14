@@ -506,7 +506,6 @@ TEACHING = dict(
       "Faculty development workshops at Portland State University, the University of North Texas, Miyazaki, Zayed University and Qatar University.",
       "Academic Computing Subcommittee, Miyazaki (2002–2005).",
       "Faculty Technology Coordinator, Miyazaki (1999–2001): I supported faculty with teaching technology and managed two Macintosh computer labs with their student staff.",
-      "Co-founder, Computer-Assisted Language Learning (CALL) Roundtable, Portland State University (1997–1998).",
     ]),
     ("Curriculum and quality", "Committees", [
       "Faculty Performance Review and Development System Committee, Qatar University (2026–present).",
