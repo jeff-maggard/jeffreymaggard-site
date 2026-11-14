@@ -1104,3 +1104,11 @@ a.yt-lite { display: block; position: relative; }
 .facts + .cs-book { margin-top: 40px; }
 /* Cultural Projects page: falcon card sits bottom right */
 .grid > .card[data-slug="falcon-folktale"]:last-child { grid-column-end: -1; }
+
+/* Highlights strip under the Home hero */
+.proof-strip { background: var(--alt); border-bottom: 1px solid var(--border); }
+.proof-list { list-style: none; margin: 0 auto; padding-top: 24px; padding-bottom: 24px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px 32px; }
+.proof-list li { color: var(--ink); font-size: 17px; font-weight: 500; line-height: 1.4; padding-left: 16px; position: relative; }
+.proof-list li::before { content: ""; position: absolute; left: 0; top: 0.55em; width: 6px; height: 6px; border-radius: 50%; background: var(--brand); }
+@media (max-width: 960px) { .proof-list { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 640px) { .proof-list { grid-template-columns: 1fr; gap: 8px; } }

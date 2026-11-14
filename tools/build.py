@@ -196,8 +196,20 @@ def expand(block):
 SKILLS = ["Course design", "Curriculum", "Assessment", "Textbooks", "Animation", "Launch videos", "AI tutors", "Claude Code", "Storytelling", "Virtual exchange", "Accessibility", "Teacher training"]
 
 
+# Highlights strip under the Home hero (wording approved by Jeffrey, 14 Nov 2026).
+PROOF = [
+    "Taught first-year university courses in the USA, Japan, the UAE and Qatar",
+    "Political science, sociology, IT and English composition courses",
+    "Team-taught across disciplines",
+    "UNESCO-funded project lead",
+    "Published research on technology and learning",
+    "AI-assisted animation, video and course design",
+]
+
+
 def home():
     skills = "".join(f"<span>{k}</span>" for k in SKILLS)
+    proof = "".join(f"<li>{x}</li>" for x in PROOF)
     # Same order and names as the top menu.
     btn = lambda k, v: f'<li><button type="button" aria-pressed="false" data-filter="{k}">{v}</button></li>'
     filters = ('<li><button type="button" aria-pressed="true" data-filter="all">All</button></li>'
@@ -223,6 +235,10 @@ def home():
     </div>
   </section>
   </div>
+
+  <section class="proof-strip" aria-label="Highlights">
+    <ul class="container proof-list">{proof}</ul>
+  </section>
 
   <section class="section container" id="work" aria-labelledby="work-title">
     <div class="section-head">
