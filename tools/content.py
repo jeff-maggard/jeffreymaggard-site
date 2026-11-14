@@ -83,7 +83,7 @@ dict(
   ),
   sections=[
     ("The purpose", [
-      "<p>At every midterm and final exam in Qatar University’s FPDE (Foundation Program Department of English), lecturers mark writing samples in a moderation session, so that grading is consistent and fair. Each course used to have a co-course lead who ran these sessions. When that role was removed, the work fell on the course leads, or on a faculty member they assigned.</p>",
+      "<p>At every midterm and final exam in Qatar University’s FPDE (Foundation Program Department of English), lecturers mark writing samples in a moderation session, so that grading is consistent and fair.</p>",
       "<p>Done by hand, it takes about 20 hours per course lead each semester: sending emails, collecting scores, analyzing them, sending feedback to every lecturer and keeping records. I built this system to do all of that automatically.</p>",
       "<p>Every session is archived, so the department builds a record of marking accuracy over time. That evidence supports data-driven review: we can see where calibration drifts, target training where it is needed, and reflect on and improve our assessment practice.</p>",
     ]),
@@ -223,7 +223,7 @@ dict(
 ),
 # ---------------------------------------------------------------- 5
 dict(
-  slug="pure-intellect", art="tutor", cats=["ai"],
+  slug="pure-intellect", art="tutor", cats=["ai"], hidden=True,  # hidden 14 Nov 2026 at Jeffrey's request; delete hidden=True to restore
   tag="AI apps · Claude Code",
   title="Pure Intellect Tutor, Analyzer &amp; AI Ranking App",
   summary="I create AI education tools: a tutor that asks students questions instead of giving answers, and a grading assistant for professors.",
@@ -267,7 +267,6 @@ dict(
   title="Launch and promo videos",
   summary="I script and build launch and promo videos in code with React and Remotion, with an AI voice and original music.",
   hook="I script and build launch and promo videos in code with React and Remotion, with an AI voice and original music.",
-  video="pure-intellect-tutor",
   skills={"core": ["Scriptwriting", "Visual storytelling", "Captions for every video"], "ai": ["AI voice casting and direction", "AI-assisted video production", "AI-assisted coding with Claude Code"]},
   facts=dict(
     context="Products and courses need short videos that explain them fast.",
@@ -280,7 +279,7 @@ dict(
       "<p>Products and courses need short videos that explain them fast.</p>",
     ]),
     ("What I make", [
-      '<ul class="points"><li>Product launch videos, such as the Pure Intellect Tutor video.</li><li>Course website walkthroughs, captioned to work with no sound.</li><li>Portfolio and introduction videos.</li><li>Formats for every channel: 16:9, 9:16, 1:1 and 4:5 for LinkedIn.</li></ul>',
+      '<ul class="points"><li>Product launch videos.</li><li>Course website walkthroughs, captioned to work with no sound.</li><li>Portfolio and introduction videos.</li><li>Formats for every channel: 16:9, 9:16, 1:1 and 4:5 for LinkedIn.</li></ul>',
     ]),
     ("How I build them", [
       "<p>Every frame is coded in React with Remotion. Captions and graphics are timed to the measured voice track. The music bed is an original piano score. I write every script.</p>",
@@ -371,7 +370,7 @@ dict(
 ),
 # ---------------------------------------------------------------- 11
 dict(
-  slug="tales-of-qatari-heritage", art="tales", cats=["cultural"], showcase_feature="tales-feature", no_toc=True, banner="/media/tales/falcon-strip.webp", banner_alt="Student artwork in five panels: a falconer among tents and camels, a man cradling a bird, a man shading his eyes in the desert, a man running toward a fallen falcon, and a falconer with his falcon.", banner_caption="He Who Doesn’t Know the Falcon Roasts It",
+  slug="tales-of-qatari-heritage", art="tales", cats=["cultural"], no_toc=True,
   tag="Bilingual book · Qatar University",
   title="Tales of Qatari Heritage",
   summary="I am lead editor of a bilingual book of Qatari folktales, leading six co-editors and more than 150 students, faculty and staff.",

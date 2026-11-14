@@ -25,7 +25,6 @@ NAV = [
     ("Teaching", "/teaching/"),
     ("Studio", "/studio/"),
     ("Cultural Projects", "/cultural-projects/"),
-    ("AI Projects", "/ai-projects/"),
 ]
 EMAIL = "jeff@jeffreymaggard.com"
 LINKEDIN = "https://www.linkedin.com/in/jeff-maggard-a01181b3"
@@ -203,7 +202,7 @@ def home():
     btn = lambda k, v: f'<li><button type="button" aria-pressed="false" data-filter="{k}">{v}</button></li>'
     filters = ('<li><button type="button" aria-pressed="true" data-filter="all">All</button></li>'
                + btn("courses", "Instructional Design") + btn("teaching", "Teaching") + btn("video", "Studio")
-               + btn("cultural", "Cultural Projects") + btn("ai", "AI Projects"))
+               + btn("cultural", "Cultural Projects"))
     body = f"""
   <div class="hero3d-band home-band" data-scene="globe">{CANVAS}
   <section class="hero container" aria-labelledby="hero-title">
@@ -375,7 +374,7 @@ def instructional_design():
 
 
 def studio():
-    side = "".join(video(k) for k in ("falcon-opening", "community-esl", "pure-intellect-tutor") if video_exists(k))
+    side = "".join(video(k) for k in ("falcon-opening", "community-esl") if video_exists(k))
     body = f"""
   <div class="container">
     <section class="page-head">
@@ -481,8 +480,6 @@ def main():
     write("studio/index.html", studio())
     write("cultural-projects/index.html", simple_category("cultural", "/cultural-projects/", "Cultural Projects",
           "I lead projects that collect, publish and perform folktales, and I build seminars and exchanges that connect students with communities in Japan, Mongolia, Cambodia, the UAE and Qatar."))
-    write("ai-projects/index.html", simple_category("ai", "/ai-projects/", "AI Projects",
-          "I design and build AI tools and AI-aware courses with Claude and Claude Code, so students think harder instead of handing their work to AI."))
     write("contact/index.html", contact())
     print("built", len(PROJECTS), "projects")
 
