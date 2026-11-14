@@ -1134,3 +1134,6 @@ a.yt-lite { display: block; position: relative; }
 .svc-list li:last-child { margin-bottom: 0; }
 
 .panel .next-label { margin-top: 18px; }
+/* Logo: Jeffrey blue and bold like Maggard; black JM box */
+.brand-logo .logo-first { font-weight: 700; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.brand-logo .logo-mark { box-shadow: 0 6px 16px rgba(22, 24, 29, 0.25); }
