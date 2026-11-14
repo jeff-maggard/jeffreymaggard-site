@@ -386,7 +386,7 @@ dict(
   facts=dict(
     context="Qatari folktales that show compassion and forgiveness.",
     audience="Readers of Arabic and English.",
-    role="Managing editor, working with faculty co-editors and translators. Chair of the Cultural Awareness Team (2016–2023).",
+    role="Chair of the Cultural Awareness Team (2016–2023).",
     tools=[],
   ),
   sections=[
