@@ -373,13 +373,13 @@ dict(
   slug="tales-of-qatari-heritage", art="tales", cats=["cultural"], no_toc=True,
   tag="Bilingual book · Qatar University",
   title="Tales of Qatari Heritage",
-  summary="I am lead editor of a bilingual book of Qatari folktales, leading six co-editors and more than 150 students, faculty and staff.",
-  hook="I am lead editor of a bilingual book of Qatari folktales, leading six co-editors and more than 150 students, faculty and staff.",
+  summary="I am managing editor of a bilingual book of Qatari folktales, leading six co-editors and more than 150 students, faculty and staff.",
+  hook="I am managing editor of a bilingual book of Qatari folktales, leading six co-editors and more than 150 students, faculty and staff.",
   skills={"core": ["Leading more than 150 students, faculty and staff", "Training students to collect stories from elders", "Bilingual editing with six co-editors", "Faculty mentoring and stakeholder engagement", "Active and applied learning"]},
   facts=dict(
     context="Qatari folktales that show compassion and forgiveness.",
     audience="Readers of Arabic and English.",
-    role="Lead editor, working with six co-editors. Chair of the Cultural Awareness Team (2016–2023).",
+    role="Managing editor, working with six co-editors. Chair of the Cultural Awareness Team (2016–2023).",
     tools=[],
   ),
   sections=[
@@ -390,7 +390,7 @@ dict(
       "<p><cite>Tales of Qatari Heritage</cite> is an unpublished bilingual (Arabic/English) book of Qatari folktales collected by Qatar University students. Most stories show compassion and forgiveness.</p>",
     ]),
     ("My role", [
-      "<p>I am lead editor, working with six co-editors. As Chair of the Cultural Awareness Team (2016–2023), I led more than 150 students, faculty and staff on the project.</p>",
+      "<p>I am managing editor, working with six co-editors. As Chair of the Cultural Awareness Team (2016–2023), I led more than 150 students, faculty and staff on the project.</p>",
     ]),
     ("The stories", [
       '<div class="toc-wrap"><table class="toc-table"><thead><tr><th scope="col">English</th><th scope="col" lang="ar" dir="rtl">العربية</th></tr></thead><tbody><tr><td>Muneera: The Sheikh’s Daughter</td><td lang="ar" dir="rtl">منيرة بنت الشيخ</td></tr><tr><td>The Song of the Warrior</td><td lang="ar" dir="rtl">عزوة الفارس</td></tr><tr><td>He Who Doesn’t Know the Falcon Roasts It</td><td lang="ar" dir="rtl">اللي ما يعرف الصقر يشويه</td></tr><tr><td>Entertaining the Guest</td><td lang="ar" dir="rtl">إكرام الضيف</td></tr><tr><td>Gheelan: The Kind Sailor</td><td lang="ar" dir="rtl">البحار الطيب غيلان</td></tr><tr><td>The Gracious Forgiveness</td><td lang="ar" dir="rtl">الصفح الجميل</td></tr><tr><td>You Reap What You Sow</td><td lang="ar" dir="rtl">جنت على نفسها براقش</td></tr><tr><td>The Solemn Promise</td><td lang="ar" dir="rtl">حكاية عهد</td></tr><tr><td>A Tale of Generosity</td><td lang="ar" dir="rtl">قصة الكرم</td></tr><tr><td>The Noble Knight</td><td lang="ar" dir="rtl">الفارس النبيل</td></tr><tr><td>Allawi and Hmaarat Al Qayla</td><td lang="ar" dir="rtl">علاوي وحمارة القايلة</td></tr><tr><td>Afra and the Wolf</td><td lang="ar" dir="rtl">عفرة والذئب</td></tr><tr><td>The Broken Promise</td><td lang="ar" dir="rtl">النكث بالعهد</td></tr><tr><td>Um Elheilan</td><td lang="ar" dir="rtl">أم الهيلان</td></tr><tr><td>Nteef Nteefan: A Morsel or Two</td><td lang="ar" dir="rtl">نتيف نتيفان</td></tr><tr><td>Can’t Catch a Break</td><td lang="ar" dir="rtl">المتعوس متعوس</td></tr><tr><td>Strength in Forgiveness</td><td lang="ar" dir="rtl">العفو عند المقدرة</td></tr><tr><td>The Donkey’s Tail</td><td lang="ar" dir="rtl">ذيل الحمار</td></tr><tr><td>The Price of Greed</td><td lang="ar" dir="rtl">ثمن الطمع</td></tr></tbody></table></div>',
@@ -495,6 +495,7 @@ TEACHING = dict(
     ]),
     ("Leadership", "Chaired", [
       "Cultural Awareness Team, Qatar University (2016–2023).",
+      "Turnitin.com Faculty Team, Portland State University (2009).",
       "WebCT/Blackboard Committee, University of North Texas (2007–2008).",
       "UNESCO Steering Committee, Akita International University (2005).",
       "Committee on Academic Research Support, Miyazaki (2001–2004).",
@@ -521,6 +522,7 @@ TEACHING = dict(
     "Maggard, J. (2002). Computer-mediated communication and political science: A collaborative learning approach. <cite>Comparative Culture</cite>, 8, 119–129.",
     "Maggard, J. (2002). VTrain 3.0: Virtual flashcards for language learners. <cite>CALL-EJ Online</cite>, 4(1).",
     "Maggard, J., &amp; Lokon, E. (2004). Student produced iMovies: Motivation through linguistic and artistic expression. <cite>TESOL Video News</cite>, 15(3).",
+    "Maggard, J., Sugita, K., Senba, R., Kawamura, M., Kudo, M., &amp; Lokon, E. (2004). Developing social responsibility and IC skills. <cite>Comparative Culture</cite>, 10, 103–114.",
     "Maggard, J., Toyota, H., Lahar, C., Ly, M., &amp; Landes, D. (2004). English proficiency and intercultural contact among Cambodian university students. <cite>Comparative Culture</cite>, 10, 115–134.",
     "Toyota, H., &amp; Maggard, J. (2003). Implications of globalization on Japanese university students. <cite>Comparative Culture</cite>, 9, 149–169.",
   ],
@@ -531,10 +533,13 @@ TEACHING = dict(
     "iPadagogy. IT workshop (with D. Glass). CELC Symposium, National University of Singapore, May 2013.",
     "Scaffolding independence: CBE experiments in autonomous interlanguage development (with N. Naganuma and others). EuroCALL 2005, Kraków.",
     "Common values? English ability, ethnic attitudes, study motivation and intercultural contact (with H. Toyota). 37th World Conference of the International Institute of Sociology, Stockholm, Sweden, July 2005.",
+    "What we learned from weekly interdisciplinary seminars on Cambodia (with my students K. Sugita, R. Senba, M. Kawamura and M. Kudo). Peace as a Global Language Conference, Kyoto, September 2004.",
     "Creating iMovie documentaries instead of term papers (with E. Lokon). TESOL 2004, Long Beach.",
     "Reorganizing knowledge structures to build fluency and reduce plagiarism. Thailand TESOL, 2004; Royal University of Phnom Penh, 2004.",
     "Interlanguage development through collaborative learning with CMC. Integrating Content and Language: Meeting the Challenge of a Multilingual Higher Education Conference, Universiteit Maastricht, Netherlands, October 2003.",
     "Using visual models to develop recognition of rhetorical patterns of text. Integrating Content and Language: Meeting the Challenge of a Multilingual Higher Education Conference, Universiteit Maastricht, Netherlands, October 2003.",
+    "Content-based sociology courses and CMC (with H. Toyota). Thailand TESOL, Bangkok, January 2003.",
+    "Educational implications of designating English as the second official language in Japan (with W. Perry and K. Toyama). 8th Symposium for Language Teacher Educators, University of Edinburgh, November 2000.",
   ],
 
   education=[
