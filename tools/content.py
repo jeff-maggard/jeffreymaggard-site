@@ -69,17 +69,17 @@ dict(
 ),
 # ---------------------------------------------------------------- 1b
 dict(
-  slug="moderation-hub", art="moderation", cats=["courses"], shots=[("/media/moderation/control-room.webp", "A simplified view of the Control Room: the course lead fills in the course, exam, samples and opening and closing dates. Everything else runs automatically.", "The Control Room: where the course lead sets up each session"), ("/media/moderation/scoring-form.webp", "A simplified view of the scoring form: lecturers read the prompt and rubric, open each sample and choose a mark for each criterion.", "The scoring form lecturers fill in"), ("/media/moderation/feedback-email.webp", "A simplified feedback email: the lecturer's marks sit directly above the key marks, and a mark more than 0.5 apart is highlighted in yellow.", "The feedback email each lecturer receives")],
-  tag="Instructional design · Microsoft 365 and Rise 360",
+  slug="moderation-hub", art="moderation", cats=["courses"], shots=[("/media/moderation/scoring-form.webp", "A simplified view of the scoring form: lecturers read the prompt and rubric, open each sample and choose a mark for each criterion.", "The scoring form lecturers fill in"), ("/media/moderation/feedback-email.webp", "A simplified feedback email: the lecturer's marks sit directly above the key marks, and a mark more than 0.5 apart is highlighted in yellow.", "The feedback email each lecturer receives")],
+  tag="Instructional design · Microsoft 365",
   title="Automated Writing Moderation System",
-  summary="I built a Microsoft 365 system that automates writing moderation (grading calibration) for exams, with a Rise 360 orientation for lecturers.",
-  hook="I built a Microsoft 365 system that automates writing moderation (grading calibration) for exams, with a Rise 360 orientation for lecturers.",
+  summary="I built an automated writing-moderation system with Microsoft Forms, Power Automate and SharePoint.",
+  hook="I built an automated writing-moderation system with Microsoft Forms, Power Automate and SharePoint.",
   skills={"core": ["Grading, norming and exam development", "Assessment design and learning outcomes", "Formative assessment and feedback", "Accreditation and program improvement", "Faculty mentoring and stakeholder engagement"], "ai": ["Quality assurance and workflow design", "AI-assisted design and build with Claude, with documented human review"]},
   facts=dict(
     context="Writing moderation (grading calibration) for English courses in Qatar University’s FPDE.",
     audience="Lecturers and course leads in Qatar University’s FPDE.",
-    role="Instructional designer and developer: needs analysis, design, build, testing and documentation.",
-    tools=["Microsoft Forms", "Excel", "Power Automate", "SharePoint", "Office Scripts", "Articulate Rise 360", "SCORM 2004", "Blackboard Ultra"],
+    role="Instructional designer and developer: needs analysis, design, build specification, testing, documentation and training materials.",
+    tools=["Microsoft Forms", "Power Automate", "SharePoint lists", "Outlook", "SCORM 2004", "Blackboard Ultra"],
   ),
   sections=[
     ("The purpose", [
@@ -88,20 +88,27 @@ dict(
       "<p>Every session is archived, so the department builds a record of marking accuracy over time. That evidence supports data-driven review: we can see where calibration drifts, target training where it is needed, and reflect on and improve our assessment practice.</p>",
     ]),
     ("What the course lead does", [
-      '<ol class="steps"><li>Open the Control Room (an Excel workbook on SharePoint) and choose the midterm or final exam.</li><li>Upload three anonymized samples of student writing to SharePoint.</li><li>Set the opening and closing dates in the Control Room.</li></ol>',
+      '<ol class="steps"><li>Set up the session in SharePoint lists: the exam, the opening and closing dates, and the key (their own marks or the cohort median).</li><li>Upload three anonymized samples of student writing to SharePoint.</li></ol>',
       "<p>That is the whole setup. Everything else runs on its own.</p>",
     ]),
     ("What happens automatically", [
-      '<ol class="steps"><li>Power Automate emails every lecturer when the session opens.</li><li>Lecturers score the samples in one Microsoft Form, and Power Automate saves each score to the Excel workbook.</li><li>When the session closes, Excel with Office Scripts compares each score with the key mark. The course lead chooses the key mark: their own scores, or the median of the lecturers who marked the sample.</li><li>Power Automate sends each lecturer one email showing their mark for each rubric criterion directly above the key mark.</li><li>A lecturer more than 0.5 from the key mark marks another sample and gets instant feedback. For example, if the median is 3 and a lecturer gives a 4 or a 2, they mark another sample. They get up to two extra samples.</li><li>If they are still out of range, Power Automate emails the course lead, so they can meet and help.</li><li>SharePoint archives all the data, and the course leads receive a report. A name-free summary can go to the department for CEA accreditation.</li></ol>',
+      '<ol class="steps"><li>Power Automate emails every lecturer when the session opens.</li><li>Lecturers score the three samples in one Microsoft Form.</li><li>When the session closes, Power Automate compares every mark with the key.</li><li>Each lecturer gets one email with their marks directly above the key for each rubric criterion. Differences over 0.5 are highlighted.</li><li>A lecturer outside the range is sent one more sample with instant feedback. If they are still outside the range after two extra samples, the course lead and their delegate are alerted.</li><li>The course lead receives a session summary.</li><li>Resubmissions, late submissions and incomplete or mistaken submissions are handled automatically.</li><li>At the end of the semester, one button archives the results, with a name-free summary for CEA accreditation.</li></ol>',
     ]),
     ("Why it matters", [
       '<ul class="points"><li>Saves each course lead about 20 hours a semester.</li><li>Frees the faculty member who was assigned to run moderation for other work that builds the program.</li><li>Shows course leads which lecturers need support, so they can help them early.</li><li>Provides documented evidence of assessment quality for CEA accreditation.</li></ul>',
     ]),
+    ("From version 1 to version 2", [
+      "<p>Version 1 ran the calculations in an Excel workbook. An independent design review found it would be fragile at scale (form-to-workbook syncing, file locking and row limits), and the department’s e-learning committee recommended the university’s enterprise Power Automate.</p>",
+      "<p>Version 2 moves every scoring rule into Power Automate flows and SharePoint lists. I checked every rule against a reference model and a 10-case test plan with expected results.</p>",
+    ]),
     ("Orientation", [
-      "<p>I made a 5-minute Rise 360 orientation for lecturers, published as SCORM 2004 in Blackboard Ultra.</p>",
+      "<p>I made a 5-minute orientation for lecturers, published as SCORM 2004 and tested in Blackboard Ultra.</p>",
+    ]),
+    ("Deliverables", [
+      '<ul class="points"><li>Build specification</li><li>Course-lead guidebook</li><li>Setup package for the e-learning committee</li><li>SharePoint list templates</li><li>Test plan with expected results</li></ul>',
     ]),
     ("Next steps", [
-      "<p>Built and tested with invented data in November 2026. With permission from the department, I will pilot it in Spring 2027 with the Embedded Foundation courses. If it works well, it can expand to the Foundation Program and Post-Foundation courses.</p>",
+      "<p>The department has approved the design, and it is being set up with the e-learning committee. A pilot is planned for Spring 2027 with the Embedded Foundation courses. If it works well, it can expand to the Foundation Program and Post-Foundation courses.</p>",
     ]),
   ],
 ),
