@@ -424,7 +424,10 @@ def studio():
 
 def teaching():
     T = TEACHING
-    areas = "".join(f'<div class="panel"><p class="label">Courses</p><h3>{a}</h3><p>{b}</p></div>' for a, b in T["areas"])
+    areas = "".join(
+        f'<div class="panel"><p class="label">Courses</p><h3>{x[0]}</h3><p>{x[1]}</p>'
+        + (f'<p class="label next-label">{x[2]}</p><p>{x[3]}</p>' if len(x) > 2 else "")
+        + '</div>' for x in T["areas"])
     miy = "".join(f'<div class="panel"><p class="label">IT leadership</p><h3>{a}</h3><p>{b}</p></div>' for a, b in T["miyazaki"])
     li = lambda xs: "".join(f"<li>{x}</li>" for x in xs)
     svc = "".join(f'<div class="panel"><p class="label">{lab}</p><h3>{h}</h3><ul class="svc-list">{li(items)}</ul></div>' for lab, h, items in T["service_panels"])

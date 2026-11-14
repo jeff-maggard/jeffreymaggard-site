@@ -1132,3 +1132,5 @@ a.yt-lite { display: block; position: relative; }
 .svc-list { margin: 0; padding-left: 20px; }
 .svc-list li { margin: 0 0 10px; line-height: 1.5; }
 .svc-list li:last-child { margin-bottom: 0; }
+
+.panel .next-label { margin-top: 18px; }

@@ -482,7 +482,7 @@ TEACHING = dict(
     ("Content-based courses", "Political science, sociology, business, law, linguistics and political economy."),
     ("Academic English", "Research writing, reading, grammar, communication, presentation and pronunciation. IELTS, TOEFL and TOEIC preparation."),
     ("Teacher education", "Teacher education courses (team-taught). TESOL Methods: team-taught at Portland State University, then a full course at Zayed University."),
-    ("Technology", "Applied Information Science (ICT)."),
+    ("Technology", "Applied Information Science (ICT).", "Ready to teach", "AI-assisted animation and motion design: storytelling, storyboards, character design, AI voice and motion video for courses and products."),
   ],
   miyazaki=[],
 
