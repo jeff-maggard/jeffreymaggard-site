@@ -25,6 +25,7 @@ NAV = [
     ("Teaching", "/teaching/"),
     ("Studio", "/studio/"),
     ("Cultural Projects", "/cultural-projects/"),
+    ("Home", "/"),
 ]
 EMAIL = "jeff@jeffreymaggard.com"
 LINKEDIN = "https://www.linkedin.com/in/jeff-maggard-a01181b3"
@@ -74,7 +75,16 @@ def page(title, body, current="", description=LEAD, scene="rings"):
 
 <div class="site-header-bar">
   <header class="site-header container">
-    <a class="wordmark" href="/" aria-label="Jeffrey Maggard, home">jeffrey<span class="dot">.</span>maggard</a>
+    <span class="brand-logo" role="img" aria-label="Jeffrey Maggard">
+      <svg class="logo-mark" viewBox="0 0 44 44" width="44" height="44" aria-hidden="true" focusable="false">
+        <defs><linearGradient id="lg-jm" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0069D9"/><stop offset="1" stop-color="#6D4AEE"/></linearGradient></defs>
+        <rect width="44" height="44" rx="11" fill="url(#lg-jm)"/>
+        <path d="M14.5 13v13.2c0 3.1-1.9 4.8-4.6 4.8" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M19.5 31V13l6.2 10.2L31.9 13v18" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="36" cy="31" r="2" fill="#29ABFF"/>
+      </svg>
+      <span class="logo-text" aria-hidden="true"><span class="logo-first">Jeffrey</span> <span class="logo-last">Maggard</span></span>
+    </span>
     <nav class="site-nav" aria-label="Main">
       <ul>{nav}<li class="nav-cta"><a href="/contact/"{cta_current}>Let’s talk</a></li></ul>
     </nav>
