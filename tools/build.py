@@ -29,7 +29,7 @@ NAV = [
 ]
 EMAIL = "jeff@jeffreymaggard.com"
 LINKEDIN = "https://www.linkedin.com/in/jeff-maggard-a01181b3"
-LEAD = "I design courses, materials and programs that help students learn by doing real work. I use AI to speed up design, while students keep their own voice."
+LEAD = "I design courses, materials and programs that help students learn by doing real work. I use AI to speed up design and to build learning materials, AI tutors, assessment systems, animation and motion graphics."
 
 
 SCENE_FOR_CAT = {"courses": "blocks", "video": "dunes", "ai": "network", "cultural": "paper", "teaching": "rings"}
