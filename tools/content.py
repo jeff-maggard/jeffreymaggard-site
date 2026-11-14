@@ -479,8 +479,9 @@ TEACHING = dict(
   current="Lecturer, Foundation Program, Department of English, Qatar University (Feb. 2014 – present). Content-based courses in business, law and EFL for humanities, STEM, international affairs and mass communication students. About eight years of online and hybrid teaching.",
   areas=[
     ("Academic English", "Research writing, reading, grammar, communication, presentation and pronunciation. IELTS, TOEFL and TOEIC preparation."),
-    ("Content-based courses", "Political science, sociology, business, law, linguistics, TESOL Methods and political economy."),
-    ("Humanities and social science", "World history, ancient civilization, Intro to Sociology, International Sociological Perspectives, Intro to Political Science, Comparative Political Science, Conflict Resolution, Sociology and Environmental Issues, Political Science and Environmental Issues, Teacher Education."),
+    ("Content-based courses", "Political science, sociology, business, law, linguistics and political economy."),
+    ("Humanities and social science", "World history, ancient civilization, Intro to Sociology, International Sociological Perspectives, Intro to Political Science, Comparative Political Science, Conflict Resolution, Sociology and Environmental Issues, Political Science and Environmental Issues."),
+    ("Teacher education", "Teacher education courses (team-taught). TESOL Methods: team-taught at Portland State University, then a full course at Zayed University."),
     ("Technology", "Applied Information Science (ICT)."),
   ],
   miyazaki=[
