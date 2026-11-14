@@ -425,23 +425,23 @@ def studio():
 def teaching():
     T = TEACHING
     areas = "".join(f'<div class="panel"><p class="label">Courses</p><h3>{a}</h3><p>{b}</p></div>' for a, b in T["areas"])
-    miy = "".join(f'<div class="panel"><p class="label">Miyazaki</p><h3>{a}</h3><p>{b}</p></div>' for a, b in T["miyazaki"])
+    miy = "".join(f'<div class="panel"><p class="label">IT leadership</p><h3>{a}</h3><p>{b}</p></div>' for a, b in T["miyazaki"])
     li = lambda xs: "".join(f"<li>{x}</li>" for x in xs)
     extra = f"""
-    <section class="section" aria-labelledby="now-title">
-      <div class="panel panel-photo"><p class="label">Current role</p><h3 id="now-title">Qatar University</h3><p>{T['current']}</p></div>
+    <section class="section section-tight" aria-labelledby="now-title">
+      <div class="panel"><p class="label">Current role</p><h3 id="now-title">Qatar University</h3><p>{T['current']}</p></div>
     </section>
-    <section class="section" aria-labelledby="areas-title">
+    <section class="section section-tight" aria-labelledby="areas-title">
       <div class="section-head"><div><p class="label">Teaching</p><h2 id="areas-title">Courses by area</h2></div></div>
       <div class="two-col">{areas}{miy}</div>
     </section>
-    <section class="section" aria-labelledby="rs-title">
+    <section class="section section-tight" aria-labelledby="rs-title">
       <div class="two-col">
         <div><p class="label">Research and service</p><h2 class="sub" id="rs-title">Research and service</h2><ul class="refs">{li(T['service'])}</ul></div>
         <div><p class="label">About</p><h2 class="sub">Education and languages</h2><ul class="refs">{li(T['education'])}</ul></div>
       </div>
     </section>
-    <section class="section" aria-labelledby="pub-title">
+    <section class="section section-tight" aria-labelledby="pub-title">
       <div class="two-col">
         <div><p class="label">Writing</p><h2 class="sub" id="pub-title">Selected publications</h2><ul class="refs">{li(T['publications'])}</ul></div>
         <div><p class="label">Speaking</p><h2 class="sub">Selected presentations</h2><ul class="refs">{li(T['presentations'])}</ul></div>

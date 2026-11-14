@@ -1120,3 +1120,10 @@ a.yt-lite { display: block; position: relative; }
 .brand-logo .logo-first { font-weight: 400; }
 .brand-logo .logo-last { font-weight: 700; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
 @media (max-width: 480px) { .brand-logo .logo-text { font-size: 20px; } .brand-logo .logo-mark { width: 36px; height: 36px; } }
+
+/* Teaching page: tighter vertical rhythm so laptop readers see each block */
+.section.section-tight { padding-top: 28px; padding-bottom: 28px; }
+.section.section-tight .section-head { margin-bottom: 20px; }
+.section:has(+ .section-tight) { padding-bottom: 24px; }
+.section.section-tight .two-col { gap: 24px; }
+@media (min-width: 900px) { .section.section-tight .two-col { gap: 24px 32px; } }

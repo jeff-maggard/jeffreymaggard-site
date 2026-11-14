@@ -485,35 +485,38 @@ TEACHING = dict(
     ("Technology", "Applied Information Science (ICT)."),
   ],
   miyazaki=[
-    ("Faculty Technology Coordinator (1999–2001)", "Supported faculty with teaching technology. Managed two Macintosh computer labs and their student staff."),
+    ("Faculty Technology Coordinator (1999–2001)", "At Miyazaki International College (now Miyazaki International University), I supported faculty with teaching technology and managed two Macintosh computer labs with their student staff."),
   ],
   service=[
-    "Nearly 20 peer-reviewed articles.",
     "Peer reviewer, ELTWO Editorial Board, National University of Singapore (2009–2016).",
     "Quality Assurance Committee at Qatar University. Contributed to the CEA self-study that renewed accreditation (Aug. 2026).",
   ],
   publications=[
+    "Lokon, E., &amp; Maggard, J. (2003). Young Japanese people’s views on civic (dis)engagement. <cite>Comparative Culture</cite>, 9, 78–86.",
+    "Maggard, J. (2000). Semantic mapping and lexical acquisition: Are CAI methods effective? <cite>Comparative Culture</cite>, 6, 80–93.",
     "Maggard, J. (2002). Computer-mediated communication and political science: A collaborative learning approach. <cite>Comparative Culture</cite>, 8, 119–129.",
+    "Maggard, J. (2002). VTrain 3.0: Virtual flashcards for language learners. <cite>CALL-EJ Online</cite>, 4(1).",
+    "Maggard, J., &amp; Lokon, E. (2004). Student produced iMovies: Motivation through linguistic and artistic expression. <cite>TESOL Video News</cite>, 15(3).",
     "Maggard, J., Toyota, H., Lahar, C., Ly, M., &amp; Landes, D. (2004). English proficiency and intercultural contact among Cambodian university students. <cite>Comparative Culture</cite>, 10, 115–134.",
     "Toyota, H., &amp; Maggard, J. (2003). Implications of globalization on Japanese university students. <cite>Comparative Culture</cite>, 9, 149–169.",
-    "Lokon, E., &amp; Maggard, J. (2003). Young Japanese people’s views on civic (dis)engagement. <cite>Comparative Culture</cite>, 9, 78–86.",
-    "Maggard, J., &amp; Lokon, E. (2004). Student produced iMovies: Motivation through linguistic and artistic expression. <cite>TESOL Video News</cite>, 15(3).",
-    "Maggard, J. (2002). VTrain 3.0: Virtual flashcards for language learners. <cite>CALL-EJ Online</cite>, 4(1).",
-    "Maggard, J. (2000). Semantic mapping and lexical acquisition: Are CAI methods effective? <cite>Comparative Culture</cite>, 6, 80–93.",
   ],
+
   presentations=[
-    "Colloquium on mobile language learning (invited; with G. Stockwell, M. Kapur and R. Chandran). CELT Symposium, National University of Singapore, 2013.",
-    "Common values? English ability, ethnic attitudes, study motivation and intercultural contact (with H. Toyota). 37th World Conference of the International Institute of Sociology, Stockholm, Sweden, July 2005.",
+    "Using mobile learning tools for formative assessment in task-based classrooms. Qatar University, 2017.",
+    "Mobile language learning. Colloquium (invited; with G. Stockwell, M. Kapur and R. Chandran). CELC Symposium, National University of Singapore, May 2013.",
+    "iPadagogy. IT workshop (with D. Glass). CELC Symposium, National University of Singapore, May 2013.",
     "Scaffolding independence: CBE experiments in autonomous interlanguage development (with N. Naganuma and others). EuroCALL 2005, Kraków.",
+    "Common values? English ability, ethnic attitudes, study motivation and intercultural contact (with H. Toyota). 37th World Conference of the International Institute of Sociology, Stockholm, Sweden, July 2005.",
     "Creating iMovie documentaries instead of term papers (with E. Lokon). TESOL 2004, Long Beach.",
     "Reorganizing knowledge structures to build fluency and reduce plagiarism. Thailand TESOL, 2004; Royal University of Phnom Penh, 2004.",
     "Interlanguage development through collaborative learning with CMC. Integrating Content and Language: Meeting the Challenge of a Multilingual Higher Education Conference, Universiteit Maastricht, Netherlands, October 2003.",
     "Using visual models to develop recognition of rhetorical patterns of text. Integrating Content and Language: Meeting the Challenge of a Multilingual Higher Education Conference, Universiteit Maastricht, Netherlands, October 2003.",
-    "Using mobile learning tools for formative assessment in task-based classrooms. Qatar University, 2017.",
   ],
+
   education=[
     "M.A., Applied Linguistics: TESOL, Portland State University. Thesis: “Academic ESL: Semantic Mapping and Lexical Acquisition.”",
-    "B.A., English Literature, and Certificate in Black Studies, Portland State University.",
+    "B.A., English Literature, Portland State University.",
+    "Certificate in Black Studies, Portland State University.",
     "Languages: English (native); Spanish (CEFR B1+); Japanese (CEFR A2).",
   ],
 )
