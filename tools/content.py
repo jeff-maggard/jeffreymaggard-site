@@ -380,8 +380,8 @@ dict(
   slug="tales-of-qatari-heritage", art="tales", cats=["cultural"], no_toc=True,
   tag="Bilingual book · Qatar University",
   title="Tales of Qatari Heritage",
-  summary="I am managing editor of a bilingual book of Qatari folktales, leading faculty co-editors and translators, and more than 150 students, faculty and staff.",
-  hook="I am managing editor of a bilingual book of Qatari folktales, leading faculty co-editors and translators, and more than 150 students, faculty and staff.",
+  summary="I am managing editor of a bilingual book of Qatari folktales, leading faculty co-editors and translators, involving more than 150 students, faculty and staff.",
+  hook="I am managing editor of a bilingual book of Qatari folktales, leading faculty co-editors and translators, involving more than 150 students, faculty and staff.",
   skills={"core": ["Leading more than 150 students, faculty and staff", "Training students to collect stories from elders", "Bilingual editing with faculty co-editors and translators", "Faculty mentoring and stakeholder engagement", "Active and applied learning"]},
   facts=dict(
     context="Qatari folktales that show compassion and forgiveness.",
