@@ -1104,3 +1104,33 @@ a.yt-lite { display: block; position: relative; }
 .facts + .cs-book { margin-top: 40px; }
 /* Cultural Projects page: falcon card sits bottom right */
 .grid > .card[data-slug="falcon-folktale"]:last-child { grid-column-end: -1; }
+
+/* Highlights strip under the Home hero */
+.proof-strip { background: var(--alt); border-bottom: 1px solid var(--border); }
+.proof-list { list-style: none; margin: 0 auto; padding-top: 24px; padding-bottom: 24px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px 32px; }
+.proof-list li { color: var(--ink); font-size: 17px; font-weight: 500; line-height: 1.4; padding-left: 16px; position: relative; }
+.proof-list li::before { content: ""; position: absolute; left: 0; top: 0.55em; width: 6px; height: 6px; border-radius: 50%; background: var(--brand); }
+@media (max-width: 960px) { .proof-list { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 640px) { .proof-list { grid-template-columns: 1fr; gap: 8px; } }
+
+/* Logo (replaces the old text wordmark; not a link, Home is in the menu) */
+.brand-logo { display: inline-flex; align-items: center; gap: 12px; min-height: var(--tap-min); user-select: none; }
+.brand-logo .logo-mark { flex: none; width: 40px; height: 40px; border-radius: 11px; box-shadow: 0 6px 16px rgba(0, 105, 217, 0.22); }
+.brand-logo .logo-text { font-size: 22px; line-height: 1; letter-spacing: -0.015em; color: var(--ink); white-space: nowrap; }
+.brand-logo .logo-first { font-weight: 400; }
+.brand-logo .logo-last { font-weight: 700; background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+@media (max-width: 480px) { .brand-logo .logo-text { font-size: 20px; } .brand-logo .logo-mark { width: 36px; height: 36px; } }
+
+/* Teaching page: tighter vertical rhythm so laptop readers see each block */
+.section.section-tight { padding-top: 28px; padding-bottom: 28px; }
+.section.section-tight .section-head { margin-bottom: 20px; }
+.section:has(+ .section-tight) { padding-bottom: 24px; }
+.section.section-tight .two-col { gap: 24px; }
+@media (min-width: 900px) { .section.section-tight .two-col { gap: 24px 32px; } }
+
+/* Teaching page: service panels */
+.svc-list { margin: 0; padding-left: 20px; }
+.svc-list li { margin: 0 0 10px; line-height: 1.5; }
+.svc-list li:last-child { margin-bottom: 0; }
+
+.panel .next-label { margin-top: 18px; }

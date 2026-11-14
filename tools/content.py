@@ -83,7 +83,7 @@ dict(
   ),
   sections=[
     ("The purpose", [
-      "<p>At every midterm and final exam in Qatar University’s FPDE (Foundation Program Department of English), lecturers mark writing samples in a moderation session, so that grading is consistent and fair. Each course used to have a co-course lead who ran these sessions. When that role was removed, the work fell on the course leads, or on a faculty member they assigned.</p>",
+      "<p>At every midterm and final exam in Qatar University’s FPDE (Foundation Program Department of English), lecturers mark writing samples in a moderation session, so that grading is consistent and fair.</p>",
       "<p>Done by hand, it takes about 20 hours per course lead each semester: sending emails, collecting scores, analyzing them, sending feedback to every lecturer and keeping records. I built this system to do all of that automatically.</p>",
       "<p>Every session is archived, so the department builds a record of marking accuracy over time. That evidence supports data-driven review: we can see where calibration drifts, target training where it is needed, and reflect on and improve our assessment practice.</p>",
     ]),
@@ -230,7 +230,7 @@ dict(
 ),
 # ---------------------------------------------------------------- 5
 dict(
-  slug="pure-intellect", art="tutor", cats=["ai"],
+  slug="pure-intellect", art="tutor", cats=["ai"], hidden=True,  # hidden 14 Nov 2026 at Jeffrey's request; delete hidden=True to restore
   tag="AI apps · Claude Code",
   title="Pure Intellect Tutor, Analyzer &amp; AI Ranking App",
   summary="I create AI education tools: a tutor that asks students questions instead of giving answers, and a grading assistant for professors.",
@@ -274,7 +274,6 @@ dict(
   title="Launch and promo videos",
   summary="I script and build launch and promo videos in code with React and Remotion, with an AI voice and original music.",
   hook="I script and build launch and promo videos in code with React and Remotion, with an AI voice and original music.",
-  video="pure-intellect-tutor",
   skills={"core": ["Scriptwriting", "Visual storytelling", "Captions for every video"], "ai": ["AI voice casting and direction", "AI-assisted video production", "AI-assisted coding with Claude Code"]},
   facts=dict(
     context="Products and courses need short videos that explain them fast.",
@@ -287,7 +286,7 @@ dict(
       "<p>Products and courses need short videos that explain them fast.</p>",
     ]),
     ("What I make", [
-      '<ul class="points"><li>Product launch videos, such as the Pure Intellect Tutor video.</li><li>Course website walkthroughs, captioned to work with no sound.</li><li>Portfolio and introduction videos.</li><li>Formats for every channel: 16:9, 9:16, 1:1 and 4:5 for LinkedIn.</li></ul>',
+      '<ul class="points"><li>Product launch videos.</li><li>Course website walkthroughs, captioned to work with no sound.</li><li>Portfolio and introduction videos.</li><li>Formats for every channel: 16:9, 9:16, 1:1 and 4:5 for LinkedIn.</li></ul>',
     ]),
     ("How I build them", [
       "<p>Every frame is coded in React with Remotion. Captions and graphics are timed to the measured voice track. The music bed is an original piano score. I write every script.</p>",
@@ -378,16 +377,16 @@ dict(
 ),
 # ---------------------------------------------------------------- 11
 dict(
-  slug="tales-of-qatari-heritage", art="tales", cats=["cultural"], showcase_feature="tales-feature", no_toc=True, banner="/media/tales/falcon-strip.webp", banner_alt="Student artwork in five panels: a falconer among tents and camels, a man cradling a bird, a man shading his eyes in the desert, a man running toward a fallen falcon, and a falconer with his falcon.", banner_caption="He Who Doesn’t Know the Falcon Roasts It",
+  slug="tales-of-qatari-heritage", art="tales", cats=["cultural"], no_toc=True,
   tag="Bilingual book · Qatar University",
   title="Tales of Qatari Heritage",
-  summary="I am lead editor of a bilingual book of Qatari folktales, leading six co-editors and more than 150 students, faculty and staff.",
-  hook="I am lead editor of a bilingual book of Qatari folktales, leading six co-editors and more than 150 students, faculty and staff.",
+  summary="I am managing editor of a bilingual book of Qatari folktales, leading six co-editors and more than 150 students, faculty and staff.",
+  hook="I am managing editor of a bilingual book of Qatari folktales, leading six co-editors and more than 150 students, faculty and staff.",
   skills={"core": ["Leading more than 150 students, faculty and staff", "Training students to collect stories from elders", "Bilingual editing with six co-editors", "Faculty mentoring and stakeholder engagement", "Active and applied learning"]},
   facts=dict(
     context="Qatari folktales that show compassion and forgiveness.",
     audience="Readers of Arabic and English.",
-    role="Lead editor, working with six co-editors. Chair of the Cultural Awareness Team (2016–2023).",
+    role="Managing editor, working with six co-editors. Chair of the Cultural Awareness Team (2016–2023).",
     tools=[],
   ),
   sections=[
@@ -398,7 +397,7 @@ dict(
       "<p><cite>Tales of Qatari Heritage</cite> is an unpublished bilingual (Arabic/English) book of Qatari folktales collected by Qatar University students. Most stories show compassion and forgiveness.</p>",
     ]),
     ("My role", [
-      "<p>I am lead editor, working with six co-editors. As Chair of the Cultural Awareness Team (2016–2023), I led more than 150 students, faculty and staff on the project.</p>",
+      "<p>I am managing editor, working with six co-editors. As Chair of the Cultural Awareness Team (2016–2023), I led more than 150 students, faculty and staff on the project.</p>",
     ]),
     ("The stories", [
       '<div class="toc-wrap"><table class="toc-table"><thead><tr><th scope="col">English</th><th scope="col" lang="ar" dir="rtl">العربية</th></tr></thead><tbody><tr><td>Muneera: The Sheikh’s Daughter</td><td lang="ar" dir="rtl">منيرة بنت الشيخ</td></tr><tr><td>The Song of the Warrior</td><td lang="ar" dir="rtl">عزوة الفارس</td></tr><tr><td>He Who Doesn’t Know the Falcon Roasts It</td><td lang="ar" dir="rtl">اللي ما يعرف الصقر يشويه</td></tr><tr><td>Entertaining the Guest</td><td lang="ar" dir="rtl">إكرام الضيف</td></tr><tr><td>Gheelan: The Kind Sailor</td><td lang="ar" dir="rtl">البحار الطيب غيلان</td></tr><tr><td>The Gracious Forgiveness</td><td lang="ar" dir="rtl">الصفح الجميل</td></tr><tr><td>You Reap What You Sow</td><td lang="ar" dir="rtl">جنت على نفسها براقش</td></tr><tr><td>The Solemn Promise</td><td lang="ar" dir="rtl">حكاية عهد</td></tr><tr><td>A Tale of Generosity</td><td lang="ar" dir="rtl">قصة الكرم</td></tr><tr><td>The Noble Knight</td><td lang="ar" dir="rtl">الفارس النبيل</td></tr><tr><td>Allawi and Hmaarat Al Qayla</td><td lang="ar" dir="rtl">علاوي وحمارة القايلة</td></tr><tr><td>Afra and the Wolf</td><td lang="ar" dir="rtl">عفرة والذئب</td></tr><tr><td>The Broken Promise</td><td lang="ar" dir="rtl">النكث بالعهد</td></tr><tr><td>Um Elheilan</td><td lang="ar" dir="rtl">أم الهيلان</td></tr><tr><td>Nteef Nteefan: A Morsel or Two</td><td lang="ar" dir="rtl">نتيف نتيفان</td></tr><tr><td>Can’t Catch a Break</td><td lang="ar" dir="rtl">المتعوس متعوس</td></tr><tr><td>Strength in Forgiveness</td><td lang="ar" dir="rtl">العفو عند المقدرة</td></tr><tr><td>The Donkey’s Tail</td><td lang="ar" dir="rtl">ذيل الحمار</td></tr><tr><td>The Price of Greed</td><td lang="ar" dir="rtl">ثمن الطمع</td></tr></tbody></table></div>',
@@ -486,41 +485,73 @@ TEACHING = dict(
   intro="I have taught university writing, humanities and social science courses in Japan, the USA, the UAE and Qatar.",
   current="Lecturer, Foundation Program, Department of English, Qatar University (Feb. 2014 – present). Content-based courses in business, law and EFL for humanities, STEM, international affairs and mass communication students. About eight years of online and hybrid teaching.",
   areas=[
+    ("Humanities and social science", "World history, ancient civilization, Intro to Sociology, International Sociological Perspectives, Intro to Political Science, Comparative Political Science, Conflict Resolution, Sociology and Environmental Issues, Political Science and Environmental Issues."),
+    ("Content-based courses", "Political science, sociology, business, law, linguistics and political economy."),
     ("Academic English", "Research writing, reading, grammar, communication, presentation and pronunciation. IELTS, TOEFL and TOEIC preparation."),
-    ("Content-based courses", "Political science, sociology, teacher education, business, law, linguistics, TESOL Methods and political economy."),
-    ("Humanities and social science", "World history, ancient civilization, Intro to Sociology, International Sociological Perspectives, Intro to Political Science, Conflict Resolution, Sociology and Environmental Issues, Political Science and Environmental Issues."),
-    ("Technology", "Applied Information Science (ICT)."),
+    ("Teacher education", "Teacher education courses (team-taught). TESOL Methods: team-taught at Portland State University, then a full course at Zayed University."),
+    ("Technology", "Applied Information Science (ICT).", "Ready to teach", "AI-assisted storytelling and motion design: story development, character design, AI voice and motion video, with attention to ethics and authorship."),
   ],
-  miyazaki=[
-    ("Faculty Technology Coordinator (1999–2001)", "Supported faculty with teaching technology. Managed two Macintosh computer labs and their student staff."),
+  miyazaki=[],
+
+  service_panels=[
+    ("Research", "Research and grants", [
+      "Peer reviewer, ELTWO Editorial Board, National University of Singapore (2009–2016).",
+      "Principal Investigator and grant co-author, UNESCO/Japan Funds-in-Trust grant ($30,000), Akita International University (2005).",
+      "Comparative research with Dr. Hiroyuki Toyota on students’ intercultural contact and globalization in Japan, Cambodia and Thailand (2003–2005).",
+      "Research grants for a faculty multimedia production studio (2002) and SPSS research software (2001), Miyazaki.",
+    ]),
+    ("Leadership", "Chaired", [
+      "Cultural Awareness Team, Qatar University (2016–2023).",
+      "Turnitin.com Faculty Team, Portland State University (2009).",
+      "WebCT/Blackboard Committee, University of North Texas (2007–2008).",
+      "UNESCO Steering Committee, Akita International University (2005).",
+      "Committee on Academic Research Support, Miyazaki (2001–2004).",
+    ]),
+    ("Communities of practice", "Faculty development", [
+      "PD and Conference Committee, Qatar University: editor of the <cite>Academic Excellence Newsletter</cite> (2024); moderator of the TESOL President Sessions (2022, 2023).",
+      "New Faculty Mentor (2021) and Onboarding Subcommittee member (2015–2017), Faculty Support Committee, Qatar University.",
+      "Faculty development workshops at Portland State University, the University of North Texas, Miyazaki, Zayed University and Qatar University.",
+      "Faculty Technology Coordinator (1999–2001), which grew into the Academic Computing Subcommittee (2002–2005), Miyazaki: I supported faculty with teaching technology and managed two Macintosh computer labs with their student staff.",
+    ]),
+    ("Curriculum and quality", "Committees", [
+      "Faculty Performance Review and Development System Committee, Qatar University (2026–present).",
+      "Quality Assurance Committee, Qatar University (2025–present). I contributed to the CEA self-study that renewed accreditation (Aug. 2026).",
+      "Testing and Assessment Committee, Qatar University (2021–2022).",
+      "Task force and pilot team for a new EAP (English for Academic Purposes) course, Qatar University (2018–2019).",
+      "Coherence and Curricular Integration Committee, Zayed University (2012–2013).",
+    ]),
   ],
-  service=[
-    "Nearly 20 peer-reviewed articles.",
-    "Peer reviewer, ELTWO Editorial Board, National University of Singapore (2009–2016).",
-    "Quality Assurance Committee at Qatar University. Contributed to the CEA self-study that renewed accreditation (Aug. 2026).",
-  ],
+
   publications=[
+    "Lokon, E., &amp; Maggard, J. (2003). Young Japanese people’s views on civic (dis)engagement. <cite>Comparative Culture</cite>, 9, 78–86.",
+    "Maggard, J. (2000). Semantic mapping and lexical acquisition: Are CAI methods effective? <cite>Comparative Culture</cite>, 6, 80–93.",
     "Maggard, J. (2002). Computer-mediated communication and political science: A collaborative learning approach. <cite>Comparative Culture</cite>, 8, 119–129.",
+    "Maggard, J. (2002). VTrain 3.0: Virtual flashcards for language learners. <cite>CALL-EJ Online</cite>, 4(1).",
+    "Maggard, J., &amp; Lokon, E. (2004). Student produced iMovies: Motivation through linguistic and artistic expression. <cite>TESOL Video News</cite>, 15(3).",
+    "Maggard, J., Sugita, K., Senba, R., Kawamura, M., Kudo, M., &amp; Lokon, E. (2004). Developing social responsibility and IC skills. <cite>Comparative Culture</cite>, 10, 103–114.",
     "Maggard, J., Toyota, H., Lahar, C., Ly, M., &amp; Landes, D. (2004). English proficiency and intercultural contact among Cambodian university students. <cite>Comparative Culture</cite>, 10, 115–134.",
     "Toyota, H., &amp; Maggard, J. (2003). Implications of globalization on Japanese university students. <cite>Comparative Culture</cite>, 9, 149–169.",
-    "Lokon, E., &amp; Maggard, J. (2003). Young Japanese people’s views on civic (dis)engagement. <cite>Comparative Culture</cite>, 9, 78–86.",
-    "Maggard, J., &amp; Lokon, E. (2004). Student produced iMovies: Motivation through linguistic and artistic expression. <cite>TESOL Video News</cite>, 15(3).",
-    "Maggard, J. (2002). VTrain 3.0: Virtual flashcards for language learners. <cite>CALL-EJ Online</cite>, 4(1).",
-    "Maggard, J. (2000). Semantic mapping and lexical acquisition: Are CAI methods effective? <cite>Comparative Culture</cite>, 6, 80–93.",
   ],
+
   presentations=[
-    "Colloquium on mobile language learning (invited; with G. Stockwell, M. Kapur and R. Chandran). CELT Symposium, National University of Singapore, 2013.",
-    "Common values? English ability, ethnic attitudes, study motivation and intercultural contact (with H. Toyota). 37th World Conference of the International Institute of Sociology, Stockholm, Sweden, July 2005.",
+    "Using mobile learning tools for formative assessment in task-based classrooms. Qatar University, 2017.",
+    "Mobile language learning. Colloquium (invited; with G. Stockwell, M. Kapur and R. Chandran). CELC Symposium, National University of Singapore, May 2013.",
+    "iPadagogy. IT workshop (with D. Glass). CELC Symposium, National University of Singapore, May 2013.",
     "Scaffolding independence: CBE experiments in autonomous interlanguage development (with N. Naganuma and others). EuroCALL 2005, Kraków.",
+    "Common values? English ability, ethnic attitudes, study motivation and intercultural contact (with H. Toyota). 37th World Conference of the International Institute of Sociology, Stockholm, Sweden, July 2005.",
+    "What we learned from weekly interdisciplinary seminars on Cambodia (with my students K. Sugita, R. Senba, M. Kawamura and M. Kudo). Peace as a Global Language Conference, Kyoto, September 2004.",
     "Creating iMovie documentaries instead of term papers (with E. Lokon). TESOL 2004, Long Beach.",
     "Reorganizing knowledge structures to build fluency and reduce plagiarism. Thailand TESOL, 2004; Royal University of Phnom Penh, 2004.",
     "Interlanguage development through collaborative learning with CMC. Integrating Content and Language: Meeting the Challenge of a Multilingual Higher Education Conference, Universiteit Maastricht, Netherlands, October 2003.",
     "Using visual models to develop recognition of rhetorical patterns of text. Integrating Content and Language: Meeting the Challenge of a Multilingual Higher Education Conference, Universiteit Maastricht, Netherlands, October 2003.",
-    "Using mobile learning tools for formative assessment in task-based classrooms. Qatar University, 2017.",
+    "Content-based sociology courses and CMC (with H. Toyota). Thailand TESOL, Bangkok, January 2003.",
+    "Educational implications of designating English as the second official language in Japan (with W. Perry and K. Toyama). 8th Symposium for Language Teacher Educators, University of Edinburgh, November 2000.",
   ],
+
   education=[
     "M.A., Applied Linguistics: TESOL, Portland State University. Thesis: “Academic ESL: Semantic Mapping and Lexical Acquisition.”",
-    "B.A., English Literature, and Certificate in Black Studies, Portland State University.",
+    "B.A., English Literature, Portland State University.",
+    "Certificate in Black Studies, Portland State University.",
     "Languages: English (native); Spanish (CEFR B1+); Japanese (CEFR A2).",
   ],
 )

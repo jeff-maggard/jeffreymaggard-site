@@ -10,16 +10,25 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&amp;family=Noto+Naskh+Arabic:wght@400;600&amp;display=swap">
 <link rel="stylesheet" href="/css/tokens.css?v=0db3604d">
-<link rel="stylesheet" href="/css/site.css?v=ea7b3c44">
+<link rel="stylesheet" href="/css/site.css?v=7ebed591">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
 <div class="site-header-bar">
   <header class="site-header container">
-    <a class="wordmark" href="/" aria-label="Jeffrey Maggard, home">jeffrey<span class="dot">.</span>maggard</a>
+    <span class="brand-logo" role="img" aria-label="Jeffrey Maggard">
+      <svg class="logo-mark" viewBox="0 0 44 44" width="44" height="44" aria-hidden="true" focusable="false">
+        <defs><linearGradient id="lg-jm" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0069D9"/><stop offset="1" stop-color="#6D4AEE"/></linearGradient></defs>
+        <rect width="44" height="44" rx="11" fill="url(#lg-jm)"/>
+        <path d="M14.5 13v13.2c0 3.1-1.9 4.8-4.6 4.8" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M19.5 31V13l6.2 10.2L31.9 13v18" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="36" cy="31" r="2" fill="#29ABFF"/>
+      </svg>
+      <span class="logo-text" aria-hidden="true"><span class="logo-first">Jeffrey</span> <span class="logo-last">Maggard</span></span>
+    </span>
     <nav class="site-nav" aria-label="Main">
-      <ul><li><a href="/instructional-design/">Instructional Design</a></li><li><a href="/teaching/">Teaching</a></li><li><a href="/studio/">Studio</a></li><li><a href="/cultural-projects/">Cultural Projects</a></li><li><a href="/ai-projects/">AI Projects</a></li><li class="nav-cta"><a href="/contact/">Let’s talk</a></li></ul>
+      <ul><li><a href="/instructional-design/">Instructional Design</a></li><li><a href="/teaching/">Teaching</a></li><li><a href="/studio/">Studio</a></li><li><a href="/cultural-projects/">Cultural Projects</a></li><li><a href="/">Home</a></li><li class="nav-cta"><a href="/contact/">Let’s talk</a></li></ul>
     </nav>
   </header>
 </div>
@@ -51,7 +60,7 @@
     <div class="cs-body">
       <nav class="cs-toc" aria-label="On this page"><p class="label">On this page</p><ol><li><a href="#s1">The purpose</a></li><li><a href="#s2">What the course lead does</a></li><li><a href="#s3">What happens automatically</a></li><li><a href="#s4">Why it matters</a></li><li><a href="#s5">From version 1 to version 2</a></li><li><a href="#s6">Orientation</a></li><li><a href="#s7">Deliverables</a></li><li><a href="#s8">Next steps</a></li></ol></nav>
       <div>
-      <section class="cs-section" id="s1"><h2>The purpose</h2><p>At every midterm and final exam in Qatar University’s FPDE (Foundation Program Department of English), lecturers mark writing samples in a moderation session, so that grading is consistent and fair. Each course used to have a co-course lead who ran these sessions. When that role was removed, the work fell on the course leads, or on a faculty member they assigned.</p><p>Done by hand, it takes about 20 hours per course lead each semester: sending emails, collecting scores, analyzing them, sending feedback to every lecturer and keeping records. I built this system to do all of that automatically.</p><p>Every session is archived, so the department builds a record of marking accuracy over time. That evidence supports data-driven review: we can see where calibration drifts, target training where it is needed, and reflect on and improve our assessment practice.</p></section>
+      <section class="cs-section" id="s1"><h2>The purpose</h2><p>At every midterm and final exam in Qatar University’s FPDE (Foundation Program Department of English), lecturers mark writing samples in a moderation session, so that grading is consistent and fair.</p><p>Done by hand, it takes about 20 hours per course lead each semester: sending emails, collecting scores, analyzing them, sending feedback to every lecturer and keeping records. I built this system to do all of that automatically.</p><p>Every session is archived, so the department builds a record of marking accuracy over time. That evidence supports data-driven review: we can see where calibration drifts, target training where it is needed, and reflect on and improve our assessment practice.</p></section>
       <section class="cs-section" id="s2"><h2>What the course lead does</h2><ol class="steps"><li>Set up the session in SharePoint lists: the exam, the opening and closing dates, and the key (their own marks or the cohort median).</li><li>Upload three anonymized samples of student writing to SharePoint.</li></ol><p>That is the whole setup. Everything else runs on its own.</p></section>
       <section class="cs-section" id="s3"><h2>What happens automatically</h2><ol class="steps"><li>Power Automate emails every lecturer when the session opens.</li><li>Lecturers score the three samples in one Microsoft Form.</li><li>When the session closes, Power Automate compares every mark with the key.</li><li>Each lecturer gets one email with their marks directly above the key for each rubric criterion. Differences over 0.5 are highlighted.</li><li>A lecturer outside the range is sent one more sample with instant feedback. If they are still outside the range after two extra samples, the course lead and their delegate are alerted.</li><li>The course lead receives a session summary.</li><li>Resubmissions, late submissions and incomplete or mistaken submissions are handled automatically.</li><li>At the end of the semester, one button archives the results, with a name-free summary for CEA accreditation.</li></ol></section>
       <section class="cs-section" id="s4"><h2>Why it matters</h2><ul class="points"><li>Saves each course lead about 20 hours a semester.</li><li>Frees the faculty member who was assigned to run moderation for other work that builds the program.</li><li>Shows course leads which lecturers need support, so they can help them early.</li><li>Provides documented evidence of assessment quality for CEA accreditation.</li></ul></section>

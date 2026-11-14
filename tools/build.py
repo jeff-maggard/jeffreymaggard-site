@@ -25,7 +25,7 @@ NAV = [
     ("Teaching", "/teaching/"),
     ("Studio", "/studio/"),
     ("Cultural Projects", "/cultural-projects/"),
-    ("AI Projects", "/ai-projects/"),
+    ("Home", "/"),
 ]
 EMAIL = "jeff@jeffreymaggard.com"
 LINKEDIN = "https://www.linkedin.com/in/jeff-maggard-a01181b3"
@@ -75,7 +75,16 @@ def page(title, body, current="", description=LEAD, scene="rings"):
 
 <div class="site-header-bar">
   <header class="site-header container">
-    <a class="wordmark" href="/" aria-label="Jeffrey Maggard, home">jeffrey<span class="dot">.</span>maggard</a>
+    <span class="brand-logo" role="img" aria-label="Jeffrey Maggard">
+      <svg class="logo-mark" viewBox="0 0 44 44" width="44" height="44" aria-hidden="true" focusable="false">
+        <defs><linearGradient id="lg-jm" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0069D9"/><stop offset="1" stop-color="#6D4AEE"/></linearGradient></defs>
+        <rect width="44" height="44" rx="11" fill="url(#lg-jm)"/>
+        <path d="M14.5 13v13.2c0 3.1-1.9 4.8-4.6 4.8" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M19.5 31V13l6.2 10.2L31.9 13v18" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="36" cy="31" r="2" fill="#29ABFF"/>
+      </svg>
+      <span class="logo-text" aria-hidden="true"><span class="logo-first">Jeffrey</span> <span class="logo-last">Maggard</span></span>
+    </span>
     <nav class="site-nav" aria-label="Main">
       <ul>{nav}<li class="nav-cta"><a href="/contact/"{cta_current}>Let’s talk</a></li></ul>
     </nav>
@@ -197,13 +206,25 @@ def expand(block):
 SKILLS = ["Course design", "Curriculum", "Assessment", "Textbooks", "Animation", "Launch videos", "AI tutors", "Claude Code", "Storytelling", "Virtual exchange", "Accessibility", "Teacher training"]
 
 
+# Highlights strip under the Home hero (wording approved by Jeffrey, 14 Nov 2026).
+PROOF = [
+    "Taught first-year university courses in the USA, Japan, the UAE and Qatar",
+    "Political science, sociology, IT and English composition courses",
+    "Team-taught across disciplines",
+    "UNESCO-funded project lead",
+    "Published research on technology and learning",
+    "AI-assisted animation, video and course design",
+]
+
+
 def home():
     skills = "".join(f"<span>{k}</span>" for k in SKILLS)
+    proof = "".join(f"<li>{x}</li>" for x in PROOF)
     # Same order and names as the top menu.
     btn = lambda k, v: f'<li><button type="button" aria-pressed="false" data-filter="{k}">{v}</button></li>'
     filters = ('<li><button type="button" aria-pressed="true" data-filter="all">All</button></li>'
                + btn("courses", "Instructional Design") + btn("teaching", "Teaching") + btn("video", "Studio")
-               + btn("cultural", "Cultural Projects") + btn("ai", "AI Projects"))
+               + btn("cultural", "Cultural Projects"))
     body = f"""
   <div class="hero3d-band home-band" data-scene="globe">{CANVAS}
   <section class="hero container" aria-labelledby="hero-title">
@@ -224,6 +245,10 @@ def home():
     </div>
   </section>
   </div>
+
+  <section class="proof-strip" aria-label="Highlights">
+    <ul class="container proof-list">{proof}</ul>
+  </section>
 
   <section class="section container" id="work" aria-labelledby="work-title">
     <div class="section-head">
@@ -375,7 +400,7 @@ def instructional_design():
 
 
 def studio():
-    side = "".join(video(k) for k in ("falcon-opening", "community-esl", "pure-intellect-tutor") if video_exists(k))
+    side = "".join(video(k) for k in ("falcon-opening", "community-esl") if video_exists(k))
     body = f"""
   <div class="container">
     <section class="page-head">
@@ -399,24 +424,31 @@ def studio():
 
 def teaching():
     T = TEACHING
-    areas = "".join(f'<div class="panel"><p class="label">Courses</p><h3>{a}</h3><p>{b}</p></div>' for a, b in T["areas"])
-    miy = "".join(f'<div class="panel"><p class="label">Miyazaki</p><h3>{a}</h3><p>{b}</p></div>' for a, b in T["miyazaki"])
+    areas = "".join(
+        f'<div class="panel"><p class="label">Courses</p><h3>{x[0]}</h3><p>{x[1]}</p>'
+        + (f'<p class="label next-label">{x[2]}</p><p>{x[3]}</p>' if len(x) > 2 else "")
+        + '</div>' for x in T["areas"])
+    miy = "".join(f'<div class="panel"><p class="label">IT leadership</p><h3>{a}</h3><p>{b}</p></div>' for a, b in T["miyazaki"])
     li = lambda xs: "".join(f"<li>{x}</li>" for x in xs)
+    svc = "".join(f'<div class="panel"><p class="label">{lab}</p><h3>{h}</h3><ul class="svc-list">{li(items)}</ul></div>' for lab, h, items in T["service_panels"])
     extra = f"""
-    <section class="section" aria-labelledby="now-title">
-      <div class="panel panel-photo"><p class="label">Current role</p><h3 id="now-title">Qatar University</h3><p>{T['current']}</p></div>
+    <section class="section section-tight" aria-labelledby="now-title">
+      <div class="panel"><p class="label">Current role</p><h3 id="now-title">Qatar University</h3><p>{T['current']}</p></div>
     </section>
-    <section class="section" aria-labelledby="areas-title">
+    <section class="section section-tight" aria-labelledby="areas-title">
       <div class="section-head"><div><p class="label">Teaching</p><h2 id="areas-title">Courses by area</h2></div></div>
       <div class="two-col">{areas}{miy}</div>
     </section>
-    <section class="section" aria-labelledby="rs-title">
+    <section class="section section-tight" aria-labelledby="rs-title">
+      <div class="section-head"><div><p class="label">Research and service</p><h2 id="rs-title">Research and service</h2></div></div>
+      <div class="two-col">{svc}</div>
+    </section>
+    <section class="section section-tight" aria-labelledby="edu-title">
       <div class="two-col">
-        <div><p class="label">Research and service</p><h2 class="sub" id="rs-title">Research and service</h2><ul class="refs">{li(T['service'])}</ul></div>
-        <div><p class="label">About</p><h2 class="sub">Education and languages</h2><ul class="refs">{li(T['education'])}</ul></div>
+        <div><p class="label">About</p><h2 class="sub" id="edu-title">Education and languages</h2><ul class="refs">{li(T['education'])}</ul></div>
       </div>
     </section>
-    <section class="section" aria-labelledby="pub-title">
+    <section class="section section-tight" aria-labelledby="pub-title">
       <div class="two-col">
         <div><p class="label">Writing</p><h2 class="sub" id="pub-title">Selected publications</h2><ul class="refs">{li(T['publications'])}</ul></div>
         <div><p class="label">Speaking</p><h2 class="sub">Selected presentations</h2><ul class="refs">{li(T['presentations'])}</ul></div>
@@ -481,8 +513,6 @@ def main():
     write("studio/index.html", studio())
     write("cultural-projects/index.html", simple_category("cultural", "/cultural-projects/", "Cultural Projects",
           "I lead projects that collect, publish and perform folktales, and I build seminars and exchanges that connect students with communities in Japan, Mongolia, Cambodia, the UAE and Qatar."))
-    write("ai-projects/index.html", simple_category("ai", "/ai-projects/", "AI Projects",
-          "I design and build AI tools and AI-aware courses with Claude and Claude Code, so students think harder instead of handing their work to AI."))
     write("contact/index.html", contact())
     print("built", len(PROJECTS), "projects")
 
