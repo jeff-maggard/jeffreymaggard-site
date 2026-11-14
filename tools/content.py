@@ -504,8 +504,7 @@ TEACHING = dict(
       "PD and Conference Committee, Qatar University: editor of the <cite>Academic Excellence Newsletter</cite> (2024); moderator of the TESOL President Sessions (2022, 2023).",
       "New Faculty Mentor (2021) and Onboarding Subcommittee member (2015–2017), Faculty Support Committee, Qatar University.",
       "Faculty development workshops at Portland State University, the University of North Texas, Miyazaki, Zayed University and Qatar University.",
-      "Academic Computing Subcommittee, Miyazaki (2002–2005).",
-      "Faculty Technology Coordinator, Miyazaki (1999–2001): I supported faculty with teaching technology and managed two Macintosh computer labs with their student staff.",
+      "Faculty Technology Coordinator (1999–2001), which grew into the Academic Computing Subcommittee (2002–2005), Miyazaki: I supported faculty with teaching technology and managed two Macintosh computer labs with their student staff.",
     ]),
     ("Curriculum and quality", "Committees", [
       "Faculty Performance Review and Development System Committee, Qatar University (2026–present).",
