@@ -484,13 +484,37 @@ TEACHING = dict(
     ("Teacher education", "Teacher education courses (team-taught). TESOL Methods: team-taught at Portland State University, then a full course at Zayed University."),
     ("Technology", "Applied Information Science (ICT)."),
   ],
-  miyazaki=[
-    ("Faculty Technology Coordinator (1999–2001)", "At Miyazaki International College (now Miyazaki International University), I supported faculty with teaching technology and managed two Macintosh computer labs with their student staff."),
+  miyazaki=[],
+
+  service_panels=[
+    ("Research", "Research and grants", [
+      "Principal Investigator and grant co-author, UNESCO/Japan Funds-in-Trust grant ($30,000), Akita International University (2005).",
+      "Comparative research with Dr. Hiroyuki Toyota on students’ intercultural contact and globalization in Japan, Cambodia and Thailand.",
+      "Research grants for a faculty multimedia production studio (2002) and SPSS research software (2001), Miyazaki.",
+      "Peer reviewer, ELTWO Editorial Board, National University of Singapore (2009–2016).",
+    ]),
+    ("Leadership", "Chaired", [
+      "Cultural Awareness Team, Qatar University (2016–2023).",
+      "WebCT/Blackboard Committee, University of North Texas (2007–2008).",
+      "UNESCO Steering Committee, Akita International University (2005).",
+      "Committee on Academic Research Support, Miyazaki (2001–2004).",
+      "Faculty Technology Coordinator, Miyazaki (1999–2001): I supported faculty with teaching technology and managed two Macintosh computer labs with their student staff.",
+    ]),
+    ("Communities of practice", "Faculty development", [
+      "PD and Conference Committee, Qatar University: editor of the <cite>Academic Excellence Newsletter</cite> (2024); moderator of the TESOL President Sessions (2022, 2023).",
+      "New Faculty Mentor (2021) and Onboarding Subcommittee member (2015–2017), Faculty Support Committee, Qatar University.",
+      "Faculty development workshops at Portland State University, the University of North Texas, Miyazaki, Zayed University and Qatar University.",
+      "Co-founder, Computer-Assisted Language Learning (CALL) Roundtable, Portland State University (1997–1998).",
+    ]),
+    ("Curriculum and quality", "Committees", [
+      "Faculty Performance Review and Development System Committee, Qatar University (2026–present).",
+      "Quality Assurance Committee, Qatar University (2025–present). I contributed to the CEA self-study that renewed accreditation (Aug. 2026).",
+      "Testing and Assessment Committee, Qatar University (2021–2022).",
+      "Task force and pilot team for a new EAP (English for Academic Purposes) course, Qatar University (2018–2019).",
+      "Coherence and Curricular Integration Committee, Zayed University (2012–2013).",
+    ]),
   ],
-  service=[
-    "Peer reviewer, ELTWO Editorial Board, National University of Singapore (2009–2016).",
-    "Quality Assurance Committee at Qatar University. Contributed to the CEA self-study that renewed accreditation (Aug. 2026).",
-  ],
+
   publications=[
     "Lokon, E., &amp; Maggard, J. (2003). Young Japanese people’s views on civic (dis)engagement. <cite>Comparative Culture</cite>, 9, 78–86.",
     "Maggard, J. (2000). Semantic mapping and lexical acquisition: Are CAI methods effective? <cite>Comparative Culture</cite>, 6, 80–93.",

@@ -427,6 +427,7 @@ def teaching():
     areas = "".join(f'<div class="panel"><p class="label">Courses</p><h3>{a}</h3><p>{b}</p></div>' for a, b in T["areas"])
     miy = "".join(f'<div class="panel"><p class="label">IT leadership</p><h3>{a}</h3><p>{b}</p></div>' for a, b in T["miyazaki"])
     li = lambda xs: "".join(f"<li>{x}</li>" for x in xs)
+    svc = "".join(f'<div class="panel"><p class="label">{lab}</p><h3>{h}</h3><ul class="svc-list">{li(items)}</ul></div>' for lab, h, items in T["service_panels"])
     extra = f"""
     <section class="section section-tight" aria-labelledby="now-title">
       <div class="panel"><p class="label">Current role</p><h3 id="now-title">Qatar University</h3><p>{T['current']}</p></div>
@@ -436,9 +437,12 @@ def teaching():
       <div class="two-col">{areas}{miy}</div>
     </section>
     <section class="section section-tight" aria-labelledby="rs-title">
+      <div class="section-head"><div><p class="label">Research and service</p><h2 id="rs-title">Research and service</h2></div></div>
+      <div class="two-col">{svc}</div>
+    </section>
+    <section class="section section-tight" aria-labelledby="edu-title">
       <div class="two-col">
-        <div><p class="label">Research and service</p><h2 class="sub" id="rs-title">Research and service</h2><ul class="refs">{li(T['service'])}</ul></div>
-        <div><p class="label">About</p><h2 class="sub">Education and languages</h2><ul class="refs">{li(T['education'])}</ul></div>
+        <div><p class="label">About</p><h2 class="sub" id="edu-title">Education and languages</h2><ul class="refs">{li(T['education'])}</ul></div>
       </div>
     </section>
     <section class="section section-tight" aria-labelledby="pub-title">
