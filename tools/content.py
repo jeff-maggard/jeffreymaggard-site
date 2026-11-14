@@ -478,9 +478,9 @@ TEACHING = dict(
   intro="I have taught university writing, humanities and social science courses in Japan, the USA, the UAE and Qatar.",
   current="Lecturer, Foundation Program, Department of English, Qatar University (Feb. 2014 – present). Content-based courses in business, law and EFL for humanities, STEM, international affairs and mass communication students. About eight years of online and hybrid teaching.",
   areas=[
-    ("Academic English", "Research writing, reading, grammar, communication, presentation and pronunciation. IELTS, TOEFL and TOEIC preparation."),
-    ("Content-based courses", "Political science, sociology, business, law, linguistics and political economy."),
     ("Humanities and social science", "World history, ancient civilization, Intro to Sociology, International Sociological Perspectives, Intro to Political Science, Comparative Political Science, Conflict Resolution, Sociology and Environmental Issues, Political Science and Environmental Issues."),
+    ("Content-based courses", "Political science, sociology, business, law, linguistics and political economy."),
+    ("Academic English", "Research writing, reading, grammar, communication, presentation and pronunciation. IELTS, TOEFL and TOEIC preparation."),
     ("Teacher education", "Teacher education courses (team-taught). TESOL Methods: team-taught at Portland State University, then a full course at Zayed University."),
     ("Technology", "Applied Information Science (ICT)."),
   ],
@@ -488,10 +488,10 @@ TEACHING = dict(
 
   service_panels=[
     ("Research", "Research and grants", [
-      "Principal Investigator and grant co-author, UNESCO/Japan Funds-in-Trust grant ($30,000), Akita International University (2005).",
-      "Comparative research with Dr. Hiroyuki Toyota on students’ intercultural contact and globalization in Japan, Cambodia and Thailand.",
-      "Research grants for a faculty multimedia production studio (2002) and SPSS research software (2001), Miyazaki.",
       "Peer reviewer, ELTWO Editorial Board, National University of Singapore (2009–2016).",
+      "Principal Investigator and grant co-author, UNESCO/Japan Funds-in-Trust grant ($30,000), Akita International University (2005).",
+      "Comparative research with Dr. Hiroyuki Toyota on students’ intercultural contact and globalization in Japan, Cambodia and Thailand (2003–2005).",
+      "Research grants for a faculty multimedia production studio (2002) and SPSS research software (2001), Miyazaki.",
     ]),
     ("Leadership", "Chaired", [
       "Cultural Awareness Team, Qatar University (2016–2023).",
