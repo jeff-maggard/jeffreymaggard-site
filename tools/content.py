@@ -525,7 +525,7 @@ TEACHING = dict(
   ],
 )
 
-TOOLS = "Blackboard Ultra, Canvas, Moodle, Google Classroom · PowerPoint, Google Workspace, Adobe Creative Cloud, iMovie, Final Cut Pro, HTML/CSS · Mentimeter, Kahoot!, Padlet, Quizlet, Socrative, Nearpod, Quizizz · Microsoft Forms, Power Automate, SharePoint, Articulate Rise 360, SCORM · Claude Max (Claude and Claude Code), ChatGPT"
+TOOLS = "Blackboard Ultra, Canvas, Moodle, Google Classroom · PowerPoint, Google Workspace, Adobe Creative Cloud, iMovie, Final Cut Pro, HTML/CSS · Mentimeter, Kahoot!, Padlet, Quizlet, Socrative, Nearpod, Quizizz · Microsoft Forms, Power Automate, SharePoint, SCORM · Claude Max (Claude and Claude Code), ChatGPT"
 
 GALLERIES = {
   "kamishibai": [
