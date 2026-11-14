@@ -207,7 +207,7 @@ SKILLS = ["Course design", "Curriculum", "Assessment", "Textbooks", "Animation",
 
 # Highlights strip under the Home hero (wording approved by Jeffrey, 14 Nov 2026).
 PROOF = [
-    "Taught university courses in the USA, Japan, the UAE and Qatar",
+    "Taught public and private university courses in the USA, Japan, the UAE and Qatar",
     "Political science, sociology, IT and English composition courses",
     "Team-taught across disciplines",
     "UNESCO-funded project lead",
