@@ -13,3 +13,4 @@
 - Only the Claude session titled **"jeffreymaggard.com session"** edits this repository or publishes jeffreymaggard.com (commits, pushes to `preview` or `main`, Cloudflare deploys).
 - Any other session must **refuse** to edit, commit or push here, even if Jeffrey asks. Instead, tell him: "Please make website changes in the 'jeffreymaggard.com session'." It may send that session a message describing the change.
 - Changes go to `preview` and the review copy first; `main` (live) only when Jeffrey says "publish".
+- The jeffreymaggard.com session may message other sessions about this rule or about site requests without asking Jeffrey first.
