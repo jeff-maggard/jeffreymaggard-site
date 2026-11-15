@@ -4,7 +4,7 @@ from pathlib import Path
 import hashlib
 
 from art import svg
-from content import CATEGORIES, GALLERIES, PROJECTS, TEACHING, TOOLS, VIDEOS
+from content import CATEGORIES, CLASS_TOOLS, GALLERIES, PROJECTS, TEACHING, TOOLS, VIDEOS
 
 # Projects marked hidden=True are left out of every page and listing.
 PROJECTS = [p for p in PROJECTS if not p.get("hidden")]
@@ -382,7 +382,7 @@ def category_page(cat, title, intro, extra=""):
 def instructional_design():
     extra = f"""
     <section class="section" aria-labelledby="tools-title">
-      <div class="panel"><p class="label">Toolkit</p><h3 id="tools-title">Tools I design with</h3><p>{TOOLS}</p></div>
+      <div class="panel"><p class="label">Toolkit</p><h3 id="tools-title">Tools I design with</h3><p>{TOOLS}</p><h3>Interactive learning tools I use in class</h3><p>{CLASS_TOOLS}</p></div>
     </section>
     <section class="section" aria-labelledby="comp-title">
       <div class="section-head"><div><p class="label">What I bring</p><h2 id="comp-title">Competencies</h2></div></div>
@@ -390,7 +390,7 @@ def instructional_design():
         <div class="skill-col"><p class="label">Teaching and curriculum</p><ul><li>TESOL instruction across proficiency levels</li><li>Curriculum development and delivery</li><li>Active and applied learning</li><li>Faculty mentoring and stakeholder engagement</li></ul></div>
         <div class="skill-col"><p class="label">Assessment and quality</p><ul><li>Assessment design and learning outcomes</li><li>Grading, norming and exam development</li><li>Formative assessment and feedback</li><li>Accreditation and program improvement</li></ul></div>
         <div class="skill-col"><p class="label">Learning technology</p><ul><li>Learning management systems: Blackboard Ultra and Canvas</li><li>SCORM 2004</li><li>Low-code automation: Power Automate and SharePoint</li><li>Motion graphics coded in React with Remotion</li></ul></div>
-        <div class="skill-col"><p class="label">AI in education</p><ul><li>Claude (Claude Max): Claude and Claude Code for research, design, coding and production</li><li>AI literacy and critical thinking in education</li><li>AI-assisted web development with Claude Code</li><li>AI agent direction and orchestration</li><li>Quality assurance and workflow design</li></ul></div>
+        <div class="skill-col"><p class="label">AI in education</p><ul><li>Claude and Claude Code for research, design, coding and production</li><li>AI literacy and critical thinking in education</li><li>AI-assisted web development with Claude Code</li><li>AI agent direction and orchestration</li><li>Quality assurance and workflow design</li></ul></div>
         <div class="skill-col"><p class="label">AI media production</p><ul><li>AI-assisted video and animation production</li><li>Story adaptation and scriptwriting</li><li>Prompt engineering and scene direction</li><li>Character design and visual consistency</li><li>AI voice casting and direction</li><li>Art direction and visual style guides</li><li>Cultural authenticity in AI-generated media</li><li>AI production planning and budgeting</li></ul></div>
     </section>"""
     body = category_page("courses", "Instructional Design &amp; Curriculum",

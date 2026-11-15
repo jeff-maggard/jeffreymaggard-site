@@ -479,7 +479,7 @@ dict(
 ]
 
 TEACHING = dict(
-  intro="I have taught university writing, humanities and social science courses in Japan, the USA, the UAE and Qatar.",
+  intro="I have taught university writing, humanities, social science and English for academic purposes (EAP) courses in Japan, the USA, the UAE and Qatar.",
   current="Lecturer, Foundation Program, Department of English, Qatar University (Feb. 2014 – present). Content-based courses in business, law and EFL for humanities, STEM, international affairs and mass communication students. About eight years of online and hybrid teaching.",
   areas=[
     ("Humanities and social science", "World history, ancient civilization, Intro to Sociology, International Sociological Perspectives, Intro to Political Science, Comparative Political Science, Conflict Resolution, Sociology and Environmental Issues, Political Science and Environmental Issues."),
@@ -553,7 +553,8 @@ TEACHING = dict(
   ],
 )
 
-TOOLS = "Blackboard Ultra, Canvas, Moodle, Google Classroom · PowerPoint, Google Workspace, Adobe Creative Cloud, iMovie, Final Cut Pro, HTML/CSS · Mentimeter, Kahoot!, Padlet, Quizlet, Socrative, Nearpod, Quizizz · Microsoft Forms, Power Automate, SharePoint, SCORM · Claude Max (Claude and Claude Code), ChatGPT"
+TOOLS = "Claude Code, ChatGPT, Google Gemini, Blackboard Ultra, Canvas, Moodle, Google Classroom, PowerPoint, Google Workspace, Adobe Creative Cloud, iMovie, Final Cut Pro, HTML, CSS, Microsoft Forms, Power Automate, SharePoint, SCORM"
+CLASS_TOOLS = "Mentimeter, Kahoot!, Padlet, Quizlet, Socrative, Nearpod"
 
 GALLERIES = {
   "kamishibai": [
