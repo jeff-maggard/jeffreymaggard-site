@@ -69,7 +69,8 @@ dict(
 ),
 # ---------------------------------------------------------------- 1b
 dict(
-  slug="moderation-hub", art="moderation", cats=["courses"], shots=[("/media/moderation/scoring-form.webp", "A simplified view of the scoring form: lecturers read the prompt and rubric, open each sample and choose a mark for each criterion.", "The scoring form lecturers fill in"), ("/media/moderation/feedback-email.webp", "A simplified feedback email: the lecturer's marks sit directly above the key marks, and a mark more than 0.5 apart is highlighted in yellow.", "The feedback email each lecturer receives")],
+  slug="moderation-hub", art="moderation", cats=["courses"], hidden=True,  # hidden 19 Nov 2026 at Jeffrey's request; delete hidden=True to restore
+  shots=[("/media/moderation/scoring-form.webp", "A simplified view of the scoring form: lecturers read the prompt and rubric, open each sample and choose a mark for each criterion.", "The scoring form lecturers fill in"), ("/media/moderation/feedback-email.webp", "A simplified feedback email: the lecturer's marks sit directly above the key marks, and a mark more than 0.5 apart is highlighted in yellow.", "The feedback email each lecturer receives")],
   tag="Instructional design · Microsoft 365",
   title="Automated Writing Moderation System",
   summary="I built an automated writing-moderation system with Microsoft Forms, Power Automate and SharePoint.",
@@ -504,7 +505,7 @@ TEACHING = dict(
       "UNESCO Steering Committee, Akita International University (2005).",
       "Committee on Academic Research Support, Miyazaki (2001–2004).",
     ]),
-    ("Committees", "Faculty development", [
+    ("Communities of practice", "Faculty development", [
       "PD and Conference Committee, Qatar University: editor of the <cite>Academic Excellence Newsletter</cite> (2024); moderator of the TESOL President Sessions (2022, 2023).",
       "New Faculty Mentor (2021) and Onboarding Subcommittee member (2015–2017), Faculty Support Committee, Qatar University.",
       "Faculty development workshops at Portland State University, the University of North Texas, Miyazaki, Zayed University and Qatar University.",
@@ -540,7 +541,6 @@ TEACHING = dict(
     "Creating iMovie documentaries instead of term papers (with E. Lokon). TESOL 2004, Long Beach.",
     "Reorganizing knowledge structures to build fluency and reduce plagiarism. Thailand TESOL, 2004; Royal University of Phnom Penh, 2004.",
     "Interlanguage development through collaborative learning with CMC. Integrating Content and Language: Meeting the Challenge of a Multilingual Higher Education Conference, Universiteit Maastricht, Netherlands, October 2003.",
-    "Using visual models to develop recognition of rhetorical patterns of text. Integrating Content and Language: Meeting the Challenge of a Multilingual Higher Education Conference, Universiteit Maastricht, Netherlands, October 2003.",
     "Content-based sociology courses and CMC (with H. Toyota). Thailand TESOL, Bangkok, January 2003.",
     "Educational implications of designating English as the second official language in Japan (with W. Perry and K. Toyama). 8th Symposium for Language Teacher Educators, University of Edinburgh, November 2000.",
   ],
