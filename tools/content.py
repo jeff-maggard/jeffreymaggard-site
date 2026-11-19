@@ -504,7 +504,7 @@ TEACHING = dict(
       "UNESCO Steering Committee, Akita International University (2005).",
       "Committee on Academic Research Support, Miyazaki (2001–2004).",
     ]),
-    ("Communities of practice", "Faculty development", [
+    ("Committees", "Faculty development", [
       "PD and Conference Committee, Qatar University: editor of the <cite>Academic Excellence Newsletter</cite> (2024); moderator of the TESOL President Sessions (2022, 2023).",
       "New Faculty Mentor (2021) and Onboarding Subcommittee member (2015–2017), Faculty Support Committee, Qatar University.",
       "Faculty development workshops at Portland State University, the University of North Texas, Miyazaki, Zayed University and Qatar University.",
