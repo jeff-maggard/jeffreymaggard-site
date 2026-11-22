@@ -553,7 +553,7 @@ TEACHING = dict(
   ],
 )
 
-TOOLS = "Claude Code, ChatGPT, Google Gemini, Blackboard Ultra, Canvas, Moodle, Google Classroom, PowerPoint, Google Workspace, Adobe Creative Cloud, iMovie, Final Cut Pro, HTML, CSS"
+TOOLS = "Claude Code, ChatGPT, Google Gemini, Blackboard Ultra, Canvas, Moodle, Google Classroom, PowerPoint, Google Workspace, Adobe Creative Cloud, iMovie, Final Cut Pro, HTML, CSS, Microsoft Forms, SharePoint, SCORM"
 CLASS_TOOLS = "Mentimeter, Kahoot!, Padlet, Quizlet, Socrative, Nearpod"
 
 GALLERIES = {
